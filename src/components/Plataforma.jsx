@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+"import React, { useState } from 'react';
 import { parceirosLista, dadosParceiros } from '../data/parceiros';
 
 export default function Plataforma({ onOpenPopup }) {
