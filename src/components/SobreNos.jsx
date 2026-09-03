@@ -1,6 +1,8 @@
 import React from 'react';
 
 export default function SobreNos() {
+  const imageBaseUrl = `${import.meta.env.BASE_URL}img/`;
+
   return (
     <section id="SobreNos">
       <div className="sobre-container">
@@ -23,7 +25,7 @@ export default function SobreNos() {
 
         <div className="sobre-cards">
           <div className="sobre-card zoom-in">
-            <img src="/img/alvo.png" alt="Missão" />
+            <img src={`${imageBaseUrl}alvo.png`} alt="Missão" />
             <h3>Missão</h3>
             <p>
               Facilitar crédito justo e reduzir a fome.
@@ -31,7 +33,7 @@ export default function SobreNos() {
           </div>
 
           <div className="sobre-card zoom-in">
-            <img src="/img/visao.png" alt="Visão" />
+            <img src={`${imageBaseUrl}visao.png`} alt="Visão" />
             <h3>Visão</h3>
             <p>
               Ser referência em soluções digitais sustentáveis.
@@ -39,7 +41,7 @@ export default function SobreNos() {
           </div>
 
           <div className="sobre-card zoom-in">
-            <img src="/img/valores.png" alt="Valores" />
+            <img src={`${imageBaseUrl}valores.png`} alt="Valores" />
             <h3>Valores</h3>
             <p>
               Transparência, inclusão e sustentabilidade.

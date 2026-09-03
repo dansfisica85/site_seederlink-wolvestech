@@ -2,7 +2,12 @@ import React from 'react';
 
 export default function Hero() {
   return (
-    <section id="Home">
+    <section
+      id="Home"
+      style={{
+        '--hero-image': `url("${import.meta.env.BASE_URL}img/agro_header.jpg")`,
+      }}
+    >
       <div className="home-content">
         {/* LEFT */}
         <div className="home-left slide-left">

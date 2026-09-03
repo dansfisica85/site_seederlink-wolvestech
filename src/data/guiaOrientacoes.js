@@ -141,8 +141,8 @@ export const orientacoesGuia = [
   },
   {
     seletor: ".info-card:nth-child(3)",
-    titulo: "Localizacao",
-    texto: "Este card informa a base de atuacao apresentada pelo projeto."
+    titulo: "Localizacao e clima",
+    texto: "Selecione a propriedade no mapa para consultar as condicoes atuais, a media anual recente e a triagem climatica demonstrativa."
   },
   {
     seletor: ".contato-form input[type='text']",
