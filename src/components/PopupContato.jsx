@@ -6,12 +6,15 @@ export default function PopupContato({ isOpen, mensagem, onClose }) {
   const okBtnRef = useRef(null);
 
   useEffect(() => {
-    if (isOpen) {
-      // Eu foco o botão OK para facilitar o uso por teclado e leitor de tela.
-      setTimeout(() => {
-        okBtnRef.current?.focus();
-      }, 50);
-    }
+    if (!isOpen) return undefined;
+
+    // Eu foco o botão OK para facilitar o uso por teclado e leitor de tela.
+    const focusTimer = setTimeout(() => {
+      okBtnRef.current?.focus();
+    }, 50);
+
+    // Se o popup fechar rápido, cancelo o timer antes que ele tente usar o botão.
+    return () => clearTimeout(focusTimer);
   }, [isOpen]);
 
   if (!isOpen) return null;

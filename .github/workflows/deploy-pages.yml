@@ -14,10 +14,11 @@ permissions:
   pages: write
   id-token: write
 
-# Evito duas publicações simultâneas do mesmo site.
+# Se a mesma branch receber outro commit, eu cancelo a execução antiga e mantenho
+# somente a versão mais nova. Branches diferentes não bloqueiam umas às outras.
 concurrency:
-  group: pages
-  cancel-in-progress: false
+  group: pages-${{ github.ref }}
+  cancel-in-progress: true
 
 # O Vite precisa deste caminho porque o site fica em uma subpasta do GitHub Pages.
 env:
