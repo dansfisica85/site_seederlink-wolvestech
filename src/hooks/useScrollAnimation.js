@@ -1,7 +1,10 @@
 import { useEffect } from 'react';
 
+// Eu concentrei a animação de rolagem neste hook para poder usá-la no App sem
+// repetir a mesma lógica dentro de cada seção.
 export function useScrollAnimation() {
   useEffect(() => {
+    // O IntersectionObserver informa quando cada elemento entra ou sai da tela.
     const observer = new IntersectionObserver(
       (entries) => {
         entries.forEach((entry) => {
@@ -26,7 +29,7 @@ export function useScrollAnimation() {
 
     observeElements();
 
-    // Re-observar caso o DOM mude dinamicamente
+    // Eu observo mudanças no DOM porque alguns cards aparecem depois de cliques.
     const mutationObserver = new MutationObserver(() => {
       observeElements();
     });
@@ -37,6 +40,7 @@ export function useScrollAnimation() {
     });
 
     return () => {
+      // Desligo os dois observadores quando o App sai da tela para evitar vazamentos.
       observer.disconnect();
       mutationObserver.disconnect();
     };

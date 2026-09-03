@@ -1,6 +1,8 @@
 import React from 'react';
 
+// Nesta seção eu apresento a jornada em três etapas: investidor, plataforma e produtor.
 export default function ComoFunciona() {
+  // BASE_URL mantém as imagens corretas tanto no computador quanto no GitHub Pages.
   const imageBaseUrl = `${import.meta.env.BASE_URL}img/`;
 
   return (
@@ -20,6 +22,7 @@ export default function ComoFunciona() {
         </p>
       </div>
 
+      {/* Cada card representa uma etapa do fluxo da SeederLink. */}
       <div className="timeline">
         <div className="timeline-card fade-in">
           <div className="numero">1</div>

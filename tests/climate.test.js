@@ -14,6 +14,7 @@ import {
   validateCoordinates,
 } from '../src/lib/climate.js';
 
+// Primeiro eu verifico a janela histórica e o cálculo somente com dias completos.
 test('calcula uma janela histórica inclusiva de 365 dias com atraso de 7 dias', () => {
   assert.deepEqual(getHistoricalPeriod(new Date('2026-09-03T12:00:00Z')), {
     start: '2025-08-28',
@@ -56,6 +57,7 @@ test('não emite decisão quando o histórico é insuficiente', () => {
   );
 });
 
+// Depois eu testo os dois caminhos da regra e os textos exatos do enunciado.
 test('aprova nos limites inclusivos dos critérios e preserva a mensagem exigida', () => {
   const assessment = evaluateClimateSuitability({
     temperatureMean: 20,
@@ -87,6 +89,7 @@ test('solicita análise complementar quando qualquer critério falha', () => {
   );
 });
 
+// Aqui eu confirmo coordenadas, fontes oficiais, período e ausência de chave na URL.
 test('valida coordenadas e monta URLs oficiais sem chave de API', () => {
   validateCoordinates(-23.5505, -46.6333);
   assert.throws(() => validateCoordinates(91, 0), ClimateDataError);
@@ -116,6 +119,7 @@ test('valida coordenadas e monta URLs oficiais sem chave de API', () => {
   assert.doesNotMatch(urls.nasaPowerUrl, /apikey/i);
 });
 
+// Por fim eu valido a conversão e a regra conservadora da fonte alternativa.
 test('normaliza a resposta diária da NASA POWER e descarta valores de preenchimento', () => {
   const daily = normalizeNasaPowerDaily({
     header: { fill_value: -999 },
@@ -152,6 +156,7 @@ test('usa NASA POWER quando o histórico primário está indisponível', async (
     nasaParameters.ALLSKY_SFC_SW_DWN[key] = 18;
   }
 
+  // Estas respostas simuladas permitem testar a contingência sem depender da internet.
   const jsonResponse = (payload, status = 200) => ({
     ok: status >= 200 && status < 300,
     status,

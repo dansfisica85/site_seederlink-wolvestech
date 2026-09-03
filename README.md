@@ -1,251 +1,435 @@
 # SeederLink 🌱
 
-SeederLink é uma plataforma institucional e interativa criada para aproximar investidores de impacto e produtores rurais. A solução propõe um modelo de crédito rural sustentável, transparente e inteligente, alinhado aos princípios ESG, inclusão financeira e fortalecimento do agronegócio responsável.
+[![Testes e deploy](https://github.com/dansfisica85/site_seederlink-wolvestech/actions/workflows/deploy-pages.yml/badge.svg)](https://github.com/dansfisica85/site_seederlink-wolvestech/actions/workflows/deploy-pages.yml)
 
-Este documento apresenta o histórico do projeto, detalhando **como ele era originalmente (HTML/CSS/JavaScript puro)** e **como ficou estruturado após a migração completa para o framework React com Vite**, comparando detalhadamente cada aspecto técnico e arquitetural.
+SeederLink é um projeto acadêmico da FIAP que aproxima investidores de impacto e produtores rurais. A versão atual usa React e acrescenta, no card **Fale Conosco**, um mapa para escolher a localização da propriedade, consultar informações climáticas e executar uma triagem demonstrativa para soja e tomate.
 
----
+- **Site publicado:** [dansfisica85.github.io/site_seederlink-wolvestech](https://dansfisica85.github.io/site_seederlink-wolvestech/)
+- **Repositório:** [github.com/dansfisica85/site_seederlink-wolvestech](https://github.com/dansfisica85/site_seederlink-wolvestech)
+- **Tecnologias:** React 18, Vite 5, Leaflet, OpenStreetMap, Open-Meteo, NASA POWER, Node Test Runner e GitHub Actions.
 
-## 🏛️ Como o Projeto Era Originalmente (Antes da Migração)
+> **Aviso importante:** esta é uma triagem climática acadêmica. Ela não é um laudo agronômico e não concede crédito real. Os dados são modelados para uma célula geográfica e não substituem sensor local, ZARC, análise de solo, disponibilidade de água, cultivar, época de plantio, vistoria técnica ou análise financeira.
 
-Inicialmente, o projeto foi concebido como uma aplicação front-end estática clássica (Vanilla Web), dividida em três arquivos principais:
+## Situação da entrega
 
+| Item | Situação |
+| --- | --- |
+| Projeto da Fase 4 evoluído em React | Concluído |
+| Nova funcionalidade de mapa e clima | Concluída |
+| Testes automatizados | 8 casos implementados |
+| Deploy público | Concluído no GitHub Pages |
+| README e comentários em português | Concluídos |
+| Pitch específico da Fase 5, até 3 minutos | **Pendente de gravação** |
+| Troca do link do vídeo na Home | **Pendente do novo link** |
+| PDF com integrantes, pitch e deploy | **Pendente dos nomes e do novo link** |
+
+O vídeo que aparece atualmente na Home é **“ATIVIDADE – AGROTECH - Sprint 4”**. Ele foi mantido para não inventar um endereço, mas não deve ser apresentado como pitch da Fase 5. O local exato para a troca está em [`src/components/Hero.jsx`](src/components/Hero.jsx). Há um roteiro pronto em [`docs/ROTEIRO_PITCH_FASE_5.md`](docs/ROTEIRO_PITCH_FASE_5.md) e um modelo com o link do deploy em [`ENTREGA_FIAP_FASE_5.txt`](ENTREGA_FIAP_FASE_5.txt).
+
+## O que foi melhorado, passo a passo
+
+### 1. Migração da versão antiga para React
+
+A versão original usava um HTML grande, uma folha CSS e um arquivo JavaScript que modificava diretamente o DOM. A versão atual foi dividida em componentes React. Estados como perfil, parceiro, formulário, popup, coordenada e resultado climático ficam próximos de quem os utiliza.
+
+| Antes | Agora |
+| --- | --- |
+| Alterações com `innerHTML`, `createElement` e `classList` | JSX e renderização declarativa |
+| Variáveis globais | Estados locais com `useState` |
+| Eventos criados em um script único | Eventos organizados em componentes |
+| Página sem etapa de build | Vite com desenvolvimento, teste, build e preview |
+| Publicação manual de arquivos | Teste, build e deploy automatizados pelo GitHub Actions |
+
+Os arquivos antigos [`js/script.js`](js/script.js) e [`css/styles.css`](css/styles.css) foram preservados apenas como histórico. Eles **não são carregados** pela aplicação atual. O `index.html` carrega `src/main.jsx`, que monta o React e importa `src/index.css`.
+
+### 2. Componentização da página
+
+O componente [`src/App.jsx`](src/App.jsx) reúne Navbar, Home, Sobre Nós, Como Funciona, Plataforma, Contato, rodapé, popup e guia interativo. Cada seção tem responsabilidade própria, o que facilita leitura, teste e manutenção.
+
+### 3. Mapa no card de contato
+
+O antigo card estático de localização foi substituído pelo componente [`src/components/MapaClimatico.jsx`](src/components/MapaClimatico.jsx). O usuário pode:
+
+- clicar em qualquer ponto do mapa;
+- arrastar o marcador;
+- autorizar a geolocalização do navegador;
+- digitar latitude e longitude, inclusive usando vírgula decimal.
+
+### 4. Dados climáticos atuais
+
+Depois da seleção, o site consulta temperatura do ar, umidade relativa e radiação solar atuais na Open-Meteo. O estado de carregamento aparece enquanto a requisição está em andamento, e uma falha é mostrada separadamente, sem ser confundida com reprovação.
+
+### 5. Histórico climático
+
+O sistema pede 365 dias históricos e aceita somente dias que tenham as três métricas. São exigidos pelo menos 350 dias completos. A janela termina sete dias antes da data da consulta para reduzir o risco de usar dados de reanálise ainda não consolidados.
+
+### 6. Cruzamento transparente dos critérios
+
+As médias históricas são comparadas com três referências indicativas. Todos os critérios precisam ser verdadeiros ao mesmo tempo. A interface mostra o valor encontrado, a faixa esperada e se cada item passou.
+
+### 7. Contingência e segurança do resultado
+
+Se o histórico da Open-Meteo falhar ou passar do limite de cinco segundos, o sistema tenta a NASA POWER. Como os provedores usam modelos diferentes, os indicadores alternativos ficam visíveis, mas a aplicação força a análise complementar e nunca gera pré-aprovação automática nessa situação.
+
+### 8. Controle de chamadas e resultados antigos
+
+- uma espera de 450 ms evita consultas repetidas durante ajustes rápidos;
+- `AbortController` cancela a chamada anterior quando o ponto muda;
+- uma identificação impede um retorno antigo do GPS de sobrescrever uma escolha nova;
+- o cache guarda até 20 locais por 30 minutos;
+- cada requisição possui limite de tempo.
+
+### 9. Acessibilidade e responsividade
+
+O mapa tem nome acessível, o marcador pode ser ajustado, as coordenadas podem ser digitadas sem mouse e as mudanças são anunciadas por regiões `aria-live`. O layout contém regras específicas para telas menores.
+
+### 10. Testes, CI/CD e documentação
+
+Foram criados oito testes para datas, médias, histórico mínimo, limites, mensagens, coordenadas, URLs e contingência. O workflow testa e gera a build em pull requests; na `main`, também publica o site. O código autoral recebeu comentários simples em português, especialmente nos pontos em que existe estado, efeito, integração ou regra de negócio.
+
+## Onde o mapa está no código
+
+O caminho de renderização é:
+
+```text
+index.html
+  └─ src/main.jsx                 monta o React na div #root
+      └─ src/App.jsx              organiza a página
+          └─ src/components/Contato.jsx
+              └─ <MapaClimatico />
+                  ├─ Leaflet + OpenStreetMap
+                  └─ src/lib/climate.js
+                      ├─ Open-Meteo atual
+                      ├─ Open-Meteo histórico
+                      ├─ NASA POWER como contingência
+                      └─ cruzamento dos critérios
 ```
-├── index.html       # Arquivo único com todo o HTML da página (~560 linhas)
-├── css/
-│   └── styles.css   # Folha de estilo global com todas as seções e animações
-├── js/
-│   └── script.js    # Script com toda a lógica imperativa do site (~740 linhas)
-└── img/             # Imagens e ícones estáticos
+
+| Parte | Arquivo/função | O que faz |
+| --- | --- | --- |
+| Posição do card na página | [`Contato.jsx`](src/components/Contato.jsx), tag `<MapaClimatico />` | Coloca o mapa abaixo dos cards de e-mail e telefone, na coluna esquerda do Fale Conosco |
+| Componente visual | [`MapaClimatico.jsx`](src/components/MapaClimatico.jsx), `MapaClimatico` | Controla mapa, marcador, coordenadas, carregamento, erros e resultado |
+| Criação do mapa | primeiro `useEffect` de `MapaClimatico` | Cria uma instância Leaflet e adiciona os tiles do OpenStreetMap |
+| Marcador | segundo `useEffect` de `MapaClimatico` | Cria, move e recebe o fim do arraste do marcador |
+| Consulta ao mudar o ponto | terceiro `useEffect` de `MapaClimatico` | Aguarda 450 ms, cancela a chamada anterior e busca o clima |
+| GPS do navegador | `useMyLocation` | Solicita a posição somente após o clique do usuário |
+| Entrada pelo teclado | `selectTypedCoordinates` | Converte, valida e centraliza latitude/longitude digitadas |
+| Estilos | bloco “MAPA E TRIAGEM CLIMÁTICA” de [`src/index.css`](src/index.css) | Define mapa, métricas, critérios, mensagens e responsividade |
+
+O projeto usa **Leaflet diretamente dentro de efeitos React**, e não a biblioteca React Leaflet. Isso permite controlar explicitamente a criação e a desmontagem do objeto externo:
+
+```jsx
+// Contato.jsx
+<MapaClimatico />
+
+// MapaClimatico.jsx — ideia resumida
+useEffect(() => {
+  const map = L.map(mapElementRef.current).setView(INITIAL_POSITION, 5);
+  L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png').addTo(map);
+  return () => map.remove();
+}, []);
 ```
 
-### Características do código original:
-1. **Manipulação Direta e Imperativa do DOM**:
-   - Criação manual de elementos com `document.createElement()`, inserções via `appendChild()`, `insertAdjacentElement()` e interpolações com `innerHTML`.
-   - Modificação direta de classes CSS usando `classList.add()` e `classList.remove()`.
-2. **Estado Global Não Centralizado**:
-   - Variáveis globais (`perfilSelecionado`, `dadosParceiros`) espalhadas pelo escopo do script.
-   - Visibilidade de elementos controlada via `style.display = 'none'` e `style.display = 'block'` diretamente pelo JavaScript.
-3. **Validação de Formulário Imperativa**:
-   - Elementos `<small>` de mensagens de erro/sucesso eram criados e inseridos no DOM sob demanda durante o evento de input.
-4. **Popup Criado Dinamicamente no Body**:
-   - Toda vez que o usuário clicava em "Seguir com o processo", o JavaScript criava um novo nó no `document.body` e destruía o nó anterior.
-5. **Sem Pipeline de Build**:
-   - Os arquivos eram servidos diretamente sem minificação, otimização de módulos ou Hot Module Replacement (HMR).
+## Como a seleção percorre o sistema
 
----
+1. Clique, arraste, GPS ou formulário chama `selectLocation`.
+2. `selectLocation` arredonda a coordenada para cinco casas e atualiza `selectedLocation`.
+3. O efeito do marcador sincroniza o Leaflet com esse estado.
+4. O efeito da consulta espera 450 ms.
+5. [`fetchClimateForLocation`](src/lib/climate.js) monta as URLs e verifica o cache.
+6. Condições atuais e histórico são buscados em paralelo.
+7. O histórico é validado e resumido.
+8. `evaluateClimateSuitability` cruza as três médias.
+9. O resultado volta ao estado React e o JSX mostra métricas, critérios, fonte e mensagem.
 
-## ⚛️ A Transformação com a Implantação do React
+Esse desenho mantém uma única fonte de verdade: a coordenada guardada no estado React. O Leaflet mostra o mapa, mas não decide o resultado.
 
-O projeto foi totalmente migrado para o ecossistema **React 18 + Vite**, mantendo **100% de fidelidade visual, de comportamentos e de estilos**, mas modernizando a base de código para um modelo **declarativo, componentizado e modular**.
+## De onde vêm as informações climáticas
 
-### 📊 Comparativo Detalhado: Antes (Vanilla) vs. Depois (React)
+Os endereços são montados em `buildClimateUrls`, dentro de [`src/lib/climate.js`](src/lib/climate.js).
 
-| Aspecto / Recurso | Como Era Antes (Vanilla JS / HTML) | Como Ficou Agora (React + Vite) |
-| :--- | :--- | :--- |
-| **Arquitetura** | Monolítica em um único arquivo HTML de 560 linhas e JS de 740 linhas. | Componentizada e modular em `src/components/`, separando responsabilidades. |
-| **Renderização** | Imperativa (manipulação direta de nós no DOM com `innerHTML` e `appendChild`). | Declarativa e Reativa (JSX sincronizado automaticamente com estados `useState`). |
-| **Gerenciamento de Estado** | Variáveis globais soltas (`var perfilSelecionado = ""`). | Estados encapsulados com `useState` nos componentes responsáveis. |
-| **Navbar & Scroll** | `window.addEventListener('scroll')` adicionando/removendo classes no nó `nav`. | Componente [`Navbar.jsx`](file:///c:/Users/dansf/OneDrive/%C3%81rea%20de%20Trabalho/site_seederlink-wolvestech/src/components/Navbar.jsx) com estado reativo `isScrolled` via `useEffect`. |
-| **Localizador de Parceiros** | Interpolação de HTML via strings em `resultado.innerHTML += ...` e busca imperativa. | Componente [`Plataforma.jsx`](file:///c:/Users/dansf/OneDrive/%C3%81rea%20de%20Trabalho/site_seederlink-wolvestech/src/components/Plataforma.jsx) com filtragem reativa e renderização via `.map()`. |
-| **Cards de Detalhes** | Alteração manual de `innerHTML` nos cards `card1`, `card2` e `card3`. | Renderização limpa baseada no objeto de dados selecionado (`infoParceiro`). |
-| **Popup / Modal de Contato** | Função `mostrarPopupContato()` criava e destruía nós HTML no `document.body`. | Componente declarativo [`PopupContato.jsx`](file:///c:/Users/dansf/OneDrive/%C3%81rea%20de%20Trabalho/site_seederlink-wolvestech/src/components/PopupContato.jsx) controlado pela prop `isOpen`. |
-| **Formulário Fale Conosco** | Múltiplos listeners manuais criando e injetando tags `<small class="erro-msg">`. | Componente [`Contato.jsx`](file:///c:/Users/dansf/OneDrive/%C3%81rea%20de%20Trabalho/site_seederlink-wolvestech/src/components/Contato.jsx) controlado via `formData`, validação reativa e máscara de telefone. |
-| **Guia Interativo (Tooltips/Setas)** | Script acoplado manipulando elementos flutuantes no DOM global. | Componente isolado [`GuiaInterativo.jsx`](file:///c:/Users/dansf/OneDrive/%C3%81rea%20de%20Trabalho/site_seederlink-wolvestech/src/components/GuiaInterativo.jsx) consumindo [`guiaOrientacoes.js`](file:///c:/Users/dansf/OneDrive/%C3%81rea%20de%20Trabalho/site_seederlink-wolvestech/src/data/guiaOrientacoes.js). |
-| **Animações de Scroll** | `IntersectionObserver` inicializado no evento `DOMContentLoaded`. | Custom Hook reutilizável [`useScrollAnimation.js`](file:///c:/Users/dansf/OneDrive/%C3%81rea%20de%20Trabalho/site_seederlink-wolvestech/src/hooks/useScrollAnimation.js) acionado no ciclo de vida do React. |
-| **Dados do Sistema** | Arrays e objetos declarados soltos dentro do script funcional. | Dados desacoplados e organizados na pasta `src/data/` ([`parceiros.js`](file:///c:/Users/dansf/OneDrive/%C3%81rea%20de%20Trabalho/site_seederlink-wolvestech/src/data/parceiros.js)). |
-| **Ambiente e Build** | Execução direta sem empacotador. | **Vite**: servidor de desenvolvimento ultrarrápido com Hot Module Replacement e build otimizado. |
+| Grupo | Provedor e rota | Campos solicitados | Unidade exibida |
+| --- | --- | --- | --- |
+| Atual | Open-Meteo Forecast API | `temperature_2m` | °C |
+| Atual | Open-Meteo Forecast API | `relative_humidity_2m` | % |
+| Atual | Open-Meteo Forecast API | `shortwave_radiation` | W/m² |
+| Histórico principal | Open-Meteo Historical Weather API | `temperature_2m_mean` | °C |
+| Histórico principal | Open-Meteo Historical Weather API | `relative_humidity_2m_mean` | % |
+| Histórico principal | Open-Meteo Historical Weather API | `shortwave_radiation_sum` | MJ/m²/dia |
+| Histórico alternativo | NASA POWER Daily Point API | `T2M`, `RH2M`, `ALLSKY_SFC_SW_DWN` | mesmas unidades históricas após normalização |
+| Mapa | OpenStreetMap | tiles `{z}/{x}/{y}` | cartografia visual |
 
----
+No histórico principal, o parâmetro `models=era5_seamless` é usado. A NASA POWER retorna datas e valores em outro formato; `normalizeNasaPowerDaily` converte essa resposta e descarta valores de preenchimento, como `-999`.
 
-## 📁 Estrutura de Arquivos Atual (React)
+Fontes oficiais:
 
-```
-├── public/
-│   └── img/                         # Imagens e ícones estáticos acessíveis publicamente
-├── src/
-│   ├── components/
-│   │   ├── Navbar.jsx               # Cabeçalho fixo com efeito scroll e links suaves
-│   │   ├── Hero.jsx                 # Seção Home (chamada, botões, pitch YouTube, cards)
-│   │   ├── SobreNos.jsx             # Seção Sobre Nós (história, cards Missão, Visão, Valores)
-│   │   ├── ComoFunciona.jsx         # Seção Como Funciona (timeline de 3 etapas)
-│   │   ├── Plataforma.jsx           # Localizador de parceiros e cards informativos interativos
-│   │   ├── Contato.jsx              # Informações e formulário com validações e máscara
-│   │   ├── MapaClimatico.jsx         # Mapa, marcador, métricas e resposta da pré-análise
-│   │   ├── Footer.jsx               # Rodapé institucional
-│   │   ├── PopupContato.jsx         # Modal de encaminhamento para o contato
-│   │   └── GuiaInterativo.jsx       # Guia visual interativo com setas e tooltips flutuantes
-│   ├── data/
-│   │   ├── parceiros.js             # Base de dados simulada de produtores e investidores
-│   │   └── guiaOrientacoes.js       # Lista de orientações e seletores do guia de navegação
-│   ├── hooks/
-│   │   └── useScrollAnimation.js    # Hook de IntersectionObserver para animações de entrada
-│   ├── lib/
-│   │   └── climate.js               # API climática, médias, validações e regra de triagem
-│   ├── index.css                    # Folha de estilo global mantida integralmente
-│   ├── App.jsx                      # Componente raiz unindo todas as seções e modais
-│   └── main.jsx                     # Ponto de entrada que monta o React na div #root
-├── tests/
-│   └── climate.test.js              # Testes automatizados dos cálculos e mensagens
-├── index.html                       # Template HTML raiz com fontes Google e metadados
-├── vite.config.js                   # Configuração do Vite com suporte a React
-└── package.json                     # React 18, Vite, Leaflet e Bootstrap Icons
+- [Open-Meteo — Forecast API](https://open-meteo.com/en/docs)
+- [Open-Meteo — Historical Weather API](https://open-meteo.com/en/docs/historical-weather-api)
+- [NASA POWER — Daily API](https://power.larc.nasa.gov/docs/services/api/temporal/daily/)
+- [Leaflet — referência de mapas, eventos e marcadores](https://leafletjs.com/reference.html)
+- [OpenStreetMap — política dos tiles](https://operations.osmfoundation.org/policies/tiles/)
+
+## Como funciona a função que cruza as informações
+
+A regra está em `evaluateClimateSuitability`, dentro de [`src/lib/climate.js`](src/lib/climate.js). Ela recebe as três médias calculadas por `summarizeHistoricalDaily`.
+
+```text
+temperaturaPassou = 20 <= temperatura média <= 27
+umidadePassou     = 60 <= umidade média <= 80
+radiacaoPassou    = radiação média >= 8,5
+
+resultadoPositivo = temperaturaPassou
+                 E umidadePassou
+                 E radiacaoPassou
 ```
 
----
+No código, o operador lógico conjunto aparece assim:
 
-## 🚜 Funcionalidades Mantidas e Aprimoradas
+```js
+const suitable = Object.values(checks).every(Boolean);
+```
 
-### 1. Plataforma Inteligente (Localizador de Parceiros)
-- Permite alternar entre **Produtor Rural** e **Investidor** com feedback visual imediato.
-- Seleção de estado (**SP** / **MG**) filtrando em tempo real a lista de parceiros cadastrados.
-- Exibição de cards informativos com animação contendo:
-  - *Tempo de Mercado*
-  - *Foco Principal*
-  - *Objetivo Atual*
-- Botão "Seguir com o processo" que aciona o modal de confirmação.
+`every(Boolean)` só retorna `true` quando os três valores de `checks` são verdadeiros. Por isso:
 
-### 2. Modal Popup Personalizado
-- Design com identidade visual do projeto, ícone 🌱 e foco automático acessível.
-- Ao clicar em "Ok" ou no botão de fechar (×), fecha o modal e rola suavemente a tela até a seção **Fale Conosco**.
+- se os três passam, a interface mostra: **“Parabéns, seu crédito foi pré-aprovado. Nosso consultor retornará o contato. Aguarde.”**
+- se pelo menos um falha, mostra: **“Ainda precisamos conversar com o(a) Sr(a), um pouco mais. Aguarde o contato do nosso consultor.”**
+- se os dados são insuficientes ou os serviços falham, mostra um erro de consulta, e não uma mensagem de crédito;
+- se a NASA POWER foi necessária, mostra os indicadores, mas força a segunda mensagem por segurança.
 
-### 3. Formulário de Contato com Validações em Tempo Real
-- **Nome e Sobrenome**: Exige nome completo com ao menos 2 caracteres em cada parte.
-- **E-mail**: Validação de padrão via expressão regular.
-- **Telefone**: Aplicação de máscara em tempo real no formato `(XX) 9 XXXX-XXXX` e validação de 11 dígitos com prefixo 9.
-- **Mensagem**: Validação de preenchimento até 500 caracteres.
-- **Botão de Envio**: Habilitado somente quando todos os 4 campos forem válidos.
-- **Feedback de Sucesso**: Exibe mensagem de confirmação e limpa os campos após o envio.
+### Critérios usados
 
-### 4. Guia Interativo com Setas e Tooltips
-- Detecta dinamicamente a posição de cada botão, link, card ou input na tela.
-- Posiciona o tooltip explicativo e uma seta amarela pulsante apontando na direção exata do elemento.
-
-### 5. Localização e Triagem Climática — Nova Funcionalidade da Fase 5
-
-O antigo card estático **Localização** da seção **Fale Conosco** passou a ser um componente React interativo. O usuário pode clicar no mapa, arrastar o marcador ou autorizar a localização do navegador. Cada nova coordenada cancela a consulta anterior e inicia uma análise do ponto selecionado.
-
-O card mostra dois grupos de informações:
-
-- **Condições atuais**: temperatura do ar, umidade relativa do ar e radiação solar;
-- **Média anual recente**: médias das mesmas variáveis ao longo dos últimos 365 dias disponíveis. Ela é uma visão resumida para demonstração e não representa, isoladamente, o ciclo de uma cultura.
-
-#### Fluxo da funcionalidade
-
-1. O usuário seleciona uma coordenada no mapa do OpenStreetMap.
-2. O React atualiza o estado e posiciona um marcador Leaflet arrastável. A instância imperativa do mapa é criada e desmontada de forma segura dentro de um `useEffect`.
-3. Após 450 ms sem uma nova mudança de coordenada, a aplicação consulta simultaneamente a condição atual e o histórico da Open-Meteo. Esse intervalo evita chamadas repetidas durante ajustes rápidos do marcador.
-4. Valores incompletos são descartados e são exigidos pelo menos 350 dias válidos.
-5. Se o histórico primário falhar ou exceder cinco segundos, a aplicação tenta a API diária da NASA POWER. A contingência mantém os indicadores visíveis, mas, por segurança, nunca emite pré-aprovação automática, pois modelos diferentes podem produzir médias diferentes.
-6. As médias históricas são comparadas com referências acadêmicas indicativas para soja e tomate.
-7. O componente renderiza os indicadores, o resultado de cada critério e a mensagem correspondente.
-8. Falha dos dois provedores ou histórico insuficiente gera um estado de erro próprio, sem ser tratado como reprovação de crédito.
-
-#### Dados e unidades
-
-| Informação | Campo da Open-Meteo | Unidade exibida |
-| :--- | :--- | :--- |
-| Temperatura atual | `temperature_2m` | °C |
-| Umidade relativa atual | `relative_humidity_2m` | % |
-| Radiação solar atual | `shortwave_radiation` | W/m² |
-| Temperatura média histórica | `temperature_2m_mean` | °C |
-| Umidade média histórica | `relative_humidity_2m_mean` | % |
-| Radiação solar diária histórica | `shortwave_radiation_sum` | MJ/m²/dia |
-
-A consulta histórica termina sete dias antes da data atual para evitar dados de reanálise ainda não consolidados. O modelo `era5_seamless` combina informações de superfície e radiação. Para este projeto acadêmico não é necessário armazenar chave ou token no código.
-
-#### Regra demonstrativa da pré-análise
-
-Para a mensagem positiva, os três critérios precisam ser atendidos ao mesmo tempo:
-
-| Critério histórico | Faixa da triagem |
-| :--- | :--- |
+| Critério histórico | Faixa demonstrativa |
+| --- | --- |
 | Temperatura média | 20 °C a 27 °C |
 | Umidade relativa média | 60% a 80% |
 | Radiação solar média | mínimo de 8,5 MJ/m²/dia |
 
-As faixas formam uma referência acadêmica indicativa. A temperatura considera a faixa de melhor adaptação da soja informada pela Embrapa e a interseção com condições adequadas ao tomate. O mínimo de radiação segue referência técnica para culturas termófilas que inclui o tomate. A umidade de 60% a 80% é usada como faixa de triagem, não como declaração universal de aptidão da soja.
+As faixas são **referências acadêmicas indicativas**, não uma definição universal de aptidão conjunta para soja e tomate. A temperatura usa uma interseção compatível com as referências consultadas; a umidade de 60% a 80% é especialmente relacionada ao tomate em ambiente protegido; e o mínimo de radiação vem de referência para hortaliças termófilas que inclui o tomate. Uma avaliação real deve considerar cultura, cultivar, solo, água e período de plantio, além do ZARC.
 
-Fontes técnicas:
+Referências agronômicas:
 
-- [Open-Meteo — Historical Weather API](https://open-meteo.com/en/docs/historical-weather-api)
-- [Open-Meteo — Forecast API](https://open-meteo.com/en/docs)
-- [NASA POWER — API diária por ponto](https://power.larc.nasa.gov/docs/services/api/temporal/daily/)
-- [Leaflet — documentação de mapas, eventos e marcadores](https://leafletjs.com/reference.html)
-- [OpenStreetMap — política de uso dos tiles](https://operations.osmfoundation.org/policies/tiles/)
-- [Embrapa Soja — exigências de temperatura](https://bioinfo.cnpso.embrapa.br/seca/index.php?Itemid=435&catid=84&id=73%3Aexigencias-climaticas&option=com_content&view=article)
-- [Embrapa Hortaliças — clima e radiação no tomateiro](https://www.embrapa.br/en/web/agencia-de-informacao-tecnologica/cultivos/tomate/pre-producao/caracteristicas/clima)
-- [FAO — práticas agrícolas para hortaliças em ambiente protegido](https://www.fao.org/4/i3284e/i3284e.pdf)
+- [Embrapa Soja — exigências climáticas e temperatura](https://bioinfo.cnpso.embrapa.br/seca/index.php?Itemid=435&catid=84&id=73%3Aexigencias-climaticas&option=com_content&view=article)
+- [FAO — Good Agricultural Practices for Greenhouse Vegetable Crops](https://www.fao.org/4/i3284e/i3284e.pdf)
 - [Embrapa — produção de tomate em ambiente protegido](https://ainfo.cnptia.embrapa.br/digital/bitstream/item/80343/1/BritoJr-prod-tomate.pdf)
 - [MAPA — Zoneamento Agrícola de Risco Climático](https://www.gov.br/agricultura/pt-br/assuntos/riscos-seguro/programa-nacional-de-zoneamento-agricola-de-risco-climatico)
 
-> **Limitação importante:** esta é uma triagem climática demonstrativa. Os dados são modelados para uma célula geográfica e não equivalem a um sensor na propriedade. O resultado não substitui ZARC, análise de solo, disponibilidade hídrica, cultivar, época de plantio, vistoria agronômica ou análise financeira completa.
+## Tratamento de falhas e qualidade dos dados
 
-#### Limites dos serviços gratuitos
+| Situação | Comportamento |
+| --- | --- |
+| Latitude fora de -90 a 90 | A consulta é bloqueada com mensagem clara |
+| Longitude fora de -180 a 180 | A consulta é bloqueada com mensagem clara |
+| Menos de 350 dias completos | Nenhuma triagem é emitida |
+| Seleção muda durante a consulta | A chamada anterior é cancelada |
+| Open-Meteo histórica falha ou demora mais de 5 s | NASA POWER é tentada |
+| NASA POWER usada | Resultado automaticamente conservador, sem pré-aprovação |
+| Os dois históricos falham | Estado de erro próprio |
+| Mesmo local consultado novamente em até 30 min | Resultado recente vem do cache |
 
-O arranjo atual é apropriado para a entrega da FIAP e para demonstração em portfólio. A API pública da Open-Meteo é gratuita e sem chave para uso não comercial, mas tem limite de chamadas e não oferece garantia de disponibilidade. Uma operação comercial deve contratar o plano/licença apropriado ou hospedar uma instância compatível. Da mesma forma, os tiles comunitários do OpenStreetMap operam em melhor esforço, sem SLA; uso comercial ou em escala deve adotar um provedor de mapas com capacidade e termos adequados.
+## Estrutura do projeto
 
-- [Open-Meteo — planos, licença comercial e limites](https://open-meteo.com/en/pricing)
-- [OpenStreetMap — política de disponibilidade dos tiles](https://operations.osmfoundation.org/policies/tiles/)
-
----
-
-## 🚀 Como Executar o Projeto
-
-### Pré-requisitos
-- Ter o [Node.js](https://nodejs.org/) instalado no computador.
-
-### 1. Instalar as dependências
-```bash
-npm install
+```text
+site_seederlink-wolvestech/
+├─ .github/workflows/deploy-pages.yml   # teste, build e deploy
+├─ docs/ROTEIRO_PITCH_FASE_5.md         # roteiro de até 3 minutos
+├─ public/img/                           # imagens usadas pelo Vite
+├─ src/
+│  ├─ components/                       # componentes React da página
+│  │  ├─ Contato.jsx                    # insere o MapaClimatico
+│  │  └─ MapaClimatico.jsx              # mapa, marcador e apresentação
+│  ├─ data/                              # dados simulados e dicas do guia
+│  ├─ hooks/useScrollAnimation.js        # animações observadas
+│  ├─ lib/climate.js                     # APIs, médias, regra e cache
+│  ├─ App.jsx                            # composição da aplicação
+│  ├─ index.css                          # estilos ativos
+│  └─ main.jsx                           # entrada do React
+├─ tests/climate.test.js                 # testes automatizados
+├─ css/styles.css                        # CSS legado, não executado
+├─ js/script.js                          # JavaScript legado, não executado
+├─ ENTREGA_FIAP_FASE_5.txt               # dados conhecidos e pendências
+├─ index.html                            # raiz com a div #root
+├─ package.json                          # scripts e dependências
+├─ package-lock.json                     # versões exatas geradas pelo npm
+└─ vite.config.js                        # base de publicação e porta local
 ```
 
-### 2. Executar em modo de desenvolvimento
+### Como os comentários foram organizados
+
+Os comentários estão em português e em linguagem simples, com frases como “Aqui eu valido...” e “Neste efeito eu crio...”. Eles explicam intenção, fluxo, unidade, integração e decisões de segurança. Não há comentários em cada linha óbvia para não deixar o código mais difícil de ler.
+
+`package.json`, `package-lock.json` e `.vscode/settings.json` são JSON estrito. JSON não aceita `//` nem `/* */`; por isso, inserir comentários nesses arquivos quebraria as ferramentas. Os scripts e dependências são explicados neste README, e o lockfile deve continuar sendo gerado automaticamente pelo npm.
+
+## Como executar, passo a passo
+
+### Pré-requisitos
+
+- Node.js 20 ou superior;
+- npm, que acompanha o Node.js;
+- internet para carregar mapa, fontes e APIs climáticas.
+
+### 1. Baixar e entrar no projeto
+
+```bash
+git clone https://github.com/dansfisica85/site_seederlink-wolvestech.git
+cd site_seederlink-wolvestech
+```
+
+### 2. Instalar exatamente as versões registradas
+
+```bash
+npm ci
+```
+
+Use `npm install` quando estiver alterando dependências. Para apenas executar ou avaliar o projeto, `npm ci` é mais reproduzível porque segue o `package-lock.json`.
+
+### 3. Iniciar o modo de desenvolvimento
+
 ```bash
 npm run dev
 ```
-Abra o navegador em: [http://localhost:3000/](http://localhost:3000/)
 
-### 3. Executar os testes automatizados
+Abra [http://localhost:3000/](http://localhost:3000/). O Vite atualiza a tela após mudanças salvas no código.
+
+### 4. Testar
 
 ```bash
 npm test
 ```
 
-Os testes validam período histórico, descarte de valores ausentes, quantidade mínima de dias, limites climáticos, coordenadas, URLs e o texto exato das duas mensagens.
+Os oito testes verificam:
 
-### 4. Gerar a build otimizada de produção
+1. janela histórica inclusiva de 365 dias;
+2. média somente com dias completos;
+3. bloqueio de histórico insuficiente;
+4. aprovação nos limites e texto exato;
+5. análise complementar quando um critério falha;
+6. coordenadas, URLs, período e ausência de chave;
+7. normalização e descarte do valor `-999` da NASA;
+8. contingência conservadora sem pré-aprovação.
+
+### 5. Gerar a build de produção
+
 ```bash
 npm run build
 ```
-Os arquivos finais minificados serão gerados no diretório `dist/`.
 
-### 5. Visualizar a build de produção localmente
+O Vite cria a pasta `dist/`. Ela é resultado de build: não deve ser editada manualmente nem incluída no ZIP de código-fonte.
+
+### 6. Conferir a build localmente
+
 ```bash
 npm run preview
 ```
 
-### 6. Publicação automática no GitHub Pages
+### Scripts do `package.json`
 
-O repositório inclui o workflow `.github/workflows/deploy-pages.yml`. Em cada pull request ele instala as dependências, executa os testes e gera a build. Depois que uma alteração chega à branch `main`, o mesmo workflow publica a pasta `dist/` no GitHub Pages.
+| Comando | Função |
+| --- | --- |
+| `npm run dev` | inicia o Vite na porta 3000 |
+| `npm test` | executa `tests/*.test.js` com o test runner do Node |
+| `npm run build` | gera a versão otimizada em `dist/` |
+| `npm run preview` | serve localmente a build já gerada |
 
-Passo a passo:
+### Dependências principais
 
-1. No GitHub, abra **Settings → Pages**.
-2. Em **Build and deployment → Source**, escolha **GitHub Actions**.
-3. Envie ou mescle as alterações na branch `main`.
-4. Acompanhe o workflow **Test and deploy GitHub Pages** na aba **Actions**.
-5. Após o job `deploy` ficar verde, abra `https://dansfisica85.github.io/site_seederlink-wolvestech/` em uma janela anônima e valide mapa, dados e mensagens.
+| Pacote | Uso |
+| --- | --- |
+| `react` e `react-dom` | componentes, estados, efeitos e renderização |
+| `leaflet` | mapa, tiles, eventos e marcador |
+| `bootstrap-icons` | ícones visuais |
+| `vite` e `@vitejs/plugin-react` | ambiente local e build |
 
-Durante a build publicada, `VITE_BASE_PATH` recebe `/site_seederlink-wolvestech/`, conforme exigido pelo Vite para um site hospedado em uma subpasta do GitHub Pages.
+## Deploy
 
-### 7. Alternativa: publicar na Vercel
+### GitHub Pages — usado neste projeto
 
-O projeto é uma aplicação Vite sem variáveis secretas obrigatórias. Na importação pela Vercel, utilize:
+O workflow [`deploy-pages.yml`](.github/workflows/deploy-pages.yml) executa:
 
-- **Framework Preset:** Vite;
-- **Build Command:** `npm run build`;
-- **Output Directory:** `dist`;
-- **Install Command:** `npm install`.
+```text
+checkout → Node 20 → npm ci → npm test → npm run build → upload → deploy
+```
 
-Após conectar o repositório, cada push na branch gera uma URL de preview. A produção deve ser promovida somente depois dos testes e da verificação visual da funcionalidade.
+Em pull requests, ele testa e gera a build. Na branch `main`, também publica. A variável `VITE_BASE_PATH=/site_seederlink-wolvestech/` informa ao Vite a subpasta correta.
+
+Passo a passo para conferir:
+
+1. Abra **Actions** no GitHub.
+2. Entre em **Test and deploy GitHub Pages**.
+3. Confirme que `build` e `deploy` estão verdes.
+4. Abra o [site público](https://dansfisica85.github.io/site_seederlink-wolvestech/) em janela anônima.
+5. Role até **Fale Conosco**, selecione um ponto e confira mapa, dados, fonte e mensagem.
+
+Referências de publicação:
+
+- [GitHub — usar workflow personalizado no Pages](https://docs.github.com/en/pages/getting-started-with-github-pages/using-custom-workflows-with-github-pages)
+- [Vite — publicação de site estático](https://vite.dev/guide/static-deploy)
+
+### Vercel — alternativa mostrada nos tutoriais
+
+O enunciado permite Vercel **ou outro provedor gratuito**; por isso, o GitHub Pages atende ao requisito de hospedagem. Se a equipe quiser duplicar a publicação na Vercel, use:
+
+- Framework Preset: `Vite`;
+- Build Command: `npm run build`;
+- Output Directory: `dist`;
+- Install Command: `npm ci`;
+- Root Directory: raiz do projeto.
+
+Os quatro tutoriais da imagem foram conferidos:
+
+| Vídeo | Conteúdo e relação com este projeto |
+| --- | --- |
+| [Deploy de projeto React na Vercel — React, Vite e Vercel](https://youtu.be/e_92Fz99q18) | Diretamente aplicável: CLI da Vercel, build do Vite, pasta `dist` e atualização do deploy |
+| [Deploy API Node grátis na Vercel](https://youtu.be/8jttLYYDWjo) | Explica backend Node/TypeScript e `vercel.json`; é apoio, mas este site é somente front-end |
+| [Curso Next.js: Deploy na Vercel](https://youtu.be/UIg8MAzxtlg) | Mostra build e importação de repositório Next.js; é contextual, porque SeederLink usa Vite |
+| [Como hospedar seu projeto online com Vercel e GitHub](https://youtu.be/e7L_8XVQBik) | Diretamente útil para conectar o repositório, selecionar Vite, definir a raiz e atualizar a cada commit |
+
+Os vídeos são tutoriais de procedimento. Os requisitos obrigatórios da entrega continuam sendo os textos da atividade: React, uma nova funcionalidade, pitch de até três minutos, link na Home, deploy, PDF com nomes e links e um ZIP sem o arquivo do vídeo.
+
+## Checklist estrito da entrega FIAP
+
+1. Manter React em toda a versão da Fase 5 — concluído.
+2. Apresentar uma nova funcionalidade — mapa e triagem climática concluídos.
+3. Publicar o site — concluído no GitHub Pages.
+4. Gravar um pitch de até três minutos mostrando **somente a nova funcionalidade** — pendente.
+5. Explicar no pitch como React foi usado — roteiro preparado.
+6. Publicar o pitch no YouTube ou plataforma equivalente — pendente.
+7. Trocar o link da Home pelo pitch novo — pendente do endereço.
+8. Criar um PDF com nomes completos, link do pitch e link do deploy — pendente dos dados.
+9. Testar os links depois de gerar o PDF — pendente.
+10. Entregar um ZIP com projeto e PDF, sem o arquivo do vídeo — o pacote técnico pode ser gerado agora; o pacote acadêmico final depende do PDF.
+
+## Limites dos serviços gratuitos
+
+A API pública da Open-Meteo, sem chave, é indicada para uso não comercial e possui limites, sem SLA. Para operação comercial, é necessário contratar licença/plano adequado ou hospedar infraestrutura compatível. Os tiles comunitários do OpenStreetMap também operam em melhor esforço e sem SLA. Um produto real em escala deve contratar provedores com capacidade e termos compatíveis.
+
+- [Open-Meteo — planos, licença e limites](https://open-meteo.com/en/pricing)
+- [OpenStreetMap — política de uso dos tiles](https://operations.osmfoundation.org/policies/tiles/)
+
+## Segurança e privacidade
+
+- As APIs usadas nesta demonstração não exigem token no navegador.
+- Nenhuma senha, token ou arquivo `.env` deve entrar no Git ou no ZIP.
+- A geolocalização só é solicitada após ação do usuário e depende da permissão do navegador.
+- O formulário atual exibe uma confirmação visual, mas não envia os dados para um backend.
+- Uma futura decisão de crédito real precisa de consentimento, LGPD, autenticação, trilha de auditoria, regras aprovadas por especialistas e revisão humana.
+
+## Resumo técnico da nova funcionalidade
+
+```text
+Usuário escolhe um ponto
+        ↓
+React valida e guarda latitude/longitude
+        ↓
+Leaflet move o marcador
+        ↓
+Open-Meteo atual + histórico (em paralelo)
+        ↓
+NASA POWER se o histórico principal falhar
+        ↓
+350+ dias completos → três médias
+        ↓
+temperatura E umidade E radiação
+        ↓
+mensagem positiva ou análise complementar
+```
+
+Esse fluxo é visível tanto na interface quanto nos comentários de [`MapaClimatico.jsx`](src/components/MapaClimatico.jsx) e [`climate.js`](src/lib/climate.js).
