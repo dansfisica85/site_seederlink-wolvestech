@@ -1270,7 +1270,7 @@ CONTATO
 
 .coordinate-form{
     display:grid;
-    grid-template-columns:1fr 1fr;
+    grid-template-columns:repeat(2, minmax(0, 1fr));
     gap:9px;
     margin-top:14px;
 }
@@ -2036,6 +2036,14 @@ GUIA INTERATIVO
 
     .climate-map{
         height:270px;
+    }
+
+    .coordinate-form{
+        grid-template-columns:1fr;
+    }
+
+    .coordinate-form button{
+        grid-column:1;
     }
 
     .climate-metrics-grid{
