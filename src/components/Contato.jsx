@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import MapaClimatico from './MapaClimatico';
 
 export default function Contato() {
   const [formData, setFormData] = useState({
@@ -186,10 +187,7 @@ export default function Contato() {
             <p>(11) 97211-8003</p>
           </div>
 
-          <div className="info-card fade-in">
-            <h3>Localização</h3>
-            <p>São Paulo — Brasil</p>
-          </div>
+          <MapaClimatico />
         </div>
 
         {/* FORMULÁRIO */}

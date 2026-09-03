@@ -238,7 +238,7 @@ HOME
 
     background:
     linear-gradient(rgba(0,0,0,0.75), rgba(0,0,0,0.75)),
-    url("/img/agro_header.jpg");
+    var(--hero-image);
 
     background-size:cover;
     background-position:center;
@@ -1087,6 +1087,8 @@ CONTATO
     grid-template-columns:1fr 1.2fr;
 
     gap:50px;
+
+    align-items:start;
 }
 
 
@@ -1123,6 +1125,460 @@ CONTATO
 .info-card:hover{
 
     transform:translateY(-6px);
+}
+
+
+/* MAPA E TRIAGEM CLIMÁTICA DO CARD DE CONTATO */
+
+.climate-location-card{
+    padding:28px;
+    overflow:hidden;
+}
+
+.climate-location-card:hover{
+    transform:none;
+}
+
+.climate-card-heading{
+    display:flex;
+    align-items:flex-start;
+    gap:14px;
+    margin-bottom:18px;
+}
+
+.climate-card-heading h3{
+    margin:0 0 6px;
+    color:#1F5A24;
+    font-size:20px;
+}
+
+.climate-card-heading p{
+    margin:0;
+    color:#566255;
+    font-size:14px;
+    line-height:1.55;
+}
+
+.climate-card-icon{
+    display:grid;
+    flex:0 0 42px;
+    width:42px;
+    height:42px;
+    place-items:center;
+    border-radius:12px;
+    background:#DDEBD7;
+    font-size:22px;
+}
+
+.location-button{
+    display:inline-flex;
+    align-items:center;
+    justify-content:center;
+    gap:8px;
+    width:100%;
+    margin:0 0 14px;
+    padding:12px 16px;
+    border:1px solid #2E7D32;
+    border-radius:12px;
+    background:#FFFFFF;
+    color:#1F5A24;
+    font:600 14px 'Inter', sans-serif;
+    cursor:pointer;
+    transition:background 0.2s ease, color 0.2s ease, transform 0.2s ease;
+}
+
+.location-button:hover:not(:disabled){
+    background:#1F5A24;
+    color:#FFFFFF;
+    transform:translateY(-1px);
+}
+
+.location-button:focus-visible{
+    outline:3px solid rgba(46,125,50,0.28);
+    outline-offset:2px;
+}
+
+.location-button:disabled{
+    cursor:wait;
+    opacity:0.65;
+}
+
+.climate-map{
+    width:100%;
+    height:310px;
+    border:1px solid #B8C9B2;
+    border-radius:18px;
+    overflow:hidden;
+    background:#DCE7D8;
+    box-shadow:inset 0 0 0 1px rgba(255,255,255,0.45);
+    z-index:0;
+}
+
+.climate-map:focus-within{
+    outline:3px solid rgba(46,125,50,0.25);
+    outline-offset:2px;
+}
+
+.climate-map .leaflet-control-attribution{
+    font-size:10px;
+}
+
+.property-marker-shell{
+    background:transparent;
+    border:none;
+    filter:drop-shadow(0 4px 5px rgba(21,61,25,0.35));
+}
+
+.property-marker-shell svg{
+    display:block;
+    width:40px;
+    height:52px;
+    overflow:visible;
+}
+
+.property-marker-shell path{
+    fill:#1F5A24;
+    stroke:#FFFFFF;
+    stroke-width:2;
+}
+
+.property-marker-shell circle{
+    fill:#F7C948;
+    stroke:#FFFFFF;
+    stroke-width:2;
+}
+
+.map-help,
+.selected-coordinates{
+    margin:9px 0 0;
+    color:#657064;
+    font-size:12px;
+    line-height:1.45;
+}
+
+.map-help{
+    display:flex;
+    align-items:center;
+    gap:6px;
+}
+
+.selected-coordinates{
+    color:#1F5A24;
+    font-family:ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace;
+    font-weight:600;
+}
+
+.coordinate-form{
+    display:grid;
+    grid-template-columns:repeat(2, minmax(0, 1fr));
+    gap:9px;
+    margin-top:14px;
+}
+
+.coordinate-form label{
+    display:flex;
+    flex-direction:column;
+    gap:5px;
+    color:#485648;
+    font-size:11px;
+    font-weight:700;
+}
+
+.coordinate-form input{
+    min-width:0;
+    padding:9px 10px;
+    border:1px solid #B8C9B2;
+    border-radius:9px;
+    background:#FFFFFF;
+    color:#253526;
+    font:500 12px 'Inter', sans-serif;
+}
+
+.coordinate-form input:focus{
+    border-color:#2E7D32;
+    outline:3px solid rgba(46,125,50,0.18);
+}
+
+.coordinate-form button{
+    grid-column:1 / -1;
+    padding:10px 12px;
+    border:0;
+    border-radius:9px;
+    background:#E0ECD9;
+    color:#1F5A24;
+    font:700 12px 'Inter', sans-serif;
+    cursor:pointer;
+}
+
+.coordinate-form button:hover{
+    background:#D1E3C7;
+}
+
+.coordinate-form button:focus-visible{
+    outline:3px solid rgba(46,125,50,0.28);
+    outline-offset:2px;
+}
+
+.climate-feedback{
+    margin-top:18px;
+}
+
+.climate-loading{
+    display:flex;
+    align-items:center;
+    gap:10px;
+    padding:14px;
+    border-radius:12px;
+    background:#E9F3E5;
+    color:#1F5A24;
+    font-size:14px;
+    font-weight:600;
+}
+
+.climate-spinner{
+    width:18px;
+    height:18px;
+    border:3px solid #B8D0AF;
+    border-top-color:#1F5A24;
+    border-radius:50%;
+    animation:climate-spin 0.8s linear infinite;
+}
+
+@keyframes climate-spin{
+    to{ transform:rotate(360deg); }
+}
+
+.climate-inline-error,
+.climate-error{
+    border:1px solid #D78A82;
+    border-radius:12px;
+    background:#FFF1EF;
+    color:#8E2F27;
+}
+
+.climate-inline-error{
+    margin:0 0 12px;
+    padding:10px 12px;
+    font-size:12px;
+    line-height:1.4;
+}
+
+.climate-error{
+    padding:14px;
+}
+
+.climate-error strong{
+    display:block;
+    margin-bottom:4px;
+}
+
+.climate-error p,
+.climate-error small{
+    margin:0;
+    line-height:1.45;
+}
+
+.climate-result{
+    display:flex;
+    flex-direction:column;
+    gap:16px;
+}
+
+.climate-result-section{
+    padding:16px;
+    border:1px solid #D6E2D1;
+    border-radius:15px;
+    background:#FFFFFF;
+}
+
+.climate-result-section h4{
+    margin:0 0 12px;
+    color:#1F5A24;
+    font-size:15px;
+}
+
+.climate-metrics-grid{
+    display:grid;
+    grid-template-columns:repeat(3, minmax(0, 1fr));
+    gap:8px;
+}
+
+.climate-metric{
+    display:flex;
+    min-width:0;
+    align-items:center;
+    gap:8px;
+    padding:10px 8px;
+    border-radius:11px;
+    background:#F3F7F0;
+}
+
+.climate-metric-icon{
+    flex:0 0 auto;
+    font-size:18px;
+}
+
+.climate-metric small,
+.climate-metric strong{
+    display:block;
+}
+
+.climate-metric small{
+    margin-bottom:2px;
+    overflow:hidden;
+    color:#697267;
+    font-size:10px;
+    line-height:1.25;
+    text-overflow:ellipsis;
+}
+
+.climate-metric strong{
+    color:#253526;
+    font-size:14px;
+    white-space:nowrap;
+}
+
+.climate-metric strong span{
+    font-size:10px;
+    font-weight:500;
+}
+
+.historical-section{
+    background:#F7FAF5;
+}
+
+.historical-period{
+    margin:-5px 0 12px;
+    color:#667064;
+    font-size:11px;
+}
+
+.climate-criteria{
+    display:flex;
+    flex-direction:column;
+    gap:8px;
+    margin:0;
+    padding:0;
+    list-style:none;
+}
+
+.climate-criteria li{
+    display:flex;
+    align-items:flex-start;
+    gap:9px;
+    padding:10px;
+    border-radius:10px;
+}
+
+.climate-criteria li > span:first-child{
+    display:grid;
+    flex:0 0 22px;
+    width:22px;
+    height:22px;
+    place-items:center;
+    border-radius:50%;
+    color:#FFFFFF;
+    font-size:12px;
+    font-weight:800;
+}
+
+.climate-criteria strong,
+.climate-criteria small{
+    display:block;
+}
+
+.climate-criteria strong{
+    font-size:12px;
+}
+
+.climate-criteria small{
+    margin-top:2px;
+    font-size:10px;
+    line-height:1.4;
+}
+
+.criterion-pass{
+    background:#E7F4E4;
+    color:#1E6528;
+}
+
+.criterion-pass > span:first-child{
+    background:#2E7D32;
+}
+
+.criterion-review{
+    background:#FFF4D9;
+    color:#855D09;
+}
+
+.criterion-review > span:first-child{
+    background:#B77908;
+}
+
+.climate-disclaimer{
+    margin:0;
+    padding:12px 14px;
+    border:1px solid #AFC6D8;
+    border-radius:12px;
+    background:#EFF6FA;
+    color:#38546A;
+    font-size:11px;
+    line-height:1.5;
+}
+
+.climate-provider-warning{
+    margin:0;
+    padding:12px 14px;
+    border:1px solid #D9A746;
+    border-radius:12px;
+    background:#FFF7E5;
+    color:#74500A;
+    font-size:11px;
+    font-weight:600;
+    line-height:1.5;
+}
+
+.credit-message{
+    padding:16px;
+    border:2px solid;
+    border-radius:15px;
+}
+
+.credit-message strong{
+    display:block;
+    margin-bottom:5px;
+    font-size:14px;
+}
+
+.credit-message p{
+    margin:0;
+    font-size:14px;
+    font-weight:600;
+    line-height:1.5;
+}
+
+.credit-approved{
+    border-color:#2E7D32;
+    background:#E8F5E5;
+    color:#17561E;
+}
+
+.credit-review{
+    border-color:#D39A2B;
+    background:#FFF6DF;
+    color:#74500A;
+}
+
+.climate-source{
+    margin:0;
+    color:#677066;
+    font-size:10px;
+    line-height:1.5;
+}
+
+.climate-source a{
+    color:#1F5A24;
+    font-weight:700;
 }
 
 
@@ -1570,5 +2026,46 @@ GUIA INTERATIVO
         border-top-width:19px;
         border-bottom-width:19px;
         border-left-width:28px;
+    }
+}
+
+@media(max-width:620px){
+    .climate-location-card{
+        padding:20px;
+    }
+
+    .climate-map{
+        height:270px;
+    }
+
+    .coordinate-form{
+        grid-template-columns:1fr;
+    }
+
+    .coordinate-form button{
+        grid-column:1;
+    }
+
+    .climate-metrics-grid{
+        grid-template-columns:1fr;
+    }
+
+    .climate-metric{
+        padding:10px 12px;
+    }
+
+    .climate-metric small{
+        overflow:visible;
+        text-overflow:clip;
+    }
+}
+
+@media (prefers-reduced-motion: reduce){
+    .climate-spinner{
+        animation-duration:1.6s;
+    }
+
+    .location-button{
+        transition:none;
     }
 }

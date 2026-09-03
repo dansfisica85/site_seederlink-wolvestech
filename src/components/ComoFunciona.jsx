@@ -1,6 +1,8 @@
 import React from 'react';
 
 export default function ComoFunciona() {
+  const imageBaseUrl = `${import.meta.env.BASE_URL}img/`;
+
   return (
     <section id="ComoFunciona">
       <div className="section-top fade-in">
@@ -21,7 +23,7 @@ export default function ComoFunciona() {
       <div className="timeline">
         <div className="timeline-card fade-in">
           <div className="numero">1</div>
-          <img src="/img/investidor.png" alt="Investidor" />
+          <img src={`${imageBaseUrl}investidor.png`} alt="Investidor" />
           <h3>Investidor</h3>
           <p>
             Define investimentos e acompanha impacto financeiro e social.
@@ -30,7 +32,7 @@ export default function ComoFunciona() {
 
         <div className="timeline-card fade-in">
           <div className="numero">2</div>
-          <img src="/img/plataforma.png" alt="Plataforma" />
+          <img src={`${imageBaseUrl}plataforma.png`} alt="Plataforma" />
           <h3>Plataforma</h3>
           <p>
             IA conecta investidores aos produtores ideais.
@@ -39,7 +41,7 @@ export default function ComoFunciona() {
 
         <div className="timeline-card fade-in">
           <div className="numero">3</div>
-          <img src="/img/produtor.png" alt="Produtor" />
+          <img src={`${imageBaseUrl}produtor.png`} alt="Produtor" />
           <h3>Produtor Rural</h3>
           <p>
             Recebe crédito e amplia sua produção sustentável.
