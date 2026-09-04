@@ -117,7 +117,7 @@ index.html
 
 | Parte | Arquivo/função | O que faz |
 | --- | --- | --- |
-| Posição do card na página | [`Contato.jsx`](src/components/Contato.jsx), tag `<MapaClimatico />` | Coloca o mapa abaixo dos cards de e-mail e telefone, na coluna esquerda do Fale Conosco |
+| Posição do card na página | [`Contato.jsx`](src/components/Contato.jsx), tag `<MapaClimatico />` | Coloca o mapa abaixo dos dados de contato, na coluna maior à direita no desktop e antes do formulário em tablets e celulares |
 | Componente visual | [`MapaClimatico.jsx`](src/components/MapaClimatico.jsx), `MapaClimatico` | Controla mapa, marcador, coordenadas, carregamento, erros e resultado |
 | Criação do mapa | primeiro `useEffect` de `MapaClimatico` | Cria uma instância Leaflet e adiciona os tiles do OpenStreetMap |
 | Marcador | segundo `useEffect` de `MapaClimatico` | Cria, move e recebe o fim do arraste do marcador |
