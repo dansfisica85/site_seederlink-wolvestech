@@ -1,3 +1,6 @@
+/* Esta é a folha de estilos ativa da versão React. Eu organizei as regras por
+   seção da página e deixei o bloco do mapa separado para facilitar a leitura. */
+
 /* =========================================================
 RESET
 ========================================================= */
@@ -31,7 +34,7 @@ NAVBAR
 ========================================================= */
 
 
-/* NAV CONTAINER */
+/* CONTAINER DA NAVEGAÇÃO */
 
 nav{
 
@@ -64,7 +67,7 @@ nav{
 }
 
 
-/* LOGO */
+/* LOGOTIPO */
 
 .logo{
 
@@ -76,7 +79,7 @@ nav{
 }
 
 
-/* NAV LINKS */
+/* LINKS DA NAVEGAÇÃO */
 
 nav ul{
 
@@ -174,7 +177,7 @@ SECTION TOP
 ========================================================= */
 
 
-/* SECTION HEADER */
+/* CABEÇALHO PADRÃO DAS SEÇÕES */
 
 .section-top{
 
@@ -184,7 +187,7 @@ SECTION TOP
 }
 
 
-/* SECTION TITLE */
+/* TÍTULO DAS SEÇÕES */
 
 .section-top h2{
 
@@ -196,7 +199,7 @@ SECTION TOP
 }
 
 
-/* SECTION DESCRIPTION */
+/* DESCRIÇÃO DAS SEÇÕES */
 
 .section-top p{
 
@@ -212,7 +215,7 @@ SECTION TOP
 }
 
 
-/* PLATFORM TEXT */
+/* TEXTO DA PLATAFORMA */
 
 #Plataforma .section-top h2,
 #Plataforma .section-top p{
@@ -226,7 +229,7 @@ HOME
 ========================================================= */
 
 
-/* HOME SECTION */
+/* SEÇÃO INICIAL */
 
 #Home{
 
@@ -245,7 +248,7 @@ HOME
 }
 
 
-/* HOME CONTENT */
+/* CONTEÚDO DA SEÇÃO INICIAL */
 
 .home-content{
 
@@ -261,7 +264,7 @@ HOME
 }
 
 
-/* HOME LEFT */
+/* LADO ESQUERDO DA SEÇÃO INICIAL */
 
 .home-left{
 
@@ -271,7 +274,7 @@ HOME
 }
 
 
-/* HOME TITLE */
+/* TÍTULO PRINCIPAL */
 
 .home-left h1{
 
@@ -283,7 +286,7 @@ HOME
 }
 
 
-/* HOME DESCRIPTION */
+/* DESCRIÇÃO PRINCIPAL */
 
 .home-left p{
 
@@ -299,7 +302,7 @@ HOME
 }
 
 
-/* HOME BUTTONS */
+/* GRUPO DE BOTÕES PRINCIPAIS */
 
 .home-buttons{
 
@@ -311,7 +314,7 @@ HOME
 }
 
 
-/* HOME BUTTON */
+/* BOTÃO PRINCIPAL */
 
 .btn-home,
 .btn-outline{
@@ -328,7 +331,7 @@ HOME
 }
 
 
-/* PRIMARY BUTTON */
+/* VARIAÇÃO VERDE DO BOTÃO */
 
 .btn-home{
 
@@ -348,7 +351,7 @@ HOME
 }
 
 
-/* OUTLINE BUTTON */
+/* VARIAÇÃO CONTORNADA DO BOTÃO */
 
 .btn-outline{
 
@@ -369,7 +372,7 @@ HOME
 }
 
 
-/* HOME RIGHT */
+/* LADO DIREITO DA SEÇÃO INICIAL */
 
 .home-right{
 
@@ -390,7 +393,7 @@ HOME
 }
 
 
-/* HOME CARD */
+/* CARDS DE BENEFÍCIOS */
 
 .home-card{
 
@@ -471,7 +474,7 @@ PITCH VIDEO
 }
 
 
-/* PLAY ICON */
+/* ÍCONE DE REPRODUÇÃO */
 
 .play-icon{
 
@@ -525,7 +528,7 @@ SOBRE NÓS
 ========================================================= */
 
 
-/* SOBRE SECTION */
+/* SEÇÃO SOBRE NÓS */
 
 #SobreNos{
 
@@ -533,7 +536,7 @@ SOBRE NÓS
 }
 
 
-/* SOBRE CONTAINER */
+/* CONTAINER DA SEÇÃO SOBRE NÓS */
 
 .sobre-container{
 
@@ -545,7 +548,7 @@ SOBRE NÓS
 }
 
 
-/* SOBRE TEXT */
+/* TEXTO DA SEÇÃO SOBRE NÓS */
 
 .sobre-texto{
 
@@ -577,7 +580,7 @@ SOBRE NÓS
 }
 
 
-/* SOBRE CARDS */
+/* GRUPO DE CARDS DA SEÇÃO SOBRE NÓS */
 
 .sobre-cards{
 
@@ -589,7 +592,7 @@ SOBRE NÓS
 }
 
 
-/* SOBRE CARD */
+/* CARD DA SEÇÃO SOBRE NÓS */
 
 .sobre-card{
 
@@ -641,7 +644,7 @@ COMO FUNCIONA
 ========================================================= */
 
 
-/* TIMELINE SECTION */
+/* SEÇÃO DA LINHA DO TEMPO */
 
 #ComoFunciona{
 
@@ -649,7 +652,7 @@ COMO FUNCIONA
 }
 
 
-/* TIMELINE GRID */
+/* GRADE DA LINHA DO TEMPO */
 
 .timeline{
 
@@ -661,7 +664,7 @@ COMO FUNCIONA
 }
 
 
-/* TIMELINE CARD */
+/* CARD DA LINHA DO TEMPO */
 
 .timeline-card{
 
@@ -689,7 +692,7 @@ COMO FUNCIONA
 }
 
 
-/* TIMELINE NUMBER */
+/* NÚMERO DA ETAPA */
 
 .numero{
 
@@ -748,7 +751,7 @@ PLATAFORMA
 ========================================================= */
 
 
-/* PLATFORM SECTION */
+/* SEÇÃO DA PLATAFORMA */
 
 #Plataforma{
 
@@ -761,7 +764,7 @@ PLATAFORMA
 }
 
 
-/* PLATFORM GRID */
+/* GRADE DA PLATAFORMA */
 
 .plataforma-grid{
 
@@ -1070,7 +1073,7 @@ CONTATO
 ========================================================= */
 
 
-/* CONTACT SECTION */
+/* SEÇÃO DE CONTATO */
 
 #Contato{
 
@@ -1078,7 +1081,7 @@ CONTATO
 }
 
 
-/* CONTACT GRID */
+/* GRADE DO CONTATO */
 
 .contato-grid{
 
@@ -1092,7 +1095,7 @@ CONTATO
 }
 
 
-/* CONTACT INFO */
+/* INFORMAÇÕES DE CONTATO */
 
 .contato-info{
 
@@ -1104,7 +1107,7 @@ CONTATO
 }
 
 
-/* INFO CARD */
+/* CARD DE INFORMAÇÃO */
 
 .info-card{
 
@@ -1582,7 +1585,7 @@ CONTATO
 }
 
 
-/* CONTACT FORM */
+/* FORMULÁRIO DE CONTATO */
 
 .contato-form{
 
@@ -1605,7 +1608,7 @@ CONTATO
 }
 
 
-/* FORM INPUTS */
+/* CAMPOS DO FORMULÁRIO */
 
 .contato-form input,
 .contato-form textarea{
@@ -1654,7 +1657,7 @@ CONTATO
 }
 
 
-/* FORM BUTTON */
+/* BOTÃO DO FORMULÁRIO */
 
 .contato-form button{
 
@@ -1709,7 +1712,7 @@ FOOTER
 ========================================================= */
 
 
-/* FOOTER CONTAINER */
+/* CONTAINER DO RODAPÉ */
 
 footer{
 
@@ -1723,7 +1726,7 @@ footer{
 }
 
 
-/* FOOTER TITLE */
+/* TÍTULO DO RODAPÉ */
 
 footer h3{
 
@@ -1736,7 +1739,7 @@ RESPONSIVIDADE
 ========================================================= */
 
 
-/* TABLETS */
+/* AJUSTES PARA TABLETS */
 
 @media(max-width:1024px){
 
@@ -1764,7 +1767,7 @@ RESPONSIVIDADE
 }
 
 
-/* MOBILE */
+/* AJUSTES PARA CELULARES */
 
 @media(max-width:768px){
 
@@ -1822,7 +1825,7 @@ ANIMAÇÕES
 ========================================================= */
 
 
-/* BASE ANIMATIONS */
+/* BASE DAS ANIMAÇÕES */
 
 .fade-in,
 .slide-left,
@@ -1837,7 +1840,7 @@ ANIMAÇÕES
 }
 
 
-/* FADE */
+/* ANIMAÇÃO DE APARECIMENTO */
 
 .fade-in{
 
@@ -1845,7 +1848,7 @@ ANIMAÇÕES
 }
 
 
-/* SLIDE LEFT */
+/* ENTRADA PELA ESQUERDA */
 
 .slide-left{
 
@@ -1853,7 +1856,7 @@ ANIMAÇÕES
 }
 
 
-/* SLIDE RIGHT */
+/* ENTRADA PELA DIREITA */
 
 .slide-right{
 
@@ -1861,7 +1864,7 @@ ANIMAÇÕES
 }
 
 
-/* ZOOM */
+/* ANIMAÇÃO DE ZOOM */
 
 .zoom-in{
 
@@ -1869,7 +1872,7 @@ ANIMAÇÕES
 }
 
 
-/* ACTIVE STATE */
+/* ESTADO ATIVO DAS ANIMAÇÕES */
 
 .visible{
 

@@ -1,5 +1,6 @@
 import React from 'react';
 
+// Esta é a primeira seção do site: apresenta a proposta, os atalhos e o pitch.
 export default function Hero() {
   return (
     <section
@@ -9,7 +10,7 @@ export default function Hero() {
       }}
     >
       <div className="home-content">
-        {/* LEFT */}
+        {/* No lado esquerdo eu concentro a apresentação e as ações principais. */}
         <div className="home-left slide-left">
           <span className="tag-home">
             Agro • ESG • Tecnologia
@@ -35,7 +36,8 @@ export default function Hero() {
             </a>
           </div>
 
-          {/* PITCH VÍDEO */}
+          {/* Este link ainda aponta para o pitch publicado da Sprint 4.
+              Ele deve ser trocado pelo pitch da Fase 5 depois da nova gravação. */}
           <a
             href="https://youtu.be/bRALz0SSVh0?si=8o290JzSlp8dHbQC"
             target="_blank"
@@ -55,7 +57,7 @@ export default function Hero() {
           </a>
         </div>
 
-        {/* RIGHT */}
+        {/* No lado direito eu resumo quatro benefícios do projeto. */}
         <div className="home-right slide-right">
           <div className="home-card fade-in">
             <span>✔</span>

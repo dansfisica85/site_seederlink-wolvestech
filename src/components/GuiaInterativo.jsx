@@ -1,7 +1,9 @@
 import React, { useEffect, useRef, useState } from 'react';
 import { orientacoesGuia } from '../data/guiaOrientacoes';
 
+// Este componente cria um balão e uma seta que explicam os elementos da página.
 export default function GuiaInterativo() {
+  // Guardo os elementos visuais em referências e o texto atual em um estado.
   const tooltipRef = useRef(null);
   const arrowRef = useRef(null);
   const [orientacaoAtiva, setOrientacaoAtiva] = useState(null);
@@ -11,6 +13,7 @@ export default function GuiaInterativo() {
     const arrow = arrowRef.current;
     if (!tooltip || !arrow) return;
 
+    // Procuro a primeira orientação cujo seletor combina com o elemento apontado.
     function obterOrientacao(elemento) {
       for (let i = 0; i < orientacoesGuia.length; i++) {
         if (elemento.matches(orientacoesGuia[i].seletor)) {
@@ -20,6 +23,7 @@ export default function GuiaInterativo() {
       return null;
     }
 
+    // Calculo um local onde balão e seta caibam na tela sem cobrir o alvo.
     function posicionar(elemento) {
       const margem = 16;
       const espacoSetaVertical = 100;
@@ -31,6 +35,7 @@ export default function GuiaInterativo() {
       const largura = tooltipRect.width || 320;
       const altura = tooltipRect.height || 120;
 
+      // Primeiro tento centralizar o balão acima do elemento.
       let left = rect.left + rect.width / 2 - largura / 2;
       left = Math.max(margem, Math.min(left, window.innerWidth - largura - margem));
 
@@ -38,11 +43,13 @@ export default function GuiaInterativo() {
       let setaClasse = 'baixo';
 
       if (top < margem) {
+        // Se não houver espaço em cima, mostro o balão abaixo.
         top = rect.bottom + 100;
         setaClasse = 'cima';
       }
 
       if (top + altura > window.innerHeight - margem) {
+        // Se também faltar espaço vertical, tento o lado direito e depois o esquerdo.
         top = Math.max(margem, rect.top + rect.height / 2 - altura / 2);
         left = rect.right + 94;
         setaClasse = 'esquerda';
@@ -53,6 +60,7 @@ export default function GuiaInterativo() {
         }
       }
 
+      // Estes limites impedem que o balão saia da janela do navegador.
       const tooltipLeft = Math.max(
         margem,
         Math.min(left, window.innerWidth - largura - margem)
@@ -65,6 +73,7 @@ export default function GuiaInterativo() {
       tooltip.style.left = `${tooltipLeft}px`;
       tooltip.style.top = `${tooltipTop}px`;
 
+      // Depois de posicionar o balão, ajusto a seta para apontar ao elemento.
       let setaLeft = rect.left + rect.width / 2 - setaLargura / 2;
       let setaTop = 0;
 
@@ -106,6 +115,7 @@ export default function GuiaInterativo() {
       arrow.style.top = `${Math.max(8, Math.min(setaTop, window.innerHeight - 58))}px`;
     }
 
+    // Ao entrar com mouse ou foco, carrego o texto e mostro a orientação.
     function mostrarGuia(evento) {
       const orientacao = obterOrientacao(evento.currentTarget);
       if (!orientacao) return;
@@ -115,16 +125,19 @@ export default function GuiaInterativo() {
       posicionar(evento.currentTarget);
     }
 
+    // Ao sair, escondo os dois elementos visuais.
     function esconderGuia() {
       tooltip.classList.remove('ativo');
       arrow.className = 'guia-seta';
     }
 
+    // Eu conecto mouse e teclado a todos os seletores cadastrados.
     function ativarGuias() {
       orientacoesGuia.forEach((orientacao) => {
         const elementos = document.querySelectorAll(orientacao.seletor);
 
         elementos.forEach((elemento) => {
+          // Esta marca evita registrar os mesmos eventos mais de uma vez.
           if (elemento.dataset.guiaAtivo === 'true') {
             return;
           }
@@ -142,6 +155,7 @@ export default function GuiaInterativo() {
     window.addEventListener('resize', esconderGuia);
     window.addEventListener('scroll', esconderGuia, { passive: true });
 
+    // Novos cards podem surgir depois de uma escolha, então observo mudanças no DOM.
     const observadorGuia = new MutationObserver(ativarGuias);
     observadorGuia.observe(document.body, {
       childList: true,
@@ -149,6 +163,7 @@ export default function GuiaInterativo() {
     });
 
     return () => {
+      // Retiro observadores e eventos globais quando o componente é desmontado.
       window.removeEventListener('resize', esconderGuia);
       window.removeEventListener('scroll', esconderGuia);
       observadorGuia.disconnect();
@@ -157,6 +172,7 @@ export default function GuiaInterativo() {
 
   return (
     <>
+      {/* aria-live anuncia a orientação atual sem interromper a navegação. */}
       <div
         ref={tooltipRef}
         className="guia-tooltip"
@@ -170,6 +186,7 @@ export default function GuiaInterativo() {
           </>
         )}
       </div>
+      {/* A posição e a direção desta seta são preenchidas pelo efeito acima. */}
       <div ref={arrowRef} className="guia-seta"></div>
     </>
   );

@@ -1,7 +1,9 @@
 import React, { useState } from 'react';
 import MapaClimatico from './MapaClimatico';
 
+// Esta seção reúne as informações de contato, o novo mapa e o formulário.
 export default function Contato() {
+  // Eu mantenho os campos controlados pelo React para validar enquanto são digitados.
   const [formData, setFormData] = useState({
     nome: '',
     email: '',
@@ -9,6 +11,7 @@ export default function Contato() {
     mensagem: '',
   });
 
+  // Este estado evita mostrar avisos antes que o usuário toque em cada campo.
   const [touched, setTouched] = useState({
     nome: false,
     email: false,
@@ -16,9 +19,10 @@ export default function Contato() {
     mensagem: false,
   });
 
+  // A confirmação abaixo é apenas visual: este protótipo não envia dados a um servidor.
   const [formSubmitted, setFormSubmitted] = useState(false);
 
-  // Validação do Nome
+  // Aqui eu valido se foram informados nome e sobrenome com tamanho mínimo.
   const getNomeStatus = (valor) => {
     const trimmed = valor.trim();
     if (trimmed === '') {
@@ -38,7 +42,7 @@ export default function Contato() {
     return { valido: true, msg: 'Informação válida ✓', erro: false };
   };
 
-  // Validação do Email
+  // Aqui eu valido o formato básico do e-mail.
   const getEmailStatus = (valor) => {
     const trimmed = valor.trim();
     const regex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
@@ -51,7 +55,7 @@ export default function Contato() {
     return { valido: true, msg: 'Informação válida ✓', erro: false };
   };
 
-  // Formatação e Validação do Telefone
+  // Eu retiro caracteres extras, limito a 11 dígitos e aplico a máscara brasileira.
   const formatTelefone = (inputVal) => {
     let valor = inputVal.replace(/\D/g, '').slice(0, 11);
     let formatado = valor;
@@ -91,7 +95,7 @@ export default function Contato() {
     return { valido: true, msg: 'Informação válida ✓', erro: false };
   };
 
-  // Validação da Mensagem
+  // A mensagem é obrigatória e pode ter até 500 caracteres.
   const getMensagemStatus = (valor) => {
     const trimmed = valor.trim();
     if (trimmed === '') {
@@ -107,6 +111,8 @@ export default function Contato() {
     return { valido: true, msg: 'Informação válida ✓', erro: false };
   };
 
+  // Recalculo todos os estados a cada alteração para habilitar o botão somente
+  // quando os quatro campos estão válidos ao mesmo tempo.
   const rawTelefone = formData.telefone.replace(/\D/g, '');
   const nomeStatus = getNomeStatus(formData.nome);
   const emailStatus = getEmailStatus(formData.email);
@@ -119,6 +125,7 @@ export default function Contato() {
     telefoneStatus.valido &&
     mensagemStatus.valido;
 
+  // Cada manipulador atualiza somente seu campo e marca que ele já foi tocado.
   const handleNomeChange = (e) => {
     setFormData((prev) => ({ ...prev, nome: e.target.value }));
     setTouched((prev) => ({ ...prev, nome: true }));
@@ -144,6 +151,7 @@ export default function Contato() {
     setFormSubmitted(false);
   };
 
+  // Este envio simulado mostra a confirmação e limpa o formulário válido.
   const handleSubmit = (e) => {
     e.preventDefault();
     if (isFormValid) {
@@ -187,10 +195,11 @@ export default function Contato() {
             <p>(11) 97211-8003</p>
           </div>
 
+          {/* É exatamente aqui que eu coloquei o mapa dentro do card de contato. */}
           <MapaClimatico />
         </div>
 
-        {/* FORMULÁRIO */}
+        {/* O formulário usa os estados e as validações declaradas acima. */}
         <form className="contato-form slide-right" onSubmit={handleSubmit}>
           <div>
             <input

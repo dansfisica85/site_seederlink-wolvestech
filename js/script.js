@@ -1,3 +1,7 @@
+// ATENÇÃO: este arquivo pertence à versão antiga em JavaScript puro e não é
+// carregado pelo site React atual. Eu o mantive somente como histórico da migração.
+// A lógica ativa está nos componentes e hooks dentro da pasta src/.
+
 // =========================================================
 // ANIMAÇÕES AO SCROLL
 // =========================================================

@@ -1,19 +1,25 @@
 import React, { useEffect, useRef } from 'react';
 
+// Este popup orienta o usuário a continuar pelo formulário de contato.
 export default function PopupContato({ isOpen, mensagem, onClose }) {
+  // A referência me permite enviar o foco ao botão sem procurar o elemento no DOM.
   const okBtnRef = useRef(null);
 
   useEffect(() => {
-    if (isOpen) {
-      // Foca no botão OK quando o modal abre
-      setTimeout(() => {
-        okBtnRef.current?.focus();
-      }, 50);
-    }
+    if (!isOpen) return undefined;
+
+    // Eu foco o botão OK para facilitar o uso por teclado e leitor de tela.
+    const focusTimer = setTimeout(() => {
+      okBtnRef.current?.focus();
+    }, 50);
+
+    // Se o popup fechar rápido, cancelo o timer antes que ele tente usar o botão.
+    return () => clearTimeout(focusTimer);
   }, [isOpen]);
 
   if (!isOpen) return null;
 
+  // Fecho o popup e, depois da animação, levo o usuário até o contato.
   const handleClose = () => {
     onClose();
     setTimeout(() => {
@@ -24,6 +30,7 @@ export default function PopupContato({ isOpen, mensagem, onClose }) {
     }, 180);
   };
 
+  // O clique no fundo fecha o popup; o clique dentro do cartão não fecha.
   const handleOverlayClick = (e) => {
     if (e.target === e.currentTarget) {
       handleClose();

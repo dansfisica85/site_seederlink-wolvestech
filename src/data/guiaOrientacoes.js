@@ -1,3 +1,5 @@
+// Cada item liga um seletor que existe na página a um título e a uma explicação.
+// O GuiaInterativo usa esta lista para saber onde mostrar sua seta e seu balão.
 export const orientacoesGuia = [
   {
     seletor: "nav a[href='#Home']",

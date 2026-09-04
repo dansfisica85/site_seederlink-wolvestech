@@ -1,3 +1,5 @@
+// Esta lista simples reúne nome, estado e perfil. A Plataforma usa esses textos
+// para filtrar os resultados sem depender de um banco de dados nesta demonstração.
 export const parceirosLista = [
   "Fazenda Boa Terra - SP - produtor",
   "AgroFuturo Investimentos - SP - investidor",
@@ -5,6 +7,8 @@ export const parceirosLista = [
   "Capital Verde - MG - investidor"
 ];
 
+// Aqui eu guardo os detalhes exibidos nos três cards após a escolha do parceiro.
+// Cada chave deve ter exatamente o mesmo nome usado na lista acima.
 export const dadosParceiros = {
   "Fazenda Boa Terra": {
     tempo: "12 anos no mercado",

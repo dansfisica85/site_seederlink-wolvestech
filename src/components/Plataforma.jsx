@@ -1,7 +1,9 @@
 import React, { useState } from 'react';
 import { parceirosLista, dadosParceiros } from '../data/parceiros';
 
+// Nesta seção eu simulo a busca de produtores e investidores cadastrados.
 export default function Plataforma({ onOpenPopup }) {
+  // Estes estados guardam cada escolha e controlam o que aparece na tela.
   const [perfilSelecionado, setPerfilSelecionado] = useState('');
   const [estado, setEstado] = useState('');
   const [buscaRealizada, setBuscaRealizada] = useState(false);
@@ -9,6 +11,7 @@ export default function Plataforma({ onOpenPopup }) {
   const [parceiroAtivo, setParceiroAtivo] = useState(null);
   const [infoParceiro, setInfoParceiro] = useState(null);
 
+  // Ao trocar o perfil, eu limpo a busca anterior para não misturar resultados.
   const selecionarPerfil = (tipo) => {
     setPerfilSelecionado(tipo);
     setBuscaRealizada(false);
@@ -17,6 +20,7 @@ export default function Plataforma({ onOpenPopup }) {
     setInfoParceiro(null);
   };
 
+  // Eu filtro a lista pelo estado e pelo perfil escolhidos pelo usuário.
   const buscarParceiros = () => {
     setBuscaRealizada(true);
     setParceiroAtivo(null);
@@ -36,6 +40,7 @@ export default function Plataforma({ onOpenPopup }) {
     setParceirosEncontrados(encontrados);
   };
 
+  // Quando um nome é escolhido, busco os detalhes no objeto dadosParceiros.
   const selecionarParceiro = (nome) => {
     setParceiroAtivo(nome);
     const dados = dadosParceiros[nome];
@@ -44,6 +49,7 @@ export default function Plataforma({ onOpenPopup }) {
     }
   };
 
+  // Esta ação pede ao App que abra o popup compartilhado.
   const handleSeguirProcesso = () => {
     onOpenPopup(
       'Para seguir com o processo, precisamos que você informe seus dados na seção de Contato.'
@@ -62,7 +68,7 @@ export default function Plataforma({ onOpenPopup }) {
       </div>
 
       <div className="plataforma-grid">
-        {/* LOCALIZADOR DE PARCEIROS */}
+        {/* Este card recebe as escolhas usadas na busca simulada de parceiros. */}
         <div
           className={`feature-card localizador ${infoParceiro ? 'move-left' : ''}`}
           id="localizador"
@@ -85,7 +91,7 @@ export default function Plataforma({ onOpenPopup }) {
             </div>
           </div>
 
-          {/* Campo de estado escondido inicialmente */}
+          {/* Eu só mostro o estado depois que o perfil foi escolhido. */}
           {perfilSelecionado && (
             <div id="estado-container" style={{ marginTop: '20px' }}>
               <p>Agora selecione o estado desejado:</p>
@@ -104,6 +110,7 @@ export default function Plataforma({ onOpenPopup }) {
             </div>
           )}
 
+          {/* Estes blocos são renderizados de acordo com o resultado da busca. */}
           <div id="resultado">
             {buscaRealizada && estado === '' && (
               <p>Por favor, selecione um estado.</p>
@@ -146,7 +153,7 @@ export default function Plataforma({ onOpenPopup }) {
           </div>
         </div>
 
-        {/* CARDS DE INFORMAÇÕES */}
+        {/* Os detalhes aparecem somente quando um parceiro é selecionado. */}
         <div className={`features ${infoParceiro ? 'show' : ''}`} id="cards-info">
           <div className={`feature-card ${infoParceiro ? 'visible' : ''}`} id="card1">
             {infoParceiro && (

@@ -7,9 +7,15 @@ import {
   validateCoordinates,
 } from '../lib/climate';
 
+// São Paulo é apenas o centro inicial para o usuário enxergar o Brasil. Eu não
+// faço nenhuma análise até ele realmente selecionar uma coordenada.
 const INITIAL_POSITION = [-23.5505, -46.6333];
+
+// Espero um instante antes da consulta para evitar várias chamadas enquanto o
+// marcador está sendo ajustado rapidamente.
 const REQUEST_DEBOUNCE_MS = 450;
 
+// Crio o desenho do marcador no próprio código para não depender de outra imagem.
 const PROPERTY_MARKER_ICON = L.divIcon({
   className: 'property-marker-shell',
   html: `
@@ -22,6 +28,7 @@ const PROPERTY_MARKER_ICON = L.divIcon({
   iconAnchor: [20, 50],
 });
 
+// Exibo números com vírgula decimal seguindo o padrão brasileiro.
 function formatNumber(value, digits = 1) {
   return new Intl.NumberFormat('pt-BR', {
     minimumFractionDigits: digits,
@@ -29,12 +36,14 @@ function formatNumber(value, digits = 1) {
   }).format(value);
 }
 
+// Converto a data ISO da API para uma data legível sem mudar o dia pelo fuso.
 function formatDate(isoDate) {
   return new Intl.DateTimeFormat('pt-BR', { timeZone: 'UTC' }).format(
     new Date(`${isoDate}T12:00:00Z`),
   );
 }
 
+// Este pequeno componente mantém as três métricas com o mesmo formato visual.
 function Metric({ icon, label, value, unit }) {
   return (
     <div className="climate-metric">
@@ -51,6 +60,7 @@ function Metric({ icon, label, value, unit }) {
   );
 }
 
+// Esta linha compara o valor calculado com uma faixa e mostra se o critério passou.
 function CriteriaRow({ label, expected, actual, passed }) {
   return (
     <li className={passed ? 'criterion-pass' : 'criterion-review'}>
@@ -66,12 +76,20 @@ function CriteriaRow({ label, expected, actual, passed }) {
   );
 }
 
+// Este é o card completo da nova funcionalidade da Fase 5.
 export default function MapaClimatico() {
+  // As referências guardam objetos externos do Leaflet. Como elas não fazem parte
+  // do JSX, posso atualizá-las sem provocar uma nova renderização do React.
   const mapElementRef = useRef(null);
   const mapRef = useRef(null);
   const markerRef = useRef(null);
   const selectLocationRef = useRef(null);
+
+  // Este contador impede que uma geolocalização antiga substitua uma escolha mais nova.
   const geolocationRequestIdRef = useRef(0);
+
+  // Estes estados representam a escolha do usuário, o formulário de coordenadas,
+  // o resultado recebido e as mensagens mostradas durante a consulta.
   const [selectedLocation, setSelectedLocation] = useState(null);
   const [coordinateDraft, setCoordinateDraft] = useState({
     latitude: '',
@@ -83,12 +101,14 @@ export default function MapaClimatico() {
   const [error, setError] = useState('');
   const [geolocationError, setGeolocationError] = useState('');
 
+  // Centralizo toda forma de seleção (clique, arraste, GPS ou digitação) nesta função.
   const selectLocation = useCallback(({ lat, lng }) => {
     const normalizedLocation = {
       lat: Number(lat.toFixed(5)),
       lng: Number(lng.toFixed(5)),
     };
 
+    // Uma escolha manual invalida qualquer pedido de GPS que ainda esteja aberto.
     geolocationRequestIdRef.current += 1;
     setIsLocating(false);
     setSelectedLocation(normalizedLocation);
@@ -101,8 +121,10 @@ export default function MapaClimatico() {
     setGeolocationError('');
   }, []);
 
+  // O Leaflet usa esta referência para sempre chamar a versão atual da função.
   selectLocationRef.current = selectLocation;
 
+  // Crio o mapa uma única vez quando o componente aparece na página.
   useEffect(() => {
     if (!mapElementRef.current || mapRef.current) return undefined;
 
@@ -111,12 +133,14 @@ export default function MapaClimatico() {
       zoomControl: true,
     }).setView(INITIAL_POSITION, 5);
 
+    // O desenho de ruas e limites vem dos tiles públicos do OpenStreetMap.
     L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png', {
       attribution:
         '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors',
       maxZoom: 19,
     }).addTo(map);
 
+    // Um clique entrega latitude e longitude para o mesmo fluxo de seleção.
     const handleMapClick = ({ latlng }) => {
       selectLocationRef.current?.(latlng);
     };
@@ -124,11 +148,13 @@ export default function MapaClimatico() {
     map.on('click', handleMapClick);
     mapRef.current = map;
 
+    // Recalculo o mapa se o card mudar de tamanho, principalmente em telas menores.
     const resizeObserver = new ResizeObserver(() => map.invalidateSize(false));
     resizeObserver.observe(mapElementRef.current);
     window.setTimeout(() => map.invalidateSize(false), 0);
 
     return () => {
+      // Ao sair da página eu removo eventos e o mapa para não prender recursos na memória.
       resizeObserver.disconnect();
       map.off('click', handleMapClick);
       map.remove();
@@ -137,11 +163,13 @@ export default function MapaClimatico() {
     };
   }, []);
 
+  // Sincronizo o marcador do Leaflet sempre que o estado do React muda.
   useEffect(() => {
     const map = mapRef.current;
     if (!map || !selectedLocation) return;
 
     if (!markerRef.current) {
+      // Na primeira seleção eu crio um marcador acessível, arrastável e controlável.
       const marker = L.marker([selectedLocation.lat, selectedLocation.lng], {
         alt: 'Marcador da propriedade selecionada',
         draggable: true,
@@ -150,6 +178,7 @@ export default function MapaClimatico() {
         title: 'Arraste para ajustar a localização',
       }).addTo(map);
 
+      // Quando o arraste termina, a nova posição volta ao fluxo central de seleção.
       marker.on('dragend', () => {
         const { lat, lng } = marker.getLatLng();
         selectLocationRef.current?.({ lat, lng });
@@ -161,9 +190,11 @@ export default function MapaClimatico() {
     }
   }, [selectedLocation]);
 
+  // Depois da seleção, consulto as APIs climáticas e guardo o resultado no estado.
   useEffect(() => {
     if (!selectedLocation) return undefined;
 
+    // O AbortController cancela a consulta anterior se o usuário trocar o ponto.
     const controller = new AbortController();
     let isActive = true;
 
@@ -171,6 +202,7 @@ export default function MapaClimatico() {
     setResult(null);
     setError('');
 
+    // O temporizador implementa a pequena espera definida no início do arquivo.
     const requestTimer = window.setTimeout(() => {
       fetchClimateForLocation(selectedLocation.lat, selectedLocation.lng, {
         signal: controller.signal,
@@ -192,12 +224,14 @@ export default function MapaClimatico() {
     }, REQUEST_DEBOUNCE_MS);
 
     return () => {
+      // Esta limpeza evita que um resultado antigo apareça sobre uma seleção nova.
       isActive = false;
       window.clearTimeout(requestTimer);
       controller.abort();
     };
   }, [selectedLocation]);
 
+  // Peço a localização do navegador somente depois do clique do usuário.
   const useMyLocation = () => {
     if (!navigator.geolocation) {
       setGeolocationError('Seu navegador não oferece geolocalização. Selecione o ponto no mapa.');
@@ -211,6 +245,7 @@ export default function MapaClimatico() {
 
     navigator.geolocation.getCurrentPosition(
       ({ coords }) => {
+        // Ignoro a resposta se outra escolha já aconteceu durante a espera.
         if (requestId !== geolocationRequestIdRef.current) return;
         const location = { lat: coords.latitude, lng: coords.longitude };
         selectLocation(location);
@@ -227,6 +262,7 @@ export default function MapaClimatico() {
     );
   };
 
+  // Esta alternativa permite selecionar o local pelo teclado ou colar coordenadas.
   const selectTypedCoordinates = (event) => {
     event.preventDefault();
     const latitude = Number(coordinateDraft.latitude.replace(',', '.'));
@@ -243,6 +279,7 @@ export default function MapaClimatico() {
 
   return (
     <div className="info-card climate-location-card fade-in">
+      {/* Primeiro eu explico como selecionar o local e ofereço o botão de GPS. */}
       <div className="climate-card-heading">
         <span className="climate-card-icon" aria-hidden="true">📍</span>
         <div>
@@ -268,6 +305,7 @@ export default function MapaClimatico() {
         <p className="climate-inline-error" role="alert">{geolocationError}</p>
       )}
 
+      {/* Esta div vazia é o recipiente em que o Leaflet desenha o mapa. */}
       <div
         ref={mapElementRef}
         className="climate-map"
@@ -281,6 +319,7 @@ export default function MapaClimatico() {
         Você também pode arrastar o marcador para ajustar o ponto.
       </p>
 
+      {/* O formulário torna a seleção também acessível sem usar o mouse. */}
       <form className="coordinate-form" onSubmit={selectTypedCoordinates}>
         <label htmlFor="property-latitude">
           Latitude
@@ -326,6 +365,7 @@ export default function MapaClimatico() {
         </p>
       )}
 
+      {/* aria-live anuncia carregamento, erro ou resultado quando eles mudam. */}
       <div className="climate-feedback" aria-live="polite">
         {isLoading && (
           <div className="climate-loading" role="status">
@@ -344,6 +384,7 @@ export default function MapaClimatico() {
 
         {result && !isLoading && (
           <div className="climate-result" data-testid="climate-result">
+            {/* As condições atuais ajudam o usuário a reconhecer o clima do momento. */}
             <div className="climate-result-section">
               <h4>Condições atuais</h4>
               <div className="climate-metrics-grid">
@@ -368,6 +409,7 @@ export default function MapaClimatico() {
               </div>
             </div>
 
+            {/* Estas são as médias dos dias históricos completos aceitos pelo cálculo. */}
             <div className="climate-result-section historical-section">
               <h4>Média anual recente (últimos 12 meses)</h4>
               <p className="historical-period">
@@ -397,6 +439,7 @@ export default function MapaClimatico() {
               </div>
             </div>
 
+            {/* Aqui eu mostro, separadamente, cada comparação feita pela regra. */}
             <div className="climate-result-section criteria-section">
               <h4>Triagem climática demonstrativa</h4>
               <ul className="climate-criteria">
@@ -421,12 +464,14 @@ export default function MapaClimatico() {
               </ul>
             </div>
 
+            {/* Este aviso evita tratar a demonstração como laudo ou decisão financeira. */}
             <p className="climate-disclaimer">
               Esta triagem usa referências acadêmicas indicativas para soja e
               tomate. Ela não determina aptidão agrícola nem, sozinha, a
               concessão de crédito.
             </p>
 
+            {/* Se o histórico veio da contingência, explico por que não há aprovação. */}
             {result.assessment.dataQualityReview && (
               <p className="climate-provider-warning" role="status">
                 O histórico principal estava temporariamente indisponível. Os
@@ -436,6 +481,7 @@ export default function MapaClimatico() {
               </p>
             )}
 
+            {/* A mensagem final usa exatamente o texto exigido no enunciado. */}
             <div
               className={`credit-message ${
                 result.assessment.suitable ? 'credit-approved' : 'credit-review'
@@ -447,6 +493,7 @@ export default function MapaClimatico() {
               <p>{result.assessment.message}</p>
             </div>
 
+            {/* No final eu mostro as fontes utilizadas e as limitações dos dados. */}
             <p className="climate-source">
               Condições atuais: {' '}
               <a
