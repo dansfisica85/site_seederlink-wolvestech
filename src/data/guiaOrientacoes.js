@@ -132,19 +132,19 @@ export const orientacoesGuia = [
     texto: "Use estes cards para avaliar se o parceiro combina com seu objetivo antes de continuar."
   },
   {
-    seletor: ".info-card:nth-child(1)",
+    seletor: ".contact-detail-email",
     titulo: "Email de contato",
-    texto: "Use este dado se preferir falar diretamente por email com a equipe SeederLink."
+    texto: "Este é um dado demonstrativo usado para apresentar o canal de email da SeederLink."
   },
   {
-    seletor: ".info-card:nth-child(2)",
+    seletor: ".contact-detail-phone",
     titulo: "Telefone",
-    texto: "Use este contato para uma conversa mais direta com a equipe."
+    texto: "Este número fictício representa o atendimento direto da equipe."
   },
   {
-    seletor: ".info-card:nth-child(3)",
+    seletor: ".climate-location-card",
     titulo: "Localizacao e clima",
-    texto: "Selecione a propriedade no mapa para consultar as condicoes atuais, a media anual recente e a triagem climatica demonstrativa."
+    texto: "Selecione a propriedade no mapa para relacionar a localizacao, as condicoes climaticas e a pre-analise de credito."
   },
   {
     seletor: ".contato-form input[type='text']",

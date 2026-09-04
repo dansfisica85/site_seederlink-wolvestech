@@ -173,102 +173,165 @@ export default function Contato() {
 
   return (
     <section id="Contato">
-      <div className="section-top fade-in">
-        <span className="section-tag">Contato</span>
+      <div className="contato-shell">
+        <div className="section-top fade-in">
+          <span className="section-tag">Contato</span>
 
-        <h2>Fale Conosco</h2>
+          <h2>Fale Conosco</h2>
 
-        <p>
-          Entre em contato e participe da transformação sustentável.
-        </p>
-      </div>
-
-      <div className="contato-grid">
-        <div className="contato-info slide-left">
-          <div className="info-card fade-in">
-            <h3>Email</h3>
-            <p>seederlink.comercial@gmail.com</p>
-          </div>
-
-          <div className="info-card fade-in">
-            <h3>Telefone</h3>
-            <p>(11) 97211-8003</p>
-          </div>
-
-          {/* É exatamente aqui que eu coloquei o mapa dentro do card de contato. */}
-          <MapaClimatico />
+          <p>
+            Entre em contato e conheça as possibilidades para sua propriedade.
+          </p>
         </div>
 
-        {/* O formulário usa os estados e as validações declaradas acima. */}
-        <form className="contato-form slide-right" onSubmit={handleSubmit}>
-          <div>
-            <input
-              type="text"
-              placeholder="Nome e Sobrenome"
-              value={formData.nome}
-              onChange={handleNomeChange}
-              required
-            />
-            {touched.nome && (
-              <small className={nomeStatus.erro ? 'erro-msg' : 'sucesso-msg'}>
-                {nomeStatus.msg}
+        {/* Estes dados são fictícios e servem somente para apresentar o projeto. */}
+        <div
+          className="contato-details-grid fade-in"
+          aria-label="Canais demonstrativos de atendimento"
+        >
+          <article className="info-card contact-detail-card contact-detail-email">
+            <span className="contact-detail-icon" aria-hidden="true">
+              <i className="bi bi-envelope"></i>
+            </span>
+            <div>
+              <span className="contact-detail-label">E-mail</span>
+              <strong>contato@seederlink.example</strong>
+              <small>Dado demonstrativo</small>
+            </div>
+          </article>
+
+          <article className="info-card contact-detail-card contact-detail-phone">
+            <span className="contact-detail-icon" aria-hidden="true">
+              <i className="bi bi-telephone"></i>
+            </span>
+            <div>
+              <span className="contact-detail-label">Telefone</span>
+              <strong>(11) 90000-0000</strong>
+              <small>Dado demonstrativo</small>
+            </div>
+          </article>
+
+          <article className="info-card contact-detail-card contact-detail-service">
+            <span className="contact-detail-icon" aria-hidden="true">
+              <i className="bi bi-headset"></i>
+            </span>
+            <div>
+              <span className="contact-detail-label">Atendimento remoto</span>
+              <strong>Segunda a sexta</strong>
+              <small>Das 9h às 17h</small>
+            </div>
+          </article>
+        </div>
+
+        <div className="contato-workspace">
+          {/* O formulário ocupa a coluna menor e permanece alinhado ao início do mapa. */}
+          <form
+            className="contato-form slide-left"
+            onSubmit={handleSubmit}
+            aria-labelledby="contato-form-title"
+          >
+            <div className="contato-form-heading">
+              <span>Mensagem</span>
+              <h3 id="contato-form-title">Conte sobre sua propriedade</h3>
+              <p>
+                Preencha os campos abaixo para que nossa equipe possa retornar o
+                contato.
+              </p>
+            </div>
+
+            <div className="contato-form-field">
+              <label htmlFor="contato-nome">Nome e sobrenome</label>
+              <input
+                id="contato-nome"
+                name="nome"
+                type="text"
+                placeholder="Ex.: Maria da Silva"
+                autoComplete="name"
+                value={formData.nome}
+                onChange={handleNomeChange}
+                required
+              />
+              {touched.nome && (
+                <small className={nomeStatus.erro ? 'erro-msg' : 'sucesso-msg'}>
+                  {nomeStatus.msg}
+                </small>
+              )}
+            </div>
+
+            <div className="contato-form-field">
+              <label htmlFor="contato-email">Seu e-mail</label>
+              <input
+                id="contato-email"
+                name="email"
+                type="email"
+                placeholder="nome@exemplo.com"
+                autoComplete="email"
+                value={formData.email}
+                onChange={handleEmailChange}
+                required
+              />
+              {touched.email && (
+                <small className={emailStatus.erro ? 'erro-msg' : 'sucesso-msg'}>
+                  {emailStatus.msg}
+                </small>
+              )}
+            </div>
+
+            <div className="contato-form-field">
+              <label htmlFor="contato-telefone">Celular com DDD</label>
+              <input
+                id="contato-telefone"
+                name="telefone"
+                type="tel"
+                placeholder="(DDD) 9 9999-9999"
+                autoComplete="tel"
+                value={formData.telefone}
+                onChange={handleTelefoneChange}
+                required
+              />
+              {touched.telefone && (
+                <small className={telefoneStatus.erro ? 'erro-msg' : 'sucesso-msg'}>
+                  {telefoneStatus.msg}
+                </small>
+              )}
+            </div>
+
+            <div className="contato-form-field">
+              <div className="contato-field-heading">
+                <label htmlFor="contato-mensagem">Mensagem</label>
+                <small>{formData.mensagem.length}/500</small>
+              </div>
+              <textarea
+                id="contato-mensagem"
+                name="mensagem"
+                  rows={6}
+                  maxLength={500}
+                placeholder="Conte brevemente o que você produz e qual apoio procura."
+                value={formData.mensagem}
+                onChange={handleMensagemChange}
+                required
+              ></textarea>
+              {touched.mensagem && (
+                <small className={mensagemStatus.erro ? 'erro-msg' : 'sucesso-msg'}>
+                  {mensagemStatus.msg}
+                </small>
+              )}
+            </div>
+
+            <button type="submit" disabled={!isFormValid}>
+              Enviar mensagem
+            </button>
+
+            {formSubmitted && (
+              <small className="mensagem-sucesso" role="status">
+                Mensagem enviada com sucesso!
               </small>
             )}
-          </div>
+          </form>
 
-          <div>
-            <input
-              type="email"
-              placeholder="seu-email@domínio.com"
-              value={formData.email}
-              onChange={handleEmailChange}
-              required
-            />
-            {touched.email && (
-              <small className={emailStatus.erro ? 'erro-msg' : 'sucesso-msg'}>
-                {emailStatus.msg}
-              </small>
-            )}
-          </div>
-
-          <div>
-            <input
-              type="tel"
-              placeholder="(DDD) 9 9999-9999"
-              value={formData.telefone}
-              onChange={handleTelefoneChange}
-              required
-            />
-            {touched.telefone && (
-              <small className={telefoneStatus.erro ? 'erro-msg' : 'sucesso-msg'}>
-                {telefoneStatus.msg}
-              </small>
-            )}
-          </div>
-
-          <div>
-            <textarea
-              placeholder="Digite sua mensagem"
-              value={formData.mensagem}
-              onChange={handleMensagemChange}
-            ></textarea>
-            {touched.mensagem && (
-              <small className={mensagemStatus.erro ? 'erro-msg' : 'sucesso-msg'}>
-                {mensagemStatus.msg}
-              </small>
-            )}
-          </div>
-
-          <button type="submit" disabled={!isFormValid}>
-            Enviar
-          </button>
-
-          {formSubmitted && (
-            <small className="mensagem-sucesso" style={{ display: 'block' }}>
-              Mensagem enviada com sucesso!
-            </small>
-          )}
-        </form>
+          {/* O mapa recebe mais espaço porque concentra a análise da propriedade. */}
+          <MapaClimatico />
+        </div>
       </div>
     </section>
   );

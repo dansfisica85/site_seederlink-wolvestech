@@ -283,12 +283,25 @@ export default function MapaClimatico() {
       <div className="climate-card-heading">
         <span className="climate-card-icon" aria-hidden="true">📍</span>
         <div>
-          <h3>Localização e análise climática</h3>
+          <span className="climate-card-eyebrow">Pré-análise da propriedade</span>
+          <h3>Localização e características climáticas</h3>
           <p>
-            Clique no mapa para posicionar o marcador da propriedade ou use sua
-            localização atual.
+            Clique no mapa, arraste o marcador ou informe as coordenadas para
+            indicar a posição aproximada da propriedade.
           </p>
         </div>
+      </div>
+
+      {/* Este aviso explica por que a posição da propriedade é necessária. */}
+      <div className="climate-purpose" role="note">
+        <i className="bi bi-info-circle-fill" aria-hidden="true"></i>
+        <p>
+          <strong>Por que selecionar a propriedade no mapa?</strong>
+          A posição permite relacionar o clima da região — como temperatura,
+          umidade e radiação solar — às características físicas da propriedade
+          informadas durante o atendimento. Esse conjunto de dados apoia a
+          pré-análise do seu crédito e orienta os próximos passos.
+        </p>
       </div>
 
       <button
@@ -298,7 +311,7 @@ export default function MapaClimatico() {
         disabled={isLocating}
       >
         <i className="bi bi-crosshair" aria-hidden="true"></i>
-        {isLocating ? 'Localizando…' : 'Usar minha localização'}
+        {isLocating ? 'Localizando…' : 'Usar localização do dispositivo'}
       </button>
 
       {geolocationError && (
