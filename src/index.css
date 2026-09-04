@@ -1076,65 +1076,107 @@ CONTATO
 /* SEÇÃO DE CONTATO */
 
 #Contato{
-
     background:#AFC2A5;
+    overflow:hidden;
 }
 
+/* Limito a largura em monitores grandes para os blocos não ficarem espalhados. */
+.contato-shell{
+    width:min(1440px, 100%);
+    margin:0 auto;
+}
 
-/* GRADE DO CONTATO */
-
-.contato-grid{
-
+/* Os três canais ficam em uma faixa equilibrada antes do formulário e do mapa. */
+.contato-details-grid{
     display:grid;
+    grid-template-columns:repeat(3, minmax(0, 1fr));
+    gap:18px;
+    margin-bottom:28px;
+}
 
-    grid-template-columns:1fr 1.2fr;
+.contact-detail-card{
+    display:grid;
+    grid-template-columns:auto minmax(0, 1fr);
+    align-items:center;
+    gap:14px;
+    min-width:0;
+    min-height:118px;
+    padding:22px 24px;
+}
 
-    gap:50px;
+.contact-detail-card > div{
+    min-width:0;
+}
 
+.contact-detail-icon{
+    display:grid;
+    width:46px;
+    height:46px;
+    place-items:center;
+    border-radius:14px;
+    background:#DDEBD7;
+    color:#1F5A24;
+    font-size:20px;
+}
+
+.contact-detail-label,
+.contact-detail-card strong,
+.contact-detail-card small{
+    display:block;
+}
+
+.contact-detail-label{
+    margin-bottom:4px;
+    color:#667064;
+    font-size:12px;
+    font-weight:700;
+    letter-spacing:0.06em;
+    text-transform:uppercase;
+}
+
+.contact-detail-card strong{
+    overflow-wrap:anywhere;
+    color:#1F5A24;
+    font-size:clamp(14px, 1.25vw, 17px);
+    line-height:1.35;
+}
+
+.contact-detail-card small{
+    margin-top:4px;
+    color:#748074;
+    font-size:12px;
+}
+
+/* O formulário fica na coluna compacta e a análise recebe a coluna maior. */
+.contato-workspace{
+    display:grid;
+    grid-template-columns:minmax(300px, 0.72fr) minmax(0, 1.38fr);
     align-items:start;
+    gap:28px;
 }
-
-
-/* INFORMAÇÕES DE CONTATO */
-
-.contato-info{
-
-    display:flex;
-
-    flex-direction:column;
-
-    gap:25px;
-}
-
 
 /* CARD DE INFORMAÇÃO */
 
 .info-card{
-
     background:#F3F7F0;
-
-    padding:35px;
-
     border-radius:24px;
-
     border:1px solid rgba(31,90,36,0.05);
-
     box-shadow:
     0 12px 32px rgba(28,48,31,0.08);
-
-    transition:0.3s ease;
+    transition:transform 0.3s ease, box-shadow 0.3s ease;
 }
 
 .info-card:hover{
-
-    transform:translateY(-6px);
+    transform:translateY(-3px);
+    box-shadow:0 16px 36px rgba(28,48,31,0.11);
 }
 
 
 /* MAPA E TRIAGEM CLIMÁTICA DO CARD DE CONTATO */
 
 .climate-location-card{
-    padding:28px;
+    min-width:0;
+    padding:clamp(22px, 2.4vw, 34px);
     overflow:hidden;
 }
 
@@ -1152,7 +1194,8 @@ CONTATO
 .climate-card-heading h3{
     margin:0 0 6px;
     color:#1F5A24;
-    font-size:20px;
+    font-size:clamp(19px, 2vw, 24px);
+    line-height:1.25;
 }
 
 .climate-card-heading p{
@@ -1160,6 +1203,16 @@ CONTATO
     color:#566255;
     font-size:14px;
     line-height:1.55;
+}
+
+.climate-card-eyebrow{
+    display:block;
+    margin-bottom:5px;
+    color:#2E7D32;
+    font-size:11px;
+    font-weight:800;
+    letter-spacing:0.08em;
+    text-transform:uppercase;
 }
 
 .climate-card-icon{
@@ -1171,6 +1224,37 @@ CONTATO
     border-radius:12px;
     background:#DDEBD7;
     font-size:22px;
+}
+
+.climate-purpose{
+    display:grid;
+    grid-template-columns:auto minmax(0, 1fr);
+    gap:11px;
+    margin:0 0 16px;
+    padding:14px 16px;
+    border:1px solid #C6D9BC;
+    border-radius:14px;
+    background:#EAF3E5;
+    color:#3F503F;
+}
+
+.climate-purpose i{
+    margin-top:2px;
+    color:#2E7D32;
+    font-size:17px;
+}
+
+.climate-purpose p{
+    margin:0;
+    font-size:12px;
+    line-height:1.55;
+}
+
+.climate-purpose strong{
+    display:block;
+    margin-bottom:3px;
+    color:#1F5A24;
+    font-size:13px;
 }
 
 .location-button{
@@ -1208,7 +1292,7 @@ CONTATO
 
 .climate-map{
     width:100%;
-    height:310px;
+    height:clamp(290px, 31vw, 430px);
     border:1px solid #B8C9B2;
     border-radius:18px;
     overflow:hidden;
@@ -1588,23 +1672,71 @@ CONTATO
 /* FORMULÁRIO DE CONTATO */
 
 .contato-form{
-
+    position:sticky;
+    top:108px;
+    min-width:0;
     background:#F4F8F1;
-
-    padding:40px;
-
-    border-radius:28px;
-
+    padding:clamp(24px, 2.6vw, 36px);
+    border-radius:24px;
     display:flex;
-
     flex-direction:column;
-
-    gap:20px;
-
+    gap:17px;
     border:1px solid rgba(31,90,36,0.05);
-
     box-shadow:
     0 12px 32px rgba(28,48,31,0.08);
+}
+
+.contato-form-heading{
+    margin-bottom:3px;
+}
+
+.contato-form-heading > span{
+    display:block;
+    margin-bottom:5px;
+    color:#2E7D32;
+    font-size:11px;
+    font-weight:800;
+    letter-spacing:0.08em;
+    text-transform:uppercase;
+}
+
+.contato-form-heading h3{
+    margin:0 0 8px;
+    color:#1F5A24;
+    font-size:clamp(20px, 2vw, 25px);
+    line-height:1.25;
+}
+
+.contato-form-heading p{
+    margin:0;
+    color:#5E6A5D;
+    font-size:13px;
+    line-height:1.55;
+}
+
+.contato-form-field{
+    min-width:0;
+}
+
+.contato-form-field > label,
+.contato-field-heading label{
+    display:block;
+    margin-bottom:6px;
+    color:#354635;
+    font-size:12px;
+    font-weight:700;
+}
+
+.contato-field-heading{
+    display:flex;
+    align-items:center;
+    justify-content:space-between;
+    gap:12px;
+}
+
+.contato-field-heading small{
+    color:#718071;
+    font-size:11px;
 }
 
 
@@ -1615,21 +1747,26 @@ CONTATO
 
     width: 100%;
 
-    padding:18px;
-
-    border-radius:14px;
-
+    min-width:0;
+    padding:14px 15px;
+    border-radius:12px;
     border:1px solid #CBD5C0;
-
     outline:none;
-
     background:#ffffff;
-
     font-family: 'Inter', sans-serif;
+    color:#263726;
+    font-size:16px;
+    transition:border-color 0.2s ease, box-shadow 0.2s ease;
+}
 
-    font-size: 16px;
+.contato-form textarea{
+    min-height:138px;
+    resize:vertical;
+}
 
-    transition:0.3s ease;
+.contato-form input::placeholder,
+.contato-form textarea::placeholder{
+    color:#8A9688;
 }
 
 .contato-form input:focus,
@@ -1644,40 +1781,32 @@ CONTATO
 
 .erro-msg {
   display: block;
-  color: red;
-  font-size: 14px;
-  margin-top: 4px;
+  color:#A1362F;
+  font-size:12px;
+  margin-top:5px;
 }
 
 .sucesso-msg {
   display: block;
-  color: green;
-  font-size: 14px;
-  margin-top: 4px;
+  color:#1F6A28;
+  font-size:12px;
+  margin-top:5px;
 }
 
 
 /* BOTÃO DO FORMULÁRIO */
 
 .contato-form button{
-
     border:none;
-
-    padding:18px;
-
-    border-radius:14px;
-
+    width:100%;
+    padding:15px 18px;
+    border-radius:12px;
     background:#1F5A24;
-
     color:white;
-
-    font-weight:600;
-
-    font-size: 16px;
-
+    font-weight:700;
+    font-size:15px;
     cursor: pointer;
-
-    transition:0.3s ease;
+    transition:background 0.2s ease, transform 0.2s ease;
 }
 
 .contato-form button:hover:not(:disabled){
@@ -1687,22 +1816,30 @@ CONTATO
     transform:translateY(-2px);
 }
 
+.contato-form button:focus-visible{
+    outline:3px solid rgba(46,125,50,0.28);
+    outline-offset:3px;
+}
+
 
 /* Estado desabilitado do botão */
 .contato-form button:disabled {
-  background: #9aa89a;   /* tom apagado */
-  color: #e0e0e0;        /* texto mais claro */
-  cursor: not-allowed;   /* cursor de bloqueio */
-  opacity: 0.6;          /* efeito de "apagado" */
-  box-shadow: none;      /* remove sombra */
+  background:#899A88;
+  color:#F2F5F1;
+  cursor:not-allowed;
+  opacity:0.72;
+  box-shadow:none;
 }
 
 .mensagem-sucesso {
-  display: none;          /* escondida por padrão */
-  color: #1F5A24;         /* mesma cor do botão */
-  font-size: 15px;
-  font-weight: 600;
-  margin-top: 12px;
+  display:block;
+  padding:11px 13px;
+  border-radius:10px;
+  background:#E2F1DE;
+  color:#1F5A24;
+  font-size:13px;
+  font-weight:700;
+  text-align:center;
 }
 
 
@@ -1744,8 +1881,7 @@ RESPONSIVIDADE
 @media(max-width:1024px){
 
     .home-content,
-    .plataforma-grid,
-    .contato-grid{
+    .plataforma-grid{
 
         grid-template-columns:1fr;
 
@@ -1764,6 +1900,30 @@ RESPONSIVIDADE
 
         font-size:58px;
     }
+
+    /* Em tablets, mapa e formulário passam a usar toda a largura disponível. */
+    .contato-workspace{
+        grid-template-columns:1fr;
+    }
+
+    .climate-location-card{
+        order:1;
+    }
+
+    .contato-form{
+        position:static;
+        order:2;
+    }
+}
+
+@media(max-width:860px){
+    .contato-details-grid{
+        grid-template-columns:repeat(2, minmax(0, 1fr));
+    }
+
+    .contact-detail-service{
+        grid-column:1 / -1;
+    }
 }
 
 
@@ -1777,16 +1937,38 @@ RESPONSIVIDADE
 
         height:auto;
 
-        padding:20px;
+        gap:9px;
+
+        padding:12px 16px;
     }
 
     nav ul{
 
-        margin-top:15px;
+        width:100%;
+
+        margin-top:0;
 
         flex-wrap:wrap;
 
         justify-content:center;
+
+        column-gap:14px;
+
+        row-gap:7px;
+    }
+
+    nav ul li a{
+        font-size:12px;
+        white-space:nowrap;
+    }
+
+    .logo{
+        font-size:24px;
+    }
+
+    /* Este espaço impede o menu fixo de cobrir o selo da seção de contato. */
+    #Contato{
+        scroll-margin-top:32px;
     }
 
     .section-top h2,
@@ -2010,6 +2192,17 @@ GUIA INTERATIVO
 }
 
 @media(max-width:768px){
+    /* No celular, as entradas usam movimento vertical e não aumentam a largura. */
+    .slide-left,
+    .slide-right{
+        transform:translateY(28px);
+    }
+
+    .slide-left.visible,
+    .slide-right.visible{
+        transform:translate(0, 0);
+    }
+
     .guia-tooltip{
         padding:15px 16px;
     }
@@ -2033,12 +2226,35 @@ GUIA INTERATIVO
 }
 
 @media(max-width:620px){
+    .contato-details-grid{
+        grid-template-columns:1fr;
+        gap:12px;
+        margin-bottom:18px;
+    }
+
+    .contact-detail-service{
+        grid-column:auto;
+    }
+
+    .contact-detail-card{
+        min-height:0;
+        padding:18px;
+    }
+
+    .contato-workspace{
+        gap:18px;
+    }
+
+    .contato-form{
+        padding:20px;
+    }
+
     .climate-location-card{
         padding:20px;
     }
 
     .climate-map{
-        height:270px;
+        height:300px;
     }
 
     .coordinate-form{
@@ -2047,6 +2263,11 @@ GUIA INTERATIVO
 
     .coordinate-form button{
         grid-column:1;
+    }
+
+    /* Dezesseis pixels evita o zoom automático dos campos em celulares. */
+    .coordinate-form input{
+        font-size:16px;
     }
 
     .climate-metrics-grid{

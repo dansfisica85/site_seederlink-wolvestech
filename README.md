@@ -54,6 +54,17 @@ O antigo card estático de localização foi substituído pelo componente [`src/
 - autorizar a geolocalização do navegador;
 - digitar latitude e longitude, inclusive usando vírgula decimal.
 
+A área de contato foi reorganizada em uma faixa com dados demonstrativos e uma
+grade principal proporcional. Em telas grandes, o formulário usa a coluna mais
+compacta e o mapa/análise recebe a coluna maior. Em tablets e celulares, os
+blocos passam para uma única coluna e o mapa aparece antes do formulário. Os
+campos mantêm rótulos visíveis, tamanho confortável para toque e fonte de 16 px
+nos celulares para evitar o zoom automático do navegador.
+
+Antes do mapa, um aviso explica por que a localização é solicitada: ela permite
+relacionar as condições climáticas da região às características físicas da
+propriedade informadas no atendimento, apoiando a pré-análise de crédito.
+
 ### 4. Dados climáticos atuais
 
 Depois da seleção, o site consulta temperatura do ar, umidade relativa e radiação solar atuais na Open-Meteo. O estado de carregamento aparece enquanto a requisição está em andamento, e uma falha é mostrada separadamente, sem ser confundida com reprovação.
@@ -80,7 +91,7 @@ Se o histórico da Open-Meteo falhar ou passar do limite de cinco segundos, o si
 
 ### 9. Acessibilidade e responsividade
 
-O mapa tem nome acessível, o marcador pode ser ajustado, as coordenadas podem ser digitadas sem mouse e as mudanças são anunciadas por regiões `aria-live`. O layout contém regras específicas para telas menores.
+O mapa tem nome acessível, o marcador pode ser ajustado, as coordenadas podem ser digitadas sem mouse e as mudanças são anunciadas por regiões `aria-live`. O formulário possui rótulos ligados aos campos, preenchimento automático apropriado e contador da mensagem. A grade usa pontos de quebra para monitor, notebook, tablet e celular, sem depender de uma largura fixa.
 
 ### 10. Testes, CI/CD e documentação
 
