@@ -36,10 +36,9 @@ export default function Hero() {
             </a>
           </div>
 
-          {/* Este link ainda aponta para o pitch publicado da Sprint 4.
-              Ele deve ser trocado pelo pitch da Fase 5 depois da nova gravação. */}
+          {/* Aqui eu deixo o pitch da Fase 5 visível já na página inicial. */}
           <a
-            href="https://youtu.be/bRALz0SSVh0?si=8o290JzSlp8dHbQC"
+            href="https://youtu.be/U3APiszPvXw?is=fQs4xrjZObVEhg0c"
             target="_blank"
             rel="noopener noreferrer"
             className="pitch-link fade-in"
@@ -52,7 +51,7 @@ export default function Hero() {
               <strong>
                 Assistir Pitch do Projeto
               </strong>
-              <p>Conheça o site da SeederLink!</p>
+              <p>Conheça a nova análise climática da SeederLink!</p>
             </div>
           </a>
         </div>
