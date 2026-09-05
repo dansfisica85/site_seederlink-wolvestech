@@ -7,16 +7,16 @@ Link do repositório:
 https://github.com/dansfisica85/site_seederlink-wolvestech
 
 Link do pitch da Fase 5 (até 3 minutos):
-PENDENTE - gravar, publicar e substituir esta linha.
+https://youtu.be/U3APiszPvXw?is=fQs4xrjZObVEhg0c
 
 Integrantes do grupo:
-PENDENTE - confirmar os nomes completos antes de gerar o PDF da entrega.
+DAVI ANTONINO NUNES DA SILVA - RM 571722
+MATEUS AUGUSTO DA COSTA OLIVEIRA GONÇALVES - RM 570166
+JOHN NICHOLAS FIALHO SILVA - RM 572119
+MATHEUS RISSATO CRISPIM - RM 571038
+ISAAC NILTON ALVARENGA DA SILVA - RM 573766
 
-ATENÇÃO:
-O link que está atualmente na Home leva ao vídeo da Sprint 4 e não deve ser
-apresentado como pitch da Fase 5. Depois da nova gravação, é necessário trocar
-esse endereço em src/components/Hero.jsx.
-
-O arquivo final solicitado pela FIAP deve ser um PDF com os nomes completos,
-o link do novo vídeo e o link do deploy. Teste os dois links depois de gerar
-o PDF. O arquivo do vídeo não deve ser colocado dentro do ZIP.
+CONFERÊNCIA FINAL:
+O endereço do pitch da Fase 5 também foi colocado na Home, em
+src/components/Hero.jsx. O PDF da entrega contém os nomes completos, o link do
+vídeo e o link do deploy. O arquivo do vídeo não faz parte do ZIP acadêmico.

@@ -19,11 +19,21 @@ SeederLink é um projeto acadêmico da FIAP que aproxima investidores de impacto
 | Testes automatizados | 8 casos implementados |
 | Deploy público | Concluído no GitHub Pages |
 | README e comentários em português | Concluídos |
-| Pitch específico da Fase 5, até 3 minutos | **Pendente de gravação** |
-| Troca do link do vídeo na Home | **Pendente do novo link** |
-| PDF com integrantes, pitch e deploy | **Pendente dos nomes e do novo link** |
+| Pitch específico da Fase 5, até 3 minutos | Concluído e publicado |
+| Troca do link do vídeo na Home | Concluída |
+| PDF com integrantes, pitch e deploy | Concluído para o pacote final |
 
-O vídeo que aparece atualmente na Home é **“ATIVIDADE – AGROTECH - Sprint 4”**. Ele foi mantido para não inventar um endereço, mas não deve ser apresentado como pitch da Fase 5. O local exato para a troca está em [`src/components/Hero.jsx`](src/components/Hero.jsx). Há um roteiro pronto em [`docs/ROTEIRO_PITCH_FASE_5.md`](docs/ROTEIRO_PITCH_FASE_5.md) e um modelo com o link do deploy em [`ENTREGA_FIAP_FASE_5.txt`](ENTREGA_FIAP_FASE_5.txt).
+O pitch da Fase 5 está publicado no [YouTube](https://youtu.be/U3APiszPvXw?is=fQs4xrjZObVEhg0c) e aparece na Home por meio do link definido em [`src/components/Hero.jsx`](src/components/Hero.jsx). O roteiro está em [`docs/ROTEIRO_PITCH_FASE_5.md`](docs/ROTEIRO_PITCH_FASE_5.md), e os dados formais da entrega estão em [`ENTREGA_FIAP_FASE_5.txt`](ENTREGA_FIAP_FASE_5.txt).
+
+### Integrantes
+
+| Integrante | RM |
+| --- | --- |
+| Davi Antonino Nunes da Silva | 571722 |
+| Mateus Augusto da Costa Oliveira Gonçalves | 570166 |
+| John Nicholas Fialho Silva | 572119 |
+| Matheus Rissato Crispim | 571038 |
+| Isaac Nilton Alvarenga da Silva | 573766 |
 
 ## O que foi melhorado, passo a passo
 
@@ -400,13 +410,13 @@ Os vídeos são tutoriais de procedimento. Os requisitos obrigatórios da entreg
 1. Manter React em toda a versão da Fase 5 — concluído.
 2. Apresentar uma nova funcionalidade — mapa e triagem climática concluídos.
 3. Publicar o site — concluído no GitHub Pages.
-4. Gravar um pitch de até três minutos mostrando **somente a nova funcionalidade** — pendente.
+4. Gravar um pitch de até três minutos mostrando **somente a nova funcionalidade** — concluído.
 5. Explicar no pitch como React foi usado — roteiro preparado.
-6. Publicar o pitch no YouTube ou plataforma equivalente — pendente.
-7. Trocar o link da Home pelo pitch novo — pendente do endereço.
-8. Criar um PDF com nomes completos, link do pitch e link do deploy — pendente dos dados.
-9. Testar os links depois de gerar o PDF — pendente.
-10. Entregar um ZIP com projeto e PDF, sem o arquivo do vídeo — o pacote técnico pode ser gerado agora; o pacote acadêmico final depende do PDF.
+6. Publicar o pitch no YouTube ou plataforma equivalente — concluído.
+7. Trocar o link da Home pelo pitch novo — concluído.
+8. Criar um PDF com nomes completos, link do pitch e link do deploy — concluído para o pacote final.
+9. Testar os links depois de gerar o PDF — incluído na conferência final.
+10. Entregar um ZIP com projeto e PDF, sem o arquivo do vídeo — incluído no pacote final.
 
 ## Limites dos serviços gratuitos
 

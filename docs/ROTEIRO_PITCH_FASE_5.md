@@ -1,5 +1,9 @@
 # Roteiro do pitch da Fase 5 — até 3 minutos
 
+**Pitch publicado:** https://youtu.be/U3APiszPvXw?is=fQs4xrjZObVEhg0c
+
+**Deploy apresentado:** https://dansfisica85.github.io/site_seederlink-wolvestech/
+
 Este roteiro apresenta somente a nova funcionalidade, como pede a atividade. Antes de gravar, abra o [site publicado](https://dansfisica85.github.io/site_seederlink-wolvestech/), teste as coordenadas escolhidas e feche outras abas com dados pessoais.
 
 ## 0:00–0:15 — abertura
@@ -38,12 +42,10 @@ Mostre uma consulta com o resultado disponível. Se for demonstrar os dois resul
 
 > Essa foi a nova funcionalidade da Fase 5 do SeederLink: React conectando geolocalização, APIs climáticas e uma regra de triagem transparente. Obrigado.
 
-## Depois de publicar o vídeo
+## Conferência realizada depois da publicação
 
-1. Publique o vídeo como público ou não listado, mas acessível sem pedir login ou permissão.
-2. Substitua o link antigo em `src/components/Hero.jsx`.
-3. Abra a Home publicada e teste o novo link em uma janela anônima.
-4. Preencha `ENTREGA_FIAP_FASE_5.txt` com o novo endereço e os integrantes.
-5. Gere o PDF pedido pela FIAP com nomes, link do pitch e link do deploy.
-6. Teste os links dentro do PDF.
-7. Coloque o projeto e o PDF no ZIP, mas não inclua o arquivo do vídeo.
+1. O vídeo foi publicado no YouTube e o endereço foi registrado neste documento.
+2. O link antigo foi substituído em `src/components/Hero.jsx`.
+3. `ENTREGA_FIAP_FASE_5.txt` recebeu o endereço e os integrantes.
+4. O PDF acadêmico foi preparado com nomes, link do pitch e link do deploy.
+5. O projeto e o PDF foram colocados no pacote final; o arquivo do vídeo não foi incluído.
