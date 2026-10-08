@@ -72,6 +72,15 @@
 .portfolio-map-action small { color: #64776a; line-height: 1.6; }
 .portfolio-home-link { display: inline-block; color: #c6f0b6; font-weight: 600; font-size: 14px; margin: 22px 0 6px; }
 .home-left .portfolio-pitch-pending { font-size: 12px; color: #e8d899; margin-top: 12px; }
+/* As animações de entrada da Home não devem criar rolagem horizontal fora da seção. */
+#Home { overflow-x: clip; }
+.home-left, .home-right { min-width: 0; max-width: 100%; }
+/* Quem prefere menos movimento vê o conteúdo diretamente, sem deslocamentos ocultos. */
+@media (prefers-reduced-motion: reduce) {
+  html { scroll-behavior: auto; }
+  .fade-in, .slide-left, .slide-right, .zoom-in { opacity: 1; transform: none !important; transition: none; }
+  .guia-seta { animation: none; }
+}
 /* A navegação ganha um sexto link; reduzo o espaço antes de empilhar no celular. */
 @media (min-width: 769px) and (max-width: 1120px) { nav ul { gap: 16px; } nav { padding-left: 4%; padding-right: 4%; } nav ul li a { font-size: 13px; } }
 @media (max-width: 900px) { .portfolio-capture { grid-template-columns: 1fr; gap: 28px; } .portfolio-grid { grid-template-columns: 1fr; } }

@@ -139,6 +139,7 @@ try {
   assert.deepEqual(errors, []);
   console.log('OK: salvar, persistir, comparar, histórico, NASA, exportar, cancelar/remover, 3 larguras, cota e corrupção. Zero erros JavaScript.');
 } catch (error) {
+  console.log('Diagnóstico de layout:', await page.evaluate(() => ({width:innerWidth,scroll:document.documentElement.scrollWidth,overflow:[...document.querySelectorAll('body *')].map(element=>({tag:element.tagName,cls:String(element.className),right:element.getBoundingClientRect().right,width:element.getBoundingClientRect().width})).filter(element=>element.right>innerWidth+1&&element.width>0).slice(0,30)})));
   await page.screenshot({ path: `${output}/failure.png`, fullPage: false });
   throw error;
 } finally {
