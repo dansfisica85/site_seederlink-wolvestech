@@ -5,6 +5,7 @@ import SobreNos from './components/SobreNos';
 import ComoFunciona from './components/ComoFunciona';
 import Plataforma from './components/Plataforma';
 import Contato from './components/Contato';
+import CarteiraPropriedades from './components/CarteiraPropriedades';
 import Footer from './components/Footer';
 import PopupContato from './components/PopupContato';
 import GuiaInterativo from './components/GuiaInterativo';
@@ -13,6 +14,8 @@ import { useScrollAnimation } from './hooks/useScrollAnimation';
 // Este é o componente principal: ele organiza todas as seções na ordem em que
 // aparecem na página e mantém o estado compartilhado do popup de contato.
 export default function App() {
+  // A Fase 6 recebe uma cópia da análise escolhida, sem alterar a consulta do mapa.
+  const [analysisToSave, setAnalysisToSave] = useState(null);
   // Eu guardo juntos o estado de abertura e a mensagem exibida pelo popup.
   const [popupData, setPopupData] = useState({
     isOpen: false,
@@ -47,7 +50,8 @@ export default function App() {
         <SobreNos />
         <ComoFunciona />
         <Plataforma onOpenPopup={handleOpenPopup} />
-        <Contato />
+        <Contato onSaveAnalysis={setAnalysisToSave} />
+        <CarteiraPropriedades analysisToSave={analysisToSave} onAnalysisSaved={() => setAnalysisToSave(null)} />
       </main>
       <Footer />
       <PopupContato

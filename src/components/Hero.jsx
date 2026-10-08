@@ -1,4 +1,5 @@
 import React from 'react';
+import { ENTREGA } from '../data/entrega';
 
 // Esta é a primeira seção do site: apresenta a proposta, os atalhos e o pitch.
 export default function Hero() {
@@ -36,9 +37,10 @@ export default function Hero() {
             </a>
           </div>
 
-          {/* Aqui eu deixo o pitch da Fase 5 visível já na página inicial. */}
+          <a className="portfolio-home-link" href="#Propriedades">Novidade da Fase 6: Carteira de Propriedades →</a>
+          {/* Eu só anuncio o pitch da Fase 6 quando seu link público estiver configurado. */}
           <a
-            href="https://youtu.be/U3APiszPvXw?is=fQs4xrjZObVEhg0c"
+            href={ENTREGA.pitchUrl || ENTREGA.pitchAnteriorUrl}
             target="_blank"
             rel="noopener noreferrer"
             className="pitch-link fade-in"
@@ -49,11 +51,12 @@ export default function Hero() {
 
             <div>
               <strong>
-                Assistir Pitch do Projeto
+                {ENTREGA.pitchUrl ? 'Assistir Pitch — Fase 6' : 'Apresentação anterior — Fase 5'}
               </strong>
-              <p>Conheça a nova análise climática da SeederLink!</p>
+              <p>{ENTREGA.pitchUrl ? 'Conheça a carteira e o modelo de classes.' : 'A análise climática que serviu de base para esta versão.'}</p>
             </div>
           </a>
+          {!ENTREGA.pitchUrl && <p className="portfolio-pitch-pending">Pitch da Fase 6: aguardando publicação do vídeo.</p>}
         </div>
 
         {/* No lado direito eu resumo quatro benefícios do projeto. */}

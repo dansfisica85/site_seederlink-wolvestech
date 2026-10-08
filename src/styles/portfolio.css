@@ -1,0 +1,89 @@
+/* Eu isolo o visual da carteira para preservar os componentes da Fase 5. */
+.portfolio-section { background: #f0f6f2; color: #173b2c; padding: 100px 7%; scroll-margin-top: 90px; }
+.portfolio-shell { max-width: 1240px; margin: 0 auto; }
+.portfolio-heading { max-width: 810px; }
+.portfolio-eyebrow { color: #426d55; font-size: 12px; font-weight: 800; letter-spacing: .16em; }
+.portfolio-heading h2 { color: #143d2b; font-size: clamp(30px, 4vw, 46px); line-height: 1.16; margin: 14px 0 18px; scroll-margin-top: 130px; }
+.portfolio-section p { line-height: 1.7; }
+.portfolio-heading > p { font-size: 17px; color: #466352; }
+.portfolio-steps { display: flex; gap: 30px; list-style: none; margin: 30px 0 24px; flex-wrap: wrap; }
+.portfolio-steps li { display: flex; align-items: center; gap: 10px; font-size: 14px; font-weight: 600; }
+.portfolio-steps b { display: grid; place-items: center; width: 32px; height: 32px; border-radius: 50%; background: #dceadd; }
+.portfolio-local-note { padding: 16px 20px; border-left: 3px solid #6c8d56; background: #e6efe4; font-size: 13px; border-radius: 0 10px 10px 0; }
+.portfolio-capture { display: grid; grid-template-columns: .85fr 1.15fr; gap: 44px; background: white; border: 1px solid #d9e5dc; border-radius: 22px; padding: 32px; margin: 20px 0 40px; }
+.portfolio-capture h3, .portfolio-toolbar h3, .portfolio-comparison h3 { font-size: 23px; margin-bottom: 12px; }
+.portfolio-capture p { font-size: 14px; margin: 10px 0 20px; }
+.portfolio-form fieldset { border: 0; display: grid; gap: 16px; min-width: 0; }
+.portfolio-form legend { font-weight: 700; margin-bottom: 16px; }
+.portfolio-form label { display: grid; gap: 7px; font-size: 13px; font-weight: 700; min-width: 0; }
+.portfolio-form input, .portfolio-form select { width: 100%; min-width: 0; font: inherit; font-size: 16px; color: #203e2d; background: #f8faf8; border: 1px solid #a9beb0; border-radius: 9px; padding: 12px; }
+.portfolio-form fieldset:disabled { opacity: .62; }
+.portfolio-form-row { display: grid; grid-template-columns: 1fr 1fr; gap: 16px; }
+.portfolio-form small { font-size: 12px; line-height: 1.6; }
+.portfolio-section button, .portfolio-section a { -webkit-tap-highlight-color: transparent; }
+.portfolio-primary, .portfolio-secondary { display: inline-flex; align-items: center; justify-content: center; padding: 12px 18px; min-height: 44px; border-radius: 9px; font: inherit; font-size: 13px; font-weight: 700; text-decoration: none; cursor: pointer; text-align: center; }
+.portfolio-primary { border: 1px solid #185b38; background: #185b38; color: white; }
+.portfolio-secondary { border: 1px solid #a9c2b2; background: white; color: #205038; }
+.portfolio-primary:hover:not(:disabled) { background: #104327; }
+.portfolio-secondary:hover:not(:disabled) { background: #eaf3ec; }
+.portfolio-section button:disabled { opacity: .45; cursor: not-allowed; }
+.portfolio-section :focus-visible { outline: 3px solid #c58215; outline-offset: 4px; }
+.portfolio-toolbar { display: flex; align-items: center; justify-content: space-between; gap: 20px; margin-bottom: 24px; }
+.portfolio-toolbar p { font-size: 13px; }
+.portfolio-actions { display: flex; gap: 10px; flex-wrap: wrap; }
+.portfolio-empty { padding: 45px 24px; text-align: center; border: 1px dashed #9bbb9e; border-radius: 18px; }
+.portfolio-empty > span { font-size: 34px; }
+.portfolio-empty h3 { margin: 12px 0; }
+.portfolio-grid { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 24px; }
+.portfolio-card { padding: 26px; border: 1px solid #d6e3d9; border-radius: 18px; background: white; min-width: 0; }
+.portfolio-card-heading { display: flex; align-items: center; justify-content: space-between; gap: 10px; font-size: 13px; color: #426b51; }
+.portfolio-culture { display: inline-block; background: #e8f1dc; padding: 5px 12px; border-radius: 20px; font-size: 12px; font-weight: 700; }
+.portfolio-card h4 { font-size: 22px; margin: 15px 0 4px; overflow-wrap: anywhere; }
+.portfolio-meta { font-size: 12px !important; color: #536b5d; margin: 7px 0 16px; overflow-wrap: anywhere; }
+.portfolio-metrics { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 10px; padding: 18px 0; border-top: 1px solid #e4ede6; }
+.portfolio-metrics dt { font-size: 11px; line-height: 1.4; margin-bottom: 7px; }
+.portfolio-metrics dd { font-size: 15px; font-weight: 750; overflow-wrap: anywhere; }
+.portfolio-status { font-size: 12px; padding: 9px 12px; border-radius: 8px; background: #fff3d7; color: #735118; font-weight: 700; }
+.portfolio-status.is-positive { background: #e1f2e5; color: #226238; }
+.portfolio-history { border-top: 1px solid #e1eae3; padding-top: 15px; margin-top: 18px; font-size: 12px; }
+.portfolio-history summary { cursor: pointer; padding: 5px 0; font-weight: 700; }
+.portfolio-history > div { padding: 15px 0; border-bottom: 1px solid #e1eae3; }
+.portfolio-card-actions { display: flex; align-items: center; justify-content: space-between; gap: 14px; margin-top: 17px; }
+.portfolio-card-actions label { display: flex; gap: 8px; align-items: center; font-size: 13px; overflow-wrap: anywhere; }
+.portfolio-card-actions input { min-width: 18px; width: 18px; height: 18px; accent-color: #185b38; }
+.portfolio-remove { border: none; background: transparent; color: #9a332b; text-decoration: underline; cursor: pointer; font: inherit; font-size: 12px; min-height: 44px; padding: 5px; }
+.portfolio-confirm { background: #fff3ef; border-radius: 9px; padding: 14px; margin-top: 12px; font-size: 13px; }
+.portfolio-confirm button { margin: 8px 8px 0 0; }
+.portfolio-warning { background: #fff3d7; color: #70500f; padding: 12px; border-radius: 8px; font-size: 12px; margin: 12px 0; }
+.portfolio-error { background: #fff0ee; border: 1px solid #ddafa9; padding: 16px; border-radius: 12px; color: #7f2f29; margin: 16px 0; }
+.portfolio-announcement:not(:empty) { background: #dcefe0; padding: 15px 18px; border-radius: 10px; margin-top: 18px; line-height: 1.6; font-size: 14px; }
+.portfolio-comparison { margin-top: 36px; padding: 28px; border: 1px solid #d6e3d9; border-radius: 18px; background: white; }
+.portfolio-comparison > p { font-size: 13px; }
+.portfolio-table-scroll { overflow: auto; margin-top: 20px; border: 1px solid #d6e3d9; border-radius: 10px; }
+.portfolio-comparison table { width: 100%; min-width: 530px; border-collapse: collapse; text-align: left; table-layout: fixed; }
+.portfolio-comparison caption { padding: 12px; font-size: 12px; text-align: left; background: #f7faf7; }
+.portfolio-comparison th, .portfolio-comparison td { padding: 14px; font-size: 13px; border-bottom: 1px solid #e3ece5; overflow-wrap: anywhere; }
+.portfolio-comparison thead { background: #185b38; color: white; }
+.portfolio-comparison tbody th { font-weight: 600; }
+.portfolio-comparison tbody tr:nth-child(even) { background: #f4f8f4; }
+.portfolio-footnote { font-size: 12px; color: #556f5e; margin-top: 26px; }
+.portfolio-diagram-link { display: inline-block; margin-top: 18px; color: #235c38; font-size: 13px; }
+.portfolio-map-action { display: grid; gap: 10px; padding: 18px 0; }
+.portfolio-map-action small { color: #64776a; line-height: 1.6; }
+.portfolio-home-link { display: inline-block; color: #c6f0b6; font-weight: 600; font-size: 14px; margin: 22px 0 6px; }
+.home-left .portfolio-pitch-pending { font-size: 12px; color: #e8d899; margin-top: 12px; }
+/* A navegação ganha um sexto link; reduzo o espaço antes de empilhar no celular. */
+@media (min-width: 769px) and (max-width: 1120px) { nav ul { gap: 16px; } nav { padding-left: 4%; padding-right: 4%; } nav ul li a { font-size: 13px; } }
+@media (max-width: 900px) { .portfolio-capture { grid-template-columns: 1fr; gap: 28px; } .portfolio-grid { grid-template-columns: 1fr; } }
+@media (max-width: 600px) {
+  .portfolio-section { padding: 70px 5%; scroll-margin-top: 110px; }
+  .portfolio-capture, .portfolio-card, .portfolio-comparison { padding: 20px; }
+  .portfolio-toolbar { align-items: stretch; flex-direction: column; }
+  .portfolio-actions { display: grid; grid-template-columns: 1fr; }
+  .portfolio-steps { gap: 12px; flex-direction: column; }
+  .portfolio-form-row { grid-template-columns: 1fr; }
+  .portfolio-metrics { grid-template-columns: 1fr; gap: 12px; }
+  .portfolio-metrics > div { display: flex; justify-content: space-between; gap: 8px; }
+  .portfolio-metrics dt { margin: 0; }
+  .portfolio-card-actions { align-items: flex-start; }
+}

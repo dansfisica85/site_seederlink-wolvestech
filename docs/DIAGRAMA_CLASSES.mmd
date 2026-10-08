@@ -1,0 +1,61 @@
+---
+title: SeederLink - Carteira de Propriedades (Fase 6)
+config:
+  theme: base
+  themeVariables:
+    primaryColor: '#eef6ef'
+    primaryTextColor: '#173b2c'
+    primaryBorderColor: '#4c775b'
+    lineColor: '#426b51'
+    fontFamily: Arial
+    fontSize: 16px
+---
+classDiagram
+  direction TB
+  class RepositorioLocal {
+    +Storage storage
+    +String key
+    +carregar() CarteiraPropriedades
+    +salvar(carteira) CarteiraPropriedades
+  }
+  class CarteiraPropriedades {
+    +PropriedadeRural[] propriedades
+    +adicionar(propriedade) CarteiraPropriedades
+    +remover(id) CarteiraPropriedades
+    +buscar(id) PropriedadeRural
+    +comparar(id1, id2) Object
+    +toJSON() Object
+    +fromJSON(value)$ CarteiraPropriedades
+  }
+  class PropriedadeRural {
+    +String id
+    +String nome
+    +String cultura
+    +Number areaHectares
+    +Localizacao localizacao
+    +AnaliseClimatica[] analises
+    +adicionarAnalise(analise) PropriedadeRural
+    +resumo() AnaliseClimatica
+    +toJSON() Object
+  }
+  class Localizacao {
+    +Number latitude
+    +Number longitude
+    +toJSON() Object
+  }
+  class AnaliseClimatica {
+    +Number latitude
+    +Number longitude
+    +String consultedAt
+    +String timezone
+    +Object current
+    +Object historical
+    +Object requestedPeriod
+    +Object assessment
+    +fromClimateResult(result, consultedAt)$ AnaliseClimatica
+    +toJSON() Object
+  }
+  RepositorioLocal ..> CarteiraPropriedades : carrega e salva
+  CarteiraPropriedades "1" o-- "0..10" PropriedadeRural : agrupa
+  PropriedadeRural "1" *-- "1" Localizacao : possui
+  PropriedadeRural "1" *-- "0..5" AnaliseClimatica : guarda snapshots

@@ -40,6 +40,9 @@ export default function Navbar() {
           <li>
             <a href="#Contato">Contato</a>
           </li>
+          <li>
+            <a href="#Propriedades">Propriedades</a>
+          </li>
         </ul>
       </nav>
     </header>

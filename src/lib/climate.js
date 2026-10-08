@@ -395,9 +395,11 @@ async function fetchHistoricalWithFallback(
   }
 }
 
-// Arredondo a posição na chave para reaproveitar pontos praticamente iguais.
+// A chave identifica exatamente a posição e o período consultados.
 function getCacheKey(latitude, longitude, period) {
-  return `${latitude.toFixed(3)}:${longitude.toFixed(3)}:${period.start}:${period.end}`;
+  // A carteira precisa preservar o ponto exato, mesmo entre coordenadas próximas.
+  // Uso os valores recebidos para não devolver o resultado de outro marcador.
+  return `${latitude}:${longitude}:${period.start}:${period.end}`;
 }
 
 // Leio apenas resultados ainda dentro dos 30 minutos definidos no início.

@@ -77,7 +77,7 @@ function CriteriaRow({ label, expected, actual, passed }) {
 }
 
 // Este é o card completo da nova funcionalidade da Fase 5.
-export default function MapaClimatico() {
+export default function MapaClimatico({ onSaveAnalysis }) {
   // As referências guardam objetos externos do Leaflet. Como elas não fazem parte
   // do JSX, posso atualizá-las sem provocar uma nova renderização do React.
   const mapElementRef = useRef(null);
@@ -507,6 +507,17 @@ export default function MapaClimatico() {
             </div>
 
             {/* No final eu mostro as fontes utilizadas e as limitações dos dados. */}
+            {onSaveAnalysis && (
+              <div className="portfolio-map-action">
+                <button type="button" className="location-button" onClick={() => {
+                  // Copio somente a análise visível. Trocar o mapa depois não altera essa fotografia.
+                  onSaveAnalysis({ result: structuredClone(result), consultedAt: new Date().toISOString() });
+                }}>
+                  Salvar esta análise na carteira
+                </button>
+                <small>Fase 6 · Dê um nome à propriedade, guarde o histórico e compare depois.</small>
+              </div>
+            )}
             <p className="climate-source">
               Condições atuais: {' '}
               <a

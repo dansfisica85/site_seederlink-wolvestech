@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import MapaClimatico from './MapaClimatico';
 
 // Esta seção reúne as informações de contato, o novo mapa e o formulário.
-export default function Contato() {
+export default function Contato({ onSaveAnalysis }) {
   // Eu mantenho os campos controlados pelo React para validar enquanto são digitados.
   const [formData, setFormData] = useState({
     nome: '',
@@ -330,7 +330,7 @@ export default function Contato() {
           </form>
 
           {/* O mapa recebe mais espaço porque concentra a análise da propriedade. */}
-          <MapaClimatico />
+          <MapaClimatico onSaveAnalysis={onSaveAnalysis} />
         </div>
       </div>
     </section>

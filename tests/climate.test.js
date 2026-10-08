@@ -15,6 +15,28 @@ import {
 } from '../src/lib/climate.js';
 
 // Primeiro eu verifico a janela histórica e o cálculo somente com dias completos.
+test('cache preserva coordenadas próximas distintas e reutiliza somente o mesmo ponto', async () => {
+  clearClimateCache();
+  const now = new Date('2026-09-03T12:00:00Z');
+  const period = getHistoricalPeriod(now);
+  const time = Array.from({ length: 365 }, (_, index) => new Date(Date.parse(period.start) + index * 86400000).toISOString().slice(0, 10));
+  let calls = 0;
+  const fetchImpl = async (url) => {
+    calls += 1;
+    const payload = url.includes('archive-api') ? { daily: {
+      time, temperature_2m_mean: time.map(() => 24), relative_humidity_2m_mean: time.map(() => 70), shortwave_radiation_sum: time.map(() => 16),
+    } } : { current: { temperature_2m: 25, relative_humidity_2m: 70, shortwave_radiation: 430, time: '2026-09-03T12:00' } };
+    return { ok: true, status: 200, json: async () => payload };
+  };
+  const first = await fetchClimateForLocation(-21.10001, -48.1, { now, fetchImpl });
+  const second = await fetchClimateForLocation(-21.10002, -48.1, { now, fetchImpl });
+  assert.notEqual(first.latitude, second.latitude);
+  assert.equal(calls, 4);
+  const again = await fetchClimateForLocation(-21.10002, -48.1, { now, fetchImpl });
+  assert.equal(again.latitude, second.latitude);
+  assert.equal(calls, 4);
+});
+
 test('calcula uma janela histórica inclusiva de 365 dias com atraso de 7 dias', () => {
   assert.deepEqual(getHistoricalPeriod(new Date('2026-09-03T12:00:00Z')), {
     start: '2025-08-28',
