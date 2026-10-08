@@ -111,6 +111,10 @@ Se a NASA POWER for usada, os indicadores são mostrados, mas a pré-aprovação
 
 Modelado com [Mermaid](https://mermaid.js.org/syntax/classDiagram.html) e exportado com [Mermaid CLI](https://github.com/mermaid-js/mermaid-cli). O arquivo `.mmd` pode ser editado no Mermaid Live Editor ou em extensão compatível do VS Code.
 
+O diagrama agora usa **paisagem**, com três colunas, relações sem cruzamentos e uma visão resumida dos atributos e métodos principais. A página do UML no PDF também fica em paisagem; as demais continuam em retrato. A [versão SVG](public/docs/diagrama-classes-fase6.svg) permite ampliar sem perder nitidez.
+
+Para manter a leitura clara, os tipos de retorno e parte dos parâmetros foram abreviados. `fromClimateResult` recebe `result` e `consultedAt`; `buscar` e `resumo` podem retornar `null`. Os detalhes completos permanecem em `src/domain/portfolio.js`. Os losangos representam pertencimento conceitual; as versões imutáveis podem compartilhar instâncias no código.
+
 - `Localizacao`: latitude/longitude; valida no construtor e serializa com `toJSON`.
 - `AnaliseClimatica`: condições atuais, histórico, período, fonte, avaliação e data; `fromClimateResult` cria o snapshot validado.
 - `PropriedadeRural`: id, nome, cultura, área, localização e análises; `adicionarAnalise` controla histórico e `resumo` retorna a análise mais recente.

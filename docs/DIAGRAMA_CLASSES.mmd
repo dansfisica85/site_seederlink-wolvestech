@@ -1,5 +1,5 @@
 ---
-title: SeederLink - Carteira de Propriedades (Fase 6)
+title: SeederLink - Fase 6 | Diagrama de classes (visão resumida)
 config:
   theme: base
   themeVariables:
@@ -11,21 +11,24 @@ config:
     fontSize: 16px
 ---
 classDiagram
-  direction TB
+  %% Visão conceitual: atributos principais; assinaturas e tipos de retorno resumidos.
+  %% fromClimateResult recebe result e consultedAt. buscar e resumo podem retornar null.
+  %% O fonte completo está em src/domain/portfolio.js.
+  direction LR
   class RepositorioLocal {
     +Storage storage
     +String key
-    +carregar() CarteiraPropriedades
-    +salvar(carteira) CarteiraPropriedades
+    +carregar()
+    +salvar(carteira)
   }
   class CarteiraPropriedades {
     +PropriedadeRural[] propriedades
-    +adicionar(propriedade) CarteiraPropriedades
-    +remover(id) CarteiraPropriedades
-    +buscar(id) PropriedadeRural
-    +comparar(id1, id2) Object
-    +toJSON() Object
-    +fromJSON(value)$ CarteiraPropriedades
+    +adicionar(propriedade)
+    +remover(id)
+    +buscar(id)
+    +comparar(id1, id2)
+    +toJSON()
+    +fromJSON(value)$
   }
   class PropriedadeRural {
     +String id
@@ -34,28 +37,25 @@ classDiagram
     +Number areaHectares
     +Localizacao localizacao
     +AnaliseClimatica[] analises
-    +adicionarAnalise(analise) PropriedadeRural
-    +resumo() AnaliseClimatica
-    +toJSON() Object
+    +adicionarAnalise(analise)
+    +resumo()
+    +toJSON()
   }
   class Localizacao {
     +Number latitude
     +Number longitude
-    +toJSON() Object
+    +toJSON()
   }
   class AnaliseClimatica {
-    +Number latitude
-    +Number longitude
     +String consultedAt
-    +String timezone
     +Object current
     +Object historical
     +Object requestedPeriod
     +Object assessment
-    +fromClimateResult(result, consultedAt)$ AnaliseClimatica
-    +toJSON() Object
+    +fromClimateResult()$
+    +toJSON()
   }
-  RepositorioLocal ..> CarteiraPropriedades : carrega e salva
+  CarteiraPropriedades <.. RepositorioLocal : carrega e salva
   CarteiraPropriedades "1" o-- "0..10" PropriedadeRural : agrupa
   PropriedadeRural "1" *-- "1" Localizacao : possui
   PropriedadeRural "1" *-- "0..5" AnaliseClimatica : guarda snapshots

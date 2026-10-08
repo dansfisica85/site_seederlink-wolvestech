@@ -5,7 +5,7 @@ import re
 from xml.sax.saxutils import escape
 from reportlab.pdfgen import canvas
 from reportlab.lib import colors
-from reportlab.lib.pagesizes import A4
+from reportlab.lib.pagesizes import A4, landscape
 from reportlab.lib.styles import ParagraphStyle
 from reportlab.platypus import Paragraph, Table, TableStyle
 from reportlab.lib.utils import ImageReader
@@ -92,16 +92,22 @@ else:
 paragraph('Conteúdo do pacote: este PDF e um ZIP com o projeto. O arquivo de vídeo não deve ser incluído.',42,y-10,style='small')
 c.showPage()
 
-base(2, 'Diagrama de classes UML - imagem renderizada com Mermaid')
-paragraph('Modelo de classes da Fase 6',42,775,style='heading')
+# A página do UML fica em paisagem. As páginas de integrantes e explicações
+# continuam em retrato, para eu aproveitar melhor a largura de cada conteúdo.
+width, height = landscape(A4)
+c.setPageSize((width, height))
+base(2, 'Diagrama UML em paisagem - atributos e métodos principais')
+paragraph('Modelo de classes da Fase 6',42,height-63,max_width=width-84,style='heading')
 diagram = ImageReader(str(root/'public/docs/diagrama-classes-fase6.png'))
 iw, ih = diagram.getSize()
-scale = min(511/iw, 655/ih)
+scale = min((width-84)/iw, (height-180)/ih)
 dw, dh = iw*scale, ih*scale
-c.drawImage(diagram,(width-dw)/2,90,dw,dh,mask='auto')
-paragraph('Losango vazio: agregação. Losango preenchido: composição. Seta tracejada: dependência. Membros públicos: +. Métodos estáticos: sublinhados.',42,76,style='small')
+c.drawImage(diagram,(width-dw)/2,91,dw,dh,mask='auto')
+paragraph('Losango vazio: agregação. Losango preenchido: composição. Seta tracejada: dependência. +: público. Sublinhado: estático.<br/>Visão resumida: atributos principais; parâmetros e retornos abreviados. As assinaturas completas estão em src/domain/portfolio.js.',42,77,max_width=width-84,style='small')
 c.showPage()
 
+width, height = A4
+c.setPageSize(A4)
 base(3, 'Explicação da funcionalidade e dos relacionamentos')
 y = paragraph('Como a nova função trabalha',42,775,style='heading')
 y = paragraph('1. O usuário consulta uma coordenada no mapa e copia a análise concluída para a carteira.<br/>2. Preenche nome, cultura e área; a aplicação valida o registro e grava no navegador.<br/>3. Pode rever até cinco análises por propriedade, comparar duas propriedades e exportar JSON.<br/>4. A carteira comporta até dez cadastros; a exclusão exige confirmação.',42,y-16)
