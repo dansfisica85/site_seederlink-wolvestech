@@ -1,4 +1,4 @@
-"""Gero o PDF com o UML já exportado. Não invento um link para o pitch pendente."""
+"""Gero o PDF com integrantes, UML em paisagem e o pitch configurado para a Fase 6."""
 from pathlib import Path
 import argparse
 import re
@@ -24,7 +24,6 @@ repo = 'https://github.com/dansfisica85/site_seederlink-wolvestech'
 members = [
     ('DAVI ANTONINO NUNES DA SILVA', '571722'),
     ('MATEUS AUGUSTO DA COSTA OLIVEIRA GONÇALVES', '570166'),
-    ('JOHN NICHOLAS FIALHO SILVA', '572119'),
     ('MATHEUS RISSATO CRISPIM', '571038'),
     ('ISAAC NILTON ALVARENGA DA SILVA', '573766'),
 ]
@@ -82,7 +81,7 @@ y = paragraph('Links de acesso',42,y,style='heading')
 y = paragraph(f'<b>Deploy:</b> <link href="{deploy}" color="#215e3a">{deploy}</link>',42,y-13)
 y = paragraph(f'<b>Repositório:</b> <link href="{repo}" color="#215e3a">{repo}</link>',42,y-12)
 if pitch:
-    y = paragraph(f'<b>Pitch público da Fase 6:</b> <link href="{escape(pitch)}" color="#215e3a">{escape(pitch)}</link>',42,y-16)
+    y = paragraph(f'<b>Pitch da Fase 6:</b> <link href="{escape(pitch)}" color="#215e3a">{escape(pitch)}</link>',42,y-16)
 else:
     y -= 15
     c.setFillColor(colors.HexColor('#fff2d8'))

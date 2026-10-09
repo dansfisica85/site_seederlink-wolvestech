@@ -3,6 +3,7 @@
 import assert from 'node:assert/strict';
 import { chromium } from 'playwright';
 import { mkdir } from 'node:fs/promises';
+import { ENTREGA } from '../src/data/entrega.js';
 
 const baseURL = process.env.TEST_URL || 'http://127.0.0.1:4176/';
 const output = process.env.TEST_OUTPUT || 'test-results';
@@ -64,6 +65,12 @@ async function addProperty(name, latitude, longitude, crop = 'soja') {
 }
 try {
   await page.goto(baseURL, { waitUntil: 'domcontentloaded' });
+  // Confiro o link do vídeo na Home para não entregar o pitch da fase anterior por engano.
+  const pitchLink = page.getByRole('link', { name: /Assistir Pitch — Fase 6/ });
+  await pitchLink.waitFor();
+  assert.equal(await pitchLink.getAttribute('href'), ENTREGA.pitchUrl);
+  assert.equal(await pitchLink.getAttribute('target'), '_blank');
+  assert.equal(await page.locator('.portfolio-pitch-pending').count(), 0);
   await page.getByRole('heading', { name: 'Sua carteira de propriedades' }).waitFor();
   assert.equal(await page.getByRole('button', { name: 'Salvar propriedade', exact: true }).isDisabled(), true);
   await addProperty('Sítio Boa Esperança', -21.1, -48.1);

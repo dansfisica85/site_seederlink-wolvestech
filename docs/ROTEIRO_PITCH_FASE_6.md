@@ -1,5 +1,7 @@
 # Roteiro do pitch — SeederLink, Fase 6
 
+Vídeo da entrega: [Pitch da Fase 6](https://youtu.be/BJ_unP9lmys), com **2min55s**. A sequência abaixo preserva o roteiro-base de 2min50s; a edição publicada continua dentro do limite de três minutos.
+
 Duração-alvo: **2 minutos e 50 segundos**. Texto de locução: **341 palavras**, em primeira pessoa, por Davi em nome do grupo. A tabela abaixo usa os mesmos trechos do texto contínuo e fixa os pontos de transição. Ensaiar cada bloco para respeitar a sincronização, com pausas curtas nas trocas de tela.
 
 ## Texto contínuo para locução

@@ -8,7 +8,8 @@ Projeto acadêmico FIAP desenvolvido a partir do ZIP da Fase 5. Toda a interface
 - [Repositório](https://github.com/dansfisica85/site_seederlink-wolvestech)
 - [Diagrama UML em imagem](public/docs/diagrama-classes-fase6.png)
 - [Roteiro do pitch de até 3 minutos](docs/ROTEIRO_PITCH_FASE_6.md)
-- **Pitch da Fase 6:** aguardando novo vídeo público. O vídeo da Fase 5 não o substitui.
+- [Pitch da Fase 6 - Carteira de Propriedades e UML (2min55s)](https://youtu.be/BJ_unP9lmys)
+- [Checklist dos requisitos e conferência dos tutoriais](docs/CHECKLIST_ENTREGA_FASE6.md)
 
 > Demonstração acadêmica: a triagem não concede crédito real nem determina aptidão agrícola. A carteira usa `localStorage`, sem conta, servidor ou sincronização entre dispositivos. O formulário de contato herdado valida e exibe confirmação visual, mas não envia e-mail.
 
@@ -18,7 +19,6 @@ Projeto acadêmico FIAP desenvolvido a partir do ZIP da Fase 5. Toda a interface
 | --- | --- |
 | DAVI ANTONINO NUNES DA SILVA | 571722 |
 | MATEUS AUGUSTO DA COSTA OLIVEIRA GONÇALVES | 570166 |
-| JOHN NICHOLAS FIALHO SILVA | 572119 |
 | MATHEUS RISSATO CRISPIM | 571038 |
 | ISAAC NILTON ALVARENGA DA SILVA | 573766 |
 
@@ -149,11 +149,16 @@ Após enviar uma alteração, aguarde `build` e `deploy` concluírem e confira o
 
 ## Pitch e pacote
 
-O novo vídeo deve apresentar **a carteira e o UML**, durar até três minutos e estar **público**. O [roteiro](docs/ROTEIRO_PITCH_FASE_6.md) já inclui sequência de telas. Depois da publicação:
+O [pitch da Fase 6](https://youtu.be/BJ_unP9lmys) tem **2min55s**, dentro do limite de três minutos. O link está centralizado em `src/data/entrega.js`, aparece na **Home** como **Assistir Pitch — Fase 6** e é usado pelo gerador do PDF. O [roteiro](docs/ROTEIRO_PITCH_FASE_6.md) documenta a apresentação da carteira e do UML.
 
-1. Preencha `pitchUrl` em `src/data/entrega.js` com a URL pública da Fase 6.
-2. Inclua o mesmo link no PDF. Não use o vídeo da Fase 5 como se fosse novo.
-3. Refaça o deploy e os ZIPs e teste os links sem autenticação.
+Para reproduzir o pacote após uma alteração, instale `reportlab` no Python e execute, a partir da pasta do projeto:
+
+```bash
+python scripts/generate-delivery.py --output ../entrega/Seederlink_fase6.pdf
+python scripts/package-delivery.py --pdf ../entrega/Seederlink_fase6.pdf --output-dir ../entrega
+```
+
+O diretório de saída fica fora do projeto para evitar compactação recursiva. O PDF mantém a página do UML em paisagem e contém links clicáveis. Se o endereço do pitch mudar, atualize `pitchUrl`, refaça o deploy e gere novamente PDF e ZIPs. No YouTube, use a visibilidade **Público**, como exige a atividade.
 
 ```text
 RM571722_DaviANS_FASE_6_SPRINT6.zip
@@ -170,4 +175,4 @@ RM571722_DaviANS_FASE_6_SPRINT6.zip
         └── README.md
 ```
 
-O PDF reúne integrantes, RMs, imagem UML e links de deploy e vídeo. **Enquanto o link do novo pitch não for fornecido, o PDF é uma versão de revisão e o pacote não está pronto para postagem final na FIAP.** Não inclua arquivos MP4 nem outro formato de vídeo no pacote.
+O PDF reúne os quatro integrantes, RMs, imagem UML e links de deploy e vídeo. O ZIP externo contém exatamente o PDF e o ZIP interno do projeto. Não inclua arquivos MP4 nem outro formato de vídeo no pacote; a apresentação é entregue pelo link. Não envie `node_modules`, `dist`, `.env` ou credenciais. A postagem na plataforma FIAP é feita pelo aluno.

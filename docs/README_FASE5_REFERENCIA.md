@@ -31,7 +31,6 @@ O pitch da Fase 5 está publicado no [YouTube](https://youtu.be/U3APiszPvXw?is=f
 | --- | --- |
 | Davi Antonino Nunes da Silva | 571722 |
 | Mateus Augusto da Costa Oliveira Gonçalves | 570166 |
-| John Nicholas Fialho Silva | 572119 |
 | Matheus Rissato Crispim | 571038 |
 | Isaac Nilton Alvarenga da Silva | 573766 |
 

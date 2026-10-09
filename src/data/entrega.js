@@ -1,8 +1,8 @@
 // Eu centralizo os links para a Home e a documentação não apontarem para fases diferentes.
-// Depois de publicar o novo vídeo, substitua null pela URL pública da Fase 6.
+// O pitch da Fase 6 apresenta a carteira e o diagrama; o vídeo anterior fica só como referência.
 export const ENTREGA = Object.freeze({
   fase: 6,
-  pitchUrl: null,
+  pitchUrl: 'https://youtu.be/BJ_unP9lmys',
   pitchAnteriorUrl: 'https://youtu.be/U3APiszPvXw',
   deployUrl: 'https://dansfisica85.github.io/site_seederlink-wolvestech/',
 });

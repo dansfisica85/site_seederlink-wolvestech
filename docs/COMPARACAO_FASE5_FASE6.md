@@ -19,7 +19,7 @@ Na Fase 5, a nova funcionalidade era escolher a posição da propriedade no mapa
 | Comparação | Uma consulta por vez no mapa. | Comparação entre 2 propriedades distintas, lado a lado. |
 | Exportação | Não havia exportação da carteira. | Download dos registros em JSON. |
 | Modelagem | Componentes funcionais e funções de clima; apenas `ClimateDataError` era uma classe explícita. | Cinco classes de domínio e persistência correspondem ao diagrama UML da nova funcionalidade. |
-| Pitch | Vídeo anterior apresentava o mapa e a análise climática. | O novo roteiro apresenta a carteira e explica atributos, métodos e relacionamentos UML. O novo link público ainda precisa ser fornecido. |
+| Pitch | Vídeo anterior apresentava o mapa e a análise climática. | O pitch da Fase 6 está em https://youtu.be/BJ_unP9lmys, com 2min55s. O roteiro apresenta a carteira e explica atributos, métodos e relacionamentos UML. |
 
 ## Fluxo da nova funcionalidade
 
@@ -78,4 +78,4 @@ As classes organizam dados e comportamentos da carteira. Os componentes React co
 
 O pacote deve reunir um PDF com nomes completos dos integrantes, imagem do diagrama de classes, link público do novo vídeo e link do deploy, além de um ZIP contendo o projeto. O arquivo de vídeo não deve ser incluído.
 
-O roteiro está em [ROTEIRO_PITCH_FASE_6.md](ROTEIRO_PITCH_FASE_6.md). A publicação do vídeo da Fase 6 e a inclusão de seu link definitivo na Home e no PDF dependem do novo endereço público. O vídeo anterior não deve ser identificado como se já demonstrasse a carteira.
+O roteiro está em [ROTEIRO_PITCH_FASE_6.md](ROTEIRO_PITCH_FASE_6.md). O [pitch definitivo da Fase 6](https://youtu.be/BJ_unP9lmys) está configurado na Home e no PDF. O vídeo anterior permanece identificado como referência da Fase 5 e não substitui a apresentação da carteira.
