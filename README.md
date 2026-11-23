@@ -2,10 +2,9 @@
 
 **Continuação solo da Carteira de Propriedades**, a partir da base acadêmica da Fase 6.
 
-Projeto acadêmico FIAP. A interface permanece em React. Este repositório é a entrega individual da Fase 7 (Mateus Augusto), com dependências atualizadas, testes, build e publicação via GitHub Pages.
+Projeto acadêmico FIAP. A interface permanece em React. Este repositório é a entrega individual da Fase 7 (Mateus Augusto), com dependências atualizadas, testes, build e publicação via Vercel.
 
-- [Site no GitHub Pages](https://devourerhope.github.io/site_seederlink-fase7/)
-- [Repositório](https://github.com/DevourerHope/site_seederlink-fase7)
+- [Repositório](https://github.com/DevourerHope/SeederLink-Fase-7)
 - [Diagrama UML em imagem](public/docs/diagrama-classes-fase6.png)
 - [Roteiro do pitch da Fase 6 (referência)](docs/ROTEIRO_PITCH_FASE_6.md)
 - [Checklist da Fase 6 (referência)](docs/CHECKLIST_ENTREGA_FASE6.md)
@@ -27,7 +26,7 @@ Projeto acadêmico FIAP. A interface permanece em React. Este repositório é a 
 | Projeto da Fase 4 evoluído em React | Concluído |
 | Nova funcionalidade de mapa e clima | Concluída |
 | Testes automatizados | 8 casos implementados |
-| Deploy público | Concluído no GitHub Pages |
+| Deploy público | Concluído na Vercel |
 | README e comentários em português | Concluídos |
 | Pitch específico da Fase 5, até 3 minutos | Concluído e publicado |
 | Troca do link do vídeo na Home | Concluída |
@@ -41,7 +40,7 @@ O pitch da Fase 5 está publicado no [YouTube](https://youtu.be/U3APiszPvXw?is=f
 | --- | --- |
 | Mapa, consulta climática e carteira | Funcionais como na Fase 6 |
 | Cinco classes de domínio e UML | Mantidos como base |
-| Deploy via GitHub Actions | Novo repositório solo + Pages |
+| Deploy via Vercel | Configurado com vercel.json |
 | Documentação da Fase 6 | Conservada em `docs/` como referência |
 
 O README da Fase 5 permanece em [docs/README_FASE5_REFERENCIA.md](docs/README_FASE5_REFERENCIA.md). A comparação Fase 5 → 6 está em [docs/COMPARACAO_FASE5_FASE6.md](docs/COMPARACAO_FASE5_FASE6.md).
@@ -102,12 +101,6 @@ npm run test:ui
 
 ## Deploy
 
-### GitHub Pages
-
-O provedor principal é GitHub Pages. Em Settings > Pages, a origem deve ser **GitHub Actions**. O workflow `.github/workflows/deploy-pages.yml` instala dependências, executa testes e build e publica a `main`, usando `VITE_BASE_PATH=/site_seederlink-wolvestech/`. Pull requests são testados sem publicar.
-
-Após enviar uma alteração, aguarde `build` e `deploy` concluírem e confira o site em janela anônima. Nunca envie `.env`, credenciais ou `node_modules`.
-
 ### Vercel
 
 Para deploy na [Vercel](https://vercel.com):
@@ -155,7 +148,7 @@ Os vídeos são tutoriais de procedimento. Os requisitos obrigatórios da entreg
 
 1. Manter React em toda a versão da Fase 5 — concluído.
 2. Apresentar uma nova funcionalidade — mapa e triagem climática concluídos.
-3. Publicar o site — concluído no GitHub Pages.
+3. Publicar o site — concluído na Vercel.
 4. Gravar um pitch de até três minutos mostrando **somente a nova funcionalidade** — concluído.
 5. Explicar no pitch como React foi usado — roteiro preparado.
 6. Publicar o pitch no YouTube ou plataforma equivalente — concluído.
