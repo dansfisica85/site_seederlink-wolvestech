@@ -66,7 +66,7 @@ Não abra `index.html` por duplo clique: JSX precisa do Vite. Não há token cli
 
 ## Stack e dependências
 
-- React 19 + Vite 8 + `@vitejs/plugin-react` 6
+- React 18 + Vite 7 + `@vitejs/plugin-react` 5
 - Leaflet 1.9.4 e Bootstrap Icons
 - Node.js `>=22.12.0` (CI usa a versão do `.nvmrc`)
 
@@ -74,8 +74,9 @@ Não abra `index.html` por duplo clique: JSX precisa do Vite. Não há token cli
 
 ```bash
 npm test
-npm run build
 ```
+
+Os testes validam período histórico, descarte de valores ausentes, quantidade mínima de dias, limites climáticos, coordenadas, URLs e o texto exato das duas mensagens.
 
 Para testar a interface, execute `npm run dev -- --port 4176 --open false` em um terminal e, em outro:
 
@@ -88,7 +89,7 @@ npm run test:ui
 
 ### GitHub Pages
 
-O provedor principal é GitHub Pages. Em Settings > Pages, a origem deve ser **GitHub Actions**. O workflow `.github/workflows/deploy-pages.yml` instala dependências, executa testes e build e publica a `main`, usando `VITE_BASE_PATH=/site_seederlink-fase7/`. Pull requests são testados sem publicar.
+O provedor principal é GitHub Pages. Em Settings > Pages, a origem deve ser **GitHub Actions**. O workflow `.github/workflows/deploy-pages.yml` instala dependências, executa testes e build e publica a `main`, usando `VITE_BASE_PATH=/site_seederlink-wolvestech/`. Pull requests são testados sem publicar.
 
 Após enviar uma alteração, aguarde `build` e `deploy` concluírem e confira o site em janela anônima. Nunca envie `.env`, credenciais ou `node_modules`.
 

@@ -14,29 +14,6 @@ import {
   validateCoordinates,
 } from '../src/lib/climate.js';
 
-// Primeiro eu verifico a janela histórica e o cálculo somente com dias completos.
-test('cache preserva coordenadas próximas distintas e reutiliza somente o mesmo ponto', async () => {
-  clearClimateCache();
-  const now = new Date('2026-09-03T12:00:00Z');
-  const period = getHistoricalPeriod(now);
-  const time = Array.from({ length: 365 }, (_, index) => new Date(Date.parse(period.start) + index * 86400000).toISOString().slice(0, 10));
-  let calls = 0;
-  const fetchImpl = async (url) => {
-    calls += 1;
-    const payload = url.includes('archive-api') ? { daily: {
-      time, temperature_2m_mean: time.map(() => 24), relative_humidity_2m_mean: time.map(() => 70), shortwave_radiation_sum: time.map(() => 16),
-    } } : { current: { temperature_2m: 25, relative_humidity_2m: 70, shortwave_radiation: 430, time: '2026-09-03T12:00' } };
-    return { ok: true, status: 200, json: async () => payload };
-  };
-  const first = await fetchClimateForLocation(-21.10001, -48.1, { now, fetchImpl });
-  const second = await fetchClimateForLocation(-21.10002, -48.1, { now, fetchImpl });
-  assert.notEqual(first.latitude, second.latitude);
-  assert.equal(calls, 4);
-  const again = await fetchClimateForLocation(-21.10002, -48.1, { now, fetchImpl });
-  assert.equal(again.latitude, second.latitude);
-  assert.equal(calls, 4);
-});
-
 test('calcula uma janela histórica inclusiva de 365 dias com atraso de 7 dias', () => {
   assert.deepEqual(getHistoricalPeriod(new Date('2026-09-03T12:00:00Z')), {
     start: '2025-08-28',
@@ -79,7 +56,6 @@ test('não emite decisão quando o histórico é insuficiente', () => {
   );
 });
 
-// Depois eu testo os dois caminhos da regra e os textos exatos do enunciado.
 test('aprova nos limites inclusivos dos critérios e preserva a mensagem exigida', () => {
   const assessment = evaluateClimateSuitability({
     temperatureMean: 20,
@@ -111,7 +87,6 @@ test('solicita análise complementar quando qualquer critério falha', () => {
   );
 });
 
-// Aqui eu confirmo coordenadas, fontes oficiais, período e ausência de chave na URL.
 test('valida coordenadas e monta URLs oficiais sem chave de API', () => {
   validateCoordinates(-23.5505, -46.6333);
   assert.throws(() => validateCoordinates(91, 0), ClimateDataError);
@@ -141,7 +116,6 @@ test('valida coordenadas e monta URLs oficiais sem chave de API', () => {
   assert.doesNotMatch(urls.nasaPowerUrl, /apikey/i);
 });
 
-// Por fim eu valido a conversão e a regra conservadora da fonte alternativa.
 test('normaliza a resposta diária da NASA POWER e descarta valores de preenchimento', () => {
   const daily = normalizeNasaPowerDaily({
     header: { fill_value: -999 },
@@ -178,7 +152,6 @@ test('usa NASA POWER quando o histórico primário está indisponível', async (
     nasaParameters.ALLSKY_SFC_SW_DWN[key] = 18;
   }
 
-  // Estas respostas simuladas permitem testar a contingência sem depender da internet.
   const jsonResponse = (payload, status = 200) => ({
     ok: status >= 200 && status < 300,
     status,

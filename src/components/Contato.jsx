@@ -184,6 +184,21 @@ export default function Contato({ onSaveAnalysis }) {
           </p>
         </div>
 
+        <div className="contato-grid">
+          <div className="contato-info slide-left">
+            <div className="info-card fade-in">
+              <h3>Email</h3>
+              <p>seederlink.comercial@gmail.com</p>
+            </div>
+
+            <div className="info-card fade-in">
+              <h3>Telefone</h3>
+              <p>(11) 97211-8003</p>
+            </div>
+
+            <MapaClimatico />
+        </div>
+
         {/* Estes dados são fictícios e servem somente para apresentar o projeto. */}
         <div
           className="contato-details-grid fade-in"

@@ -1,8 +1,6 @@
 import React from 'react';
 
-// Aqui eu conto a proposta da SeederLink e separo missão, visão e valores em cards.
 export default function SobreNos() {
-  // BASE_URL evita caminhos quebrados quando o site é publicado em uma subpasta.
   const imageBaseUrl = `${import.meta.env.BASE_URL}img/`;
 
   return (

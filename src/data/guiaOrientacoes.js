@@ -1,5 +1,3 @@
-// Cada item liga um seletor que existe na página a um título e a uma explicação.
-// O GuiaInterativo usa esta lista para saber onde mostrar sua seta e seu balão.
 export const orientacoesGuia = [
   {
     seletor: "nav a[href='#Home']",
@@ -132,19 +130,19 @@ export const orientacoesGuia = [
     texto: "Use estes cards para avaliar se o parceiro combina com seu objetivo antes de continuar."
   },
   {
-    seletor: ".contact-detail-email",
+    seletor: ".info-card:nth-child(1)",
     titulo: "Email de contato",
-    texto: "Este é um dado demonstrativo usado para apresentar o canal de email da SeederLink."
+    texto: "Use este dado se preferir falar diretamente por email com a equipe SeederLink."
   },
   {
-    seletor: ".contact-detail-phone",
+    seletor: ".info-card:nth-child(2)",
     titulo: "Telefone",
-    texto: "Este número fictício representa o atendimento direto da equipe."
+    texto: "Use este contato para uma conversa mais direta com a equipe."
   },
   {
-    seletor: ".climate-location-card",
+    seletor: ".info-card:nth-child(3)",
     titulo: "Localizacao e clima",
-    texto: "Selecione a propriedade no mapa para relacionar a localizacao, as condicoes climaticas e a pre-analise de credito."
+    texto: "Selecione a propriedade no mapa para consultar as condicoes atuais, a media anual recente e a triagem climatica demonstrativa."
   },
   {
     seletor: ".contato-form input[type='text']",

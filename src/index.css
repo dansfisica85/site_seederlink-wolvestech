@@ -1,6 +1,3 @@
-/* Esta é a folha de estilos ativa da versão React. Eu organizei as regras por
-   seção da página e deixei o bloco do mapa separado para facilitar a leitura. */
-
 /* =========================================================
 RESET
 ========================================================= */
@@ -34,7 +31,7 @@ NAVBAR
 ========================================================= */
 
 
-/* CONTAINER DA NAVEGAÇÃO */
+/* NAV CONTAINER */
 
 nav{
 
@@ -67,7 +64,7 @@ nav{
 }
 
 
-/* LOGOTIPO */
+/* LOGO */
 
 .logo{
 
@@ -79,7 +76,7 @@ nav{
 }
 
 
-/* LINKS DA NAVEGAÇÃO */
+/* NAV LINKS */
 
 nav ul{
 
@@ -177,7 +174,7 @@ SECTION TOP
 ========================================================= */
 
 
-/* CABEÇALHO PADRÃO DAS SEÇÕES */
+/* SECTION HEADER */
 
 .section-top{
 
@@ -187,7 +184,7 @@ SECTION TOP
 }
 
 
-/* TÍTULO DAS SEÇÕES */
+/* SECTION TITLE */
 
 .section-top h2{
 
@@ -199,7 +196,7 @@ SECTION TOP
 }
 
 
-/* DESCRIÇÃO DAS SEÇÕES */
+/* SECTION DESCRIPTION */
 
 .section-top p{
 
@@ -215,7 +212,7 @@ SECTION TOP
 }
 
 
-/* TEXTO DA PLATAFORMA */
+/* PLATFORM TEXT */
 
 #Plataforma .section-top h2,
 #Plataforma .section-top p{
@@ -229,7 +226,7 @@ HOME
 ========================================================= */
 
 
-/* SEÇÃO INICIAL */
+/* HOME SECTION */
 
 #Home{
 
@@ -248,7 +245,7 @@ HOME
 }
 
 
-/* CONTEÚDO DA SEÇÃO INICIAL */
+/* HOME CONTENT */
 
 .home-content{
 
@@ -264,7 +261,7 @@ HOME
 }
 
 
-/* LADO ESQUERDO DA SEÇÃO INICIAL */
+/* HOME LEFT */
 
 .home-left{
 
@@ -274,7 +271,7 @@ HOME
 }
 
 
-/* TÍTULO PRINCIPAL */
+/* HOME TITLE */
 
 .home-left h1{
 
@@ -286,7 +283,7 @@ HOME
 }
 
 
-/* DESCRIÇÃO PRINCIPAL */
+/* HOME DESCRIPTION */
 
 .home-left p{
 
@@ -302,7 +299,7 @@ HOME
 }
 
 
-/* GRUPO DE BOTÕES PRINCIPAIS */
+/* HOME BUTTONS */
 
 .home-buttons{
 
@@ -314,7 +311,7 @@ HOME
 }
 
 
-/* BOTÃO PRINCIPAL */
+/* HOME BUTTON */
 
 .btn-home,
 .btn-outline{
@@ -331,7 +328,7 @@ HOME
 }
 
 
-/* VARIAÇÃO VERDE DO BOTÃO */
+/* PRIMARY BUTTON */
 
 .btn-home{
 
@@ -351,7 +348,7 @@ HOME
 }
 
 
-/* VARIAÇÃO CONTORNADA DO BOTÃO */
+/* OUTLINE BUTTON */
 
 .btn-outline{
 
@@ -372,7 +369,7 @@ HOME
 }
 
 
-/* LADO DIREITO DA SEÇÃO INICIAL */
+/* HOME RIGHT */
 
 .home-right{
 
@@ -393,7 +390,7 @@ HOME
 }
 
 
-/* CARDS DE BENEFÍCIOS */
+/* HOME CARD */
 
 .home-card{
 
@@ -474,7 +471,7 @@ PITCH VIDEO
 }
 
 
-/* ÍCONE DE REPRODUÇÃO */
+/* PLAY ICON */
 
 .play-icon{
 
@@ -528,7 +525,7 @@ SOBRE NÓS
 ========================================================= */
 
 
-/* SEÇÃO SOBRE NÓS */
+/* SOBRE SECTION */
 
 #SobreNos{
 
@@ -536,7 +533,7 @@ SOBRE NÓS
 }
 
 
-/* CONTAINER DA SEÇÃO SOBRE NÓS */
+/* SOBRE CONTAINER */
 
 .sobre-container{
 
@@ -548,7 +545,7 @@ SOBRE NÓS
 }
 
 
-/* TEXTO DA SEÇÃO SOBRE NÓS */
+/* SOBRE TEXT */
 
 .sobre-texto{
 
@@ -580,7 +577,7 @@ SOBRE NÓS
 }
 
 
-/* GRUPO DE CARDS DA SEÇÃO SOBRE NÓS */
+/* SOBRE CARDS */
 
 .sobre-cards{
 
@@ -592,7 +589,7 @@ SOBRE NÓS
 }
 
 
-/* CARD DA SEÇÃO SOBRE NÓS */
+/* SOBRE CARD */
 
 .sobre-card{
 
@@ -644,7 +641,7 @@ COMO FUNCIONA
 ========================================================= */
 
 
-/* SEÇÃO DA LINHA DO TEMPO */
+/* TIMELINE SECTION */
 
 #ComoFunciona{
 
@@ -652,7 +649,7 @@ COMO FUNCIONA
 }
 
 
-/* GRADE DA LINHA DO TEMPO */
+/* TIMELINE GRID */
 
 .timeline{
 
@@ -664,7 +661,7 @@ COMO FUNCIONA
 }
 
 
-/* CARD DA LINHA DO TEMPO */
+/* TIMELINE CARD */
 
 .timeline-card{
 
@@ -692,7 +689,7 @@ COMO FUNCIONA
 }
 
 
-/* NÚMERO DA ETAPA */
+/* TIMELINE NUMBER */
 
 .numero{
 
@@ -751,7 +748,7 @@ PLATAFORMA
 ========================================================= */
 
 
-/* SEÇÃO DA PLATAFORMA */
+/* PLATFORM SECTION */
 
 #Plataforma{
 
@@ -764,7 +761,7 @@ PLATAFORMA
 }
 
 
-/* GRADE DA PLATAFORMA */
+/* PLATFORM GRID */
 
 .plataforma-grid{
 
@@ -1073,110 +1070,68 @@ CONTATO
 ========================================================= */
 
 
-/* SEÇÃO DE CONTATO */
+/* CONTACT SECTION */
 
 #Contato{
+
     background:#AFC2A5;
-    overflow:hidden;
 }
 
-/* Limito a largura em monitores grandes para os blocos não ficarem espalhados. */
-.contato-shell{
-    width:min(1440px, 100%);
-    margin:0 auto;
-}
 
-/* Os três canais ficam em uma faixa equilibrada antes do formulário e do mapa. */
-.contato-details-grid{
+/* CONTACT GRID */
+
+.contato-grid{
+
     display:grid;
-    grid-template-columns:repeat(3, minmax(0, 1fr));
-    gap:18px;
-    margin-bottom:28px;
-}
 
-.contact-detail-card{
-    display:grid;
-    grid-template-columns:auto minmax(0, 1fr);
-    align-items:center;
-    gap:14px;
-    min-width:0;
-    min-height:118px;
-    padding:22px 24px;
-}
+    grid-template-columns:1fr 1.2fr;
 
-.contact-detail-card > div{
-    min-width:0;
-}
+    gap:50px;
 
-.contact-detail-icon{
-    display:grid;
-    width:46px;
-    height:46px;
-    place-items:center;
-    border-radius:14px;
-    background:#DDEBD7;
-    color:#1F5A24;
-    font-size:20px;
-}
-
-.contact-detail-label,
-.contact-detail-card strong,
-.contact-detail-card small{
-    display:block;
-}
-
-.contact-detail-label{
-    margin-bottom:4px;
-    color:#667064;
-    font-size:12px;
-    font-weight:700;
-    letter-spacing:0.06em;
-    text-transform:uppercase;
-}
-
-.contact-detail-card strong{
-    overflow-wrap:anywhere;
-    color:#1F5A24;
-    font-size:clamp(14px, 1.25vw, 17px);
-    line-height:1.35;
-}
-
-.contact-detail-card small{
-    margin-top:4px;
-    color:#748074;
-    font-size:12px;
-}
-
-/* O formulário fica na coluna compacta e a análise recebe a coluna maior. */
-.contato-workspace{
-    display:grid;
-    grid-template-columns:minmax(300px, 0.72fr) minmax(0, 1.38fr);
     align-items:start;
-    gap:28px;
 }
 
-/* CARD DE INFORMAÇÃO */
+
+/* CONTACT INFO */
+
+.contato-info{
+
+    display:flex;
+
+    flex-direction:column;
+
+    gap:25px;
+}
+
+
+/* INFO CARD */
 
 .info-card{
+
     background:#F3F7F0;
+
+    padding:35px;
+
     border-radius:24px;
+
     border:1px solid rgba(31,90,36,0.05);
+
     box-shadow:
     0 12px 32px rgba(28,48,31,0.08);
-    transition:transform 0.3s ease, box-shadow 0.3s ease;
+
+    transition:0.3s ease;
 }
 
 .info-card:hover{
-    transform:translateY(-3px);
-    box-shadow:0 16px 36px rgba(28,48,31,0.11);
+
+    transform:translateY(-6px);
 }
 
 
 /* MAPA E TRIAGEM CLIMÁTICA DO CARD DE CONTATO */
 
 .climate-location-card{
-    min-width:0;
-    padding:clamp(22px, 2.4vw, 34px);
+    padding:28px;
     overflow:hidden;
 }
 
@@ -1194,8 +1149,7 @@ CONTATO
 .climate-card-heading h3{
     margin:0 0 6px;
     color:#1F5A24;
-    font-size:clamp(19px, 2vw, 24px);
-    line-height:1.25;
+    font-size:20px;
 }
 
 .climate-card-heading p{
@@ -1203,16 +1157,6 @@ CONTATO
     color:#566255;
     font-size:14px;
     line-height:1.55;
-}
-
-.climate-card-eyebrow{
-    display:block;
-    margin-bottom:5px;
-    color:#2E7D32;
-    font-size:11px;
-    font-weight:800;
-    letter-spacing:0.08em;
-    text-transform:uppercase;
 }
 
 .climate-card-icon{
@@ -1224,37 +1168,6 @@ CONTATO
     border-radius:12px;
     background:#DDEBD7;
     font-size:22px;
-}
-
-.climate-purpose{
-    display:grid;
-    grid-template-columns:auto minmax(0, 1fr);
-    gap:11px;
-    margin:0 0 16px;
-    padding:14px 16px;
-    border:1px solid #C6D9BC;
-    border-radius:14px;
-    background:#EAF3E5;
-    color:#3F503F;
-}
-
-.climate-purpose i{
-    margin-top:2px;
-    color:#2E7D32;
-    font-size:17px;
-}
-
-.climate-purpose p{
-    margin:0;
-    font-size:12px;
-    line-height:1.55;
-}
-
-.climate-purpose strong{
-    display:block;
-    margin-bottom:3px;
-    color:#1F5A24;
-    font-size:13px;
 }
 
 .location-button{
@@ -1292,7 +1205,7 @@ CONTATO
 
 .climate-map{
     width:100%;
-    height:clamp(290px, 31vw, 430px);
+    height:310px;
     border:1px solid #B8C9B2;
     border-radius:18px;
     overflow:hidden;
@@ -1669,104 +1582,51 @@ CONTATO
 }
 
 
-/* FORMULÁRIO DE CONTATO */
+/* CONTACT FORM */
 
 .contato-form{
-    position:sticky;
-    top:108px;
-    min-width:0;
+
     background:#F4F8F1;
-    padding:clamp(24px, 2.6vw, 36px);
-    border-radius:24px;
+
+    padding:40px;
+
+    border-radius:28px;
+
     display:flex;
+
     flex-direction:column;
-    gap:17px;
+
+    gap:20px;
+
     border:1px solid rgba(31,90,36,0.05);
+
     box-shadow:
     0 12px 32px rgba(28,48,31,0.08);
 }
 
-.contato-form-heading{
-    margin-bottom:3px;
-}
 
-.contato-form-heading > span{
-    display:block;
-    margin-bottom:5px;
-    color:#2E7D32;
-    font-size:11px;
-    font-weight:800;
-    letter-spacing:0.08em;
-    text-transform:uppercase;
-}
-
-.contato-form-heading h3{
-    margin:0 0 8px;
-    color:#1F5A24;
-    font-size:clamp(20px, 2vw, 25px);
-    line-height:1.25;
-}
-
-.contato-form-heading p{
-    margin:0;
-    color:#5E6A5D;
-    font-size:13px;
-    line-height:1.55;
-}
-
-.contato-form-field{
-    min-width:0;
-}
-
-.contato-form-field > label,
-.contato-field-heading label{
-    display:block;
-    margin-bottom:6px;
-    color:#354635;
-    font-size:12px;
-    font-weight:700;
-}
-
-.contato-field-heading{
-    display:flex;
-    align-items:center;
-    justify-content:space-between;
-    gap:12px;
-}
-
-.contato-field-heading small{
-    color:#718071;
-    font-size:11px;
-}
-
-
-/* CAMPOS DO FORMULÁRIO */
+/* FORM INPUTS */
 
 .contato-form input,
 .contato-form textarea{
 
     width: 100%;
 
-    min-width:0;
-    padding:14px 15px;
-    border-radius:12px;
+    padding:18px;
+
+    border-radius:14px;
+
     border:1px solid #CBD5C0;
+
     outline:none;
+
     background:#ffffff;
+
     font-family: 'Inter', sans-serif;
-    color:#263726;
-    font-size:16px;
-    transition:border-color 0.2s ease, box-shadow 0.2s ease;
-}
 
-.contato-form textarea{
-    min-height:138px;
-    resize:vertical;
-}
+    font-size: 16px;
 
-.contato-form input::placeholder,
-.contato-form textarea::placeholder{
-    color:#8A9688;
+    transition:0.3s ease;
 }
 
 .contato-form input:focus,
@@ -1781,32 +1641,40 @@ CONTATO
 
 .erro-msg {
   display: block;
-  color:#A1362F;
-  font-size:12px;
-  margin-top:5px;
+  color: red;
+  font-size: 14px;
+  margin-top: 4px;
 }
 
 .sucesso-msg {
   display: block;
-  color:#1F6A28;
-  font-size:12px;
-  margin-top:5px;
+  color: green;
+  font-size: 14px;
+  margin-top: 4px;
 }
 
 
-/* BOTÃO DO FORMULÁRIO */
+/* FORM BUTTON */
 
 .contato-form button{
+
     border:none;
-    width:100%;
-    padding:15px 18px;
-    border-radius:12px;
+
+    padding:18px;
+
+    border-radius:14px;
+
     background:#1F5A24;
+
     color:white;
-    font-weight:700;
-    font-size:15px;
+
+    font-weight:600;
+
+    font-size: 16px;
+
     cursor: pointer;
-    transition:background 0.2s ease, transform 0.2s ease;
+
+    transition:0.3s ease;
 }
 
 .contato-form button:hover:not(:disabled){
@@ -1816,30 +1684,22 @@ CONTATO
     transform:translateY(-2px);
 }
 
-.contato-form button:focus-visible{
-    outline:3px solid rgba(46,125,50,0.28);
-    outline-offset:3px;
-}
-
 
 /* Estado desabilitado do botão */
 .contato-form button:disabled {
-  background:#899A88;
-  color:#F2F5F1;
-  cursor:not-allowed;
-  opacity:0.72;
-  box-shadow:none;
+  background: #9aa89a;   /* tom apagado */
+  color: #e0e0e0;        /* texto mais claro */
+  cursor: not-allowed;   /* cursor de bloqueio */
+  opacity: 0.6;          /* efeito de "apagado" */
+  box-shadow: none;      /* remove sombra */
 }
 
 .mensagem-sucesso {
-  display:block;
-  padding:11px 13px;
-  border-radius:10px;
-  background:#E2F1DE;
-  color:#1F5A24;
-  font-size:13px;
-  font-weight:700;
-  text-align:center;
+  display: none;          /* escondida por padrão */
+  color: #1F5A24;         /* mesma cor do botão */
+  font-size: 15px;
+  font-weight: 600;
+  margin-top: 12px;
 }
 
 
@@ -1849,7 +1709,7 @@ FOOTER
 ========================================================= */
 
 
-/* CONTAINER DO RODAPÉ */
+/* FOOTER CONTAINER */
 
 footer{
 
@@ -1863,7 +1723,7 @@ footer{
 }
 
 
-/* TÍTULO DO RODAPÉ */
+/* FOOTER TITLE */
 
 footer h3{
 
@@ -1876,12 +1736,13 @@ RESPONSIVIDADE
 ========================================================= */
 
 
-/* AJUSTES PARA TABLETS */
+/* TABLETS */
 
 @media(max-width:1024px){
 
     .home-content,
-    .plataforma-grid{
+    .plataforma-grid,
+    .contato-grid{
 
         grid-template-columns:1fr;
 
@@ -1900,34 +1761,10 @@ RESPONSIVIDADE
 
         font-size:58px;
     }
-
-    /* Em tablets, mapa e formulário passam a usar toda a largura disponível. */
-    .contato-workspace{
-        grid-template-columns:1fr;
-    }
-
-    .climate-location-card{
-        order:1;
-    }
-
-    .contato-form{
-        position:static;
-        order:2;
-    }
-}
-
-@media(max-width:860px){
-    .contato-details-grid{
-        grid-template-columns:repeat(2, minmax(0, 1fr));
-    }
-
-    .contact-detail-service{
-        grid-column:1 / -1;
-    }
 }
 
 
-/* AJUSTES PARA CELULARES */
+/* MOBILE */
 
 @media(max-width:768px){
 
@@ -1937,38 +1774,16 @@ RESPONSIVIDADE
 
         height:auto;
 
-        gap:9px;
-
-        padding:12px 16px;
+        padding:20px;
     }
 
     nav ul{
 
-        width:100%;
-
-        margin-top:0;
+        margin-top:15px;
 
         flex-wrap:wrap;
 
         justify-content:center;
-
-        column-gap:14px;
-
-        row-gap:7px;
-    }
-
-    nav ul li a{
-        font-size:12px;
-        white-space:nowrap;
-    }
-
-    .logo{
-        font-size:24px;
-    }
-
-    /* Este espaço impede o menu fixo de cobrir o selo da seção de contato. */
-    #Contato{
-        scroll-margin-top:32px;
     }
 
     .section-top h2,
@@ -2007,7 +1822,7 @@ ANIMAÇÕES
 ========================================================= */
 
 
-/* BASE DAS ANIMAÇÕES */
+/* BASE ANIMATIONS */
 
 .fade-in,
 .slide-left,
@@ -2022,7 +1837,7 @@ ANIMAÇÕES
 }
 
 
-/* ANIMAÇÃO DE APARECIMENTO */
+/* FADE */
 
 .fade-in{
 
@@ -2030,7 +1845,7 @@ ANIMAÇÕES
 }
 
 
-/* ENTRADA PELA ESQUERDA */
+/* SLIDE LEFT */
 
 .slide-left{
 
@@ -2038,7 +1853,7 @@ ANIMAÇÕES
 }
 
 
-/* ENTRADA PELA DIREITA */
+/* SLIDE RIGHT */
 
 .slide-right{
 
@@ -2046,7 +1861,7 @@ ANIMAÇÕES
 }
 
 
-/* ANIMAÇÃO DE ZOOM */
+/* ZOOM */
 
 .zoom-in{
 
@@ -2054,7 +1869,7 @@ ANIMAÇÕES
 }
 
 
-/* ESTADO ATIVO DAS ANIMAÇÕES */
+/* ACTIVE STATE */
 
 .visible{
 
@@ -2192,17 +2007,6 @@ GUIA INTERATIVO
 }
 
 @media(max-width:768px){
-    /* No celular, as entradas usam movimento vertical e não aumentam a largura. */
-    .slide-left,
-    .slide-right{
-        transform:translateY(28px);
-    }
-
-    .slide-left.visible,
-    .slide-right.visible{
-        transform:translate(0, 0);
-    }
-
     .guia-tooltip{
         padding:15px 16px;
     }
@@ -2226,35 +2030,12 @@ GUIA INTERATIVO
 }
 
 @media(max-width:620px){
-    .contato-details-grid{
-        grid-template-columns:1fr;
-        gap:12px;
-        margin-bottom:18px;
-    }
-
-    .contact-detail-service{
-        grid-column:auto;
-    }
-
-    .contact-detail-card{
-        min-height:0;
-        padding:18px;
-    }
-
-    .contato-workspace{
-        gap:18px;
-    }
-
-    .contato-form{
-        padding:20px;
-    }
-
     .climate-location-card{
         padding:20px;
     }
 
     .climate-map{
-        height:300px;
+        height:270px;
     }
 
     .coordinate-form{
@@ -2263,11 +2044,6 @@ GUIA INTERATIVO
 
     .coordinate-form button{
         grid-column:1;
-    }
-
-    /* Dezesseis pixels evita o zoom automático dos campos em celulares. */
-    .coordinate-form input{
-        font-size:16px;
     }
 
     .climate-metrics-grid{
