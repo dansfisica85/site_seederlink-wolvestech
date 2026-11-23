@@ -208,10 +208,10 @@ export default function CarteiraPropriedades({ analysisToSave, onAnalysisSaved }
               {properties.map(p => <option key={p.id} value={p.id}>Atualizar histórico: {p.nome}</option>)}
             </select></label>
             {!draft.existingId ? <>
-              <label>Nome da propriedade<input name="propertyName" value={draft.nome} onChange={e => setDraft({ ...draft, nome: e.target.value })} required maxLength={80} placeholder="Ex.: Sítio Boa Esperança" autoComplete="off" /></label>
+              <label htmlFor="propertyName">Nome da propriedade<input id="propertyName" name="propertyName" value={draft.nome} onChange={e => setDraft({ ...draft, nome: e.target.value })} required maxLength={80} placeholder="Ex.: Sítio Boa Esperança" autoComplete="off" /></label>
               <div className="portfolio-form-row">
                 <label>Cultura<select aria-label="Cultura" value={draft.cultura} onChange={e => setDraft({ ...draft, cultura: e.target.value })}><option value="soja">Soja</option><option value="tomate">Tomate</option></select></label>
-                <label>Área (hectares)<input name="propertyArea" value={draft.areaHectares} onChange={e => setDraft({ ...draft, areaHectares: e.target.value })} required inputMode="decimal" maxLength={16} placeholder="Ex.: 25,5" /></label>
+                <label htmlFor="propertyArea">Área (hectares)<input id="propertyArea" name="propertyArea" value={draft.areaHectares} onChange={e => setDraft({ ...draft, areaHectares: e.target.value })} required inputMode="decimal" maxLength={16} placeholder="Ex.: 25,5" /></label>
               </div>
               <small>Área e cultura organizam o cadastro; não alteram a triagem climática.</small>
             </> : <p>O histórico aceita somente a mesma coordenada do cadastro e mantém as 5 consultas mais recentes. Copie as coordenadas do cartão para o mapa antes de consultar novamente.</p>}
