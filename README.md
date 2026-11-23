@@ -86,9 +86,30 @@ npm run test:ui
 
 ## Deploy
 
-O provedor é GitHub Pages. Em Settings > Pages, a origem deve ser **GitHub Actions**. O workflow `.github/workflows/deploy-pages.yml` instala dependências, executa testes e build e publica a `main`, usando `VITE_BASE_PATH=/site_seederlink-fase7/`. Pull requests são testados sem publicar.
+### GitHub Pages
+
+O provedor principal é GitHub Pages. Em Settings > Pages, a origem deve ser **GitHub Actions**. O workflow `.github/workflows/deploy-pages.yml` instala dependências, executa testes e build e publica a `main`, usando `VITE_BASE_PATH=/site_seederlink-fase7/`. Pull requests são testados sem publicar.
 
 Após enviar uma alteração, aguarde `build` e `deploy` concluírem e confira o site em janela anônima. Nunca envie `.env`, credenciais ou `node_modules`.
+
+### Vercel
+
+Para deploy na [Vercel](https://vercel.com):
+
+1. Acesse [vercel.com](https://vercel.com) e faça login com sua conta GitHub.
+2. Clique em **"Add New..."** → **"Project"**.
+3. Selecione este repositório na lista de projetos do GitHub.
+4. Na configuração do projeto, use as configurações padrão (o Vercel detecta automaticamente o Vite).
+5. Clique em **"Deploy"**.
+
+O arquivo `vercel.json` já está configurado para:
+- Build automático com `npm run build`
+- SPA routing (todas as rotas redirecionam para `index.html`)
+- Diretório de saída: `dist/`
+
+Após o deploy, o site estará disponível em `https://seu-projeto.vercel.app`.
+
+**Deploy automático:** Cada push na branch `main` dispara um novo deploy automaticamente.
 
 ## Pitch
 
