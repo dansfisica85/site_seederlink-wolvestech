@@ -1,0 +1,3794 @@
+================================================================================
+FILE: 1ESO - Fase 07 - 01 - Chegou o momento de finalizar.docx_RevFinal.pdf
+PAGES: 7
+--- PAGE 1 ---
+Chegou o momento de finalizar
+   
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+CHEGOU O
+MOMENTO DE
+FINALIZAR
+01
+PDF exclusivo para Mateus Augusto da Costa Oliveira Gonçalves - rm570166
+mateus.augusto1629@gmail.com
+--- PAGE 2 ---
+Chegou o momento de finalizar
+   
+ 
+ 
+SUMÁRIO 
+1 CHEGOU O MOMENTO DE FINALIZAR ............................................................... 3 
+1.1 Vamos finalizar o primeiro ano da sua graduação? ............................................ 3 
+2 CONTEÚDOS DESSA FASE ................................................................................. 3 
+2.1 Edge Computing & Computer Systems ............................................................... 3 
+2.2 Software Design e Total Experience ................................................................... 3 
+2.3 Front-end técnico ................................................................................................ 4 
+2.4 Computational Thinking with Python ................................................................... 4 
+2.5 Differentiated Problem Solving ............................................................................ 5 
+2.6 Front-end design ................................................................................................. 5 
+2.7 Storytelling e Inspiração Empreendedora............................................................ 5 
+2.8 Formação Social e Sustentabilidade ................................................................... 6 
+CONCLUSÃO ............................................................................................................ 7 
+ 
+  
+  
+PDF exclusivo para Mateus Augusto da Costa Oliveira Gonçalves - rm570166
+mateus.augusto1629@gmail.com
+--- PAGE 3 ---
+Chegou o momento de finalizar
+   
+ 
+1 CHEGOU O MOMENTO DE FINALIZAR 
+1.1 Vamos finalizar o primeiro ano da sua graduação? 
+Tudo que você aprendeu até o momento será a base para aplicar na prática. 
+Tudo foi preparado para que você faça o fast test e a atividade. Tente dar o seu melhor, 
+pois não é só a nota que está em jogo, mas também o seu conhecimento – o famoso 
+Hands-On ou, em tecnologia, conhecido como estar ampliando a sua caixa de 
+ferramentas para utilizar no mercado de trabalho. 
+2 CONTEÚDOS DESSA FASE 
+2.1 Edge Computing & Computer Systems 
+Vamos tentar resumir esse conteúdo em uma frase: E agora com vocês, a 
+eletricidade! 
+Parece estranho fazer a definição do capítulo de uma matéria em uma frase, 
+mas, depois que estudar esse conteúdo, entenderá. O que seria de você nesse 
+momento sem a eletricidade? Agora é provável que você esteja estudando com algo 
+que depende de energia e, para isso, é necessária a eletricidade, então o porquê de 
+estudar esse conteúdo já se justifica. 
+Entender a eletricidade básica, compreendendo o que é uma fonte ou pilha, 
+saber diferenciar a corrente contínua e alternada, e até mesmo alguns componentes 
+eletrônicos será muito importante para os próximos anos do curso. 
+2.2 Software Design e Total Experience 
+Você já teve conteúdos anteriores a esta matéria que falam sobre diagramas, 
+então vamos entender um pouco mais disso. Para essa matéria, você terá dois 
+capítulos. Um para os diagramas de classes que, antes que comece a estudar já 
+posso adiantar, que se trata da parte da documentação de um projeto. Isso ajuda 
+PDF exclusivo para Mateus Augusto da Costa Oliveira Gonçalves - rm570166
+mateus.augusto1629@gmail.com
+--- PAGE 4 ---
+Chegou o momento de finalizar
+   
+ 
+principalmente o desenvolvedor back-end a entender o que precisa ser desenvolvido 
+através de uma documentação técnica feita, por exemplo, por um analista de 
+sistemas. Esse desenvolvedor back-end irá interpretar e aplicar, por exemplo, a 
+programação em Java ou outra linguagem de back-end com orientação a objetos, mas 
+é lógico que essa documentação também é fundamental para o desenvolvedor front-
+end. 
+O outro capítulo é o diagrama de sequência. Então, se o diagrama representa 
+algo do sistema e chama-se diagrama de sequência, já é possível ter uma primeira 
+interpretação. Você estará certo de que o diagrama de sequência representa as 
+possíveis sequências de acontecimentos de um sistema que o programador irá 
+interpretar para poder desenvolver aplicando em linguagem de programação. 
+2.3 Front-end técnico 
+Agora que já tem conhecimento suficiente de JavaScript e React, é o momento 
+de aprender como tratar as informações do front-end e encaminhar para o back-end. 
+Com isso, você já sentirá vontade de iniciar o próximo ano, em que uma das matérias 
+é o back-end com Java. 
+2.4 Computational Thinking with Python 
+A sugestão antes de iniciar o estudo nessa matéria é parar agora e pegar um 
+lápis ou caneta e anotar o quanto você já aprendeu. A dica para essas anotações é 
+começar pelo contexto da lógica de programação e sua variedade de estruturas 
+lógicas, acrescentar o aprendizado que você teve ao utilizar a IDE para o Python, 
+sintaxe dessa poderosa linguagem e outras partes da programação que ficaram sob 
+sua responsabilidade nessa matéria. Para continuar nesse grande nível de 
+responsabilidade, este capítulo irá ensinar como conectar o Python com banco de 
+dados. Mas tenha calma, sabemos que você ainda não conhece banco de dados, 
+então aproveite esse conteúdo; quando for aprender banco de dados, tudo fará ainda 
+mais sentido. 
+PDF exclusivo para Mateus Augusto da Costa Oliveira Gonçalves - rm570166
+mateus.augusto1629@gmail.com
+--- PAGE 5 ---
+Chegou o momento de finalizar
+   
+ 
+2.5 Differentiated Problem Solving  
+Vamos lá, mais um pouco de matemática, agora com as integrais. Espero que 
+entenda com o estudo desse conteúdo que você já deve ter passado situações nas 
+quais caso você tivesse aplicado o cálculo das integrais teria entendido mais 
+facilmente os comportamentos de alguns fenômenos. Logo no início você irá se 
+deparar com o conteúdo de cálculo de áreas e suas possibilidades, então, não irá 
+apenas fazer uma conta para chegar em um resultado, terá que calcular para 
+posteriormente conseguir projetar em forma de gráfico os valores no plano cartesiano 
+X e Y. Fique tranquilo, você irá gostar e entender que faz sentido esse estudo. 
+2.6 Front-end design 
+Nos dias atuais, você, aluno, às vezes busca estudar além do que é ensinado 
+em sala de aula. Pode ser que você já fez uma leitura técnica referente à biblioteca 
+jQuery ou até mesmo já tenha ouvido falar dessa palavra. Não foi por acaso, falar que 
+sabe JavaScript é também compreender e saber utilizar o poderoso jQuery, que ajuda 
+na interação dinâmica com o HTML. Então, a sugestão é terminar essa leitura e já 
+colocar na sua lista de estudo esse fantástico capítulo técnico de jQuery. 
+2.7 Storytelling e Inspiração Empreendedora 
+Agora que já aprendeu técnicas de escrita, como se expressar e até mesmo o 
+desenvolvimento front-end design na outra matéria, chegou o grande momento de 
+entender como criar uma estratégia adequada com a necessidade do produto, por 
+exemplo, digital, que precisa desenvolver para gerar a melhor experiência para o 
+usuário. É isso que você aprenderá neste capítulo. 
+ 
+PDF exclusivo para Mateus Augusto da Costa Oliveira Gonçalves - rm570166
+mateus.augusto1629@gmail.com
+--- PAGE 6 ---
+Chegou o momento de finalizar
+   
+ 
+2.8 Formação Social e Sustentabilidade 
+Mais um capítulo de extrema relevância social, mas, dessa vez, com ênfase 
+em como as empresas podem alcançar um desenvolvimento sustentável e como é 
+possível viver no ambiente de uma empresa e em casa de maneira sustentável. A 
+maior dica para esse conteúdo é estudar e refletir sobre o que está aprendendo e o 
+que ainda não está aplicando desses conceitos. Entenda que nunca é tarde e inicie 
+agora, para que amanhã seja possível ter um mundo ainda melhor. 
+ 
+ 
+  
+PDF exclusivo para Mateus Augusto da Costa Oliveira Gonçalves - rm570166
+mateus.augusto1629@gmail.com
+--- PAGE 7 ---
+Chegou o momento de finalizar
+   
+ 
+CONCLUSÃO 
+Se você chegou até essa fase, é porque está gostando do que está 
+aprendendo e percebeu que faz sentido. Agora, é hora de caprichar ainda mais nas 
+entregas, mas, claro, se houver espaço para melhorar, continue se aperfeiçoando. 
+Faça as atividades que estão disponíveis não apenas para obter a nota, mas também 
+para aprender na prática. 
+PDF exclusivo para Mateus Augusto da Costa Oliveira Gonçalves - rm570166
+mateus.augusto1629@gmail.com
+================================================================================
+FILE: 1ESO - Fase 07 - 02 - Eletricidade Básica.docx_RevFinal.pdf
+PAGES: 32
+--- PAGE 1 ---
+Eletricidade Básica
+  
+  
+ELETRICIDADE
+BÁSICA
+02
+PDF exclusivo para Mateus Augusto da Costa Oliveira Gonçalves - rm570166
+mateus.augusto1629@gmail.com
+--- PAGE 2 ---
+Eletricidade Básica
+LISTA DE FIGURAS 
+Figura 1 – Descoberta da eletricidade por Tales de Mileto ....................................... 6 
+Figura 2 – Evolução da descoberta da eletricidade ................................................... 6 
+Figura 3 – Produção de eletricidade pela separação de cargas ............................... 8 
+Figura 4 – Processo de descarga de uma bateria ..................................................... 9 
+Figura 5 – Produção de utilização da eletricidade de uma bateria ............................ 10 
+Figura 6 – Sentido convencional e real da corrente elétrica ...................................... 11 
+Figura 7 – Características de uma pilha AA .............................................................. 12 
+Figura 8 – Características de uma fonte fixa ............................................................. 13 
+Figura 9 – Características de uma fonte fixa ............................................................. 14 
+Figura 10 – Resistor .................................................................................................. 15 
+Figura 11 – Exemplo de um circuito elétrico.............................................................. 17 
+Figura 12 – Aplicação da Lei de Ohm ....................................................................... 17 
+Figura 13 – Substituição de três resistências associadas em série .......................... 19 
+Figura 14 – Três resistências associadas em paralelo .............................................. 20 
+Figura 15 – Redução de circuitos resistivos .............................................................. 21 
+Figura 16 – Análise de um circuito resistivo .............................................................. 22 
+Figura 17 – Capacitores: (a) Aparência de um capacitor eletrolítico; (b) Capacitor de 
+placas planas e paralelas; (c); (d) Construção interna de um capacitor eletrolítico; (e) 
+polaridade nos capacitores eletrolíticos e (f) circuito com capacitores ...................... 23 
+Figura 18 – Significados das faixas dos capacitores ................................................. 25 
+Figura 19 – Associação de capacitores em série e capacitor equivalente ................ 26 
+Figura 20 – Associação de capacitores em paralelo e capacitor equivalente ........... 27 
+Figura 21 – Exemplo ................................................................................................. 28 
+Figura 22 – Resolução .............................................................................................. 29 
+PDF exclusivo para Mateus Augusto da Costa Oliveira Gonçalves - rm570166
+mateus.augusto1629@gmail.com
+--- PAGE 3 ---
+Eletricidade Básica
+ 
+LISTA DE TABELAS 
+Tabela 1 – Código de cores para capacitores ........................................................... 25 
+PDF exclusivo para Mateus Augusto da Costa Oliveira Gonçalves - rm570166
+mateus.augusto1629@gmail.com
+--- PAGE 4 ---
+Eletricidade Básica
+ 
+SUMÁRIO 
+ELETRICIDADE BÁSICA .......................................................................................... 5 
+1 INTRODUÇÃO ....................................................................................................... 5 
+1.1 Histórico .............................................................................................................. 5 
+2 CONCEITOS ELÉTRICOS ..................................................................................... 7 
+2.1 Definição de eletricidade e como obtê-la............................................................. 7 
+2.2 O que é possível fazer com uma fonte de eletricidade? ...................................... 8 
+2.3 Diferentes fontes de eletricidade ......................................................................... 10 
+2.4 Tensão (corrente) contínua e alternada .............................................................. 13 
+2.5 Potência elétrica .................................................................................................. 14 
+2.6 Resistores ........................................................................................................... 14 
+2.7 Circuitos elétricos: histórico ................................................................................. 16 
+3 LEI DE OHM ........................................................................................................... 17 
+3.1 Associação de resistores ..................................................................................... 18 
+3.2 Análise de circuitos resistivos .............................................................................. 20 
+3.3 Capacitores ......................................................................................................... 22 
+3.4 Capacitância ........................................................................................................ 24 
+3.5 Associação de capacitores .................................................................................. 26 
+3.6 Associação em paralelo ...................................................................................... 27 
+CONCLUSÃO ............................................................................................................ 30 
+REFERÊNCIAS ......................................................................................................... 32 
+ 
+ 
+  
+  
+PDF exclusivo para Mateus Augusto da Costa Oliveira Gonçalves - rm570166
+mateus.augusto1629@gmail.com
+--- PAGE 5 ---
+Eletricidade Básica
+ELETRICIDADE BÁSICA 
+1 INTRODUÇÃO 
+Abracadabra... e... a mágica acontece! Dentro da cartola... ops! Da caixa 
+mágica está o encantamento, todo um mundo novo com muitas possibilidades. O que 
+torna possível o funcionamento dos computadores e todos os outros dispositivos que 
+vêm tornando nossa vida mais prática e ágil? 
+Já tivemos um pouco de eletricidade e algumas noções sobre esse tema ao 
+longo deste ano. Agora, ampliaremos mais os nossos conhecimentos com os 
+conceitos básicos e fundamentais de eletricidade e eletrônica, com o objetivo de dar 
+um passo maior em direção aos projetos e, claro, fazendo as conexões com projeto 
+envolvendo hardware em toda a customização elétrica e eletrônica! 
+1.1 Histórico 
+Desde o início dos tempos, o ser humano tem contato com os fenômenos 
+elétricos presentes na natureza. Por isso, não se tem registro de quem foi o primeiro 
+homem a relatar tais fenômenos. 
+A primeira narrativa registrada, que temos conhecimento, é de um filósofo 
+grego chamado Tales de Mileto (624 a.C. a 546 a.C.), que foi considerado o primeiro 
+físico e matemático grego. Esse filósofo observou que, ao esfregar um âmbar em um 
+pedaço de pele de carneiro, pedaços de palhas e fragmentos de madeira começaram 
+a ser atraídos pelo próprio âmbar. A Figura “Descoberta da eletricidade por Tales de 
+Mileto” apresenta um esquema ilustrativo desse experimento: 
+ 
+PDF exclusivo para Mateus Augusto da Costa Oliveira Gonçalves - rm570166
+mateus.augusto1629@gmail.com
+--- PAGE 6 ---
+Eletricidade Básica
+ 
+Figura 1 – Descoberta da eletricidade por Tales de Mileto 
+Fonte: Google Imagem (2018) 
+ 
+Do âmbar (em grego, élektron) surgiu o nome eletricidade. No século XVII, 
+foram iniciados estudos sistemáticos sobre a eletrificação por atrito, graças a Otto von 
+Guericke. Em 1672, Otto inventou uma máquina geradora de cargas elétricas na qual 
+uma esfera de enxofre girava constantemente, atritando-se em terra seca. Após meio 
+século, Stephen Gray faz a primeira distinção entre condutores e isolantes elétricos. 
+A Figura “Evolução da descoberta da eletricidade” apresenta alguns dos aspectos 
+discutidos acima: 
+ 
+ 
+Figura 2 – Evolução da descoberta da eletricidade  
+Fonte: Google Imagens (2018) 
+ 
+Uma invenção importante e de uso prático, ainda nos primórdios do 
+conhecimento sobre eletricidade, foi o para-raios, desenvolvido por Benjamin Franklin. 
+PDF exclusivo para Mateus Augusto da Costa Oliveira Gonçalves - rm570166
+mateus.augusto1629@gmail.com
+--- PAGE 7 ---
+Eletricidade Básica
+Segundo esse cientista, a eletrização de dois corpos atritados era a falta de um dos 
+dois tipos de eletricidade em um dos corpos. Esses dois tipos de eletricidade eram 
+chamados de eletricidade resinosa e vítrea. 
+Hoje sabemos muito sobre a eletricidade, sabemos como produzi-la, armazená-
+la e utilizá-la. Que bom! Ela se tornou tão comum em nossas vidas que só nos damos 
+conta da sua existência quando há uma falta de seu fornecimento. 
+2 CONCEITOS ELÉTRICOS 
+2.1 Definição de eletricidade e como obtê-la 
+A eletricidade é o movimento de elétrons em uma direção particular por meio 
+de um determinado caminho. Existem muitas maneiras de obtê-la, entre elas, 
+separando-se cargas elétricas em reservatórios separados. Cargas elétricas? Na 
+natureza, temos dois tipos de cargas elétricas: as positivas e as negativas. As cargas 
+elétricas negativas surgem quando possuímos pequenas partículas chamadas 
+elétrons em algum material, pois os elétrons guardam cargas negativas. Para efeitos 
+práticos, conseguimos apenas manipular as cargas elétricas negativas (os elétrons). 
+Assim, vamos considerar o seguinte experimento: 
+Tomemos dois recipientes (A e B), ambos com as mesmas quantidades iniciais 
+de elétrons. Começamos, então, a retirar elétrons de um recipiente e colocar no outro. 
+Depois de algum tempo, ficaremos com muitos elétrons em um dos recipientes e 
+poucos elétrons no outro. Aquele recipiente que ganhou elétrons está, agora, 
+carregado negativamente (possui um excesso de elétrons), e o outro está carregado 
+positivamente (possui falta de elétrons). Esse processo está ilustrado na Figura 
+“Produção de eletricidade pela separação de cargas”: 
+ 
+PDF exclusivo para Mateus Augusto da Costa Oliveira Gonçalves - rm570166
+mateus.augusto1629@gmail.com
+--- PAGE 8 ---
+Eletricidade Básica
+ 
+Figura 3 – Produção de eletricidade pela separação de cargas 
+Fonte: Elaborado pelo autor (2018) 
+ 
+Com esses recipientes possuindo diferentes quantidades de elétrons, 
+construímos uma fonte de eletricidade e podemos utilizá-la, por exemplo, para 
+acender uma lâmpada. 
+2.2 O que é possível fazer com uma fonte de eletricidade? 
+A resposta é: quase tudo no mundo moderno. Considere que temos uma fonte 
+de eletricidade, como aquela construída anteriormente, em que temos excesso de 
+elétrons no reservatório A, o qual chamamos de polo negativo, e falta de elétrons no 
+reservatório B, o qual chamamos de polo positivo. 
+Se ligarmos estes polos por meio de um fio condutor, por exemplo, um fio de 
+cobre, os elétrons vão se deslocar do reservatório A, no qual estão em excesso, para 
+o reservatório B, no qual estão em falta. Esse processo está ilustrado na Figura 
+“Processo de descarga de uma bateria”: 
+ 
+PDF exclusivo para Mateus Augusto da Costa Oliveira Gonçalves - rm570166
+mateus.augusto1629@gmail.com
+--- PAGE 9 ---
+Eletricidade Básica
+ 
+Figura 4 – Processo de descarga de uma bateria 
+Fonte: Elaborado pelo autor (2018) 
+ 
+Esse processo vai descarregar a fonte de eletricidade e ela perderá sua 
+utilidade, mas ainda não explica a utilidade de uma fonte de eletricidade! 
+ 
+ATENÇÃO: Nunca ligue diretamente os terminais de uma pilha ou fonte de 
+tensão por meio de um fio, pois a corrente será muito alta e a fonte poderá queimar. 
+Pior ainda, a pilha ou a bateria poderão até explodir! 
+ 
+Imagine agora que, no meio do fio descrito anteriormente, colocamos um motor 
+elétrico. Os elétrons que se deslocam pelo fio, do polo negativo para o polo positivo, 
+passam pelo motor elétrico, fornecendo eletricidade, e, finalmente, o motor gira. No 
+lugar do motor, poderíamos colocar uma lâmpada e, assim, quando os elétrons 
+passassem pela lâmpada, forneceriam eletricidade para acendê-la. Veja esse 
+processo ilustrado na Figura “Produção de utilização da eletricidade de uma bateria”: 
+PDF exclusivo para Mateus Augusto da Costa Oliveira Gonçalves - rm570166
+mateus.augusto1629@gmail.com
+--- PAGE 10 ---
+Eletricidade Básica
+ 
+ 
+Figura 5 – Produção de utilização da eletricidade de uma bateria 
+Fonte: Elaborado pelo autor (2018) 
+2.3 Diferentes fontes de eletricidade 
+Cada equipamento exige, para o seu funcionamento, fontes de eletricidade com 
+características específicas, que levam em conta duas grandezas, a saber: 
+Corrente elétrica: refere-se à quantidade de elétrons que atravessam o fio 
+condutor e, consequentemente, nos exemplos anteriores, o motor e a lâmpada. Para 
+escolhermos uma fonte de alimentação, precisamos saber quanto de corrente 
+consome o dispositivo que será ligado por ela. A corrente elétrica é dada em ampere 
+(sobrenome do cientista que a descobriu, André-Marie Ampère) cujo símbolo é A. 
+No início dos estudos sobre eletricidade, os cientistas achavam que as cargas 
+que se movimentavam ou se deslocavam entre os polos de uma fonte de diferença de 
+potencial eram positivas. Assim, definiram o sentido da corrente elétrica como sendo 
+do polo positivo para o negativo. Esse sentido de corrente elétrica ficou conhecido 
+PDF exclusivo para Mateus Augusto da Costa Oliveira Gonçalves - rm570166
+mateus.augusto1629@gmail.com
+--- PAGE 11 ---
+Eletricidade Básica
+como convencional. Porém, com o avanço da compreensão sobre a eletricidade, 
+descobriu-se que, na verdade, o que se deslocavam eram as cargas negativas, e um 
+novo sentido para a corrente elétrica teve que ser definido. Este novo sentido (que vai 
+do polo negativo para o positivo) é chamado de sentido real. A Figura “Sentido 
+convencional e real da corrente elétrica” mostra estes fluxos: 
+ 
+ 
+ 
+Figura 6 – Sentido convencional e real da corrente elétrica 
+Fonte: Editora InterSaberes (2015) 
+ 
+Diferença de potencial ou tensão de saída: quando usamos uma fonte de 
+eletricidade, os elétrons deslocam-se do polo negativo (no qual estão em maior 
+quantidade) para o polo positivo (no qual estão em menor quantidade). A “força” 
+que faz com que os elétrons se desloquem é medida em volt (sobrenome do 
+cientista que a descobriu, Alessandro Volta) cujo símbolo é V. dizemos que, 
+entre os terminais da fonte, existe uma diferença de potencial. quanto maior for 
+essa diferença, mais intensamente os elétrons se deslocarão, ou seja, maior 
+será a corrente. 
+PDF exclusivo para Mateus Augusto da Costa Oliveira Gonçalves - rm570166
+mateus.augusto1629@gmail.com
+--- PAGE 12 ---
+Eletricidade Básica
+Na Figura “Características de uma pilha AA”, temos duas pilhas AA alcalinas. 
+Pelo fato de serem alcalinas, sabemos que sua corrente máxima é de 0,6 A, ou seja, 
+menos de um ampere e a diferença de potencial entre os polos positivo (+) e 
+negativo (-) é de 1,5 V: 
+ 
+ 
+ 
+Figura 7 – Características de uma pilha AA 
+Fonte: Elaborado pelo autor (2018) 
+ 
+Na Figura “Características de uma fonte fixa”, temos uma fonte de eletricidade 
+de tomada. Na fonte, encontramos uma etiqueta com suas características. Neste 
+caso, sua corrente máxima é de 1,0 A e a diferença de potencial entre os polos 
+positivo (+) e negativo (-) é de 12 V: 
+ 
+PDF exclusivo para Mateus Augusto da Costa Oliveira Gonçalves - rm570166
+mateus.augusto1629@gmail.com
+--- PAGE 13 ---
+Eletricidade Básica
+ 
+ 
+Figura 8 – Características de uma fonte fixa  
+Fonte: Elaborado pelo autor (2018) 
+ 
+Frequentemente, as fontes de eletricidade são chamadas de fontes de tensão, 
+fontes de diferença de potencial, fontes de alimentação ou, mais popularmente, de 
+“eliminador de pilhas”. 
+2.4 Tensão (corrente) contínua e alternada 
+Os sinais das tensões e correntes podem ser classificados em contínuos e 
+alternados. O sinal contínuo não muda sua polaridade ao longo do tempo. A Figura 
+“Características de uma fonte fixa” é um esboço dos gráficos, sem unidades, dos 
+sinais contínuos de tensão ou corrente, característicos de geradores químicos, como 
+pilhas e baterias. Já o sinal alternado muda sua polaridade periodicamente ao longo 
+do tempo. Um exemplo disso é a tensão fornecida pela rede elétrica: 
+ 
+PDF exclusivo para Mateus Augusto da Costa Oliveira Gonçalves - rm570166
+mateus.augusto1629@gmail.com
+--- PAGE 14 ---
+Eletricidade Básica
+ 
+Figura 9 – Características de uma fonte fixa 
+Fonte: Elaborado pelo autor (2018) 
+2.5 Potência elétrica 
+A potência elétrica P indica quanto trabalho Ɛ (ou energia) é realizado em um 
+intervalo de tempo Δt, conforme descrito na equação: 
+ 
+A potência elétrica também pode ser calculada pelo produto da tensão V e da 
+corrente i no circuito: 
+P = V  i 
+A unidade de medida da potência é o watt (em homenagem ao cientista 
+escocês James Watt), cujo símbolo é W. Para medir a potência, usa-se o wattímetro, 
+instrumento que mede simultaneamente a corrente e a tensão no gerador ou na carga. 
+2.6 Resistores 
+Já sabemos para que servem as fontes de eletricidade e, de maneira 
+simplificada, como funcionam. Também sabemos que, quando conectamos os 
+terminais de uma fonte de eletricidade por meio de um fio, uma corrente elétrica flui 
+PDF exclusivo para Mateus Augusto da Costa Oliveira Gonçalves - rm570166
+mateus.augusto1629@gmail.com
+--- PAGE 15 ---
+Eletricidade Básica
+pelo fio do polo negativo para o polo positivo e podemos usar essa corrente para ligar 
+uma lâmpada ou um motor. 
+Na verdade, quando fazemos isso, devemos ter cuidado, pois podemos 
+queimar a lâmpada ou o motor se a corrente elétrica for muito alta. Para evitar que 
+isto aconteça, frequentemente acrescentamos ao circuito um componente chamado 
+resistor, com a finalidade de controlar ou limitar a quantidade de corrente que passará 
+pelo circuito. 
+Há resistores de várias formas e tamanhos e escolhemos o resistor que vamos 
+usar de acordo com o circuito que queremos montar e de acordo com a quantidade 
+de corrente que ele irá controlar. A unidade de medida dos resistores é o ohm 
+(sobrenome do cientista Georg Simon Ohm) cujo símbolo é a letra grega ômega (Ω). 
+Quanto maior a resistência de um resistor, menor será a corrente no circuito. 
+Na Figura “Resistor” temos um exemplo de resistor bem comum de se usar nos 
+circuitos, o valor de sua resistência é de 1000 Ω. Para sabermos o valor da resistência 
+de um resistor, podemos aprender a usar o código de cores presente nos resistores 
+ou medir o valor da resistência com um equipamento especial chamado multímetro. 
+ 
+ 
+Figura 10 – Resistor 
+Fonte: Elaborado pelo autor (2018) 
+PDF exclusivo para Mateus Augusto da Costa Oliveira Gonçalves - rm570166
+mateus.augusto1629@gmail.com
+--- PAGE 16 ---
+Eletricidade Básica
+2.7 Circuitos elétricos: histórico 
+Um circuito elétrico representa uma combinação de componentes que formam 
+um caminho completo para a corrente, desde o polo negativo da fonte até o polo 
+positivo da fonte. A Figura “Exemplo de um circuito elétrico em (a)” apresenta um 
+circuito composto por uma bateria (a fonte de eletricidade), fios, um resistor e um LED 
+(Light-Emitting Diode, diodo emissor de luz). 
+LED são tipos especiais de lâmpadas usadas em projetos eletrônicos. Neste 
+circuito, os componentes são conectados por fios (em azul) para que a corrente passe 
+corretamente de um componente pelo outro até chegar ao polo positivo da fonte. Os 
+pontos pretos representam as conexões (emendas) entre os terminais dos 
+componentes e os fios. 
+ 
+ 
+PDF exclusivo para Mateus Augusto da Costa Oliveira Gonçalves - rm570166
+mateus.augusto1629@gmail.com
+--- PAGE 17 ---
+Eletricidade Básica
+Figura 11 – Exemplo de um circuito elétrico 
+Fonte: Elaborado pelo autor (2018) 
+ 
+Na prática, quando queremos representar um circuito, em vez de usarmos 
+figuras ou desenhos dos componentes como na Figura “Exemplo de um circuito 
+elétrico” em (a), usamos símbolos universais destes componentes. Ainda na Figura 
+“Exemplo de um circuito elétrico" em (b), temos os símbolos de uma fonte de tensão, 
+de um resistor e de um LED e, em (c), temos o mesmo circuito mostrado em (a), só 
+que agora usando os símbolos dos componentes. 
+3 LEI DE OHM 
+Segundo a Lei de Ohm, a correlação entre tensão (V), corrente (I) e a 
+resistência (R) e é dada pela seguinte equação: 
+V = R  I 
+Na Figura “Aplicação da Lei de Ohm”, temos a aplicação da Lei de Ohm para 
+descobrirmos a corrente por meio de um resistor: 
+ 
+ 
+Figura 12 – Aplicação da Lei de Ohm 
+Fonte: Elaborado pelo autor (2018) 
+ 
+Sob o ponto de vista de um resistor, em essência, a Lei de Ohm diz que quando 
+uma corrente atravessa um resistor, uma diferença de potencial elétrico (VR) aparece 
+PDF exclusivo para Mateus Augusto da Costa Oliveira Gonçalves - rm570166
+mateus.augusto1629@gmail.com
+--- PAGE 18 ---
+Eletricidade Básica
+nesse resistor. Com a equação da Lei de Ohm, qualquer uma das grandezas pode ser 
+calculada desde que tenhamos os valores das outras duas. 
+Assim como a corrente, a queda de tensão deve apontar para um sentido 
+(valores positivos ou negativos), o sentido para o qual aponta a queda de tensão é 
+contrário ao sentido da corrente que atravessa o resistor. 
+3.1 Associação de resistores 
+Os circuitos elétricos quase sempre são construídos utilizando mais de um 
+resistor. Para efeito de cálculos de correntes e diferenças de potencial (ou quedas de 
+tensão) no circuito, frequentemente é interessante substituir os resistores por um 
+único resistor. Observe que o circuito resultante não é mais o original, porém, 
+substituindo os resistores pelo resistor equivalente, as características de corrente e 
+diferença de potencial não mudam, assim, o conceito de resistência equivalente é 
+utilizada para analisar o circuito. 
+ 
+ASSOCIAÇÃO DE RESISTORES EM SÉRIE 
+ 
+Quando N resistores são percorridos pela mesma corrente, dizemos que eles 
+estão em série. Para efeito de cálculo, os resistores em série podem ser substituídos 
+por uma resistência equivalente (Rs) cujo valor é dado por: 
+RS = R1 + R2 + ... + Rn 
+A Figura “Substituição de três resistências associadas em série” ilustra a 
+substituição de três resistências associadas em série por uma resistência equivalente: 
+ 
+PDF exclusivo para Mateus Augusto da Costa Oliveira Gonçalves - rm570166
+mateus.augusto1629@gmail.com
+--- PAGE 19 ---
+Eletricidade Básica
+ 
+Figura 13 – Substituição de três resistências associadas em série 
+Fonte: Elaborado pelo autor (2018) 
+ 
+ASSOCIAÇÃO DE RESISTORES EM PARALELO 
+ 
+Quando N resistores estão sob uma mesma diferença de potencial, dizemos 
+que estão em paralelo. Para efeito de cálculo, os resistores em paralelo podem ser 
+substituídos por uma resistência equivalente (Rp) cujo valor é dado por: 
+np RRRR
+1...111
+21
+
+ 
+A Figura “Três resistências associadas em paralelo” ilustra a substituição de 
+três resistências associadas em paralelo por uma resistência equivalente: 
+ 
+PDF exclusivo para Mateus Augusto da Costa Oliveira Gonçalves - rm570166
+mateus.augusto1629@gmail.com
+--- PAGE 20 ---
+Eletricidade Básica
+ 
+Figura 14 – Três resistências associadas em paralelo 
+Fonte: Elaborado pelo autor (2018) 
+3.2 Análise de circuitos resistivos 
+Analisar um circuito envolve calcular todas as correntes e quedas de tensão 
+presentes nele. Muitas vezes, começamos uma análise reduzindo o circuito a apenas 
+uma resistência equivalente ou total (Rt). Vejamos dois exemplos na Figura “Redução 
+de circuitos resistivos”: 
+ 
+PDF exclusivo para Mateus Augusto da Costa Oliveira Gonçalves - rm570166
+mateus.augusto1629@gmail.com
+--- PAGE 21 ---
+Eletricidade Básica
+ 
+ 
+Figura 15 – Redução de circuitos resistivos 
+Fonte: Elaborado pelo autor (2018) 
+ 
+Vamos analisar, na Figura “Análise de um circuito resistivo”, o circuito 
+mostrado e encontrar os valores das correntes e tensões indicadas. Observamos que 
+há resistores em série e em paralelo. Devemos começar os cálculos dos resistores 
+equivalente, neste caso, com os resistores em paralelo, depois calcular os em série. 
+ 
+PDF exclusivo para Mateus Augusto da Costa Oliveira Gonçalves - rm570166
+mateus.augusto1629@gmail.com
+--- PAGE 22 ---
+Eletricidade Básica
+ 
+ 
+Figura 16 – Análise de um circuito resistivo 
+Fonte: Elaborado pelo autor (2018) 
+3.3 Capacitores 
+Capacitor é um componente que armazena energia em um campo elétrico, 
+acumulando um desequilíbrio interno de carga elétrica. A Figura “Capacitores” 
+apresenta diversos detalhes sobre capacitores, particularmente os capacitores 
+eletrolíticos: 
+ 
+PDF exclusivo para Mateus Augusto da Costa Oliveira Gonçalves - rm570166
+mateus.augusto1629@gmail.com
+--- PAGE 23 ---
+Eletricidade Básica
+ 
+Figura 17 – Capacitores: (a) Aparência de um capacitor eletrolítico; (b) Capacitor de placas planas e 
+paralelas; (c); (d) Construção interna de um capacitor eletrolítico; (e) polaridade nos capacitores 
+eletrolíticos e (f) circuito com capacitores 
+Fonte: Google Imagem (2018) 
+ 
+A energia armazenada em um capacitor, na maioria dos casos, não é suficiente 
+para substituir as baterias que mantêm o circuito funcionando, porque a maior parte 
+dos capacitores não tem a mesma capacidade de armazenamento que as baterias. 
+Assim, os capacitores como reservatórios de energia servem apenas para alimentar 
+os circuitos por frações de segundos quando alguma oscilação acontece na fonte de 
+energia principal. 
+Exemplos de situações desse tipo podem ocorrer quando motores elétricos são 
+ligados. Neste instante, os motores drenam muita energia e a tensão no circuito pode 
+cair para níveis críticos, reiniciando, por exemplo, um microcontrolador. Nos 
+estabilizadores de tensão usados em computadores, os capacitores podem impedir a 
+falta de energia elétrica para o computador quando a rede elétrica sofre pequenas 
+oscilações. Isso pode ocorrer, por exemplo, quando a geladeira da sua casa liga o 
+compressor. 
+Capacitores especiais chamados ultracapacitores podem efetivamente 
+substituir baterias em dispositivos eletrônicos. Os ultracapacitores possuem pouco 
+tempo de mercado, ou seja, são recentes, porém esses dispositivos têm encontrado 
+grandes aplicações na moderna indústria eletroeletrônica. A vantagem de um 
+PDF exclusivo para Mateus Augusto da Costa Oliveira Gonçalves - rm570166
+mateus.augusto1629@gmail.com
+--- PAGE 24 ---
+Eletricidade Básica
+capacitor sobre uma bateria é que este tem um tempo de carga muito menor e a 
+eficiência do processo de descarga é maior, porém esses dispositivos, como toda 
+novidade, ainda são muito caros. 
+3.4 Capacitância 
+Carga de um capacitor é a carga elétrica armazenada na placa (ou armadura) 
+positiva. Capacitância, ou capacidade eletrostática, é a grandeza que indica a 
+capacidade do componente de armazenar cargas, expressa pela relação: 
+ 
+• V é a tensão entre as placas do capacitor, medida em volt. 
+• Q a carga da placa positiva do capacitor, em coulomb (em homenagem ao 
+cientista Charles Augustin de Coulomb). 
+• C a capacitância do capacitor, dada em farad (em homenagem ao cientista 
+Michael Faraday). 
+Essa unidade é de ordem de grandeza elevada, por essa razão, costuma-se 
+trabalhar com seus submúltiplos: 
+• microfarad: 1 μF = 10–6 F 
+• nanofarad: 1 ηF = 10–9 F  
+• picofarad: 1 pF = 10–12 F 
+De maneira análoga aos resistores, nos capacitores há valores padronizados 
+de capacitância: 1 – 1,2 – 1,5 – 1,8 – 2,2 – 2,7 – 3,3 – 4,7 – 5,6 – 6,8 – 8,2 com fatores 
+multiplicativos da base 10, de modo que obtenha valores dentro da faixa estabelecida 
+anteriormente (μF até pF). Sob tensão excessiva, os capacitores podem sofrer danos 
+irreparáveis. A tensão máxima que são capazes de suportar entre suas placas, sem 
+sofrer danos, é chamada tensão de isolação. 
+Tanto os valores da capacitância como os da tensão de isolação são indicados 
+pelos fabricantes no próprio capacitor. Em alguns deles, a identificação é feita 
+PDF exclusivo para Mateus Augusto da Costa Oliveira Gonçalves - rm570166
+mateus.augusto1629@gmail.com
+--- PAGE 25 ---
+Eletricidade Básica
+mediante um código de cores associado a algarismos, como mostra a Figura 
+“Significados das faixas dos capacitores”: 
+ 
+ 
+Figura 18 – Significados das faixas dos capacitores 
+Fonte: Elaborado pelo autor (2018) 
+ 
+A Tabela “Código de cores para capacitores” também apresenta a identificação 
+por código de cores associado a algarismos. 
+ 
+ 
+     Cor Primeira e segunda faixas (a e b) Terceira faixa (c) Quarta faixa (d) Quinta faixa (e) 
+Preto 0 
+ 
+20% 
+ 
+Marrom 1 x10¹ 
+  
+Vermelho 2 x10² 
+ 
+250 V 
+Laranja 3 x10³ 
+  
+Amarelo 4 x10⁴ 
+ 
+400 V 
+Verde 5 x10⁵ 
+  
+Azul 6 x10⁶ 
+ 
+630 V 
+Violeta 7 
+   
+Cinza 8 
+   
+Branco 9 
+ 
+10% 
+ 
+Tabela 1 – Código de cores para capacitores 
+Fonte: Elaborado pelo autor (2018) 
+PDF exclusivo para Mateus Augusto da Costa Oliveira Gonçalves - rm570166
+mateus.augusto1629@gmail.com
+--- PAGE 26 ---
+Eletricidade Básica
+3.5 Associação de capacitores 
+Consiste na determinação da capacitância total ou equivalente (CT ou Ceq) 
+representada numericamente por um grupo de capacitores ligados de uma maneira 
+qualquer. 
+Associação em série: 
+ 
+ 
+Figura 19 – Associação de capacitores em série e capacitor equivalente 
+Fonte: Elaborado pelo autor (2018) 
+ 
+A carga em cada um dos capacitores será a mesma devido à indução nas 
+placas de cada capacitor e entre as placas dos capacitores do circuito (Figura 
+“Associação de capacitores em série e capacitor equivalente”). Ou seja: 
+Q = constante. 
+A tensão total é a soma das tensões dos capacitores: 
+V = V1 + V2 + ... + Vn 
+Sendo: 
+ 
+Então: 
+ 
+PDF exclusivo para Mateus Augusto da Costa Oliveira Gonçalves - rm570166
+mateus.augusto1629@gmail.com
+--- PAGE 27 ---
+Eletricidade Básica
+Dividindo-se a expressão acima por Q, obtém-se expressão análoga ao de 
+resistores em paralelo: 
+ 
+Portanto, destacam-se duas situações: 
+a) Para dois capacitores diferentes em série: 
+ 
+b) Para N capacitores iguais em série:  
+ 
+ 
+3.6 Associação em paralelo 
+A tensão entre as placas dos capacitores será constante, e a carga 
+armazenada em cada um, proporcional a sua capacitância. 
+ 
+ 
+Figura 20 – Associação de capacitores em paralelo e capacitor equivalente  
+PDF exclusivo para Mateus Augusto da Costa Oliveira Gonçalves - rm570166
+mateus.augusto1629@gmail.com
+--- PAGE 28 ---
+Eletricidade Básica
+Fonte: Elaborado pelo autor (2018) 
+ 
+V = constante. 
+Portanto:  
+ 
+Como Q = C . V, substituindo as cargas correspondentes na expressão, temos: 
+ 
+Dividindo-se a expressão acima por V, obtém-se expressão análoga ao de 
+resistores em série: 
+ 
+Exemplo: 
+Dados: C1 = 20 μF, C2 = 2 μF, C3 = 3 μF, determine a carga, a tensão e a 
+energia armazenada em cada capacitor. 
+ 
+ 
+Figura 21 – Exemplo 
+Fonte: Elaborado pelo autor (2018) 
+ 
+Solução: 
+ Cálculo do capacitor equivalente: 
+PDF exclusivo para Mateus Augusto da Costa Oliveira Gonçalves - rm570166
+mateus.augusto1629@gmail.com
+--- PAGE 29 ---
+Eletricidade Básica
+Pode reduzir o circuito encontrando o capacitor equivalente C’ aos capacitores 
+C2 e C3, em paralelo. Em seguida, encontra-se o capacitor equivalente ao conjunto C1 
+e C’ em série (figura “Resolução”). 
+ 
+ 
+Figura 22 – Resolução  
+Fonte: Elaborado pelo autor (2018) 
+ 
+Usando a expressão para capacitores em paralelo, obtém-se o valor de C’: 
+C’ = C2 + C3 = 2 + 3 = 5 μF 
+Em seguida, usa-se a expressão do capacitor equivalente para dois capacitores 
+em série para determinar Ceq: 
+ 
+ Cálculo da tensão e da carga em cada capacitor: 
+A carga armazenada em C1 e C’ é a mesma do capacitor equivalente (circuito 
+em série), ou seja: 
+ 
+PDF exclusivo para Mateus Augusto da Costa Oliveira Gonçalves - rm570166
+mateus.augusto1629@gmail.com
+--- PAGE 30 ---
+Eletricidade Básica
+Q = Ceq . V = 4·12 = 48 µC 
+ 
+ou: 
+ 
+Como V’ = V2 = V3 = 9,6 V, temos: 
+ 
+ou: 
+ 
+ Cálculo da energia armazenada: 
+ 
+ 
+CONCLUSÃO 
+A eletricidade é um conhecimento de fundamental importância para todo 
+profissional da área tecnológica e, em particular, para o profissional de Engenharia de 
+Software, isso porque: 
+PDF exclusivo para Mateus Augusto da Costa Oliveira Gonçalves - rm570166
+mateus.augusto1629@gmail.com
+--- PAGE 31 ---
+Eletricidade Básica
+(a) Equipamentos eletrônicos são a ferramenta de trabalho desse profissional 
+(“E dão problema!”). 
+(b) É muito provável que alguns dos profissionais de Sistemas de Informação 
+sigam áreas de atuação que envolvam a especificação, compra, instalação e 
+manutenção de equipamentos eletrônicos. 
+(c) O bacharel em Engenharia de Software estará preparado para atuar no 
+desenvolvimento de novos produtos, pois cresce a popularização dos sistemas 
+embarcados de hardware aberto, por exemplo, Arduino, Raspberry Pi, Orange Pi, 
+HiKey 960 (recentemente desenvolvida em uma parceria entre Google e Huawei), Intel 
+Edison, entre outros, bem como com a expansão do mercado de Internet das Coisas 
+(IoT). 
+Quem sabe se essas justificativas da importância da eletricidade na atuação do 
+profissional de Engenharia de Software possam inspirá-lo a criar sua própria startup e 
+desenvolver um produto que resolva um problema de mobilidade urbana, meio 
+ambiente, empresas ou um produto que solucione problemas domésticos, abrindo 
+novas formas de realizar tarefas antigas, mas viáveis com o uso da eletricidade. 
+ 
+  
+PDF exclusivo para Mateus Augusto da Costa Oliveira Gonçalves - rm570166
+mateus.augusto1629@gmail.com
+--- PAGE 32 ---
+Eletricidade Básica
+REFERÊNCIAS 
+EDITORA INTERSABERES (Org.). Montagem e manutenção de computadores. 
+Curitiba: InterSaberes, 2015. 
+HANNESY, J. L; PATTERSON, David A.  Arquitetura de Computadores – Uma 
+abordagem quantitativa. 5. ed. Rio de Janeiro: Campus, 2014. 
+MONTEIRO, M. A. Introdução à organização de computadores. 5. ed. São Paulo: 
+LTC, 2007. 
+STALLINGS, W. Arquitetura e organização de computadores. 8. ed. São Paulo: 
+Pearson Prentice Hall, 2010. 
+TANENBAUM, A. S. Organização estruturada de computadores. 6. ed. São Paulo: 
+Pearson, 2016. 
+PDF exclusivo para Mateus Augusto da Costa Oliveira Gonçalves - rm570166
+mateus.augusto1629@gmail.com
+================================================================================
+FILE: 1ESO - Fase 07 - 03 - Diagrama de classes.docx_RevFinal.pdf
+PAGES: 85
+--- PAGE 1 ---
+Diagrama de classes e sua importância
+  
+DIAGRAMA DE
+CLASSES E SUA
+IMPORTÂNCIA
+03
+PDF exclusivo para Mateus Augusto da Costa Oliveira Gonçalves - rm570166
+mateus.augusto1629@gmail.com
+--- PAGE 2 ---
+Diagrama de classes e sua importância
+ 
+LISTA DE FIGURAS 
+Figura 1 – Notação de classe .................................................................................... 7 
+Figura 2 – Notação de visibilidade protegida............................................................. 8 
+Figura 3 – Notação de visibilidade de pacote ............................................................ 9 
+Figura 4 – Sem legenda ............................................................................................ 10 
+Figura 5 – Notação para classe de fronteira ............................................................. 11 
+Figura 6 – Notação para classe de controle .............................................................. 12 
+Figura 7 – Notação para classe de entidade ............................................................. 12 
+Figura 8 – Diagrama de Caso de Uso para controle de chamados e soluções ......... 14 
+Figura 9 – VCP para o caso de uso “Registrar Abertura do Chamado” .................... 15 
+Figura 10 – Diagrama de Classe de Análise para “Sistema de Controle de Pedido” 16 
+Figura 11 – Diagrama de Classe de Projeto para “Sistema de Controle de Pedido” . 18 
+Figura 12 – Multiplicidades ........................................................................................ 20 
+Figura 13 – Associação ............................................................................................. 21 
+Figura 14 – Exemplo de utilização de nome de associação e papéis ....................... 22 
+Figura 15 – Nome de associação .............................................................................. 22 
+Figura 16 – Nome de associação e papéis ............................................................... 23 
+Figura 17 – Associação normal ou simples ............................................................... 23 
+Figura 18 – Exemplo 1 de Associação por Composição ........................................... 25 
+Figura 19 – Exemplo 2 de Associação por Composição ........................................... 25 
+Figura 20 – Associação por Agregação .................................................................... 26 
+Figura 21 – Classe associativa .................................................................................. 27 
+Figura 22 – Associação Reflexiva ............................................................................. 28 
+Figura 23 – Associação Ternária ............................................................................... 29 
+Figura 24 – Associação Qualificada .......................................................................... 29 
+Figura 25 – Associação Exclusiva ............................................................................. 30 
+Figura 26 – Exemplo 1 – Interface ............................................................................ 31 
+Figura 27 – Exemplo 2 – Interface ............................................................................ 32 
+Figura 28 – Exemplo 3 – Interface ............................................................................ 33 
+Figura 29 – Notação de realização ............................................................................ 34 
+Figura 30 – Exemplo1 – Dependência com parâmetros ........................................... 34 
+Figura 31 – Exemplo 2 – Dependência ..................................................................... 35 
+Figura 32 – Generalização ........................................................................................ 36 
+Figura 33 – Representações alternativas para o relacionamento da generalização na 
+UML ........................................................................................................................... 37 
+Figura 34 – Exemplo de hierarquia de generalização ou herança ............................ 38 
+Figura 35 – Generalização Completa e Disjunta ....................................................... 39 
+Figura 36 – Generalização Incompleta e Sobreposta ............................................... 40 
+Figura 37 – Exemplo de classe abstrata ................................................................... 41 
+Figura 38 – Notação de Categorização BCE ............................................................ 44 
+Figura 39 – Cartão de matrícula ................................................................................ 45 
+Figura 40 – Interdependência entre o modelo de caso de uso e o modelo de classes
+ .................................................................................................................................. 46 
+Figura 41 – Diagrama de Caso de Uso Reservar Mesa ............................................ 51 
+Figura 42 – Classes identificadas – exemplo Reserva .............................................. 53 
+Figura 43 – Classes com as Responsabilidades – exemplo Reserva ....................... 54 
+Figura 44 – Classe que precisa de colaboradores – exemplo Reserva .................... 55 
+Figura 45 – Classes colaboradoras (a) ..................................................................... 57 
+PDF exclusivo para Mateus Augusto da Costa Oliveira Gonçalves - rm570166
+mateus.augusto1629@gmail.com
+--- PAGE 3 ---
+Diagrama de classes e sua importância
+ 
+Figura 46 – Classes colaboradoras (b) ..................................................................... 58 
+Figura 47 – Diagrama de Classe – exemplo Reserva ............................................... 59 
+Figura 48 – Diagrama de Caso de Uso – controle de locação .................................. 61 
+Figura 49 – Classes identificadas – exemplo Controle de locação ........................... 62 
+Figura 50 – Classes com responsabilidades – exemplo Controle Locação .............. 63 
+Figura 51 – Classes que precisam de colaboradores – exemplo Controle Locação . 64 
+Figura 52 – Análise das classes colaboradoras para o relacionamento – exemplo 
+Controle Locação ...................................................................................................... 65 
+Figura 53 – Diagrama de Classe de Análise – exemplo Controle Locação ............... 66 
+Figura 54 – Notação de pacote (package) ................................................................ 67 
+Figura 55 – Diagrama de Classe com pacotes – exemplo Controle de Locação ...... 68 
+Figura 56 – Diagrama de Caso de Uso ..................................................................... 71 
+Figura 57 – Visão de Classes Participantes somente do caso de uso Registrar 
+Compra ..................................................................................................................... 72 
+Figura 58 – Diagrama de Objetos – exemplo Reserva .............................................. 73 
+Figura 59 – Diagrama de Objeto – exemplo e-commerce Cerveja – VCP – Registrar 
+Compra ..................................................................................................................... 74 
+Figura 60 – Novo projeto no Astah ............................................................................ 75 
+Figura 61 – Criar Diagrama de Classe ...................................................................... 76 
+Figura 62 – Área de trabalho para desenvolvimento do Diagrama de Classe .......... 76 
+Figura 63 – Barra de ferramentas do Diagrama de Classe ....................................... 77 
+Figura 64 – Botão para criar uma classe ................................................................... 77 
+Figura 65 – Propriedades da Classe ......................................................................... 77 
+Figura 66 – Item da Propriedade ............................................................................... 78 
+Figura 67 – Operação da Propriedade ...................................................................... 78 
+Figura 68 – Associações ........................................................................................... 78 
+Figura 69 – Botão Generalization .............................................................................. 79 
+Figura 70 – Astah Generalização .............................................................................. 79 
+Figura 71 – Exportar imagem dos diagramas............................................................ 79 
+Figura 72 – Sem legenda .......................................................................................... 80 
+Figura 73 – Sem legenda .......................................................................................... 83 
+ 
+ 
+ 
+ 
+ 
+ 
+PDF exclusivo para Mateus Augusto da Costa Oliveira Gonçalves - rm570166
+mateus.augusto1629@gmail.com
+--- PAGE 4 ---
+Diagrama de classes e sua importância
+ 
+LISTA DE QUADROS 
+Quadro 1 – Regra de negócio 001 ............................................................................ 49 
+Quadro 2 – Regra de negócio 002 ............................................................................ 50 
+Quadro 3 – Regra de negócio 003 ............................................................................ 50 
+Quadro 4 – Fluxo principal da documentação do caso de uso .................................. 52 
+Quadro 5 – Regra de negócio 001 – Imobiliária LocaTudo ....................................... 60 
+Quadro 6 – Regra de negócio 002 – Imobiliária LocaTudo ....................................... 60 
+Quadro 7 – Regra de negócio 003 – Imobiliária LocaTudo ....................................... 60 
+Quadro 8 – Regra de negócio 004 – Imobiliária LocaTudo ....................................... 60 
+Quadro 9 – Requisito funcional 001 – Imobiliária LocaTudo ..................................... 61 
+Quadro 10 – Regra de negócio 001 – Imobiliária Locatudo ...................................... 62 
+Quadro 11 – Regra de negócio 002 – Imobiliária Locatudo ...................................... 62 
+Quadro 12 – Regra de negócio 003 – Imobiliária Locatudo ...................................... 62 
+Quadro 13 – Regra de negócio 001 – Amantes das Cervejas .................................. 69 
+Quadro 14 – Regra de negócio 002 – Amantes das Cervejas .................................. 69 
+Quadro 15 – Regra de negócio 003 – Amantes das Cervejas .................................. 70 
+Quadro 16 – Regra de negócio 004 – Amantes das Cervejas .................................. 70 
+Quadro 17 – Regra de negócio 005 – Amantes das Cervejas .................................. 70 
+Quadro 18 – Regra de negócio 006 – Amantes das Cervejas .................................. 70 
+Quadro 19 – Regra de negócio 007 – Amantes das Cervejas .................................. 70 
+Quadro 20 – Regra de negócio 008 – Amantes das Cervejas .................................. 70 
+ 
+PDF exclusivo para Mateus Augusto da Costa Oliveira Gonçalves - rm570166
+mateus.augusto1629@gmail.com
+--- PAGE 5 ---
+Diagrama de classes e sua importância
+ 
+SUMÁRIO 
+1 DIAGRAMA DE CLASSES E SUA IMPORTÂNCIA ............................................... 6 
+1.1 Introdução ........................................................................................................... 6 
+1.2 Conceito de classe .............................................................................................. 6 
+1.2.1 Conceito de tipos de classes ............................................................................ 10 
+1.2.2 Fronteira ........................................................................................................... 10 
+1.2.3 Controle ............................................................................................................ 11 
+1.2.4 Entidade ........................................................................................................... 12 
+1.3 Diagrama de classe ............................................................................................. 12 
+1.3.1 Perspectivas de abstração do diagrama de classe .......................................... 13 
+1.3.1.3 Diagrama de classe de implementação......................................................... 19 
+1.4 Relacionamentos ................................................................................................. 19 
+1.4.1 Associações ..................................................................................................... 19 
+1.4.2 Associação simples .......................................................................................... 23 
+1.4.3 Associação por composição ............................................................................. 24 
+1.4.4 Associação por agregação ............................................................................... 25 
+1.4.5 Classe associativa ............................................................................................ 26 
+1.4.6 Associação reflexiva ......................................................................................... 27 
+1.4.7 Associação n-ária ............................................................................................. 28 
+1.4.8 Associação qualificada ..................................................................................... 29 
+1.4.9 Associação exclusiva ....................................................................................... 29 
+1.5 Interface .............................................................................................................. 30 
+1.6 Realização ........................................................................................................... 33 
+1.7 Dependência ....................................................................................................... 34 
+2 GENERALIZAÇÃO ................................................................................................. 36 
+2.1 Hierarquia de generalização ................................................................................ 37 
+2.2 Generalização – restrições .................................................................................. 38 
+2.3 Classe abstrata ................................................................................................... 40 
+2.4 Técnicas para construir um diagrama de classe ................................................. 41 
+2.4.1 Análise do caso de uso .................................................................................... 43 
+2.4.2 Análise de robustez .......................................................................................... 43 
+2.4.3 Modelagem CRC .............................................................................................. 45 
+3 PASSOS PARA ELABORAR O DIAGRAMA DE CLASSE..................................... 48 
+3.1 Diagrama de classe ............................................................................................. 48 
+3.2 Diagrama de Objetos .......................................................................................... 72 
+3.3 Tutorial para modelar o Diagrama de Classe ...................................................... 75 
+3.4 Barra de ferramentas do Diagrama de Classes .................................................. 77 
+ATIVIDADE TREINO - EXERCÍCIO 1: CONTROLE DE CURSOS DE IDIOMAS ..... 80 
+ATIVIDADE TREINO - EXERCÍCIO 2: CONCESSIONÁRIA DE AUTOMÓVEIS ...... 82 
+REFERÊNCIAS ......................................................................................................... 85 
+ 
+ 
+PDF exclusivo para Mateus Augusto da Costa Oliveira Gonçalves - rm570166
+mateus.augusto1629@gmail.com
+--- PAGE 6 ---
+Diagrama de classes e sua importância
+ 
+1 DIAGRAMA DE CLASSES E SUA IMPORTÂNCIA 
+1.1 Introdução 
+Até o momento, falamos muito sobre os conceitos de classes, seus atributos e 
+métodos, com o objetivo de abstrair os objetos do mundo real para o desenvolvimento 
+de sistemas. Mas, antes de escrever a primeira linha de código para implementar as 
+classes, é preciso analisar e planejar. Assim como na construção de uma casa ou 
+prédio, antes de assentar o primeiro tijolo, é preciso planejar e elaborar um documento 
+para definir os cômodos, os pavimentos, a parte elétrica e hidráulica, entre outros 
+aspectos. 
+Um diagrama de classes mostra a estrutura estática do modelo, na qual os 
+elementos são representados por classes, com sua estrutura interna e seus 
+relacionamentos. Este diagrama também é útil na revisão do que é armazenado no 
+sistema e nas estruturas de armazenamento. 
+Dessa forma, chegou o momento de desenvolver o diagrama de classes e seus 
+relacionamentos para, depois, implementar as classes em alguma linguagem de 
+programação, e assim construir um sistema como o Fintech. 
+1.2 Conceito de classe 
+Vamos começar com a representação de uma classe, seus atributos e 
+métodos, e as visibilidades. De acordo com Bezerra (2007, p. 112): 
+ 
+                                     Uma classe é representada por uma ‘caixa’ com, no máximo três 
+compartimentos exibidos. No primeiro compartimento (de cima para 
+baixo), é exibido o nome da classe. Por convenção, esse nome é 
+apresentado no singular e com as palavras componentes começando 
+por maiúsculas. No segundo compartimento, são declarados os 
+atributos, que correspondem às informações que um objeto armazena. 
+Finalmente, no terceiro compartimento, são declaradas as operações, 
+que correspondem às ações que um objeto sabe realizar. 
+ 
+PDF exclusivo para Mateus Augusto da Costa Oliveira Gonçalves - rm570166
+mateus.augusto1629@gmail.com
+--- PAGE 7 ---
+Diagrama de classes e sua importância
+ 
+Segundo a documentação da UML pelo OMG, “uma classe descreve um 
+conjunto de objetos que compartilham as mesmas especificações de atributos, 
+operações, restrições e semântica. A finalidade de uma classe é classificar objetos e 
+especificar os recursos que caracterizam a estrutura e o comportamento desses 
+objetos”. 
+Classes costumam ter atributos, que armazenam os dados dos objetos da 
+classe; podem possuir também métodos (também chamados de operações), que são 
+as funções que uma instância de uma classe (objeto) pode executar. 
+Os valores dos atributos podem variar entre um objeto e outro e, por esta razão, 
+podemos identificá-los individualmente (enquanto os métodos são idênticos para 
+todos os objetos de uma classe específica). 
+A Figura “Notação de classe” representa a classe “Mesa” na notação descrita 
+anteriormente por Bezerra (2007): 
+ 
+ 
+Figura 1 – Notação de classe 
+Fonte: Elaborado pela autora (2017) 
+ 
+As visibilidades são representadas pelos símbolos –, +, # e ~ antes de um 
+atributo ou uma operação. No exemplo da Figura “Notação de classe”, o atributo 
+número possui uma visibilidade privada e a operação consultarMesa() tem uma 
+visibilidade pública. 
++ Visibilidade pública o atributo/método é visível por outras classes. 
+-  Visibilidade privada é visível somente pela própria classe. 
+ 
+PDF exclusivo para Mateus Augusto da Costa Oliveira Gonçalves - rm570166
+mateus.augusto1629@gmail.com
+--- PAGE 8 ---
+Diagrama de classes e sua importância
+ 
+ 
+Figura 2 – Notação de visibilidade protegida 
+Fonte: Elaborado pela autora (2017), adaptado por FIAP (2017) 
+ 
+Na Figura “Notação de visibilidade protegida”, a classe Pessoa possui o 
+atributo nome com a visibilidade protegida (#), indicando que as classes abaixo dela 
+(herança) podem ter acesso; no exemplo, a classe Cliente possui acesso ao nome da 
+classe Pessoa. 
+# Visibilidade protegida é visível para as classes derivadas. 
+ 
+PDF exclusivo para Mateus Augusto da Costa Oliveira Gonçalves - rm570166
+mateus.augusto1629@gmail.com
+--- PAGE 9 ---
+Diagrama de classes e sua importância
+ 
+ 
+Figura 3 – Notação de visibilidade de pacote 
+Fonte: Elaborado pela autora (2017), adaptado por FIAP (2017) 
+ 
+Na Figura “Notação de visibilidade de pacote”, as classes ClienteLocatario, 
+ClienteProprietario e Pessoa fazem parte do mesmo pacote, representado pela 
+notação de uma pasta com o nome Cliente. Nesse caso, os acessos aos atributos e 
+às operações são visíveis entre as classes dentro do mesmo pacote. 
+~ Visibilidade pacote é visível pelas classes envolvidas no pacote.  
+As classes podem ser concretas ou abstratas. As classes concretas são 
+aquelas que geram instâncias, ou seja, constroem objetos. E as classes abstratas não 
+geram instâncias, portanto não constroem objetos. 
+No exemplo da Figura “Notação de visibilidade de pacote”, as classes 
+ClienteProprietário e ClienteLocatario são concretas, pois geram instâncias, já a 
+classe Pessoa não gera instância, pois está marcada como <<abstract>> no 
+diagrama. Não se preocupe, esses conceitos ainda serão abordados neste capítulo. 
+ 
+PDF exclusivo para Mateus Augusto da Costa Oliveira Gonçalves - rm570166
+mateus.augusto1629@gmail.com
+--- PAGE 10 ---
+Diagrama de classes e sua importância
+ 
+ 
+Figura 4 – Sem legenda 
+Fonte: Elaborado pela autora (2017) 
+1.2.1 Conceito de tipos de classes 
+Em um diagrama de classe, as classes podem ser apresentadas em três tipos 
+ou camadas, que estão relacionados com o seu objetivo na modelagem do sistema. 
+1.2.2 Fronteira 
+Bezerra (2007, p. 230) afirma: 
+ 
+                                     Classes de fronteira devem apenas servir como um ponto de captação 
+de informações a partir do ambiente; ou de apresentação de 
+informações que o sistema (modelo) processou. Portanto, um primeiro 
+ponto acerca da especificação de classe de fronteira é que não 
+devemos atribuir a essas classes responsabilidades relativas à lógica 
+do negócio. 
+ 
+Classe de Fronteira trata da comunicação do sistema com os atores. Pode ser 
+representada por telas, sensores e interface de impressão, inclusive é responsável 
+PDF exclusivo para Mateus Augusto da Costa Oliveira Gonçalves - rm570166
+mateus.augusto1629@gmail.com
+--- PAGE 11 ---
+Diagrama de classes e sua importância
+ 
+por apresentar os resultados de uma interação dos objetos. Muitas vezes necessita 
+interagir com outra classe do tipo “Controle”. 
+ 
+ 
+ 
+Figura 5 – Notação para classe de fronteira 
+Fonte: Elaborado pela autora (2017), adaptado por FIAP (2017) 
+ 
+Pode ser utilizado o modelo expandido com o estereótipo ou o modelo 
+simplificado, que é representado por um círculo com uma barra na frente. 
+1.2.3 Controle 
+São responsabilidades de uma classe de controle, de acordo com Bezerra 
+(2007, p. 234): 
+ 
+                                     [...] coordenar a realização de um caso de uso do sistema. [...] servir 
+como canal de comunicação entre objetos de fronteira e objetos de 
+entidade. [...] comunicar-se com outros controladores, quando 
+necessário. [...] mapear ações do usuário (ou atores de forma geral) 
+para atualizações ou mensagens a serem enviadas a objetos de 
+entidade. [...] estar apto a manipular exceções provenientes das 
+classes de entidade. 
+ 
+Classe de Controle é o meio de comunicação entre objetos de fronteira e 
+objetos de entidade. Age como controlador dos outros objetos para a realização de 
+um caso de uso. 
+Objetos desta classe “controle” interpretam os eventos ocorridos sobre os 
+objetos da classe “fronteira” (movimentos do mouse, pressionamento de botões, entre 
+outros) e os retransmitem aos objetos de classes de entidades que compõe o sistema.      
+                                                                                                                                                                                                                                             
+PDF exclusivo para Mateus Augusto da Costa Oliveira Gonçalves - rm570166
+mateus.augusto1629@gmail.com
+--- PAGE 12 ---
+Diagrama de classes e sua importância
+ 
+ 
+ 
+Figura 6 – Notação para classe de controle 
+Fonte: Elaborado pela autora (2017), adaptado por FIAP (2017) 
+1.2.4 Entidade 
+Segundo Bezerra (2007, p. 232): 
+ 
+                                     As classes de entidade são aquelas que representam os conceitos de 
+domínio que o sistema deve processar. Essas classes representam as 
+informações e as regras de negócio que direcionam a manipulação 
+destas informações. 
+ 
+Classe de Entidade representa o conceito do domínio do negócio. Representa 
+as informações persistentes, portanto, é responsável pelos objetos persistentes. 
+ 
+ 
+ 
+Figura 7 – Notação para classe de entidade 
+Fonte: Elaborado pela autora (2017), adaptado por FIAP (2017) 
+1.3 Diagrama de classe 
+É o diagrama mais importante e mais utilizado da UML. Representa as classes 
+que fazem parte do sistema, ou seja, a estrutura lógica. É um diagrama com visão 
+estática, serve como base de construção para outros diagramas. 
+ Serve como base para a construção da maioria dos outros diagramas da UML 
+(como por exemplo o Diagrama de Sequência e o de Máquina de Estados). 
+PDF exclusivo para Mateus Augusto da Costa Oliveira Gonçalves - rm570166
+mateus.augusto1629@gmail.com
+--- PAGE 13 ---
+Diagrama de classes e sua importância
+ 
+1.3.1 Perspectivas de abstração do diagrama de classe 
+Podemos ter até três perspectivas de abstração do diagrama de classes, que 
+veremos a seguir. 
+1.3.1.1 Diagrama de classe de análise 
+Representa as classes com as informações do que o sistema deve fazer em 
+relação à solução do problema, ou seja, representa as classes no domínio do negócio 
+em questão. Trata-se de um modelo conceitual para elementos que tem 
+responsabilidades e comportamento no sistema (por isso, são mantidas em alto nível). 
+É construído durante a fase de análise e utiliza o Diagrama de Caso de Uso para 
+identificação das classes. 
+O Diagrama de Classe de Análise descreve as classes do mundo real e suas 
+relações. Não leva em consideração as restrições inerentes à tecnologia que será 
+utilizada na construção do sistema. As informações das classes de análise surgem a 
+partir do enunciado do problema e é independente da linguagem de programação. 
+ 
+Bezerra (2007, p. 161) explica: 
+ 
+                                     A construção de um único diagrama de classe para todo o sistema 
+pode resultar em um diagrama bastante complexo. Uma alternativa é 
+criar uma visão de classes participantes (VCP) para cada caso de uso. 
+Uma VCP é um diagrama de classe cujas instâncias (objetos) 
+participam de apenas um caso de uso. As visões de classes 
+participantes de cada caso de uso podem ser reunidas para formar um 
+único diagrama de classe para o sistema como um todo. Se o 
+diagrama de classe ficar muito grande, o modelador pode optar por 
+“esconder” as classes de fronteira ou até mesmo as classes de 
+controle. 
+ 
+Nesse diagrama, não é obrigatório demonstrar as classes de controle e a 
+fronteira. Às vezes, as classes de fronteira e de controle podem ser representadas 
+para facilitar o entendimento de quais telas e controladores são necessários para o 
+sistema. Este modelo também não possui todas as operações, que podem surgir em 
+PDF exclusivo para Mateus Augusto da Costa Oliveira Gonçalves - rm570166
+mateus.augusto1629@gmail.com
+--- PAGE 14 ---
+Diagrama de classes e sua importância
+ 
+conjunto com o desenvolvimento do Diagrama de Sequência, assunto que será 
+estudado no final desta Fase. 
+A Figura a seguir apresenta o “Diagrama de Caso de Uso para controle de 
+chamados e soluções”, com várias funcionalidades para o controle de chamados e 
+soluções. No caso do VCP (Visão de Classes Participantes), não aplicaremos todos 
+os casos de uso, pois, neste momento, vamos trabalhar com o caso de uso “Registrar 
+Abertura do Chamado”.  
+O objetivo da VCP é auxiliar no desenvolvimento de diagramas de classes 
+muito complexos, como afirma Bezerra (2007, p. 161), mas também pode ser utilizada 
+para representar um estudo sobre determinada funcionalidade em relação às classes 
+envolvidas. 
+ 
+ 
+ 
+Figura 8 – Diagrama de Caso de Uso para controle de chamados e soluções 
+Fonte: Elaborado pela autora (2017), adaptado por FIAP (2017) 
+ 
+PDF exclusivo para Mateus Augusto da Costa Oliveira Gonçalves - rm570166
+mateus.augusto1629@gmail.com
+--- PAGE 15 ---
+Diagrama de classes e sua importância
+ 
+A Figura “Diagrama de Caso de Uso para controle de chamados e soluções” 
+apresenta o Diagrama de Classe, na Visão de Classes Participantes (VCP), para o 
+caso de uso “Registrar Abertura do Chamado”: 
+ 
+ 
+ 
+Figura 9 – VCP para o caso de uso “Registrar Abertura do Chamado” 
+Fonte: Elaborado pela autora (2017), adaptado por FIAP (2017) 
+ 
+Na fase de análise, quando um diagrama de caso de uso é desenvolvido, é 
+possível observar a fronteira através da interação de um caso, ou seja, cada interação 
+do ator com um caso de uso pode ser representada por uma fronteira.  
+PDF exclusivo para Mateus Augusto da Costa Oliveira Gonçalves - rm570166
+mateus.augusto1629@gmail.com
+--- PAGE 16 ---
+Diagrama de classes e sua importância
+ 
+Para cada caso de uso, é representada uma classe de controle que gerencia o 
+fluxo do processo da funcionalidade do sistema, conforme o objetivo determinado no 
+fluxo principal do caso de uso.  
+A Figura “Diagrama de Caso de Uso para controle de chamados e soluções” 
+tem o ator Atendente que “Registra Abertura do Chamado” e terá uma tela de 
+acesso para interação. Portanto será necessário criar uma classe de fronteira que é 
+a tela de acesso da funcionalidade do sistema e a classe de controle para gerenciar o 
+fluxo do processo de “Registar Abertura do Chamado”. Nesse diagrama identificamos 
+somente os métodos considerados mais importantes. 
+No exemplo da Figura “Diagrama de Classe de Análise para ‘Sistema de 
+Controle de Pedido’”, o Diagrama de Classe de Análise para o pedido não apresenta 
+as classes de fronteira e de controle, pois podemos optar por não exibi-las, a fim de 
+facilitar e simplificar o seu entendimento: 
+ 
+ 
+ 
+Figura 10 – Diagrama de Classe de Análise para “Sistema de Controle de Pedido” 
+Fonte: Elaborado pela autora (2017), adaptado por FIAP (2017) 
+PDF exclusivo para Mateus Augusto da Costa Oliveira Gonçalves - rm570166
+mateus.augusto1629@gmail.com
+--- PAGE 17 ---
+Diagrama de classes e sua importância
+ 
+1.3.1.2 Diagrama de classe de projeto ou especificação 
+Representa as classes do funcionamento do sistema, é construído na fase de 
+projeto do desenvolvimento do sistema e tem como objetivo complementar o 
+Diagrama de Classe de Análise. Nesta fase, normalmente identificamos a 
+necessidade de criar outras classes, pois esse modelo relaciona a tecnologia utilizada 
+e apresenta todas as camadas de funcionamento do sistema MVC (Model, View e 
+Controller) ou, simplificadamente, a camada de modelo, fronteira e controle. 
+Com base nas classes de análise do modelo anterior, vamos apresentar o 
+Diagrama de Classe de Projeto na Figura Diagrama de Classe de Projeto para 
+“Sistema de Controle de Pedido”: 
+ 
+PDF exclusivo para Mateus Augusto da Costa Oliveira Gonçalves - rm570166
+mateus.augusto1629@gmail.com
+--- PAGE 18 ---
+Diagrama de classes e sua importância
+ 
+ 
+ 
+Figura 11 – Diagrama de Classe de Projeto para “Sistema de Controle de Pedido” 
+Fonte: Elaborado pela autora (2017), adaptado por FIAP (2017) 
+ 
+No exemplo da Figura “Diagrama de Classe de Projeto para ‘Sistema de 
+Controle de Pedido’, as classes de fronteira de TelaServiço e de controle 
+ControleCadServico, assim como TelaCliente e ControleCadCliente, representam 
+requisitos para processar os objetos cliente e serviço. Os requisitos funcionais e os 
+casos de uso com as interações de atores para Cadastrar Cliente e Cadastrar 
+Serviço explicam a necessidade de representação dessas classes na fase de projeto. 
+PDF exclusivo para Mateus Augusto da Costa Oliveira Gonçalves - rm570166
+mateus.augusto1629@gmail.com
+--- PAGE 19 ---
+Diagrama de classes e sua importância
+ 
+1.3.1.3 Diagrama de classe de implementação 
+É representado com base em um padrão de desenvolvimento, conforme uma 
+linguagem de programação orientada a objetos, como Java ou C#. Este é o menos 
+utilizado no mercado por analistas de sistemas, pois já existe o Diagrama de Classe 
+de Análise. Dessa forma, não é necessário construir o Diagrama de Classe de 
+Implementação, este deve seguir o padrão de arquitetura que foi definido ao projeto 
+sob a responsabilidade de um arquiteto de softwares na fase de implementação. 
+Somente o Diagrama de Classe de Análise é de responsabilidade do analista de 
+sistemas, com base no problema e nos requisitos necessários para desenvolvimento 
+do sistema. 
+1.4 Relacionamentos 
+As classes se relacionam entre si pela troca de mensagens. Um relacionamento 
+descreve como as classes interagem umas com as outras, sendo o relacionamento 
+necessário para a implementação de um comportamento.  
+As classes costumam ter relacionamentos entre si (associações), que permitem 
+que elas compartilhem informações entre elas e colaborem para a execução dos 
+processos executados pelo sistema. Uma associação (relacionamento) descreve um 
+vínculo que ocorre entre os objetos de uma ou mais classes. Portanto, o 
+relacionamento representa a comunicação e a interação entre as classes. 
+Podemos dividir os relacionamentos em dois grandes grupos, o das 
+associações e o das generalizações. 
+O diagrama de classe é composto por um conjunto bem extenso de tipos de 
+relacionamento, para cada um existe uma notação específica, este é o diagrama mais 
+rico em notações. 
+1.4.1 Associações 
+É o relacionamento existente entre as classes. Possui vários tipos, vamos 
+descrever e exemplificar no decorrer deste capítulo. 
+PDF exclusivo para Mateus Augusto da Costa Oliveira Gonçalves - rm570166
+mateus.augusto1629@gmail.com
+--- PAGE 20 ---
+Diagrama de classes e sua importância
+ 
+Na associação deve-se especificar a multiplicidade entre as classes. A 
+multiplicidade é a indicação de quantos objetos podem participar de um 
+relacionamento. 
+A multiplicidade das associações indica os números mínimo e máximo de 
+objetos envolvidos em um relacionamento. 
+Cada associação em um Diagrama de Classes possui duas multiplicidades, 
+uma em cada extremo da linha de associação. 
+ 
+ 
+ 
+ 
+Figura 12 – Multiplicidades 
+Fonte: Bezerra (2007, p. 114), adaptado por FIAP (2022) 
+ 
+Além da multiplicidade, a associação pode ter navegabilidade, que pode ser 
+com ou sem setas. A seta representa qual a direção de leitura da troca de mensagens. 
+No exemplo da Figura Multiplicidades, temos as representações de uma Venda que 
+tem um Cliente com a seta para o Cliente, o que significa que a direção da troca de 
+mensagem está para o Cliente. Na representação sem a seta, não conseguimos 
+identificar a navegabilidade da troca de mensagens, neste caso pode ocorrer para os 
+dois lados: 
+ 
+PDF exclusivo para Mateus Augusto da Costa Oliveira Gonçalves - rm570166
+mateus.augusto1629@gmail.com
+--- PAGE 21 ---
+Diagrama de classes e sua importância
+ 
+ 
+Figura 13 – Associação 
+Fonte: Elaborado pela autora (2017), adaptado por FIAP (2017) 
+ 
+As associações possuem algumas características importantes: multiplicidade, 
+navegabilidade, papéis e nome da associação, além da direção de leitura. 
+Como já falamos de multiplicidade, agora vamos falar um pouco sobre 
+navegabilidade e papéis. A navegabilidade demonstra a direção em que os objetos 
+são transmitidos entre as classes envolvidas. Os papéis indicam qual é a função da 
+classe no contexto do relacionamento. 
+O nome da associação deve ser utilizado quando a leitura do relacionamento 
+não for de fácil compreensão. Ajuda a evitar que existam interpretações equivocadas, 
+principalmente quando há associações múltiplas, ou seja, quando uma mesma classe 
+pode ter mais de uma associação com outra classe. 
+No exemplo da Figura “Exemplo de utilização de nome de associação e 
+papéis”, os papéis envolvidos são o Indivíduo e a Organização, sendo que o 
+Indivíduo é o objeto da classe Organização e a Organização é o objeto da classe 
+Indivíduo.  
+O nome da associação normalmente é um verbo e está associado ao tipo de 
+relacionamento entre as classes. O nome da associação possui uma seta que 
+representa a direção da leitura do relacionamento. No exemplo, o nome da associação 
+é Contrata, representando que a Organização contrata Indivíduo: 
+ 
+PDF exclusivo para Mateus Augusto da Costa Oliveira Gonçalves - rm570166
+mateus.augusto1629@gmail.com
+--- PAGE 22 ---
+Diagrama de classes e sua importância
+ 
+ 
+ 
+Figura 14 – Exemplo de utilização de nome de associação e papéis 
+Fonte: Bezerra (2007, p. 117), adaptado por FIAP (2017) 
+ 
+De acordo com Bezerra (2007, p. 118), “é preferível não nomear associações 
+a usar nomes vagos ou óbvios demais. O mesmo vale para os papéis: em situações 
+que o significado da associação for intuitivo, a utilização só serve para ‘carregar’ o 
+diagrama”. 
+No exemplo da Figura “Nome de associação”, o nome da associação possui, 
+contextualiza que a classe Reserva precisa de uma Mesa. Neste exemplo, os papéis 
+não são exibidos, pois são desnecessários e apenas deixariam o diagrama poluído 
+para leitura: 
+ 
+ 
+ 
+Figura 15 – Nome de associação 
+Fonte: Elaborado pela autora (2017), adaptado por FIAP (2017) 
+ 
+A multiplicidade de Mesa para Reserva representa que uma Mesa pode não 
+estar relacionada a nenhuma Reserva, mas pode estar em várias reservas, neste 
+caso, os atributos da Reserva devem relacionar data e horário, o que não permitirá 
+ser na mesma data e horário. 
+A multiplicidade de Reserva para Mesa demonstra através da seta a troca de 
+mensagens, representa que em uma Reserva há apenas uma Mesa. 
+PDF exclusivo para Mateus Augusto da Costa Oliveira Gonçalves - rm570166
+mateus.augusto1629@gmail.com
+--- PAGE 23 ---
+Diagrama de classes e sua importância
+ 
+Essas classes relacionadas também contextualizam o domínio de negócio no 
+qual a regra de negócio que está relacionada é, por exemplo: RN01. Uma Reserva 
+tem uma Mesa. 
+No exemplo da Figura “Nome de associação e papéis”, o nome da associação 
+contextualiza que em uma Empresa existem Funcionários, e cada uma das classes 
+relaciona um papel. No caso, a Empresa é o empregador e o Funcionário é o 
+empregado: 
+ 
+ 
+ 
+Figura 16 – Nome de associação e papéis 
+Fonte: Elaborado pela autora (2017), adaptado por FIAP (2017) 
+1.4.2 Associação simples 
+A associação simples (também chamada de associação binária, ou seja, entre 
+duas classes) representa a conexão entre as classes, definindo que os objetos se 
+relacionam uns com os outros e utilizam os objetos. É o relacionamento mais comum. 
+ 
+ 
+ 
+Figura 17 – Associação normal ou simples 
+Fonte: Elaborado pela autora (2017), adaptado por FIAP (2017) 
+ 
+No exemplo da Figura “Associação normal ou simples”, a classe Imóvel pode 
+se relacionar ou não a uma Locação, mas a Locação obrigatoriamente tem que se 
+PDF exclusivo para Mateus Augusto da Costa Oliveira Gonçalves - rm570166
+mateus.augusto1629@gmail.com
+--- PAGE 24 ---
+Diagrama de classes e sua importância
+ 
+relacionar ao imóvel para que o objeto Locação seja construído com todas as 
+características pertinentes ao domínio de negócio. Portanto, enquanto existir um 
+objeto da classe Locação, deve haver um objeto da classe Imóvel. 
+A navegabilidade (seta) para o Imóvel demonstra em que sentido ocorre a troca 
+de mensagens, a Locação usa um Imóvel para ser construído, mas um Imóvel pode 
+ser locado em nenhuma ou em muitas Locações. 
+1.4.3 Associação por composição 
+De acordo com Bezerra (2007, p. 123), “a semântica de uma associação 
+corresponde ao seu significado, ou seja, à natureza conceitual da relação que existe 
+entre os objetos que participam daquela associação”. 
+As associações por composição e agregação sempre estão relacionadas a um 
+contexto em que a informação pertence ao negócio. 
+A composição é um caso especial de associação, é definida como um 
+relacionamento todo-parte. Isso significa que propagam o comportamento, no sentido 
+de que um comportamento que se aplica a uma classe se aplicará a suas partes, já 
+que uma classe faz parte de outra. 
+O objeto parte de uma Composição depende do objeto todo, ou seja, as partes 
+“vivem” e “morrem” como um todo. Neste caso, o objeto parte é essencial para a 
+existência do objeto todo. 
+O símbolo da composição é representado por um pequeno losango preenchido 
+que deve ficar ao lado do objeto-todo. 
+No exemplo da Figura “Exemplo 1 de Associação por Composição”, considere 
+a parte como sendo a classe Item e o todo sendo a Nota Fiscal, ao eliminar a classe 
+Nota Fiscal, todos os Itens relacionados à Nota Fiscal também serão eliminados, ou 
+seja, morreram com a Nota Fiscal. Um Item depende da existência da Nota Fiscal, ele 
+é essencial para existência da Nota Fiscal. 
+A leitura é um Item formal (perceba a notação do losango fechado) de uma 
+Nota Fiscal, e uma Nota Fiscal tem no mínimo um Item, mas pode ter vários Itens. 
+ 
+PDF exclusivo para Mateus Augusto da Costa Oliveira Gonçalves - rm570166
+mateus.augusto1629@gmail.com
+--- PAGE 25 ---
+Diagrama de classes e sua importância
+ 
+ 
+ 
+Figura 18 – Exemplo 1 de Associação por Composição 
+Fonte: Elaborado pela autora (2017), adaptado por FIAP (2017) 
+ 
+No exemplo da Figura “Exemplo 2 de Associação por Composição”, considere 
+como parte a classe Aluno, que só é Aluno quando tem uma Matrícula, neste caso, 
+se eliminar a Matrícula, consequentemente não existirá mais Aluno. Para ser um 
+Aluno, existe a dependência da existência da Matrícula. 
+ 
+ 
+ 
+Figura 19 – Exemplo 2 de Associação por Composição 
+Fonte: Elaborado pela autora (2017), adaptado por FIAP (2017) 
+1.4.4 Associação por agregação 
+Assim como na Composição, a Agregação é um relacionamento do tipo todo-
+parte. Podemos dizer que a informação contida no objeto parte é complementar ao 
+PDF exclusivo para Mateus Augusto da Costa Oliveira Gonçalves - rm570166
+mateus.augusto1629@gmail.com
+--- PAGE 26 ---
+Diagrama de classes e sua importância
+ 
+objeto todo, não é essencial para constituir a informação relacionada ao conceito do 
+negócio do objeto todo.  
+O símbolo da agregação é um pequeno losango sem preenchimento, também 
+ao lado do objeto-todo. 
+ 
+                                     A associação de agregação pode, em muitos casos, ser substituída 
+por uma associação simples, dependendo da visão de quem faz a 
+modelagem. A função principal de uma associação do tipo agregação 
+é identificar a obrigatoriedade de uma complementação das 
+informações de um objeto-todo por seus objetos-parte, quando este 
+for consultado. Já em uma associação simples, essa obrigatoriedade 
+não está explícita (GUEDES, 2011, p. 112). 
+ 
+ 
+ 
+Figura 20 – Associação por Agregação 
+Fonte: Elaborado pela autora (2017), adaptado por FIAP (2017) 
+ 
+No exemplo da Figura Associação por Agregação, o objeto Desconto só 
+existirá se houver uma Venda, sendo ele objeto-parte, imagine que poderia ser o 
+cálculo do desconto. Neste caso, ao consultar uma Venda, o Desconto é relacionado, 
+pois faz parte da Venda que é o objeto-todo. Mas o Desconto como objeto-parte é 
+complementar à Venda e não essencial, portanto, se explica um caso de Agregação.  
+1.4.5 Classe associativa 
+São construídas quando existem Classes com multiplicidade, muitos para 
+muitos nas extremidades, desde que haja atributos próprios entre elas.  
+As classes associativas são necessárias nos casos em que existem atributos 
+relacionados à associação que não podem ser armazenados por nenhuma das 
+classes envolvidas. 
+A Figura “Classe Associativa” exemplifica que muitas equipes têm muitos 
+funcionários, mas que as equipes são formadas conforme o ingresso dos funcionários, 
+PDF exclusivo para Mateus Augusto da Costa Oliveira Gonçalves - rm570166
+mateus.augusto1629@gmail.com
+--- PAGE 27 ---
+Diagrama de classes e sua importância
+ 
+que têm uma data de início e uma data de fim para participação na equipe. Portanto, 
+a classe Ingresso representa as instâncias dos objetos que caracterizam a data de 
+início e a data de fim da participação de Funcionários em muitas Equipes. 
+ 
+ 
+ 
+Figura 21 – Classe associativa 
+Fonte: Elaborado pela autora (2017), adaptado por FIAP (2017) 
+1.4.6 Associação reflexiva 
+É o tipo de associação que ocorre quando um objeto de uma classe se relaciona 
+com outros da mesma classe, podemos dizer que ocorre o autorrelacionamento, mas 
+neste caso, cada objeto tem um papel. É também conhecida como associação 
+“unária”. 
+Conforme o exemplo da Figura Associação Reflexiva, um Coordenador é 
+responsável por no mínimo um Funcionário, mas também pode coordenar muitos 
+funcionários. Já a relação de um Funcionário tem apenas um Coordenador. Temos o 
+papel do Coordenador e o do Funcionário, que são objetos da mesma classe. 
+ 
+PDF exclusivo para Mateus Augusto da Costa Oliveira Gonçalves - rm570166
+mateus.augusto1629@gmail.com
+--- PAGE 28 ---
+Diagrama de classes e sua importância
+ 
+ 
+ 
+Figura 22 – Associação Reflexiva 
+Fonte: Guedes (2011, p. 107), adaptado por FIAP (2017) 
+ 
+1.4.7 Associação n-ária 
+Associações n-árias são utilizadas quando relacionam objetos de no mínimo 
+três classes entre si. 
+Associação ternária é um caso mais comum de associação n-ária (n = 3). 
+Na notação da UML, as linhas de associação se interceptam em um losango. 
+Conforme exemplo da Figura “Associação Ternária”, um Cliente pode fazer 
+várias Viagens através de muitas Agências de Turismo. E a mesma Agência oferece 
+muitas Viagens para muitos Clientes, muitas Viagens recebem muitos Clientes de 
+muitas Agências. A associação é ternária, pois o contexto relaciona as três classes 
+entre si. 
+ 
+ 
+PDF exclusivo para Mateus Augusto da Costa Oliveira Gonçalves - rm570166
+mateus.augusto1629@gmail.com
+--- PAGE 29 ---
+Diagrama de classes e sua importância
+ 
+ 
+Figura 23 – Associação Ternária 
+Fonte: Bezerra (2007, p. 121), adaptado por FIAP (2017) 
+1.4.8 Associação qualificada 
+É utilizada na representação de 1..* (um para muitos) ou * (vários para vários). 
+O identificador da associação qualificada determina como um determinado objeto no 
+final da associação “n” é identificado, é um tipo de chave para separar todos os objetos 
+na associação, pois este não pode se repetir. 
+Conforme exemplo da Figura “Associação Qualificada”, um Cliente pode ter 
+muitas Contas, mas o que o qualifica, ou seja, o que o identifica é o número da conta 
+que não se repete para cada conta que o Cliente tem, neste exemplo, uma 
+ContaCorrente pode ter até dois clientes: 
+ 
+ 
+ 
+Figura 24 – Associação Qualificada 
+Fonte: Elaborado pela autora (2017), adaptado por FIAP (2017). 
+1.4.9 Associação exclusiva 
+A restrição {ou} representa que, em uma associação, é exclusiva quando pode 
+ocorrer a instância de objetos de uma das classes do relacionamento da associação. 
+Conforme exemplo da Figura “Associação Exclusiva”, o Contrato de um 
+estacionamento só pode ocorrer para um dos objetos Cliente Avulso ou Cliente 
+Mensalista, ou seja, um Contrato é de um Cliente Avulso ou de um Cliente Mensalista: 
+ 
+PDF exclusivo para Mateus Augusto da Costa Oliveira Gonçalves - rm570166
+mateus.augusto1629@gmail.com
+--- PAGE 30 ---
+Diagrama de classes e sua importância
+ 
+ 
+Figura 25 – Associação Exclusiva 
+Fonte: Elaborado pela autora (2017), adaptado por FIAP (2017) 
+1.5 Interface 
+Interface representa um conjunto de serviços. Um serviço é alguma tarefa que 
+uma classe realiza para outra. A interface não gera instâncias, quem deve 
+implementar, ou seja, realizar o que está determinado na interface são as classes 
+concretas. A classe concreta relacionada à interface tem um tipo de relacionamento 
+denominado realização, que significa que a classe concreta deve implementar os 
+serviços (assinaturas) definidos na interface. Portanto, a classe concreta realiza os 
+métodos definidos pela interface.  
+O uso de interface está relacionado ao diagrama de classe de projeto ou 
+especificação, quem define é o projetista ou arquiteto, pois impacta na 
+implementação. Alguns padrões de implementação usam a interface. 
+Segundo Bezerra (2007, p. 263), podem ser definidos os seguintes conceitos 
+para o objetivo de interface: 
+PDF exclusivo para Mateus Augusto da Costa Oliveira Gonçalves - rm570166
+mateus.augusto1629@gmail.com
+--- PAGE 31 ---
+Diagrama de classes e sua importância
+ 
+1. Capturar semelhanças entre classes não relacionadas sem forçar 
+relacionamento entre elas. 
+2. Declarar operações que uma ou mais classes devem implementar. 
+3. Revelar as operações de um objeto, sem revelar a sua classe. 
+4. Facilitar o desacoplamento entre elementos de um sistema. 
+ 
+ 
+Figura 26 – Exemplo 1 – Interface 
+Fonte: Bezerra (2007, p. 264), adaptado por FIAP (2017) 
+ 
+A Figura “Exemplo 1 – Interface” possui duas interfaces, sabemos que estas 
+não geram instâncias, quem implementa os métodos apontados na interface é a 
+classe concreta ContaBancaria. A classe ContaBancaria implementa os métodos 
+definidos como assinatura (serviço) da interface Manipulável e Administrável. 
+Temos também o relacionamento de realização, como já mencionado, a realização 
+determina quem deve implementar os métodos, por exemplo, no caso da interface 
+Manipulável, a classe ContaBancaria deve implementar os métodos criar(), 
+bloquear() e desbloquear().  
+PDF exclusivo para Mateus Augusto da Costa Oliveira Gonçalves - rm570166
+mateus.augusto1629@gmail.com
+--- PAGE 32 ---
+Diagrama de classes e sua importância
+ 
+As notações para interface são o estereótipo <<interface>>, o título em negrito 
+da classe, os métodos aparecem em itálico ou simplesmente um pequeno círculo, 
+conforme notação da Figura “Exemplo 2 – Interface”, a seguir: 
+ 
+ 
+Figura 27 – Exemplo 2 – Interface 
+Fonte: Elaborado pela autora (2017), adaptado por FIAP (2017) 
+ 
+A Figura “Exemplo 3 – Interface” exemplifica alguns conceitos de interface 
+definidos por Bezerra, por exemplo: capturar semelhanças entre classes não 
+relacionadas sem forçar relacionamento entre elas. Neste caso, as classes Cliente, 
+Funcionário e Fornecedor não são relacionadas entre si, mas executam os mesmos 
+métodos de incluir() e excluir().  
+As três classes implementam os mesmos métodos, portanto, são declaradas 
+as operações que uma ou mais classes devem implementar neste exemplo as três 
+classes. 
+ 
+PDF exclusivo para Mateus Augusto da Costa Oliveira Gonçalves - rm570166
+mateus.augusto1629@gmail.com
+--- PAGE 33 ---
+Diagrama de classes e sua importância
+ 
+ 
+Figura 28 – Exemplo 3 – Interface 
+Fonte: Elaborado pela autora (2017), adaptado por FIAP (2017) 
+ 
+A interface emprega o conceito de reutilização. Podemos notar no exemplo da 
+Figura “Exemplo 3 – Interface” que os serviços de três classes diferentes são definidos 
+na interface, o que para o sistema mantém uma obrigação de implementação por elas. 
+Assim, uma única interface serve de mandante para várias classes concretas 
+relacionadas a ela. 
+Para simplificarmos o exemplo de interface, imagine uma pessoa que 
+determina que você deve realizar uma tarefa, ela é a interface, e você realizando a 
+tarefa é a classe concreta, que executa o serviço. 
+1.6 Realização 
+Como falamos nos conceitos de interface, a realização é o relacionamento 
+necessário para representar que uma classe concreta use a assinatura (serviço) de 
+uma interface para a implementação de seus métodos. 
+PDF exclusivo para Mateus Augusto da Costa Oliveira Gonçalves - rm570166
+mateus.augusto1629@gmail.com
+--- PAGE 34 ---
+Diagrama de classes e sua importância
+ 
+Este tipo de relacionamento herda o comportamento de uma classe, mas não 
+sua estrutura. 
+A notação é uma seta fechada e pontilhada: 
+ 
+ 
+Figura 29 – Notação de realização 
+Fonte: Elaborado pela autora (2017), adaptado por FIAP (2017) 
+1.7 Dependência 
+No diagrama de classe de análise é suficiente utilizar as associações e 
+generalizações, já no diagrama de classe de especificação ou projeto, a dependência 
+é mais bem definida por um projetista, uma vez que a dependência influencia na 
+implementação. 
+A dependência significa que uma classe depende dos serviços de outra classe. 
+No exemplo da Figura “Exemplo1 – Dependência com parâmetros”, a classe A 
+depende das classes B e C, pois estas são usadas como parâmetros para as 
+operações um e dois. 
+ 
+ 
+ 
+Figura 30 – Exemplo1 – Dependência com parâmetros 
+PDF exclusivo para Mateus Augusto da Costa Oliveira Gonçalves - rm570166
+mateus.augusto1629@gmail.com
+--- PAGE 35 ---
+Diagrama de classes e sua importância
+ 
+Fonte: Bezerra (2007, p. 249), adaptado por FIAP (2017) 
+ 
+No exemplo da Figura “Exemplo 1 – Dependência com parâmetros”, 
+poderíamos ter o relacionamento de Dependência como apresentado na Figura 
+“Exemplo 2 – Dependência”: 
+ 
+ 
+Figura 31 – Exemplo 2 – Dependência 
+Fonte: Bezerra (2007, p. 264), adaptado por FIAP (2017) 
+ 
+O relacionamento de dependência da Figura “Exemplo 2 – Dependência” é 
+contextualizado através da seta pontilhada para as interfaces, o que representa a 
+classe Cliente depende dos serviços criar(), bloquear() e desbloquear() da interface 
+Manipulável, e o que representa a classe Gerente depende dos serviços creditar() e 
+debitar() da interface Administrável. 
+PDF exclusivo para Mateus Augusto da Costa Oliveira Gonçalves - rm570166
+mateus.augusto1629@gmail.com
+--- PAGE 36 ---
+Diagrama de classes e sua importância
+ 
+2 GENERALIZAÇÃO 
+A generalização ou herança é o relacionamento de um objeto mais 
+generalizado com um mais específico. O objeto generalizado é similar aos objetos 
+específicos que recebem os atributos e/ou as operações de um objeto generalizado. 
+A classe especializada é denominada subclasse e a classe generalizada é a 
+superclasse, como mostra a Figura “Generalização”, as subclasses são 
+ClienteMaster e ClienteVisa, a superclasse é Cliente. 
+ 
+ 
+ 
+Figura 32 – Generalização 
+Fonte: Elaborado pela autora (2017), adaptado por FIAP (2017) 
+ 
+Notação para Generalização ou Herança: 
+ 
+PDF exclusivo para Mateus Augusto da Costa Oliveira Gonçalves - rm570166
+mateus.augusto1629@gmail.com
+--- PAGE 37 ---
+Diagrama de classes e sua importância
+ 
+ 
+ 
+Figura 33 – Representações alternativas para o relacionamento da generalização na UML 
+Fonte: Bezerra (2007, p. 129), adaptado por FIAP (2017) 
+ 
+A figura demonstra duas notações para Generalização, com uma seta e as 
+subclasses relacionadas em uma linha ou uma seta para cada subclasse apontando 
+para a superclasse. 
+2.1 Hierarquia de generalização 
+No relacionamento de hierarquia de generalização, as classes mais específicas 
+podem ser construídas a partir de mais de uma classe generalizada hierarquicamente.   
+Conforme Bezerra (2007, p. 130), “uma classe é generalização de outra se toda 
+instância desta última for também instância da primeira”. 
+A Figura “Exemplo de hierarquia de generalização ou herança” apresenta uma 
+hierarquia de quatro níveis: o Funcionário recebe o nome da classe Pessoa, a classe 
+Atendente tem nome códFuncionário e departamento. A classe 
+OperadorTelemarketing tem nome códFuncionário, departamento e nível, que é um 
+atributo próprio da classe. A generalização hierárquica permite que os objetos 
+PDF exclusivo para Mateus Augusto da Costa Oliveira Gonçalves - rm570166
+mateus.augusto1629@gmail.com
+--- PAGE 38 ---
+Diagrama de classes e sua importância
+ 
+instanciados em subclasses mais específicas herdem os atributos e métodos das 
+classes mais generalizadas. 
+ 
+ 
+ 
+Figura 34 – Exemplo de hierarquia de generalização ou herança 
+Fonte: Elaborado pela autora (2017), adaptado por FIAP (2017) 
+2.2 Generalização – restrições 
+No diagrama de classe é possível contextualizar algumas restrições que são 
+apresentadas entre chaves ( { } ). As restrições estão relacionadas aos conceitos das 
+informações que a classe representa e podem ser: 
+ 
+PDF exclusivo para Mateus Augusto da Costa Oliveira Gonçalves - rm570166
+mateus.augusto1629@gmail.com
+--- PAGE 39 ---
+Diagrama de classes e sua importância
+ 
+● Sobreposta: na hierarquia das classes, podem ser construídas classes que 
+herdam de mais de uma subclasse, no nível vertical. 
+● Disjunta: as classes que são construídas podem herdar somente de um 
+nível da superclasse na vertical. 
+● Completa: todas as subclasses possíveis já foram construídas na 
+hierarquia horizontal, abaixo da superclasse. 
+● Incompleta: ainda é possível criar subclasses na horizontal, abaixo da 
+superclasse. 
+Conforme exemplo da Figura “Generalização Completa e Disjunta”, a classe 
+Pessoa tem apenas a representação de Homem e Mulher, não sendo possível criar 
+mais subclasses na horizontal. Neste exemplo, a generalização também é disjunta, o 
+que significa que não é possível criar mais nenhum nível na vertical abaixo das classes 
+Feminino ou Masculino. Esses conceitos estão totalmente relacionados aos 
+conceitos da informação que serão construídos na classe. 
+ 
+ 
+Figura 35 – Generalização Completa e Disjunta 
+Fonte: Elaborado pela autora (2017), adaptado por FIAP (2017) 
+ 
+PDF exclusivo para Mateus Augusto da Costa Oliveira Gonçalves - rm570166
+mateus.augusto1629@gmail.com
+--- PAGE 40 ---
+Diagrama de classes e sua importância
+ 
+No exemplo da Figura “Generalização Incompleta e Sobreposta” existem mais 
+Atletas além de Nadador e Corredor. A generalização é incompleta, pois é possível 
+criar mais subclasses na horizontal, como, por exemplo, lutador de Jiu-jítsu, que é 
+outro tipo de atleta. Ela é sobreposta, pois é possível criar subclasses abaixo de 
+Corredor e Nadador com suas especificidades, por exemplo, Nadador de cem metros 
+nado livre. 
+ 
+ 
+Figura 36 – Generalização Incompleta e Sobreposta 
+Fonte: Bezerra (2007, p. 135), adaptado por FIAP (2017) 
+2.3 Classe abstrata 
+As classes que não geram instâncias diretas são denominadas classes 
+abstratas. São utilizadas para reaproveitar, organizar e simplificar uma hierarquia de 
+generalização baseada em uma informação válida nessa hierarquia. 
+As subclasses de uma classe abstrata também podem ser abstratas, mas a 
+hierarquia deve terminar em uma ou mais classes concretas, que devem gerar a 
+instância dos objetos. 
+ 
+PDF exclusivo para Mateus Augusto da Costa Oliveira Gonçalves - rm570166
+mateus.augusto1629@gmail.com
+--- PAGE 41 ---
+Diagrama de classes e sua importância
+ 
+ 
+ 
+ 
+Figura 37 – Exemplo de classe abstrata 
+Fonte: Elaborado pela autora (2017), adaptado por FIAP (2017) 
+ 
+O exemplo da Figura “Exemplo de classe abstrata” representa uma classe 
+abstrata para Pessoa, a notação é o estereótipo com a palavra <<abstract>>, o nome 
+da classe fica em negrito. As classes Professor e Aluno são instanciáveis e recebem 
+da classe abstrata Pessoa os atributos cpf e nome, e a operação incluir().  
+O objetivo da classe abstrata é o reaproveitamento, a reutilização para uma 
+implementação que possa facilitar a manutenção. As classes abstratas também 
+surgem no modelo do Diagrama de Classe de projeto ou especificação, pois podem 
+impactar na implementação, assim como falamos anteriormente sobre interfaces. 
+2.4 Técnicas para construir um diagrama de classe 
+Após apresentarmos tantos conceitos de relacionamentos, que é algo um tanto 
+extenso, como mencionamos no início deste capítulo, o Diagrama de Classe é um 
+diagrama que possui muitos conceitos e notações relacionadas. 
+PDF exclusivo para Mateus Augusto da Costa Oliveira Gonçalves - rm570166
+mateus.augusto1629@gmail.com
+--- PAGE 42 ---
+Diagrama de classes e sua importância
+ 
+Agora vamos à prática. Como desenvolver um diagrama de classe? 
+Inicialmente devemos pensar: 
+● Qual é o negócio?  
+● O Diagrama de Caso de Uso auxiliará na construção do Diagrama de 
+Classe? 
+● Quais técnicas devo utilizar? 
+● Quais são os passos para construir o Diagrama de Classe? 
+Primeiro, são construídos o Diagrama de Classe de Análise, desenvolvido 
+pelo analista de sistemas, caso o projeto tenha o envolvimento de algum arquiteto de 
+software, o Diagrama de Classe de Análise receberá as classes necessárias para o 
+sistema funcionar e poderá ser construído o Diagrama de Classe de Projeto ou 
+Especificação, conforme a tecnologia envolvida. 
+Você pode pensar que não precisa de nenhum conhecimento para desenvolver 
+o Diagrama de Classe e que, se souber programar, está tudo resolvido, mas não é tão 
+simples assim. Conhecer o negócio é essencial, assim como conhecer as regras de 
+negócio, pois estas podem resolver muitas dúvidas e evitar refluxo de trabalho e ainda 
+auxiliar na manutenção do sistema. 
+O papel da análise do sistema é entender o que o sistema deve fazer para 
+atender a uma determinada necessidade de negócio, e na fase de análise deve 
+desenvolver o Diagrama de Classe de Análise ou Domínio para demonstrar quais 
+são os objetos de negócio pertinentes ao sistema. 
+É muito importante que você tenha o processo de negócio, as regras de negócio 
+e o Diagrama de Casos de Uso.  
+A UML não obriga a utilização de um diagrama para construção de outro, mas 
+as metodologias e boas práticas sugerem que, para seguir um padrão, seja utilizado 
+o Diagrama de Caso de Uso para fazer abstrações das classes. 
+Para a construção do Diagrama de Classe, podem ser utilizadas algumas 
+técnicas, que serão descritas a seguir. 
+PDF exclusivo para Mateus Augusto da Costa Oliveira Gonçalves - rm570166
+mateus.augusto1629@gmail.com
+--- PAGE 43 ---
+Diagrama de classes e sua importância
+ 
+2.4.1 Análise do caso de uso 
+Para a identificação das classes, o RUP (Rational Unified Process), que é uma 
+metodologia de desenvolvimento de software, propõe a análise de casos de uso. Os 
+casos de uso são utilizados no início do levantamento das classes, e observa-se quais 
+são os objetos utilizados para que o caso de uso produza um resultado, ou seja, são 
+verificados quais são os objetos envolvidos no processo da funcionalidade pretendida 
+para o sistema. 
+Conforme Bezerra (2007, p. 140), para cada caso de uso, deve-se identificar 
+as classes de acordo com o comportamento do caso de uso e distribuir o 
+comportamento do caso de uso conforme as classes identificadas. E para cada classe 
+de análise resultante, deve-se descrever suas responsabilidades e seus atributos e 
+associações. 
+Os analistas devem estudar cada caso de uso, compreender os Fluxos 
+Principais, Alternativos e Exceção. É necessário atribuir as responsabilidades de cada 
+classe com seus atributos e operações. 
+2.4.2 Análise de robustez 
+A Análise de Robustez foi proposta por Ivar Jacobson et al. (1992) e propõe 
+que os objetos sejam desenvolvidos por categorias: fronteira, controle e entidade. Em 
+função dessas três camadas de classes envolvidas, também é chamada de 
+Categorização BCE (Boundary, Control e Entity). Os objetos de fronteira ou Boundary 
+desenvolvem a comunicação e a interação do sistema com os atores. Os objetos de 
+controle ou Control servem como uma ponte entre os objetos de entidades ou Entity 
+e os objetos de fronteira, essas classes controlam as operações que o sistema deve 
+executar. E, por fim, os objetos de entidade, que representados pela classe, 
+contextualizam a informação de domínio do negócio. 
+A técnica utiliza os casos de uso para identificação da Categorização BCE 
+(Boundary, Control e Entity). Assim, para cada caso de uso, podem ser utilizadas as 
+regras: 
+ 
+PDF exclusivo para Mateus Augusto da Costa Oliveira Gonçalves - rm570166
+mateus.augusto1629@gmail.com
+--- PAGE 44 ---
+Diagrama de classes e sua importância
+ 
+● Um objeto de fronteira para cada interação do usuário com um caso de uso. 
+● Um objeto de controle para cada caso de uso, que deve controlar a 
+colaboração de um ou mais objetos entre si, a fim de realizar a tarefa 
+definida para o caso de uso. 
+● As classes de entidade correspondem aos conceitos pertinentes ao domínio 
+de negócio. 
+ 
+ 
+ 
+Figura 38 – Notação de Categorização BCE 
+Fonte: Bezerra (2007, p. 141), adaptado por FIAP (2017) 
+ 
+Conforme Bezerra (2007, p. 233): 
+ 
+                                     Assim como as classes de fronteira, classes de controle são 
+normalmente identificadas na modelagem de classes de aplicação. 
+Portanto, controladores normalmente não são objetos de domínio, 
+mas sim da aplicação, cuja responsabilidade é coordenar a interação 
+entre outros objetos.  
+ 
+As classes com mais detalhes de controle e fronteira são, portanto, construídas 
+na modelagem do diagrama de classe de projeto, seu objetivo é compreender a 
+aplicação, ou seja, seu funcionamento através do uso da tecnologia no qual o sistema 
+será implementado. 
+PDF exclusivo para Mateus Augusto da Costa Oliveira Gonçalves - rm570166
+mateus.augusto1629@gmail.com
+--- PAGE 45 ---
+Diagrama de classes e sua importância
+ 
+2.4.3 Modelagem CRC 
+A Modelagem CRC (Classes, Responsabilidades e Colaboradores) foi proposta 
+por Kent Beck, também responsável por uma metodologia ágil chamada XP (Extreme 
+Programming). Seu objetivo é ensinar os conceitos do paradigma da orientação a 
+objetos, mas por ser muito simples tem o envolvimento de analistas e 
+desenvolvedores, que se reúnem em uma sala para dar início ao que é chamado de 
+sessão CRC. Teve início na utilização de um cartão para cada classe de domínio 
+envolvida no projeto de software. 
+ 
+ 
+ 
+Figura 39 – Cartão de matrícula 
+Fonte: Elaborado pela autora (2017) 
+ 
+No exemplo do cartão matrícula, observamos que a classe Matricula tem como 
+responsabilidade ter a data e o número de matrícula, mas para que essa classe possa 
+construir um objeto Matrícula, é necessária a ajuda das classes colaboradoras 
+Candidato, Curso e Turno. 
+O Colaborador é a outra classe que oferece seu objeto para auxiliar na 
+construção de um objeto para outro que necessite de sua instância. 
+A modelagem CRC é um processo que hoje é utilizado em reuniões, mas sem 
+o uso efetivo de cartões, na prática, existem muito mais discussões para as definições 
+das classes com o uso da modelagem CRC como um processo mental e lógico. 
+PDF exclusivo para Mateus Augusto da Costa Oliveira Gonçalves - rm570166
+mateus.augusto1629@gmail.com
+--- PAGE 46 ---
+Diagrama de classes e sua importância
+ 
+Existe algo em comum entre as técnicas para construção do diagrama de 
+classe que podemos observar entre a modelagem CRC e a Análise de Robustez: 
+ambas determinam as colaborações para a construção dos objetos. 
+Na utilização da técnica CRC para modelagem das classes, novos casos de 
+uso podem ser identificados, e essa técnica pode ser necessária para a alteração de 
+casos de uso já existentes, até porque a modelagem realizada é em alto nível. 
+Conforme Bezerra (2007, p. 163), “de fato, esta é mais uma consequência do 
+modo de pensar orientado a objeto: detalhes são adicionados aos poucos, à medida 
+que o problema é entendido”: 
+ 
+ 
+Figura 40 – Interdependência entre o modelo de caso de uso e o modelo de classes 
+Fonte: Bezerra (2007, p. 163), adaptado por FIAP (2017) 
+ 
+De fato, podemos entender que os casos de uso são essenciais para 
+interpretação e identificação das classes, assim como estas auxiliam na visão dos 
+objetos pertinentes ao caso de uso de um sistema que atende a uma determinada 
+necessidade de negócio. Portanto, um complementa o outro, como mostra a Figura 
+“Interdependência entre o modelo de caso de uso e o modelo de classes”. Os casos 
+PDF exclusivo para Mateus Augusto da Costa Oliveira Gonçalves - rm570166
+mateus.augusto1629@gmail.com
+--- PAGE 47 ---
+Diagrama de classes e sua importância
+ 
+de uso devem ser analisados para se obter as classes, e as classes fornecem detalhes 
+para refinar os casos de uso. 
+Apesar de a UML ter os diagramas independentes em seu desenvolvimento, 
+há uma facilidade na construção de um através de outro, como propõe o modelo da 
+Figura “Interdependência entre o modelo de caso de uso e o modelo de classes”. No 
+caso do Diagrama de Classe, também pode ser utilizado outro diagrama que 
+enriqueça as classes com detalhes em operações, que é o Diagrama de Sequência, 
+assunto que será abordado no último capítulo desta Fase. 
+PDF exclusivo para Mateus Augusto da Costa Oliveira Gonçalves - rm570166
+mateus.augusto1629@gmail.com
+--- PAGE 48 ---
+Diagrama de classes e sua importância
+ 
+3 PASSOS PARA ELABORAR O DIAGRAMA DE CLASSE 
+3.1 Diagrama de classe 
+Agora, vamos elaborar um exemplo para o desenvolvimento do Diagrama de 
+Classe de Análise através das técnicas de análise de casos de uso e da modelagem 
+CRC. Essas técnicas podem ser usadas em conjunto para gerar um projeto de classes 
+com uma estrutura lógica rica em detalhes, o que deve facilitar a implementação e, 
+portanto, a visão do projeto. 
+Inicialmente, vamos analisar os casos de uso e observar quais são os objetos 
+utilizados para que o caso de uso produza um resultado. 
+As técnicas possuem características comuns, por exemplo, a técnica de 
+modelagem CRC também atribui o que é responsabilidade de uma classe através de 
+atributos e comportamentos. A modelagem CRC será utilizada também para definir 
+quais são as classes colaboradoras, ou seja, as classes necessárias para completar 
+o objeto de negócio. 
+É importante entender que são necessárias várias fontes de informação para 
+conhecer o domínio de negócio, para isso, os documentos de requisitos e regras de 
+negócio são importantes para os esclarecimentos em caso de dúvidas. Não vamos 
+utilizar somente uma técnica para o estudo de caso que abordaremos agora, as 
+técnicas serão trabalhadas em conjunto. 
+Como identificar as classes? 
+Um sistema orientado a objetos, por um lado, é composto de objetos em 
+colaboração para realizar as tarefas do sistema. Mas, por outro lado, todo objeto 
+pertence a uma classe. Portanto, quando se fala na identificação das classes, o 
+objetivo na verdade é saber quais objetos são necessários para compor o sistema. 
+Quais são os passos para criar o Diagrama de Classe? 
+1º) Observar os casos de uso com os seus cenários. A documentação de caso 
+de uso facilita na identificação de objetos no processo da funcionalidade. 
+PDF exclusivo para Mateus Augusto da Costa Oliveira Gonçalves - rm570166
+mateus.augusto1629@gmail.com
+--- PAGE 49 ---
+Diagrama de classes e sua importância
+ 
+2º) Verificar as regras de negócio e identificar as possibilidades de 
+relacionamentos das informações pertinentes ao domínio. 
+3º) Levantar TODAS as classes possíveis, com base na análise de caso de uso 
+e nas Regras de Negócio. 
+4º) Atribuir as responsabilidades das classes que não precisam de outras. As 
+responsabilidades são seus atributos e operações (comportamentos), essas classes 
+instanciam objetos sem ter a colaboração de outros, portanto, estas devem ser as que 
+colaboram com as demais. 
+5º) Identificar as classes que precisam de colaboradores e quem são esses 
+colaboradores. 
+6º) Relacionar as classes conforme os conceitos de relacionamento que 
+abordamos anteriormente. 
+Vamos trabalhar com o cenário de controle de reservas de mesa de um 
+restaurante. 
+O restaurante ABC Ltda. necessita de um controle para as reservas de mesas 
+que são realizadas on-line através de uma aplicação web. Você foi contratado para 
+realizar a modelagem do sistema. Após o levantamento de dados, ficou definido que: 
+o funcionário do restaurante cadastra as mesas, informa o número da mesa, a posição 
+no salão (com base na entrada, que pode ser: centro, lado esquerdo ou lado direito), 
+o número de cadeiras e o status. 
+O cliente consulta as mesas. O sistema deve exibir somente as mesas 
+disponíveis para o cliente. Este realiza o cadastro com CPF, RG, nome, endereço, 
+telefone e e-mail. 
+Para reservar uma mesa, o cliente informa o número da mesa disponível, 
+informa data e horário e CPF do cliente solicitante da reserva. Ao concluir a reserva, 
+recebe um protocolo com a identificação da reserva. 
+Regras de Negócio 
+Identificador RN 001 
+Nome Reserva Cliente 
+Descrição Uma reserva tem um cliente 
+Quadro 1 – Regra de negócio 001  
+PDF exclusivo para Mateus Augusto da Costa Oliveira Gonçalves - rm570166
+mateus.augusto1629@gmail.com
+--- PAGE 50 ---
+Diagrama de classes e sua importância
+ 
+Fonte: Elaborado pela autora (2017) 
+Identificador RN 002 
+Nome Reserva Mesa 
+Descrição Uma reserva tem uma mesa 
+Quadro 2 – Regra de negócio 002  
+Fonte: Elaborado pela autora (2017) 
+Identificador RN 003 
+Nome Protocolo Reserva 
+Descrição Um protocolo da reserva tem CPF do cliente +  data da reserva + número da mesa 
+Quadro 3 – Regra de negócio 003  
+Fonte: Elaborado pela autora (2017) 
+ 
+1º Passo: observe os casos de uso com os seus cenários. Neste caso, deve 
+ser analisado o Diagrama de Caso de Uso e a documentação de caso de uso com o 
+fluxo principal, no qual informa os objetos processados através dos substantivos.  
+No exemplo 1, é apresentado o Diagrama de Caso de Uso para o Controle de 
+Reserva: 
+ 
+PDF exclusivo para Mateus Augusto da Costa Oliveira Gonçalves - rm570166
+mateus.augusto1629@gmail.com
+--- PAGE 51 ---
+Diagrama de classes e sua importância
+ 
+ 
+ 
+Figura 41 – Diagrama de Caso de Uso Reservar Mesa 
+Fonte: Elaborado pela autora (2017), adaptado por FIAP (2017) 
+ 
+Conforme o Diagrama de Caso de Uso da Figura “Diagrama de Caso de Uso 
+Reservar Mesa”, podemos identificar os objetos que são processados nos casos de 
+uso, não em seu detalhe, mas em um nível mais alto, como o objeto cliente aparece 
+no caso de uso Cadastrar Cliente, isso significa que o cliente será armazenado em 
+um banco de dados. Portanto, será necessária uma classe para esse objeto. 
+Outro exemplo que também pode ser usado para abstração de classes é a 
+documentação de casos de uso. Se observarmos, em uma parte da documentação 
+do caso de uso referente ao caso de uso Reservar Mesa da Figura “Diagrama de 
+Caso de Uso Reservar Mesa” é realizada a análise dos substantivos que são 
+candidatos a objeto da classe do cenário reservar mesa. 
+ 
+Usuário Sistema 
+PDF exclusivo para Mateus Augusto da Costa Oliveira Gonçalves - rm570166
+mateus.augusto1629@gmail.com
+--- PAGE 52 ---
+Diagrama de classes e sua importância
+ 
+Cliente seleciona a data para sua reserva Exibe Datas e Horários disponíveis  
+Cliente seleciona data e horário  
+ Recebe a Data e Horário 
+ Reserva a Data e Horário 
+Cliente seleciona a Mesa  
+ Recebe a Mesa 
+Cliente confirma a Reserva  
+Caso de uso continua  
+Quadro 4 – Fluxo principal da documentação do caso de uso 
+Fonte: Elaborado pela autora (2017) 
+ 
+Se analisarmos alguns dos substantivos encontrados, serão os atributos da 
+classe, outros serão colaboradores da Reserva, como a classe Cliente e a classe 
+Mesa. 
+Utilizar as Regras de Negócio também pode facilitar muito, pois representam 
+os objetos do negócio em sua restrição e relação. 
+Por experiência profissional, as documentações de casos de uso nem sempre 
+são desenvolvidas com tanta agilidade, e o tempo para o desenvolvimento das classes 
+não é compatível. Desse modo, utilizar o diagrama de caso de uso e as regras de 
+negócio é muito mais viável, pois as classes são identificadas no início do processo 
+de desenvolvimento de software, na fase de Levantamento de Requisitos, assunto 
+que foi abordado anteriormente. 
+No caso em que estamos trabalhando, vamos utilizar o Diagrama de Caso de 
+Uso, as Regras de Negócio e a técnica de CRC. Portanto, agora vamos ao segundo 
+passo. 
+2º Passo: verifique as regras de negócio e identifique as possíveis classes, até 
+para complemento das que já foram identificadas através do Diagrama de Caso de 
+Uso. Avalie a possibilidade de relacionar as informações pertinentes ao domínio. 
+Regras de Negócio (representação simplificada do exemplo): 
+RN01. Uma reserva tem um cliente. 
+RN02. Uma reserva tem uma mesa. 
+RN03. Um protocolo da reserva tem CPF do cliente + data da reserva + número 
+da mesa. 
+PDF exclusivo para Mateus Augusto da Costa Oliveira Gonçalves - rm570166
+mateus.augusto1629@gmail.com
+--- PAGE 53 ---
+Diagrama de classes e sua importância
+ 
+Podemos observar que por meio das Regras de Negócio, é possível identificar 
+as classes que foram levantadas através do Diagrama de Caso de Uso, mas isso nem 
+sempre é possível. 
+3º Passo: represente TODAS as classes possíveis com base na análise de 
+caso de uso e nas Regras de Negócio. 
+Conforme os casos de uso e as Regras de Negócio, identificamos as classes 
+que representam o domínio: 
+ 
+ 
+ 
+Figura 42 – Classes identificadas – exemplo Reserva 
+Fonte: Elaborado pela autora (2017), adaptado por FIAP (2017) 
+ 
+4º Passo: atribua as responsabilidades das classes que não precisam de 
+outras, ou seja, essas classes instanciam um objeto sem a necessidade de troca de 
+mensagens com outra classe (colaborador). 
+As responsabilidades são seus atributos (características) e operações 
+(comportamentos), essas classes instanciam objetos independentemente da 
+necessidade da colaboração de outros objetos, portanto, provavelmente, estas são as 
+classes colaboradoras ou que colaboram com as demais, conforme demonstra a 
+Figura “Classes com as Responsabilidades – exemplo Reserva”:  
+ 
+PDF exclusivo para Mateus Augusto da Costa Oliveira Gonçalves - rm570166
+mateus.augusto1629@gmail.com
+--- PAGE 54 ---
+Diagrama de classes e sua importância
+ 
+ 
+ 
+Figura 43 – Classes com as Responsabilidades – exemplo Reserva 
+Fonte: Elaborado pela autora (2017), adaptado por FIAP (2017) 
+ 
+5º Passo: identifique as classes que precisam de colaboradores – são as 
+classes que trocam mensagens com outras para gerar uma instância. Neste passo, 
+também vamos definir quais são as responsabilidades dessas classes e quais são os 
+colaboradores para o relacionamento no próximo passo. 
+ 
+PDF exclusivo para Mateus Augusto da Costa Oliveira Gonçalves - rm570166
+mateus.augusto1629@gmail.com
+--- PAGE 55 ---
+Diagrama de classes e sua importância
+ 
+ 
+Figura 44 – Classe que precisa de colaboradores – exemplo Reserva 
+Fonte: Elaborado pela autora (2017), adaptado por FIAP (2017) 
+ 
+Guedes (2011, p. 375) afirma: 
+ 
+                                     A rigor deve haver um método get e um método set para cada atributo 
+de classe. No entanto, essa modelagem enfoca o sistema em um nível 
+mais alto, assim consideramos impraticável e mesmo desnecessário 
+inserir um conjunto de métodos óbvios em classes que contenham um 
+grande número de atributos. 
+ 
+No exemplo da Figura “Classe que precisa de colaboradores – exemplo 
+Reserva”, a classe Reserva que atribuímos às responsabilidades (atributos e 
+operações) recebe a colaboração da classe Cliente e da classe Mesa. Neste caso, 
+não é necessário inserir os métodos get e set conforme afirma Guedes, pois eles são 
+óbvios ao identificar os atributos da classe. Somente foram identificadas as operações 
+essenciais para a reserva da mesa. 
+Identificamos que a Reserva precisa de colaboradores, por si só, ela não 
+consegue gerar uma instância e, consequentemente, seus colaborares são a classe 
+PDF exclusivo para Mateus Augusto da Costa Oliveira Gonçalves - rm570166
+mateus.augusto1629@gmail.com
+--- PAGE 56 ---
+Diagrama de classes e sua importância
+ 
+Mesa e a classe Cliente. Agora vamos demonstrar essa colaboração através dos 
+relacionamentos. 
+6º Passo: relacione as classes conforme os conceitos de relacionamentos 
+que abordamos na seção de relacionamentos. 
+Para saber qual o tipo de relacionamento das classes, é importante entender o 
+negócio, pois isto facilitará muito em alguns conceitos do que representa o objeto no 
+contexto da execução do sistema para resolver o problema do negócio. 
+Algumas questões devem ser levantadas: 
+● É necessário entender o objeto a ser relacionado com um colaborador, se 
+esse objeto é parte do todo nessa colaboração?   
+● O objeto colaborador tem como objetivo formar um todo? 
+● Em caso afirmativo, isso é essencial? Ou seja, é composição para formar o 
+todo? 
+● É um complemento do objeto que solicita a colaboração? 
+● Tem características comuns que podem ser compartilhadas com outras 
+classes? 
+Agora vamos relacionar a classe Reserva, conforme Figura Classes 
+colaboradoras. Neste exemplo, não existe generalização, pois são objetos diferentes, 
+não têm características comuns entre eles. Portanto, vamos analisar as questões da 
+associação que podem ser simples, por composição ou agregação, conforme 
+abordamos na seção de relacionamentos. 
+ 
+PDF exclusivo para Mateus Augusto da Costa Oliveira Gonçalves - rm570166
+mateus.augusto1629@gmail.com
+--- PAGE 57 ---
+Diagrama de classes e sua importância
+ 
+ 
+ 
+Figura 45 – Classes colaboradoras (a) 
+Fonte: Elaborado pela autora (2017), adaptado por FIAP (2017) 
+ 
+Na Figura “Classes colaboradoras”, podemos verificar se os objetos são parte, 
+todo ou simplesmente independentes e se são associados para construir a instância 
+necessária. Uma pergunta pode facilitar a identificação do tipo de relacionamento: “É 
+possível instanciar o Cliente sem ter uma Reserva?”. Neste caso, a pergunta 
+relacionou a classe Cliente com a classe Reserva, mas ela pode ser utilizada para 
+qualquer relacionamento. 
+Conforme o Diagrama de Caso de Uso apresentado na Figura “Classes 
+colaboradoras (b)”, a resposta é SIM. Neste caso, então, é uma Associação Simples, 
+pois o objeto Cliente não depende da instância da classe Reserva para ser 
+instanciado. Mas para a Reserva é necessário, ou seja, precisa de uma Mesa e de 
+um Cliente, conforme as Regras de Negócio 01 e 02. 
+Com relação ao outro relacionamento da classe Reserva e da classe Mesa, 
+vamos novamente fazer uma pergunta: “É possível instanciar uma Mesa sem 
+Reserva?”. A resposta é SIM, pois caso seja necessário instanciar o objeto Mesa, 
+este é compreendido em suas características e comportamentos por si só, não precisa 
+de outra classe para entendê-lo como objeto.  
+PDF exclusivo para Mateus Augusto da Costa Oliveira Gonçalves - rm570166
+mateus.augusto1629@gmail.com
+--- PAGE 58 ---
+Diagrama de classes e sua importância
+ 
+Nos dois casos, os relacionamentos são Associações Simples, ou seja, o objeto 
+Reserva utiliza os objetos Cliente e o objeto Mesa como colaboradores através de 
+uma ligação de “eu preciso do seu objeto, para entender um objeto reserva, mas vocês 
+não precisam de mim para serem entendidos”, como demonstra a Figura “Classes 
+colaboradoras (b)”. 
+ 
+ 
+Figura 46 – Classes colaboradoras (b) 
+Fonte: Elaborado pela autora (2017), adaptado por FIAP (2017) 
+ 
+Agora, vamos inserir as classes de Fronteira para contextualizar a tela e a 
+classe de Controle para representar a comunicação das classes de entidade com a 
+classe de fronteira, conforme a Figura “Diagrama de Classe – exemplo Reserva”: 
+ 
+PDF exclusivo para Mateus Augusto da Costa Oliveira Gonçalves - rm570166
+mateus.augusto1629@gmail.com
+--- PAGE 59 ---
+Diagrama de classes e sua importância
+ 
+ 
+ 
+Figura 47 – Diagrama de Classe – exemplo Reserva 
+Fonte: Elaborado pela autora (2017), adaptado por FIAP (2017) 
+ 
+Vamos a um segundo exemplo, que é o cenário de controle de locação de 
+imóveis. 
+A imobiliária LocaTudo Imóveis teve um grande aumento no número de imóveis 
+para locação, por causa da crise econômica que afetou o país e resolveu implantar 
+um sistema para gerenciar esse processo. 
+Após o levantamento de dados, ficou definido que: o gerente da imobiliária 
+cadastra o corretor, informa CRECI e nome. O corretor cadastra o imóvel com código 
+do imóvel, endereço, bairro, cidade e informa o CPF do proprietário. O sistema deve 
+verificar se o proprietário possui cadastro, caso não tenha, o cadastro é realizado 
+neste momento, com CPF e nome. 
+A imobiliária consulta os imóveis disponíveis informando o endereço do imóvel. 
+O corretor realiza o cadastro do locatário com CPF, nome, endereço, bairro, profissão 
+e faixa salarial, e registra a locação, informando inicialmente seu código (corretor) e o 
+código do imóvel. A confirmação gera o registro da locação, que deve bloquear o 
+imóvel e emitir um contrato para o cliente locatário. 
+PDF exclusivo para Mateus Augusto da Costa Oliveira Gonçalves - rm570166
+mateus.augusto1629@gmail.com
+--- PAGE 60 ---
+Diagrama de classes e sua importância
+ 
+ 
+Regras de Negócio 
+Identificador RN001 
+Nome Imóvel com Proprietário 
+Descrição Um imóvel tem um proprietário 
+Quadro 5 – Regra de negócio 001 – Imobiliária LocaTudo 
+Fonte: Elaborado pela autora (2017) 
+Identificador RN002 
+Nome Identificação da Locação com Imóvel 
+Descrição Uma locação tem um imóvel e um cliente locatário 
+Quadro 6 – Regra de negócio 002 – Imobiliária LocaTudo 
+Fonte: Elaborado pela autora (2017) 
+Identificador RN003 
+Nome Identificação da Locação com Corretor 
+Descrição Uma locação tem um corretor e uma data da locação 
+Quadro 7 – Regra de negócio 003 – Imobiliária LocaTudo 
+Fonte: Elaborado pela autora (2017) 
+Identificador RN004 
+Nome Identificação do Proprietário 
+Descrição Um proprietário é identificado pelo CPF 
+Quadro 8 – Regra de negócio 004 – Imobiliária LocaTudo 
+Fonte: Elaborado pela autora (2017) 
+ 
+Os requisitos funcionais para o caso Locação de Imóvel são: 
+RF01. Cadastrar Proprietário. 
+RF02. Cadastrar Imóvel. 
+RF03. Cadastrar Locatário. 
+RF04. Consultar Imóvel. 
+RF05. Registrar Locação. 
+RF06. Emitir Contrato. 
+Os requisitos funcionais também podem ser apresentados em um template, 
+conforme modelo apresentado no capítulo de Requisitos, na fase anterior. 
+ 
+Identificador RF001 
+Nome Registrar Locação 
+PDF exclusivo para Mateus Augusto da Costa Oliveira Gonçalves - rm570166
+mateus.augusto1629@gmail.com
+--- PAGE 61 ---
+Diagrama de classes e sua importância
+ 
+Prioridade Essencial 
+Data da criação 03/02/2017 
+Autor Jack 
+Descrição O sistema deve permitir registrar a locação de um imóvel para o cliente locatário 
+Quadro 9 – Requisito funcional 001 – Imobiliária LocaTudo 
+Fonte: Elaborado pela autora (2017) 
+ 
+Para o caso locação de imóveis, vamos apresentar o Diagrama de Caso de 
+Uso da Figura “Diagrama de Caso de Uso – controle de locação”. 
+ 
+ 
+ 
+ Figura 48 – Diagrama de Caso de Uso – controle de locação 
+Fonte: Elaborado pela autora (2017), adaptado por FIAP (2017) 
+ 
+Conforme abordamos nos passos para a construção do Diagrama de Classe 
+desta seção, podemos usar o diagrama de caso de uso para identificação das classes, 
+assim como as regras de negócio. 
+1º Passo: observe os casos de uso com os seus cenários: Conforme a Figura 
+“Classes identificadas – exemplo Controle de locação”, analise os objetos que fazem 
+parte do processo. 
+PDF exclusivo para Mateus Augusto da Costa Oliveira Gonçalves - rm570166
+mateus.augusto1629@gmail.com
+--- PAGE 62 ---
+Diagrama de classes e sua importância
+ 
+2º Passo: verifique as Regras de Negócio: Conforme as Regras de Negócio: 
+ 
+Identificador RN001 
+Nome Imóvel com Proprietário 
+Descrição Um imóvel tem um proprietário 
+Quadro 10 – Regra de negócio 001 – Imobiliária Locatudo 
+Fonte: Elaborado pela autora (2017) 
+Identificador RN002 
+Nome Identificação da Locação com Imóvel 
+Descrição Uma locação tem um imóvel e um cliente locatário 
+Quadro 11 – Regra de negócio 002 – Imobiliária Locatudo 
+Fonte: Elaborado pela autora (2017) 
+Identificador RN003 
+Nome Identificação da Locação com Corretor 
+Descrição Uma locação tem um corretor e uma data da locação 
+Quadro 12 – Regra de negócio 003 – Imobiliária Locatudo 
+Fonte: Elaborado pela autora (2017) 
+ 
+Com base nas regras de negócio, também conseguimos identificar classes. 
+Nas regras de negócio RN001, RN002 e RN003, apontamos as classes com suas 
+relações. 
+3º Passo: represente TODAS as classes possíveis, com base na análise de 
+caso de uso e nas Regras de Negócio. 
+Conforme os Casos de Uso e as Regras de Negócio, identificamos as classes 
+que representam o domínio na Figura “Classes identificadas – exemplo Controle de 
+locação”. 
+ 
+ 
+ 
+Figura 49 – Classes identificadas – exemplo Controle de locação 
+Fonte: Elaborado pela autora (2017) 
+ 
+PDF exclusivo para Mateus Augusto da Costa Oliveira Gonçalves - rm570166
+mateus.augusto1629@gmail.com
+--- PAGE 63 ---
+Diagrama de classes e sua importância
+ 
+4º Passo: atribua às responsabilidades das classes que não precisam de 
+outras, ou seja, estas classes instanciam um objeto sem a necessidade de troca de 
+mensagens com outra classe (colaborador). 
+ 
+ 
+Figura 50 – Classes com responsabilidades – exemplo Controle Locação 
+Fonte: Elaborado pela autora (2017), adaptado por FIAP (2017) 
+ 
+No exemplo da Figura “Classes com responsabilidades – exemplo Controle 
+Locação”, a classe Cliente foi abstração das classes ClienteLocatário e 
+ClienteProprietário, pois estas possuem características (atributos) e 
+comportamentos (operações) comuns. Já a classe Pessoa, que é abstrata, foi uma 
+abstração da classe Cliente e da classe Corretor, pois também foram identificadas 
+características (atributos) como nome e comportamentos (operações) incluir() que são 
+comuns. 
+5º Passo: identifique as classes que precisam de Colaboradores são as 
+classes que trocam mensagens com outras para gerar uma instância. Neste passo, 
+também vamos definir quais são as responsabilidades destas classes e definir quais 
+são os colaboradores para o relacionamento no próximo passo. 
+ 
+PDF exclusivo para Mateus Augusto da Costa Oliveira Gonçalves - rm570166
+mateus.augusto1629@gmail.com
+--- PAGE 64 ---
+Diagrama de classes e sua importância
+ 
+ 
+ 
+Figura 51 – Classes que precisam de colaboradores – exemplo Controle Locação 
+Fonte: Elaborado pela autora (2017), adaptado por FIAP (2017) 
+ 
+No exemplo da Figura “Classes que precisam de colaboradores – exemplo 
+Controle Locação”, as classes que precisam de colaboradores são Locacao e Imovel, 
+conforme as regras de negócio RN001, RN002 e RN003. 
+6º Passo: relacione as classes conforme os conceitos de relacionamentos. 
+Lembrando que para saber qual o tipo de relacionamento das classes, será 
+necessário e muito importante entender o negócio, pois o objeto é contextualizado 
+para resolução do problema. 
+Na Figura “Classes que precisam de colaboradores – exemplo Controle 
+Locação”, o Diagrama de Classe representa a análise dos relacionamentos, para 
+identificar se o objeto colaborador está relacionado com o objetivo de formar o todo 
+ou se tem o objetivo de complementar, sempre em função do conceito do objeto em 
+relação ao negócio. 
+Lembramos que o mais usualmente representado nos relacionamentos é a 
+associação simples, mas, em alguns cenários, podem ser necessários objetos com 
+agregação ou composição. 
+PDF exclusivo para Mateus Augusto da Costa Oliveira Gonçalves - rm570166
+mateus.augusto1629@gmail.com
+--- PAGE 65 ---
+Diagrama de classes e sua importância
+ 
+ 
+  
+Figura 52 – Análise das classes colaboradoras para o relacionamento – exemplo Controle Locação 
+Fonte: Elaborado pela autora (2017), adaptado por FIAP (2017) 
+ 
+Na Figura “Análise das classes colaboradoras para o relacionamento – exemplo 
+Controle Locação”, conforme estudos realizados com os objetos colaboradores da 
+classe Locacao, podemos compreender que na classe Corretor: “É possível 
+instanciar um objeto Corretor sem um objeto Locação?”. A resposta é sim, pois, com 
+base na análise do Diagrama de Caso de Uso, os corretores são cadastrados 
+independentemente da existência de uma Locação, portanto é uma associação 
+simples. A classe do ClienteLocatário segue o mesmo raciocínio, pois ele foi 
+cadastrado antes da Locação, conforme pode ser observado no cenário do Diagrama 
+de Caso de Uso. 
+ 
+PDF exclusivo para Mateus Augusto da Costa Oliveira Gonçalves - rm570166
+mateus.augusto1629@gmail.com
+--- PAGE 66 ---
+Diagrama de classes e sua importância
+ 
+ 
+ 
+Figura 53 – Diagrama de Classe de Análise – exemplo Controle Locação 
+Fonte: Elaborado pela autora (2017), adaptado por FIAP (2017) 
+ 
+Na Figura “Diagrama de Classe de Análise – exemplo Controle Locação”, 
+podemos observar o relacionamento natural de generalização (Herança) do 
+ClienteProprietario e do ClienteLocatario com a superclasse Cliente, isso porque 
+são objetos similares. Uma vez relacionadas por generalização com o Cliente, surge 
+a classe Pessoa, que também é relacionada com Corretor, em função dos atributos 
+e das operações comuns, portanto Cliente e Corretor são Pessoas.  
+Com base no cenário do Diagrama de Caso de Uso, podemos dizer que não 
+há necessidade da instância da classe Pessoa, pois não há nenhuma funcionalidade 
+para cadastrar pessoa, e por esse motivo, a classe Pessoa será uma classe abstrata, 
+PDF exclusivo para Mateus Augusto da Costa Oliveira Gonçalves - rm570166
+mateus.augusto1629@gmail.com
+--- PAGE 67 ---
+Diagrama de classes e sua importância
+ 
+ou seja, que não gera instância. Neste exemplo, apresentamos também um cenário 
+de Hierarquia de Generalização ou Herança Hierárquica, como já abordado. 
+Como padrão adotado na modelagem do Diagrama de Classe de análise, 
+incluímos a classe de controle e a classe de fronteira da locação.  
+Neste cenário, não apresentamos todos os métodos, somente os mais 
+importantes. 
+Caso o projeto de desenvolvimento de software seja muito extenso, pode ser 
+adotado o uso de Pacotes ou Package, que é utilizado para representar um conjunto 
+de elementos agrupados, pode ser usado tanto para o Diagrama de Classe como para 
+o Diagrama de Caso de Uso. Na implementação, é muito comum o uso de pacotes 
+para representar as camadas de implementação. 
+ 
+ 
+ 
+Figura 54 – Notação de pacote (package) 
+Fonte: Elaborado pela autora (2017), adaptado por FIAP (2017) 
+ 
+Conforme a utilização dos pacotes, podemos ter o Diagrama de Classe 
+apresentado na Figura “Notação de pacote (package)” com os pacotes para 
+representar a divisão das classes entre os cadastros básicos do sistema e as classes 
+PDF exclusivo para Mateus Augusto da Costa Oliveira Gonçalves - rm570166
+mateus.augusto1629@gmail.com
+--- PAGE 68 ---
+Diagrama de classes e sua importância
+ 
+de controle de locação, conforme a Figura “Diagrama de Classe com pacotes – 
+exemplo Controle de Locação”: 
+ 
+ 
+Figura 55 – Diagrama de Classe com pacotes – exemplo Controle de Locação 
+Fonte: Elaborado pela autora (2017), adaptado por FIAP (2017) 
+ 
+Agora, vamos a mais um exemplo, cujo cenário é o e-commerce de cerveja. 
+Um cliente entra no site da loja Amantes das Cervejas e pesquisa os tipos de cerveja 
+desejados. Ele seleciona o fabricante e/ou o nome da cerveja, ou então a faixa de 
+preço. O sistema deve exibir os dados da pesquisa em até três segundos.  
+PDF exclusivo para Mateus Augusto da Costa Oliveira Gonçalves - rm570166
+mateus.augusto1629@gmail.com
+--- PAGE 69 ---
+Diagrama de classes e sua importância
+ 
+Para efetuar o pedido de compra, o cliente seleciona a cerveja e informa a 
+quantidade desejada. O sistema calcula o preço total.  
+Para finalizar a compra, o cliente preenche o cadastro, caso ainda não o 
+possua. Ele deve preencher o campo “Dados do cliente”, informando nome, endereço 
+de entrega, telefone e CPF. Esses dados devem ser armazenados em um banco de 
+dados Oracle 11g. 
+O cliente efetua o pagamento e, para isso, seleciona a forma de pagamento. 
+Se o pagamento for por cartão de crédito, o cliente informa os dados do cartão: 
+número, data de validade, nome, nome da operadora do cartão de crédito e o código 
+de segurança. O sistema deve solicitar a autorização do pagamento para a operadora 
+do cartão de crédito. Se o pagamento for por boleto, o sistema o emite. 
+O funcionário, gerente do setor financeiro, efetua o login com a senha de 
+administrador. Consulta os pagamentos, se confirmado, emite a nota fiscal.  
+O funcionário separa e envia os produtos para a transportadora, que fará a 
+entrega. Ao encaminhá-los, o funcionário registra o envio do pedido para entrega, 
+informando o status do pedido como “enviado para entrega”. 
+Ao receber os produtos, o cliente assina a nota de entrega. A nota de entrega 
+possui um QR Code que identifica o pedido efetuado pelo cliente, por meio do qual o 
+funcionário efetua a baixa do pedido, caso haja a assinatura do cliente e a data de 
+entrega. 
+Regras de Negócio 
+Identificador RN001 
+Nome Tipos de Pagamento 
+Descrição Pagamento pode ser efetuado por cartão de crédito ou boleto bancário 
+Quadro 13 – Regra de negócio 001 – Amantes das Cervejas 
+Fonte: Elaborado pela autora (2017) 
+Identificador RN002 
+Nome Idade Mínima do Cliente  
+Descrição A compra poderá ser efetuada somente por cliente maior de 18 anos 
+Quadro 14 – Regra de negócio 002 – Amantes das Cervejas 
+Fonte: Elaborado pela autora (2017) 
+Identificador RN003 
+Nome Frete Grátis 
+PDF exclusivo para Mateus Augusto da Costa Oliveira Gonçalves - rm570166
+mateus.augusto1629@gmail.com
+--- PAGE 70 ---
+Diagrama de classes e sua importância
+ 
+Descrição Em vendas com valor acima de R$ 200,00, o frete é grátis 
+Quadro 15 – Regra de negócio 003 – Amantes das Cervejas 
+Fonte: Elaborado pela autora (2017) 
+Identificador RN004 
+Nome Valor do Frete 
+Descrição 
+O valor da compra deve ser calculado através de (quantidade x 
+preço). Nas compras com valor até R$ 199,99, incide o valor do frete, 
+deve ser somado o valor de R$ 30,00 
+Quadro 16 – Regra de negócio 004 – Amantes das Cervejas 
+Fonte: Elaborado pela autora (2017) 
+Identificador RN005 
+Nome Compra por Cliente 
+Descrição O pedido de compra está relacionado a um cliente 
+Quadro 17 – Regra de negócio 005 – Amantes das Cervejas 
+Fonte: Elaborado pela autora (2017) 
+Identificador RN006 
+Nome Pagamento por Compra 
+Descrição O pagamento está relacionado a um pedido de compra 
+Quadro 18 – Regra de negócio 006 – Amantes das Cervejas 
+Fonte: Elaborado pela autora (2017) 
+Identificador RN007 
+Nome QR Code 
+Descrição O pedido de compra está relacionado a um QR Code 
+Quadro 19 – Regra de negócio 007 – Amantes das Cervejas 
+Fonte: Elaborado pela autora (2017) 
+Identificador RN008 
+Nome Item 
+Descrição Um pedido de compra tem no mínimo um item de tipo de cerveja, mas pode ter muitos 
+Quadro 20 – Regra de negócio 008 – Amantes das Cervejas 
+Fonte: Elaborado pela autora (2017) 
+Requisitos Funcionais 
+RF01. Pesquisar cerveja. 
+RF02. Registrar compra. 
+RF03. Calcular valor da compra. 
+RF04. Efetuar login. 
+RF05. Cadastrar cliente. 
+RF06. Registrar pagamento. 
+RF07. Solicitar autorização de pagamento. 
+PDF exclusivo para Mateus Augusto da Costa Oliveira Gonçalves - rm570166
+mateus.augusto1629@gmail.com
+--- PAGE 71 ---
+Diagrama de classes e sua importância
+ 
+RF08. Emitir boleto. 
+RF09. Consultar pagamento. 
+RF10. Emitir nota fiscal. 
+RF11. Registrar pedido de entrega. 
+RF12. Baixar pedido compra. 
+Diagrama de Caso de Uso para o cenário do e-commerce de cerveja: 
+ 
+ 
+Figura 56 – Diagrama de Caso de Uso 
+Fonte: Elaborado pela autora (2017), adaptado por FIAP (2017) 
+ 
+No exemplo do Diagrama de Caso de Uso da Figura “Diagrama de Caso de 
+Uso”, vamos utilizar o conceito de VCP (VCP é um diagrama de classe cujas 
+instâncias [objetos] participam de apenas um caso de uso). 
+PDF exclusivo para Mateus Augusto da Costa Oliveira Gonçalves - rm570166
+mateus.augusto1629@gmail.com
+--- PAGE 72 ---
+Diagrama de classes e sua importância
+ 
+Vamos desenvolver a VCP (Figura Visão de Classes Participantes somente do 
+caso de uso Registrar Compra) somente do caso de uso Registrar Compra; a 
+concepção dos passos para desenvolvimento do Diagrama de Classe é a mesma que 
+aplicamos anteriormente. 
+ 
+ 
+ 
+Figura 57 – Visão de Classes Participantes somente do caso de uso Registrar Compra 
+Fonte: Elaborado pela autora (2017), adaptado por FIAP (2017) 
+3.2 Diagrama de Objetos 
+O objetivo do diagrama de objetos é esclarecer como serão construídos os 
+objetos do sistema quando instanciados por uma classe. 
+PDF exclusivo para Mateus Augusto da Costa Oliveira Gonçalves - rm570166
+mateus.augusto1629@gmail.com
+--- PAGE 73 ---
+Diagrama de classes e sua importância
+ 
+Conforme Guedes (2011, p. 183), o diagrama de objetos tem como objetivo 
+fornecer uma “visão” dos valores armazenados pelos objetos das classes, em um 
+determinado momento do sistema. 
+Com base no Diagrama de Classe da Figura “Visão de Classes Participantes 
+somente do caso de uso Registrar Compra” da Reserva de Mesas, vamos demonstrar 
+o Diagrama de Objetos com a construção das instâncias das classes conforme Figura 
+“Diagrama de Objetos – exemplo Reserva”. A estrutura das classes em relação aos 
+seus atributos é mantida, e somente são apresentadas as informações 
+correlacionadas ao objetivo da classe. 
+ 
+ 
+ 
+Figura 58 – Diagrama de Objetos – exemplo Reserva 
+Fonte: Elaborado pela autora (2017), adaptado por FIAP (2017) 
+ 
+Notação dos objetos conforme Guedes (2011, p. 183): 
+ 
+                                     O nome dos objetos está contido, como nas classes, na primeira 
+divisão do retângulo que representa os objetos e pode ser 
+apresentado de três formas: 
+PDF exclusivo para Mateus Augusto da Costa Oliveira Gonçalves - rm570166
+mateus.augusto1629@gmail.com
+--- PAGE 74 ---
+Diagrama de classes e sua importância
+ 
+                                     O nome do objeto, com todas as letras minúsculas, seguido do símbolo 
+de dois-pontos (:) e o nome da classe à qual o objeto pertence, com 
+as letras iniciais maiúsculas. Este é o formato mais completo. 
+                                     O nome do objeto omitido, mas mantendo o símbolo de dois pontos e 
+o nome da classe. 
+                                     Somente o nome do objeto, sem os dois-pontos. 
+ 
+A Figura “Diagrama de Objeto – exemplo e-commerce Cerveja – VCP – 
+Registrar Compra” traz um exemplo da notação completa com o nome do objeto no 
+exemplo reserva com letra minúscula, dois-pontos e o nome da classe Reserva.  
+ 
+ 
+Figura 59 – Diagrama de Objeto – exemplo e-commerce Cerveja – VCP – Registrar Compra 
+Fonte: Elaborado pela autora (2017), adaptado por FIAP (2017) 
+ 
+Na Figura “Diagrama de Objetos – exemplo Reserva”, podemos observar o 
+Diagrama de Objetos somente para o VCP do caso de uso Registrar Compra, 
+conforme exemplo do Diagrama de Classe apresentado anteriormente na Figura 
+“Visão de Classes Participantes somente do caso de uso Registrar Compra”. 
+PDF exclusivo para Mateus Augusto da Costa Oliveira Gonçalves - rm570166
+mateus.augusto1629@gmail.com
+--- PAGE 75 ---
+Diagrama de classes e sua importância
+ 
+3.3 Tutorial para modelar o Diagrama de Classe 
+O tutorial abaixo foi elaborado utilizando a ferramenta Astah. 
+Para criar um projeto, clique em File > New (ver Figura “Novo projeto no 
+Astah”): 
+ 
+ 
+ 
+Figura 60 – Novo projeto no Astah 
+Fonte: Elaborado pela autora (2017) 
+ 
+Para criar o Diagrama de Classe, clique no menu Diagram > Class Diagram 
+(ver Figura “Criar Diagrama de Classe"): 
+ 
+PDF exclusivo para Mateus Augusto da Costa Oliveira Gonçalves - rm570166
+mateus.augusto1629@gmail.com
+--- PAGE 76 ---
+Diagrama de classes e sua importância
+ 
+ 
+Figura 61 – Criar Diagrama de Classe 
+Fonte: Elaborado pela autora (2017) 
+ 
+Estrutura inicial do Diagrama de Classe (ver Figura “Área de trabalho para 
+desenvolvimento do Diagrama de Classe”): 
+ 
+ 
+Figura 62 – Área de trabalho para desenvolvimento do Diagrama de Classe 
+Fonte: Elaborado pela autora (2017) 
+PDF exclusivo para Mateus Augusto da Costa Oliveira Gonçalves - rm570166
+mateus.augusto1629@gmail.com
+--- PAGE 77 ---
+Diagrama de classes e sua importância
+ 
+3.4 Barra de ferramentas do Diagrama de Classes 
+ 
+Figura 63 – Barra de ferramentas do Diagrama de Classe 
+Fonte: Elaborado pela autora (2017) 
+ 
+Para criar uma classe, clique no botão abaixo: 
+ 
+ 
+Figura 64 – Botão para criar uma classe 
+Fonte: Elaborado pela autora (2017) 
+ 
+Informe o nome da classe conforme os padrões. Clique sobre a Classe e utilize 
+a propriedade do lado esquerdo na aba Base, conforme os itens Name e Visibility: 
+ 
+ 
+Figura 65 – Propriedades da Classe 
+PDF exclusivo para Mateus Augusto da Costa Oliveira Gonçalves - rm570166
+mateus.augusto1629@gmail.com
+--- PAGE 78 ---
+Diagrama de classes e sua importância
+ 
+Fonte: Elaborado pela autora (2017) 
+ 
+Também é possível clicar com o botão direito do mouse sobre a Classe. 
+Insira os atributos, através do botão direito do mouse, no link Add Atributte: 
+ 
+ 
+Figura 66 – Item da Propriedade 
+Fonte: Elaborado pela autora (2017) 
+ 
+Insira as operações, através do botão direito do mouse, no link Add Operation: 
+ 
+ 
+ 
+Figura 67 – Operação da Propriedade 
+Fonte: Elaborado pela autora (2017) 
+ 
+Para relacionar com Associações, clique no botão  Association: 
+ 
+ 
+ 
+Figura 68 – Associações 
+Fonte: Elaborado pela autora (2017) 
+ 
+Para utilizar um dos relacionamentos, clique sobre ele e sobre a classe que 
+deseja relacionar com o colaborador. 
+Para inserir Generalização clique no botão Generalization.  
+ 
+PDF exclusivo para Mateus Augusto da Costa Oliveira Gonçalves - rm570166
+mateus.augusto1629@gmail.com
+--- PAGE 79 ---
+Diagrama de classes e sua importância
+ 
+ 
+Figura 69 – Botão Generalization 
+Fonte: Elaborado pela autora (2017) 
+ 
+Clique inicialmente nas subclasses e direcione para a superclasse: 
+ 
+ 
+Figura 70 – Astah Generalização 
+Fonte: Elaborado pela autora (2017), adaptado por FIAP (2017) 
+ 
+No exemplo da Figura “Astah Generalização”, clique na Class1 e solte sobre a 
+Class0. 
+Ao finalizar o Diagrama, você pode exportar a imagem, clique no Menu: Tools 
+> Export Image. A imagem pode ser exportada para PNG, conforme menu 
+apresentado na Figura “Exportar imagem dos diagramas”: 
+ 
+ 
+Figura 71 – Exportar imagem dos diagramas 
+Fonte: Elaborado pela autora (2017) 
+PDF exclusivo para Mateus Augusto da Costa Oliveira Gonçalves - rm570166
+mateus.augusto1629@gmail.com
+--- PAGE 80 ---
+Diagrama de classes e sua importância
+ 
+ATIVIDADE TREINO - EXERCÍCIO 1: CONTROLE DE CURSOS DE 
+IDIOMAS 
+ 
+Você está atuando como consultor para a “Descolada”, escola de idiomas, a 
+qual precisa melhorar o controle dos estudantes e dos pagamentos de mensalidades 
+do seu curso de língua inglesa (único que ela oferece). 
+Por meio de entrevistas com a proprietária da escola, você levantou os 
+seguintes requisitos para o projeto: 
+● RF1 - Registrar boletos emitidos aos alunos. 
+● RF2 - Registrar baixas por pagamento de boletos. 
+● RF3 - Listar boletos com atraso de pagamento. 
+Também desenvolveu o seguinte Diagrama de Casos de Uso do sistema: 
+ 
+ 
+Figura 72 – Sem legenda 
+Fonte: Elaborado pela autora (2017) 
+ 
+1ª Atividade: faça o modelo de Domínio do sistema, com ênfase nas Classes 
+de Entidade, detalhando Atributos e Métodos da responsabilidade das Classes. 
+Considere que já existe uma Classe de Objetos Aluno com dados de RG, CPF, 
+Nome do aluno, Telefone e E-mail de contato. 
+PDF exclusivo para Mateus Augusto da Costa Oliveira Gonçalves - rm570166
+mateus.augusto1629@gmail.com
+--- PAGE 81 ---
+Diagrama de classes e sua importância
+ 
+2ª Atividade: faça o modelo de Especificação do sistema, contemplando 
+Classes de fronteira e controle para cada operação representada no Diagrama de 
+Casos de Uso. 
+Aponte os estereótipos das Classes. 
+PDF exclusivo para Mateus Augusto da Costa Oliveira Gonçalves - rm570166
+mateus.augusto1629@gmail.com
+--- PAGE 82 ---
+Diagrama de classes e sua importância
+ 
+ATIVIDADE TREINO - EXERCÍCIO 2: CONCESSIONÁRIA DE 
+AUTOMÓVEIS 
+ 
+A “Carroção Veículos” é uma concessionária que pretende trabalhar com 
+serviços de despachante para os seus clientes. A ideia é que a loja faça o controle de 
+emissão do registro de propriedade dos veículos novos que ela vende. 
+Para isso, ela contratou você para projetar o sistema de informação que 
+permitirá a administração dessa nova operação. 
+Inicialmente, você elaborou a seguinte lista de requisitos a partir de 
+levantamentos realizados através de entrevistas, reuniões e observação do trabalho 
+na concessionária: 
+● RF1 - Registrar os dados do comprador, incluindo CPF, RG, nome 
+completo, CEP e número do endereço de moradia. 
+● RF2 - Registrar o licenciamento do veículo, emitindo o documento de 
+registro respectivo de propriedade, com número de registro, data de 
+emissão, identificação do chassi do carro e placa do carro. 
+● RF3 - Controlar os status dos veículos da concessionária, diferenciando 
+veículos vendidos e disponíveis para venda. 
+● RN1 - Todo registro de veículo precisa associar um automóvel da 
+concessionária com um proprietário. 
+● RN2 - O DETRAN – Departamento Estadual de Trânsito – possui um 
+sistema com o qual deve-se interagir por meio de API para obter o 
+certificado de registro oficial. 
+● RN3 - Como o dono da concessionária pretende expandir suas operações, 
+é necessário que o sistema tenha previsão de trabalhar com múltiplas lojas 
+de veículos, com seus estoques independentes de carros. 
+Você também elaborou o seguinte diagrama de Casos de Uso do projeto: 
+PDF exclusivo para Mateus Augusto da Costa Oliveira Gonçalves - rm570166
+mateus.augusto1629@gmail.com
+--- PAGE 83 ---
+Diagrama de classes e sua importância
+ 
+ 
+Figura 73 – Sem legenda 
+Fonte: Elaborado pela autora (2017) 
+ 
+Agora o seu desafio é modelar as Classes de Objetos do projeto de sistema, 
+considerando que você aplicará programação Orientada a Objetos, usando linguagem 
+JAVA. 
+1ª Atividade: faça o modelo de Domínio do sistema, com ênfase nas Classes 
+de Entidade, sem detalhar Atributos e Métodos dessas Classes – pense apenas nos 
+tipos de Objetos que precisa registrar no sistema e suas relações. 
+2ª Atividade:  adicione ao seu Diagrama de Domínio, os Atributos e Métodos 
+da responsabilidade de cada Classe de entidade. Defina os tipos, tamanhos dos 
+atributos e visibilidade. 
+ 
+PDF exclusivo para Mateus Augusto da Costa Oliveira Gonçalves - rm570166
+mateus.augusto1629@gmail.com
+--- PAGE 84 ---
+Diagrama de classes e sua importância
+ 
+Atenção: lembre-se de que uma Classe de entidade de Objetos só pode 
+realizar ações/operações sobre seus próprios atributos – pense em definir Métodos 
+que buscam, atualizam e incluem dados nos Atributos do Objeto da própria Classe. 
+ 
+3ª Atividade: considere que você arquitetou o sistema em três camadas e terá 
+uma interface específica para cada interação representada nos Casos de Uso (uma 
+para cadastrar veículos na loja, outra para registrar clientes, mais uma para alterar o 
+status da venda e outra para registrar a propriedade para um cliente/comprador). 
+Considere ainda que dados de endereços serão carregados por SQL (scripts de 
+bancos de dados) a partir de bases de dados compradas dos Correios e você não 
+precisará se preocupar com isso, já que essa atividade será feita por uma equipe da 
+própria concessionária. Cada transação que você implementará terá uma Classe de 
+Fronteira e outra de Controle da operação.  
+Complemente o Diagrama de Especificação de Classes, indicando Fronteiras 
+e Controles. Considere que você implementará os Controles em C# e fronteiras em 
+PHP, enquanto o seu back-end de Entidades será em JAVA e, em razão disso, ligue 
+as Classes de estereótipos diferentes com Dependências. Indique os estereótipos de 
+cada Classe (atenção para as Classes Abstratas e de Implementação, se houver). 
+PDF exclusivo para Mateus Augusto da Costa Oliveira Gonçalves - rm570166
+mateus.augusto1629@gmail.com
+--- PAGE 85 ---
+Diagrama de classes e sua importância
+ 
+                                             REFERÊNCIAS 
+ASTAH. Disponível em: <http://astah.net/download>. Acesso em: 21 mar. 2025. 
+BEZERRA, E. Princípios de Análise e Projeto de Sistemas com UML. 2. ed. São 
+Paulo: Elsevier, 2007. 
+BOOCH, G.; RUMBAUGH, J.; JACBSON, I. UML – Guia do Usuário. 2. ed. São 
+Paulo: Campus, 2006. 
+GUEDES, G. T. A. UML 2 – Uma Abordagem Prática. 2. ed. São Paulo: Novatec, 
+2011. 
+LARMAN, C. Utilizando UML e Padrões. 3. ed. Porto Alegre: Bookman, 2007. 
+PFLEEGER, S. L. Engenharia de Software – Teoria e Prática. 2. ed. São Paulo: 
+Prentice Hall, 2004. 
+PRESSMAN, R. S. Engenharia de Software. São Paulo: Markon Books, 2011. 
+SBROCCO, J. H. T. C. UML 2.3 – Teoria e Prática. São Paulo: Érica, 2011. 
+SOMERVILLE, I. Engenharia de Software. 9. ed. São Paulo: Pearson, 2011.  
+UNIFIED MODELING LANGUAGE. UML. [s.d]. Disponível em 
+<http://www.omg.org/spec/UML/>. Acesso em: 21 mar. 2025. 
+PDF exclusivo para Mateus Augusto da Costa Oliveira Gonçalves - rm570166
+mateus.augusto1629@gmail.com
+================================================================================
+FILE: 1ESO - Fase 07 - 04 - Diagrama de sequência.docx_RevFinal.pdf
+PAGES: 37
+--- PAGE 1 ---
+Diagrama de sequência
+ 
+ 
+  
+DIAGRAMA DE
+SEQUÊNCIA
+04
+PDF exclusivo para Mateus Augusto da Costa Oliveira Gonçalves - rm570166
+mateus.augusto1629@gmail.com
+--- PAGE 2 ---
+Diagrama de sequência
+ 
+LISTA DE FIGURAS 
+Figura 1 – Diagrama de Comunicação – Processo Reservar Mesa .......................... 6 
+Figura 2 – Notação do Diagrama de Sequência ........................................................ 8 
+Figura 3 – Linha da vida do Diagrama de Sequência ................................................ 9 
+Figura 4 – Barra de ativação ou controle .................................................................. 10 
+Figura 5 – Tipos de mensagem ................................................................................. 11 
+Figura 6 – Diagrama de Caso de Uso para controle de chamados e soluções ......... 12 
+Figura 7 – VCP (Visão de Classes Participantes) do caso de uso “Registrar Abertura 
+do Chamado” ............................................................................................................. 13 
+Figura 8 – Diagrama de Sequência do caso de uso “Registrar Abertura do Chamado”
+ .................................................................................................................................. 14 
+Figura 9 – Diagrama de Classe – Exemplo Reserva ................................................. 15 
+Figura 10 – Diagrama de Sequência – Caso de uso Reservar Mesa ........................ 16 
+Figura 11 – Diagrama de Sequência – Condição de guarda ..................................... 17 
+Figura 12 – Diagrama de Sequência – Loop ............................................................. 18 
+Figura 13 – Diagrama de Sequência – Loop e condição de guarda .......................... 19 
+Figura 14 – Diagrama de Sequência – Create e destroy .......................................... 20 
+Figura 15 – Diagrama de Sequência – Create e destroy .......................................... 21 
+Figura 16 – Diagrama de Sequência fragmentado .................................................... 22 
+Figura 17 – Diagrama de Sequência – Interação, exemplo caixa eletrônico ............. 23 
+Figura 18 – Criando o projeto no Astah ..................................................................... 24 
+Figura 19 – Criando o Diagrama de Sequência ........................................................ 25 
+Figura 20 – Área de Trabalho para desenvolvimento do Diagrama de Sequência ... 26 
+Figura 21 – Barra de Ferramentas e botão da linha da vida ..................................... 26 
+Figura 22 – Adicionando uma linha da vida no Diagrama de Sequência .................. 27 
+Figura 23 – Adicionando mensagens no Diagrama de Sequência ............................ 28 
+Figura 24 – Propriedade da mensagem para desenvolvimento do Diagrama de 
+Sequência ................................................................................................................. 29 
+Figura 25 – Propriedade de condição de guarda ...................................................... 29 
+Figura 26 – Barra de ferramentas – Elementos de loop ............................................ 30 
+Figura 27 – Propriedade CombinedFragment ........................................................... 30 
+Figura 28 – Propriedade CombinedFragment – Continuação ................................... 31 
+Figura 29 – Propriedade Operand ............................................................................. 31 
+Figura 30 – Elemento Lifeline – Barra de Ferramentas ............................................. 32 
+Figura 31 – Propriedade Operand ............................................................................. 32 
+Figura 32 – Elemento Create Message – Barra de Ferramentas .............................. 33 
+Figura 33 – Create Message – Lifeline ...................................................................... 33 
+Figura 34 – Create Message – Lifeline ampliado ...................................................... 34 
+Figura 35 – Create Message – Exemplo ................................................................... 35 
+Figura 36 – Elemento Stop – Barra de Ferramentas ................................................. 35 
+Figura 37 – Elemento Stop – Notação ...................................................................... 36 
+PDF exclusivo para Mateus Augusto da Costa Oliveira Gonçalves - rm570166
+mateus.augusto1629@gmail.com
+--- PAGE 3 ---
+Diagrama de sequência
+ 
+SUMÁRIO 
+DIAGRAMA DE SEQUÊNCIA ................................................................................... 4 
+1 INTRODUÇÃO ....................................................................................................... 4 
+1.1 Diagrama de Interação ........................................................................................ 4 
+1.2 Conceito de mensagem....................................................................................... 6 
+1.3 Diagrama de Sequência ...................................................................................... 6 
+1.3.1 Conceito ........................................................................................................... 6 
+1.3.2 Notação ............................................................................................................ 7 
+1.4 Tutorial para modelar o Diagrama de Sequência ................................................ 23 
+REFERÊNCIAS ......................................................................................................... 37 
+ 
+ 
+  
+  
+PDF exclusivo para Mateus Augusto da Costa Oliveira Gonçalves - rm570166
+mateus.augusto1629@gmail.com
+--- PAGE 4 ---
+Diagrama de sequência
+ 
+DIAGRAMA DE SEQUÊNCIA 
+1 INTRODUÇÃO 
+1.1 Diagrama de Interação 
+No decorrer do curso, já elaboramos alguns diagramas, como os de Caso de 
+Uso e de Classe, cada um com seu papel fundamental no desenvolvimento de 
+sistemas como o Fintech. Agora é o momento de construir o Diagrama de Sequência. 
+Como veremos, esse diagrama será importante para entender como os objetos vão 
+interagir com a troca de mensagens. 
+Imagine-se dirigindo um automóvel que está parado em um farol e, quando ele 
+abre, você pisa no acelerador para movimentar o carro. O que acontece internamente 
+no motor do carro para que isso aconteça? De uma forma simples, o objeto 
+“Acelerador” precisa enviar uma mensagem para o objeto “Bico Injetor” a fim de liberar 
+o combustível para o objeto “Cilindro”. Dentro do “Cilindro” ocorre a explosão, por meio 
+da faísca gerada pelo objeto “Vela”, fazendo, assim, o objeto “Pistão” entrar em 
+movimento. E, por meio dos objetos “Engrenagens”, é realizada a rotação do eixo do 
+motor, fazendo o carro entrar em movimento. 
+O mesmo processo pode ser aplicado à programação orientada a objetos. 
+Quais são os objetos que devem ser “acionados” e em que momento isso deve 
+acontecer para realizar uma determinada funcionalidade dentro do sistema, como um 
+cadastro ou pesquisa? É esse o papel dos Diagramas de Interação.   
+Os Diagramas de Interação têm como objetivo demonstrar a relação dos 
+objetos em determinado processo. Na versão 2.5 da UML, estão no grupo dos 
+Diagramas de Interação: Diagrama de Visão Geral de Interação, Diagrama de Tempo, 
+Diagrama de Comunicação e o Diagrama de Sequência. Até a versão 1.5 da UML, o 
+Diagrama de Comunicação era conhecido como Diagrama de Colaboração.  
+Como destacam Booch, Rumbaugh e Jacobson (2006, p. 253): “um Diagrama 
+de Interação mostra uma interação formada por um conjunto de objetos e seus 
+relacionamentos, incluindo as mensagens que poderão ser trocadas entre eles”. 
+PDF exclusivo para Mateus Augusto da Costa Oliveira Gonçalves - rm570166
+mateus.augusto1629@gmail.com
+--- PAGE 5 ---
+Diagrama de sequência
+ 
+O objetivo dos Diagramas de Interação é demonstrar o comportamento interno 
+do sistema, auxiliando no esclarecimento dos casos de uso pela representação do 
+funcionamento do processo por meio da troca de mensagens entre os objetos. 
+De acordo com Bezerra (2007, p. 193): “o objetivo do Diagrama de Sequência 
+é apresentar as interações entre os objetos na ordem temporal em que elas 
+acontecem”. 
+A maior diferença entre o Diagrama de Sequência e o Diagrama de 
+Comunicação é que, no Diagrama de Comunicação, não existe a representação de 
+tempo em que o objeto está sendo utilizado, enquanto no Diagrama de Sequência é 
+possível verificar claramente esse momento. Outro fator é que, no Diagrama de 
+Comunicação, não podemos demonstrar uma fragmentação do processo; já no 
+Diagrama de Sequência isso é possível. O Diagrama de Comunicação é utilizado para 
+modelar processos mais simples, e o mercado utiliza muito mais o Diagrama de 
+Sequência. Por esse motivo, iremos estudar a construção do Diagrama de Sequência. 
+Observe um exemplo do Diagrama de Comunicação para o cenário de um 
+processo de Reservar Mesa (Figura “Diagrama de Comunicação – Processo Reservar 
+Mesa”): 
+ 
+ 
+PDF exclusivo para Mateus Augusto da Costa Oliveira Gonçalves - rm570166
+mateus.augusto1629@gmail.com
+--- PAGE 6 ---
+Diagrama de sequência
+ 
+Figura 1 – Diagrama de Comunicação – Processo Reservar Mesa 
+Fonte: Elaborado pela autora (2017) 
+ 
+No Diagrama de Comunicação (Figura “Diagrama de Comunicação – Processo 
+Reservar Mesa”), o cliente informa a mesa e o CPF, e a classe de controle inicia o 
+processo para que a reserva troque mensagens com o cliente e a mesa para criar a 
+reserva. 
+1.2 Conceito de mensagem 
+Afirmamos, inicialmente, que os Diagramas de Interação permitem a troca de 
+mensagens entre os objetos, mas o que é uma mensagem? 
+Como aborda Bezerra (2007, p. 185): 
+ 
+Uma mensagem representa a requisição de um objeto remetente a um objeto 
+receptor para que este último execute alguma operação definida para sua 
+classe. Essa mensagem deve conter informação suficiente para que a 
+operação do objeto receptor possa ser executada.  
+ 
+Podemos dizer que a mensagem é um estímulo utilizado para demonstrar 
+quando um método é solicitado para que realize a sua operação dentro do processo. 
+1.3 Diagrama de Sequência  
+1.3.1 Conceito 
+O Diagrama de Sequência representa a ordem lógica da troca de mensagens 
+entre os objetos de um caso de uso, ou seja, demonstra o processamento a partir de 
+solicitações e de execuções dos métodos entre os objetos. É um diagrama 
+comportamental que procura determinar a sequência de eventos que ocorrem em um 
+processo. 
+O Diagrama de Sequência é desenvolvido por caso de uso. Podemos ter, em 
+um sistema de Reservar Mesa, por exemplo, quatro casos de uso. O desenvolvimento 
+PDF exclusivo para Mateus Augusto da Costa Oliveira Gonçalves - rm570166
+mateus.augusto1629@gmail.com
+--- PAGE 7 ---
+Diagrama de sequência
+ 
+do Diagrama de Sequência define que são necessários quatro Diagramas de 
+Sequência para representar os processos do sistema. Também faz o papel da 
+documentação de caso de uso, que pode ser utilizada para conferir a ocorrência do 
+processo existente no caso de uso. 
+Nos projetos em que temos muitos casos de uso, podem ser desenvolvidos os 
+Diagramas de Sequência dos processos que tenham maior complexidade. 
+A UML não obriga a construção do Diagrama de Classe para o 
+desenvolvimento do Diagrama de Sequência. Mas, por meio do uso de ferramentas 
+cases, isso facilita tanto na modelagem do Diagrama de Sequência, baseado nas 
+classes que serão utilizadas por caso de uso, quanto na validação das próprias 
+classes baseadas na troca de mensagens para executar um processo do caso de uso. 
+Como boa prática para um projeto, é ideal que a modelagem de classes seja realizada 
+em conjunto com o Diagrama de Sequência, pois um diagrama complementa o outro. 
+1.3.2 Notação 
+Vamos observar uma representação da notação para o desenvolvimento do 
+Diagrama de Sequência, sendo este construído com base na ordem lógica das 
+classes. Na representação, há apenas um exemplo que demonstra os componentes 
+visuais existentes para o desenvolvimento do diagrama (Figura “Notação do Diagrama 
+de Sequência”). 
+ 
+PDF exclusivo para Mateus Augusto da Costa Oliveira Gonçalves - rm570166
+mateus.augusto1629@gmail.com
+--- PAGE 8 ---
+Diagrama de sequência
+ 
+ 
+ 
+Figura 2 – Notação do Diagrama de Sequência 
+Fonte: Elaborado pela autora (2017) 
+ 
+Vale ressaltar que os atores modelados nesse diagrama são instâncias dos 
+atores declarados no diagrama de casos de uso, representando entidades externas 
+que interagem com o sistema e que solicitam seus serviços. 
+1.3.2.1 Notação 
+A criação da linha da vida está relacionada ao objeto participante do caso de 
+uso. 
+Conforme Bezerra (2007), uma vez identificados, os objetos que participam da 
+realização de um determinado caso de uso devem ser posicionados no Diagrama de 
+Sequência correspondente. 
+Ao construir o Diagrama de Sequência, os objetos são representados por meio 
+da linha da vida. A notação da parte superior da linha da vida é a mesma aplicada aos 
+objetos, conforme vimos no capítulo 6, “Diagramando as Estruturas!”, e os objetos que 
+podem ser representados são os de fronteira, controle e entidade. 
+PDF exclusivo para Mateus Augusto da Costa Oliveira Gonçalves - rm570166
+mateus.augusto1629@gmail.com
+--- PAGE 9 ---
+Diagrama de sequência
+ 
+O pontilhado demonstra que o objeto pode ser utilizado a qualquer momento, 
+desde que receba uma mensagem (Figura “Linha da vida do Diagrama de 
+Sequência”). 
+ 
+ 
+Figura 3 – Linha da vida do Diagrama de Sequência 
+Fonte: Elaborado pela autora (2017) 
+1.3.2.2 Barra de ativação ou controle  
+Ao receber uma mensagem, a linha da vida cria uma barra (Figura “Barra de 
+ativação ou controle”) para demonstrar o processamento do objeto e indica os 
+momentos em que o objeto é utilizado para executar os métodos encontrados no 
+processo do caso de uso (indica os períodos em que um determinado objeto está 
+participando ativamente do processo). É ativada por meio do recebimento de uma 
+mensagem. 
+ 
+PDF exclusivo para Mateus Augusto da Costa Oliveira Gonçalves - rm570166
+mateus.augusto1629@gmail.com
+--- PAGE 10 ---
+Diagrama de sequência
+ 
+ 
+Figura 4 – Barra de ativação ou controle 
+Fonte: Elaborado pela autora (2017) 
+1.3.2.3 Tipos de mensagem  
+A mensagem é representada por uma linha entre dois elementos. As 
+mensagens podem ser trocadas entre Ator com objeto e entre objetos. Os conceitos 
+que serão descritos podem ser aplicados para as duas situações. Observe a imagem 
+gráfica da notação, o seu tipo e objetivo (Figura “Tipos de mensagem”). 
+ 
+PDF exclusivo para Mateus Augusto da Costa Oliveira Gonçalves - rm570166
+mateus.augusto1629@gmail.com
+--- PAGE 11 ---
+Diagrama de sequência
+ 
+ 
+Figura 5 – Tipos de mensagem 
+Fonte: Elaborado pela autora (2017) 
+ 
+Agora vamos desenvolver um exemplo, conforme foi feito no capítulo 6 
+(“Diagramando as Estruturas!”). O cenário representa um Controle de Chamados. 
+Para o Diagrama de Classe, foi desenvolvido o caso de uso Registrar Abertura do 
+Chamado. Neste caso, também vamos fazer o Diagrama de Sequência dessa 
+funcionalidade (Figura “Diagrama de Caso de Uso para controle de chamados e 
+soluções”). 
+ 
+PDF exclusivo para Mateus Augusto da Costa Oliveira Gonçalves - rm570166
+mateus.augusto1629@gmail.com
+--- PAGE 12 ---
+Diagrama de sequência
+ 
+ 
+Figura 6 – Diagrama de Caso de Uso para controle de chamados e soluções 
+Fonte: Elaborado pela autora (2017) 
+ 
+Com base no caso de uso “Registrar Abertura do Chamado”, foi desenvolvido 
+o Diagrama de Classe (Figura “VCP (Visão de Classes Participantes) do caso de uso 
+‘Registrar Abertura do Chamado’”). 
+ 
+PDF exclusivo para Mateus Augusto da Costa Oliveira Gonçalves - rm570166
+mateus.augusto1629@gmail.com
+--- PAGE 13 ---
+Diagrama de sequência
+ 
+ 
+Figura 7 – VCP (Visão de Classes Participantes) do caso de uso “Registrar Abertura do Chamado” 
+Fonte: Elaborado pela autora (2017) 
+ 
+Como falamos anteriormente, outro fator muito importante que devemos levar 
+em consideração é a documentação de caso de uso ou até mesmo um protótipo que 
+represente a sequência correta para que o processo funcione e atenda às 
+necessidades da funcionalidade que está sendo desenvolvida. 
+Os atores não são obrigatórios, porém, podem facilitar a leitura do diagrama e 
+o momento em que ocorre o processo. 
+ 
+PDF exclusivo para Mateus Augusto da Costa Oliveira Gonçalves - rm570166
+mateus.augusto1629@gmail.com
+--- PAGE 14 ---
+Diagrama de sequência
+ 
+ 
+Figura 8 – Diagrama de Sequência do caso de uso “Registrar Abertura do Chamado” 
+Fonte: Elaborado pela autora (2017) 
+ 
+Para o Diagrama de Sequência (Figura Diagrama de Sequência do caso de uso 
+“Registrar Abertura do Chamado”), o chamado é criado após concluir todas as trocas 
+de mensagens. Nesse caso, foram utilizadas mensagens síncronas, inclusive, ao 
+gravar o Chamado é retornada uma mensagem de confirmação (verdadeiro ou falso), 
+para determinar se ele foi criado com sucesso. 
+Vamos para um segundo exemplo. Um cenário de Controle de Reservas de 
+Mesas, conforme Diagrama de Classes (Figura “Diagrama de Classe – Exemplo 
+Reserva”), lembrando que, anteriormente, já fizemos um caso de uso para esse 
+processo. 
+ 
+PDF exclusivo para Mateus Augusto da Costa Oliveira Gonçalves - rm570166
+mateus.augusto1629@gmail.com
+--- PAGE 15 ---
+Diagrama de sequência
+ 
+ 
+Figura 9 – Diagrama de Classe – Exemplo Reserva 
+Fonte: Elaborado pela autora (2017) 
+ 
+Observe o Diagrama de Sequência para o caso de uso de “Reservar Mesa” 
+(Figura “Diagrama de Sequência – Caso de uso Reservar Mesa”). 
+ 
+PDF exclusivo para Mateus Augusto da Costa Oliveira Gonçalves - rm570166
+mateus.augusto1629@gmail.com
+--- PAGE 16 ---
+Diagrama de sequência
+ 
+ 
+Figura 10 – Diagrama de Sequência – Caso de uso Reservar Mesa 
+Fonte: Elaborado pela autora (2017) 
+ 
+Nesse exemplo, o Diagrama de Sequência apresenta uma situação 
+condicional, que representa uma condição de guarda, e é utilizado para realizar 
+verificações SE, CASO etc. 
+ 
+PDF exclusivo para Mateus Augusto da Costa Oliveira Gonçalves - rm570166
+mateus.augusto1629@gmail.com
+--- PAGE 17 ---
+Diagrama de sequência
+ 
+ 
+Figura 11 – Diagrama de Sequência – Condição de guarda 
+Fonte: Elaborado pela autora (2017) 
+ 
+A condição de guarda é representada dentro dos colchetes [Condição] e, no 
+nosso exemplo, está verificando se é necessário incluir o cliente, caso ele não possua 
+cadastro. 
+Para o mesmo cenário da Reserva de Mesa, vamos evoluir o nosso Diagrama 
+de Sequência alterando algumas situações. Até agora, só é possível ter uma mesa 
+por reserva. E se a regra de negócio for mudada para poder reservar mais de uma 
+mesa? Vamos precisar modificar o Diagrama de Classes para ter uma coleção de 
+mesas na reserva, e será necessário também fazer algumas mudanças no Diagrama 
+de Sequência. 
+Pensando que uma Reserva pode ter várias mesas, o Diagrama de Sequência 
+precisaria de um loop, como representá-lo? 
+ 
+PDF exclusivo para Mateus Augusto da Costa Oliveira Gonçalves - rm570166
+mateus.augusto1629@gmail.com
+--- PAGE 18 ---
+Diagrama de sequência
+ 
+ 
+Figura 12 – Diagrama de Sequência – Loop 
+Fonte: Elaborado pela autora (2017) 
+ 
+O Diagrama de Sequência possui um loop para representar que uma Reserva 
+pode ter várias mesas (Figura “Diagrama de Sequência – Loop”). Neste caso, o loop 
+vem acompanhado da condição de guarda [Enqto informar mesa]. O loop pode ser 
+utilizado em cenários que pedem a estrutura de repetição. 
+ 
+PDF exclusivo para Mateus Augusto da Costa Oliveira Gonçalves - rm570166
+mateus.augusto1629@gmail.com
+--- PAGE 19 ---
+Diagrama de sequência
+ 
+ 
+Figura 13 – Diagrama de Sequência – Loop e condição de guarda 
+Fonte: Elaborado pela autora (2017) 
+ 
+O loop é utilizado com a Condição de Guarda (Figura “Diagrama de 
+Sequência – Loop e condição de guarda”). Nesse caso, foi usado o “enquanto” para 
+contextualizar a seleção de várias mesas para uma reserva, mas poderia ser usado 
+SE, CASO etc. 
+Agora vamos pensar no exemplo em que a reserva gera um contrato de reserva 
+de mesa, que é produzido durante o processo e depois será excluído, pois não é um 
+objeto persistente. Apenas a reserva será o objeto persistente, ou seja, deve ser 
+permanente no sistema para ser possível consultá-la ou alterá-la posteriormente. Já 
+o contrato é o objeto construído e destruído na sequência de seu processamento, 
+(Figura “Diagrama de Sequência – Create e destroy”). 
+ 
+PDF exclusivo para Mateus Augusto da Costa Oliveira Gonçalves - rm570166
+mateus.augusto1629@gmail.com
+--- PAGE 20 ---
+Diagrama de sequência
+ 
+ 
+Figura 14 – Diagrama de Sequência – Create e destroy 
+Fonte: Elaborado pela autora (2017) 
+ 
+Vamos dar uma olhada mais de perto (Figura “Diagrama de Sequência – Create 
+e destroy”). 
+ 
+PDF exclusivo para Mateus Augusto da Costa Oliveira Gonçalves - rm570166
+mateus.augusto1629@gmail.com
+--- PAGE 21 ---
+Diagrama de sequência
+ 
+ 
+Figura 15 – Diagrama de Sequência – Create e destroy 
+Fonte: Elaborado pela autora (2017) 
+ 
+Podemos observar que o contrato foi criado por meio da mensagem 
+<<create>> e destruído, posteriormente, com um componente de destruição 
+representado pelo X no final da linha da vida (Figura “Diagrama de Sequência – Create 
+e destroy”). 
+Esses foram alguns exemplos de notações que podem ser utilizadas no 
+Diagrama de Sequência. 
+O Diagrama de Sequência pode ser desenvolvido de maneira fragmentada. 
+Para isso, precisamos dos fragmentos do sistema (Figura “Diagrama de Sequência 
+fragmentado”). 
+ 
+PDF exclusivo para Mateus Augusto da Costa Oliveira Gonçalves - rm570166
+mateus.augusto1629@gmail.com
+--- PAGE 22 ---
+Diagrama de sequência
+ 
+ 
+Figura 16 – Diagrama de Sequência fragmentado 
+Fonte: Elaborado pela autora (2017) 
+ 
+A interação com outros casos de uso permite a fragmentação do Diagrama de 
+Sequência, representado pela notação da Figura “Diagrama de Sequência 
+fragmentado”. Outro caso de fragmentação está relacionado ao desenvolvimento da 
+sequência de troca de mensagens de acordo com a documentação de caso de uso, 
+podendo ser construído um diagrama para o Fluxo Principal, outro para o Fluxo 
+Alternativo ou para o Fluxo de Exceção. Estes dois últimos são desenvolvidos 
+somente quando ocorre um conjunto considerável de mensagens entre os objetos. 
+ 
+PDF exclusivo para Mateus Augusto da Costa Oliveira Gonçalves - rm570166
+mateus.augusto1629@gmail.com
+--- PAGE 23 ---
+Diagrama de sequência
+ 
+ 
+Figura 17 – Diagrama de Sequência – Interação, exemplo caixa eletrônico 
+Fonte: Elaborado pela autora (2017) 
+ 
+A notação de interação representa a existência de outras funcionalidades no 
+sistema e que cada uma tem uma sequência, sendo representada, nesse diagrama, 
+apenas pelas sequências agrupadas em uma referência, chamada de interaction 
+(Figura “Diagrama de Sequência – Interação, exemplo caixa eletrônico”). Ao 
+desenvolver o Diagrama de Sequência utilizando interação, será apresentada a janela 
+para identificar qual o outro diagrama que está relacionado nesse processo. 
+Podemos dizer que o Diagrama de Sequência é um diagrama que não possui 
+muitas notações, mas é bastante rico em resultados. Sempre agrega valor na 
+modelagem das classes e na validação da documentação de casos de uso, um 
+complementa o outro para dar mais sentido lógico à modelagem do sistema. 
+1.4 Tutorial para modelar o Diagrama de Sequência  
+O tutorial abaixo foi elaborado utilizando a ferramenta Astah.  
+PDF exclusivo para Mateus Augusto da Costa Oliveira Gonçalves - rm570166
+mateus.augusto1629@gmail.com
+--- PAGE 24 ---
+Diagrama de sequência
+ 
+Para criar um projeto, escolha a opção: File > New, (Figura “Criando o projeto 
+no Astah”). 
+ 
+ 
+Figura 18 – Criando o projeto no Astah 
+Fonte Elaborado pela autora (2017) 
+ 
+Para criar o Diagrama de Sequência, basta clicar no menu Diagram > 
+Sequence Diagram: 
+ 
+PDF exclusivo para Mateus Augusto da Costa Oliveira Gonçalves - rm570166
+mateus.augusto1629@gmail.com
+--- PAGE 25 ---
+Diagrama de sequência
+ 
+ 
+Figura 19 – Criando o Diagrama de Sequência 
+Fonte: Elaborado pela autora (2017) 
+ 
+Na Figura “Área de Trabalho para desenvolvimento do Diagrama de Sequência” 
+é possível verificar a estrutura inicial do Diagrama de Sequência: 
+ 
+PDF exclusivo para Mateus Augusto da Costa Oliveira Gonçalves - rm570166
+mateus.augusto1629@gmail.com
+--- PAGE 26 ---
+Diagrama de sequência
+ 
+ 
+Figura 20 – Área de Trabalho para desenvolvimento do Diagrama de Sequência 
+Fonte: Elaborado pela autora (2017) 
+ 
+Observe a barra de ferramentas do Diagrama de Sequência, vamos utilizá-la 
+com bastante frequência. Veja também o botão em destaque, que é útil para criar a 
+linha da vida (Figura “Barra de Ferramentas e botão da linha da vida”): 
+ 
+ 
+Figura 21 – Barra de Ferramentas e botão da linha da vida 
+Fonte: Elaborado pela autora (2017) 
+ 
+Para criar um Diagrama de Sequência, vamos utilizar o botão da “Linha da 
+Vida”. Podemos também arrastar as classes que já estão prontas na estrutura do lado 
+esquerdo, na parte superior da tela (Figura “Adicionando uma linha da vida no 
+Diagrama de Sequência”). Quando as classes já estiverem prontas, basta clicar sobre 
+elas, arrastá-las e soltá-las na área de desenvolvimento do diagrama. 
+ 
+PDF exclusivo para Mateus Augusto da Costa Oliveira Gonçalves - rm570166
+mateus.augusto1629@gmail.com
+--- PAGE 27 ---
+Diagrama de sequência
+ 
+ 
+Figura 22 – Adicionando uma linha da vida no Diagrama de Sequência 
+Fonte: Elaborado pela autora (2017) 
+ 
+Qualquer outro elemento pode ser inserido na área de desenvolvimento do 
+diagrama. As classes de Fronteira e Controle também podem ser arrastadas para o 
+diagrama. 
+As mensagens estão na barra de ferramentas. Clique sobre ela, deixe no ponto 
+de origem em que deseja criar a mensagem, arraste-a e solte-a sobre o destino 
+(Figura “Adicionando mensagens no Diagrama de Sequência”). 
+ 
+PDF exclusivo para Mateus Augusto da Costa Oliveira Gonçalves - rm570166
+mateus.augusto1629@gmail.com
+--- PAGE 28 ---
+Diagrama de sequência
+ 
+ 
+Figura 23 – Adicionando mensagens no Diagrama de Sequência 
+Fonte: Elaborado pela autora (2017) 
+ 
+Ao clicar na mensagem, a propriedade do lado esquerdo na parte inferior irá 
+exibir as operações relacionadas à classe, quando houver: 
+ 
+ 
+PDF exclusivo para Mateus Augusto da Costa Oliveira Gonçalves - rm570166
+mateus.augusto1629@gmail.com
+--- PAGE 29 ---
+Diagrama de sequência
+ 
+Figura 24 – Propriedade da mensagem para desenvolvimento do Diagrama de Sequência 
+Fonte: Elaborado pela autora (2017) 
+ 
+No exemplo da Figura “Propriedade da mensagem para desenvolvimento do 
+Diagrama de Sequência”, observe que, para criar as operações, utilizamos a 
+propriedade Operation. 
+Ao selecionar a mensagem, clique na Propriedade do lado esquerdo na parte 
+inferior e pressione Guard, esta é a condição de guarda (Figura “Propriedade de 
+condição de guarda”). No exemplo, a verificação SE valida se o cliente possui um 
+cadastro; caso não possua, o cadastro será realizado neste momento do processo. 
+Essa propriedade pode ser utilizada para as situações condicionais: SE, CASO etc.  
+ 
+ 
+Figura 25 – Propriedade de condição de guarda 
+Fonte: Elaborado pela autora (2017) 
+ 
+Para criar uma situação de loop, vamos utilizar o elemento CombinedFragment 
+(alt,loop,opt...) (Figura “Barra de ferramentas – Elementos de loop”), para representar 
+o loop.  
+PDF exclusivo para Mateus Augusto da Costa Oliveira Gonçalves - rm570166
+mateus.augusto1629@gmail.com
+--- PAGE 30 ---
+Diagrama de sequência
+ 
+ 
+ 
+Figura 26 – Barra de ferramentas – Elementos de loop 
+Fonte: Elaborado pela autora (2017) 
+ 
+Para criar o loop, clique neste elemento, segure-o e arraste-o para a posição 
+em que deseja colocar no diagrama. No exemplo, vamos usá-lo para representar a 
+repetição de consultar uma mesa para adicionar a reserva, uma vez que a regra de 
+negócio é uma reserva que tem muitas mesas. 
+Arraste-o para a posição que deseja no diagrama, no exemplo, colocamos 
+sobre a operação Consultar Mesa. Agora, vamos alterar as propriedades para 
+representar o loop. Veja que a propriedade do lado esquerdo possui duas Abas: a 
+Base e a Operand (Figura “Propriedade CombinedFragment”). 
+ 
+ 
+Figura 27 – Propriedade CombinedFragment  
+Fonte: Elaborado pela autora (2017) 
+ 
+Clique na Aba Base e altere a propriedade Operator para loop. 
+PDF exclusivo para Mateus Augusto da Costa Oliveira Gonçalves - rm570166
+mateus.augusto1629@gmail.com
+--- PAGE 31 ---
+Diagrama de sequência
+ 
+ 
+ 
+Figura 28 – Propriedade CombinedFragment – Continuação   
+Fonte: Elaborado pela autora (2017) 
+ 
+Clique na Aba Operand, insira a condição de Guard e informe o texto que 
+deseja para a condição, no exemplo: “Enquanto Informar Mesa” (Figura “Propriedade 
+Operand”): 
+ 
+ 
+Figura 29 – Propriedade Operand   
+Fonte: Elaborado pela autora (2017) 
+ 
+Vamos criar um objeto temporário cuja instância será excluída após o processo. 
+Esse é um tipo de objeto transiente que executa sua tarefa e depois deixa de existir. 
+Para criar esse tipo de objeto, siga as seguintes etapas no Astah. 
+PDF exclusivo para Mateus Augusto da Costa Oliveira Gonçalves - rm570166
+mateus.augusto1629@gmail.com
+--- PAGE 32 ---
+Diagrama de sequência
+ 
+Clique no elemento Lifeline da barra de ferramentas. 
+ 
+ 
+Figura 30 – Elemento Lifeline – Barra de Ferramentas   
+Fonte: Elaborado pela autora (2017) 
+ 
+O Astah irá criar um objeto (Figura “Propriedade Operand”): 
+ 
+ 
+Figura 31 – Propriedade Operand   
+Fonte: Elaborado pela autora (2017) 
+ 
+Com o novo Lifeline, agora vamos usar novamente a barra de ferramentas e 
+clicar sobre “Create Message” (Figura “Elemento Create Message – Barra de 
+Ferramentas”): 
+ 
+PDF exclusivo para Mateus Augusto da Costa Oliveira Gonçalves - rm570166
+mateus.augusto1629@gmail.com
+--- PAGE 33 ---
+Diagrama de sequência
+ 
+ 
+Figura 32 – Elemento Create Message – Barra de Ferramentas  
+Fonte: Elaborado pela autora (2017) 
+ 
+Clique sobre o Create Message e arraste-o até a barra de ativação em que 
+deseja iniciar um novo objeto. No nosso exemplo, vamos criar um contrato da reserva, 
+representando o próprio objeto reserva que é persistente.  
+Na Figura “Create Message – Lifeline”, você pode ver que, ao clicar na barra 
+de ativação da Reserva e arrastar até o novo Lifeline que foi criado, o Astah 
+movimentou o objeto na mesma altura da troca de mensagem do create. 
+ 
+ 
+Figura 33 – Create Message – Lifeline   
+Fonte: Elaborado pela autora (2017) 
+PDF exclusivo para Mateus Augusto da Costa Oliveira Gonçalves - rm570166
+mateus.augusto1629@gmail.com
+--- PAGE 34 ---
+Diagrama de sequência
+ 
+ 
+Figura 34 – Create Message – Lifeline ampliado   
+Fonte: Elaborado pela autora (2017) 
+ 
+Agora observe que o Create Message trouxe o Lifeline na mesma altura da 
+nova mensagem (Figura “Create Message – Lifeline ampliado”). Ele é um objeto 
+solicitado durante o processo da barra de ativação para a qual a mensagem Create 
+Message foi direcionada. 
+O objeto recebe o nome da classe relacionada, e o CreateMessage() 
+(operação) recebe a operação pela qual é responsável (Figura “Create Message – 
+Exemplo”): 
+ 
+PDF exclusivo para Mateus Augusto da Costa Oliveira Gonçalves - rm570166
+mateus.augusto1629@gmail.com
+--- PAGE 35 ---
+Diagrama de sequência
+ 
+ 
+Figura 35 – Create Message – Exemplo   
+Fonte: Elaborado pela autora (2017) 
+ 
+Vamos excluir o objeto após o processamento. Na barra de ferramentas, temos 
+o elemento Stop(Destroy), que representa que o objeto será excluído após a sua 
+execução (Figura “Elemento Stop – Barra de Ferramentas”): 
+ 
+ 
+Figura 36 – Elemento Stop – Barra de Ferramentas   
+Fonte: Elaborado pela autora (2017) 
+ 
+Clique sobre o Stop, não é necessário ficar pressionado, somente leve o mouse 
+à posição da Lifeline em que deseja interromper o processo do objeto que foi criado. 
+A notação X Stop ficará no final da Lifeline (Figura “Elemento Stop – Notação”). 
+ 
+PDF exclusivo para Mateus Augusto da Costa Oliveira Gonçalves - rm570166
+mateus.augusto1629@gmail.com
+--- PAGE 36 ---
+Diagrama de sequência
+ 
+ 
+Figura 37 – Elemento Stop – Notação   
+Fonte: Elaborado pela autora (2017) 
+  
+PDF exclusivo para Mateus Augusto da Costa Oliveira Gonçalves - rm570166
+mateus.augusto1629@gmail.com
+--- PAGE 37 ---
+Diagrama de sequência
+ 
+REFERÊNCIAS 
+BEZERRA, E. Princípios de Análise e Projeto de Sistemas com UML. 2. ed. São 
+Paulo: Elsevier, 2006. 
+BOOCH, G.; RUMBAUGH, J.; JACOBSON, I. UML – Guia do Usuário. 2. ed. São 
+Paulo: Campus, 2006. 
+GUEDES, G. T. A. UML 2 – Uma Abordagem Prática. 2. ed. São Paulo: Novatec, 
+2011. 
+LARMAN, C. Utilizando UML e Padrões. 3. ed. Porto Alegre: Bookman, 2007. 
+OMG. Unified Modeling Language, UML. Disponível em 
+<http://www.omg.org/spec/UML/>. Acesso em: 21 mar. 2025. 
+PFLEEGER, S. L. Engenharia de Software – Teoria e Prática. 2. ed. São Paulo: 
+Prentice Hall, 2004. 
+SOMERVILLE, I. Engenharia de Software. 9. ed. São Paulo: Pearson, 2011.  
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+PDF exclusivo para Mateus Augusto da Costa Oliveira Gonçalves - rm570166
+mateus.augusto1629@gmail.com

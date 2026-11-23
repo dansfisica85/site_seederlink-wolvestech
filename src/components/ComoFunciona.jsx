@@ -1,4 +1,3 @@
-import React from 'react';
 
 // Nesta seção eu apresento a jornada em três etapas: investidor, plataforma e produtor.
 export default function ComoFunciona() {

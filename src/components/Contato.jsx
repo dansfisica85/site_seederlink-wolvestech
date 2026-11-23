@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import { useState } from 'react';
 import MapaClimatico from './MapaClimatico';
 
 // Esta seção reúne as informações de contato, o novo mapa e o formulário.

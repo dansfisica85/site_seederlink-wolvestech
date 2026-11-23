@@ -1,4 +1,3 @@
-import React from 'react';
 import { ENTREGA } from '../data/entrega';
 
 // Esta é a primeira seção do site: apresenta a proposta, os atalhos e o pitch.

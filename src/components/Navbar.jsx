@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from 'react';
+import { useState, useEffect } from 'react';
 
 // A barra de navegação usa links internos e muda de aparência depois da rolagem.
 export default function Navbar() {

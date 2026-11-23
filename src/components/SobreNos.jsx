@@ -1,5 +1,4 @@
-import React from 'react';
-
+// Aqui eu conto a proposta da SeederLink e separo missão, visão e valores em cards.
 export default function SobreNos() {
   const imageBaseUrl = `${import.meta.env.BASE_URL}img/`;
 

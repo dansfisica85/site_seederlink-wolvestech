@@ -1,4 +1,4 @@
-import React, { useEffect, useRef } from 'react';
+import { useEffect, useRef } from 'react';
 
 // Este popup orienta o usuário a continuar pelo formulário de contato.
 export default function PopupContato({ isOpen, mensagem, onClose }) {

@@ -8,7 +8,8 @@
     "build": "vite build",
     "test": "node --test tests/*.test.js",
     "test:ui": "node scripts/verify-ui.mjs",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "lint": "eslint src/"
   },
   "dependencies": {
     "bootstrap-icons": "^1.11.3",
@@ -17,9 +18,13 @@
     "react-dom": "^18.3.1"
   },
   "devDependencies": {
+    "@eslint/js": "^10.0.1",
     "@types/react": "^18.3.5",
     "@types/react-dom": "^18.3.0",
     "@vitejs/plugin-react": "^5.2.0",
+    "eslint": "^10.15.0",
+    "eslint-plugin-react-hooks": "^7.1.1",
+    "globals": "^17.14.0",
     "playwright": "1.62.1",
     "vite": "^7.3.8"
   },

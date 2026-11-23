@@ -1,5 +1,3 @@
-import React from 'react';
-
 // Este componente mantém o rodapé institucional separado do restante da página.
 export default function Footer() {
   return (

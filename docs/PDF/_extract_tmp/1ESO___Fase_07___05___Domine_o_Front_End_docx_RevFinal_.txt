@@ -1,0 +1,1237 @@
+--- PAGE 1 ---
+Domine o Front-End: Do CSS à Consumo de APIs
+ 
+ 
+ 
+  
+DOMINE O
+FRONT-END: DO
+CSS À CONSUMO
+DE APIS
+05
+PDF exclusivo para Mateus Augusto da Costa Oliveira Gonçalves - rm570166
+mateus.augusto1629@gmail.com
+
+--- PAGE 2 ---
+Domine o Front-End: Do CSS à Consumo de APIs
+LISTA DE FIGURAS 
+Figura 1 – Estrutura de um projeto criado com template Vite sem arquivos 
+desnecessários para o projeto .................................................................................. 5 
+Figura 2 – Criando o Componente1 na pasta components ....................................... 6 
+Figura 3 – Visualizando a estrutura da página no navegador ................................... 8 
+Figura 4 – Visualizando o styled-component na página do navegador ..................... 11 
+Figura 5 – Visualizando o Componente2 na página do navegador ........................... 13 
+Figura 6 – Duplicando componente Etiquetas.jsx para EtiquetasHookForm.jsx ....... 24 
+PDF exclusivo para Mateus Augusto da Costa Oliveira Gonçalves - rm570166
+mateus.augusto1629@gmail.com
+
+--- PAGE 3 ---
+Domine o Front-End: Do CSS à Consumo de APIs
+ 
+ 
+LISTA DE CÓDIGOS-FONTE 
+Código-fonte 1 – Importando o Componente1.jsx no App.jsx – linguagem: JavaScript
+ .................................................................................................................................. 7 
+Código-fonte 2 – Estilizando o Componente1.jsx – linguagem: CSS ........................ 7 
+Código-fonte 3 – Importando o Component1.css no Componente1.jsx – linguagem: 
+JavaScript.................................................................................................................. 8 
+Código-fonte 4 – Criando uma estilização externa com styled-components – 
+linguagem: JavaScript ............................................................................................... 9 
+Código-fonte 5 – Criando uma estilização externa com styled-components – 
+linguagem: JavaScript ............................................................................................... 10 
+Código-fonte 6 – Ajustando toda a formatação do Componente1 no arquivo styled.js. 
+– linguagem: JavaScript ............................................................................................ 12 
+Código-fonte 7 – Criando o Componente2.jsx e sua estilização interna com styled-
+components – linguagem: JavaScript ........................................................................ 13 
+Código-fonte 8 – Criando configurações globais com o createGlobalStyle – 
+linguagem: JavaScript ............................................................................................... 14 
+Código-fonte 9 – Inserindo o nosso arquivo estiloGlobal no main.jsx - linguagem: 
+JavaScript.................................................................................................................. 15 
+Código-fonte 10 – Preparando o App.jsx para trabalharmos com o formulário - 
+linguagem: JavaScript ............................................................................................... 16 
+Código-fonte 11 – Criando o formulário no arquivo Etiquetas.jsx - linguagem: 
+JavaScript.................................................................................................................. 17 
+Código-fonte 12 – Usando o styled-components para estilizar um pouco o formulário 
+- linguagem: JavaScript ............................................................................................. 18 
+Código-fonte 13 – Aplicando a estilização no arquivo Etiquetas.jsx - linguagem: 
+JavaScript.................................................................................................................. 19 
+Código-fonte 14 – Criando interatividade do formulário - linguagem: JavaScript ...... 21 
+Código-fonte 15 – Criando interatividade do formulário com várias etiquetas - 
+linguagem: JavaScript ............................................................................................... 22 
+Código-fonte 16 – Fazendo alterações no formulário para trabalhar com o HookForm 
+- linguagem: JavaScript ............................................................................................. 25 
+Código-fonte 17 – Fazendo alterações no formulário para trabalhar com o HookForm 
+- linguagem: JavaScript ............................................................................................. 27 
+Código-fonte 18 – Utilizando o Fetch para buscar informações de uma API de CEP - 
+linguagem: JavaScript ............................................................................................... 30 
+  
+ 
+ 
+ 
+PDF exclusivo para Mateus Augusto da Costa Oliveira Gonçalves - rm570166
+mateus.augusto1629@gmail.com
+
+--- PAGE 4 ---
+Domine o Front-End: Do CSS à Consumo de APIs
+SUMÁRIO 
+DOMINE O FRONT-END: DO CSS À CONSUMO DE APIS .................................... 5 
+1 INTRODUÇÃO ....................................................................................................... 5 
+1.1 Por que o CSS às vezes não funciona nos componentes? ................................. 5 
+1.1.1 Usando o styled-components de forma externa ............................................... 9 
+1.1.2 Usando o styled-components de forma interna ................................................ 12 
+1.1.3 Usando o styled-components de forma Global ................................................. 14 
+1.2 Trabalhando com formulários no React .............................................................. 15 
+1.3 Usando o Hook Form com formulários no React ................................................. 23 
+1.4 Usando o fetch para consumir dados de uma API .............................................. 28 
+REFERÊNCIAS ......................................................................................................... 32 
+ 
+ 
+  
+  
+PDF exclusivo para Mateus Augusto da Costa Oliveira Gonçalves - rm570166
+mateus.augusto1629@gmail.com
+
+--- PAGE 5 ---
+Domine o Front-End: Do CSS à Consumo de APIs
+DOMINE O FRONT-END: DO CSS À CONSUMO DE APIS 
+1 INTRODUÇÃO 
+1.1 Por que o CSS às vezes não funciona nos componentes? 
+Se você está praticando bastante, provavelmente já se deparou com algumas 
+situações estranhas na hora de estilizar os componentes usando o CSS, ainda mais 
+quando usamos os nomes das tags como seletor. Isso ocorre porque, ao ser 
+renderizado na página HTML, o CSS não fica separado por componente. 
+Vamos criar uma situação simples e comum para percebemos melhor o 
+problema. Criaremos um projeto do react utilizando o template do Vite, chamado 
+exemplo-estilizacao. Não se esqueça de remover os arquivos desnecessários para 
+nosso projeto, queremos apenas o componente App com um título (H1), “Exemplo 
+Estilização”. 
+ 
+ 
+Figura 1 – Estrutura de um projeto criado com template Vite sem arquivos desnecessários para o 
+projeto 
+Fonte: Elaborado pelo autor (2023) 
+PDF exclusivo para Mateus Augusto da Costa Oliveira Gonçalves - rm570166
+mateus.augusto1629@gmail.com
+
+--- PAGE 6 ---
+Domine o Front-End: Do CSS à Consumo de APIs
+ 
+Para fazermos nosso teste, crie um componente chamado Componente1.jsx. 
+Não se esqueça de que para uma melhor organização, ou seja, para uma boa prática, 
+devemos colocar nossos componentes dentro de uma pasta chamada components. 
+Faça conforme abaixo: 
+ 
+ 
+Figura 2 – Criando o Componente1 na pasta components 
+Fonte: Elaborado pelo autor (2023) 
+ 
+Agora, para visualizarmos nosso novo componente no navegador, precisamos 
+inseri-lo como filho do nosso componente principal “APP”. Faça a importação dele no 
+componente App e posicione sua tag logo abaixo do título principal. 
+ 
+ 
+import Componente1 from "./components/Componente1" 
+ 
+function App() { 
+ 
+  return ( 
+    <> 
+      <h1>Exemplo Estilização</h1> 
+      <Componente1/> 
+    </> 
+  ) 
+} 
+ 
+export default App 
+PDF exclusivo para Mateus Augusto da Costa Oliveira Gonçalves - rm570166
+mateus.augusto1629@gmail.com
+
+--- PAGE 7 ---
+Domine o Front-End: Do CSS à Consumo de APIs
+ 
+Código-fonte 1 – Importando o Componente1.jsx no App.jsx – linguagem: JavaScript  
+Fonte: Elaborado pelo autor (2023) 
+ 
+Nosso próximo passo será criar um arquivo CSS para o Componente1.jsx. Algo 
+simples, mas que vai nos ajudar a entender o problema sobre o qual estamos falando. 
+Também dentro da pasta components, crie um arquivo chamado Componente1.css. 
+Esta é outra boa prática, criar o arquivo de estilização com o nome do componente 
+para organizar melhor o projeto. Reproduza a estilização abaixo: 
+ 
+ 
+div{ 
+    border: 3px solid blue; 
+    padding: 20px; 
+} 
+ 
+h2{ 
+    color:blue; 
+} 
+ 
+ 
+Código-fonte 2 – Estilizando o Componente1.jsx – linguagem: CSS 
+Fonte: Elaborado pelo autor (2023) 
+ 
+Se você já testou, provavelmente, percebeu que não aconteceu nada, não é? 
+Isso ocorre porque precisamos avisar que essa estilização deve ser atribuída para o 
+Componente1.jsx, certo? Insira uma linha no início do Componente1.jsx, importando 
+o Componente1.css. 
+ 
+import "./Componente1.css" 
+ 
+export default function Componente1(){ 
+ 
+    return( 
+        <div> 
+            <h2>Componente 1</h2> 
+        </div> 
+    ) 
+PDF exclusivo para Mateus Augusto da Costa Oliveira Gonçalves - rm570166
+mateus.augusto1629@gmail.com
+
+--- PAGE 8 ---
+Domine o Front-End: Do CSS à Consumo de APIs
+} 
+ 
+Código-fonte 3 – Importando o Component1.css no Componente1.jsx – linguagem: JavaScript  
+Fonte: Elaborado pelo autor (2023) 
+ 
+Tudo certo agora? Quase, não é? A estilização que fizemos no 
+Componente1.jsx está aparecendo agora, mas não é só ela, parece que mais alguém 
+recebeu a mesma estilização. A div “root”, aquela que fica na página index.html para 
+receber todos os nossos códigos, acabou recebendo a mesma estilização que a div 
+dentro do Componente1, mas porque será que isso aconteceu? 
+Quando criamos um arquivo CSS dentro do react, não importa onde os criamos, 
+na renderização, este arquivo é inserido na página index.html como uma tag style, 
+como se tivéssemos criado uma estilização interna no head da página. Para 
+entendermos melhor, no navegador, abra o inspetor de código clicando com o botão 
+direito do mouse na página e selecione a opção “Inspecionar”. Na aba “elements”, 
+clique nas setas ao canto esquerdo dos itens para abri-los e veja como nosso código 
+ficou: 
+ 
+ 
+Figura 3 – Visualizando a estrutura da página no navegador 
+Fonte: Elaborado pelo autor (2023) 
+ 
+Se repararmos no código, já que usamos como seletor a div, sua estilização 
+depois da renderização acabou sendo atribuída a todas as div’s da página, inclusive 
+a div principal da nossa aplicação, a div com o id “root”. 
+PDF exclusivo para Mateus Augusto da Costa Oliveira Gonçalves - rm570166
+mateus.augusto1629@gmail.com
+
+--- PAGE 9 ---
+Domine o Front-End: Do CSS à Consumo de APIs
+A primeira solução que vem a nossa cabeça para resolver este problema seria: 
+“Vamos atribuir id’s e classes a todos os elementos, assim não vamos ter mais este 
+tipo de problema”. Realmente, isso faz todo o sentido, mas, se nossa aplicação for 
+muito grande, vai ser difícil de gerenciar tantas informações e erros vão acontecer... 
+Para solucionar este tipo de problema, foi criada uma biblioteca chamada 
+styled-components, ela irá gerenciar este tipo de problema para nós. 
+A primeira coisa de devemos fazer para utilizá-la é fazer a instalação do pacote. 
+Vá até o terminal e pare a aplicação com “Ctrl + C” e, após fazer isso, insira a linha de 
+código abaixo e depois tecle ENTER:  
+npm install –save styled-components 
+Pode ser que demore um pouco, mas geralmente é bem rápido. Assim que 
+terminar a instalação e aparecer o prompt novamente, é só usar o npm run dev para 
+subirmos nossa aplicação novamente. Pronto, agora é só começar a usar. 
+1.1.1 Usando o styled-components de forma externa 
+Podemos utilizar o styled-components de várias formas. A primeira que vamos 
+ver é criando um arquivo externo para estilizar os componentes, isso pode ser 
+bastante útil, pois sendo externo, podemos reaproveitar o código em outros 
+componentes. 
+Dentro da pasta src crie um arquivo chamado styled.js, como ele é uma 
+biblioteca feita em JavaScript, sua extensão também será js. Vamos de início apenas 
+inserir um fundo a nossa div que está dentro do Componente1. Para isso, reproduza 
+o código abaixo dentro do styled.js: 
+ 
+ 
+ 
+import styled from 'styled-components' 
+ 
+export const DivComp1 = styled.div` 
+    background-color: #ddf; 
+` 
+ 
+Código-fonte 4 – Criando uma estilização externa com styled-components – linguagem: JavaScript  
+PDF exclusivo para Mateus Augusto da Costa Oliveira Gonçalves - rm570166
+mateus.augusto1629@gmail.com
+
+--- PAGE 10 ---
+Domine o Front-End: Do CSS à Consumo de APIs
+Fonte: Elaborado pelo autor (2023) 
+ 
+O código parece confuso, não é? Calma, vamos ver cada parte e entender o 
+que significa. 
+Na primeira linha, estamos importando a biblioteca, demos o nome de styled 
+para referenciar a importação, essa também é uma boa prática. 
+Na próxima linha estamos criando uma constante chamada DivComp1 e a ela 
+atribuímos o styled.div. Isso significa que a estilização que estamos fazendo será 
+aplicada em uma div. Logo após, devemos criar um bloco utilizando uma crase para 
+abrir e outra para fechar. Dentro deste bloco podemos inserir nossos códigos CSS 
+como se fosse em um arquivo CSS tradicional, usando “;” e tudo mais. 
+Ah! Não se esqueça de colocar a palavra reservada “export” antes da constante 
+pois vamos precisar importá-la no nosso componente. 
+Agora vamos aplicar nossa estilização no Componente1.js. Abra-o e faça as 
+alterações conforme o código abaixo: 
+ 
+ 
+import "./Componente1.css" 
+import { DivComp1 } from "../styled" 
+ 
+export default function Componente1(){ 
+ 
+    return( 
+        <DivComp1> 
+            <h2>Componente 1</h2> 
+        </DivComp1> 
+    ) 
+} 
+ 
+Código-fonte 5 – Criando uma estilização externa com styled-components – linguagem: JavaScript  
+Fonte: Elaborado pelo autor (2023) 
+ 
+Agora sim, não é? A nossa estilização foi somente aonde queríamos! Isso 
+aconteceu porque o styled-components está gerenciando para gente! 
+PDF exclusivo para Mateus Augusto da Costa Oliveira Gonçalves - rm570166
+mateus.augusto1629@gmail.com
+
+--- PAGE 11 ---
+Domine o Front-End: Do CSS à Consumo de APIs
+Repare que importamos a constante que criamos “DivComp1”, indicando seu 
+local de criação, que é o arquivo styled.js. Depois para apenas aplicar substituímos a 
+div que tínhamos no arquivo pela tag personalizada com o nome da nossa estilização. 
+Mas fica uma dúvida... Durante a renderização, como fica o arquivo index.html? 
+Vamos voltar ao navegador e conferir novamente no inspetor como ele ficou: 
+ 
+ 
+Figura 4 – Visualizando o styled-component na página do navegador 
+Fonte: Elaborado pelo autor (2023) 
+ 
+Perceba que ele criou uma nova tag styled e nela nossa estilização com uma 
+classe que ele mesmo criou para controlá-la. Então, ele usa nomes aleatórios para 
+isso, não dá para entender, não é? Mas não se preocupe, ele gerencia tudo para nós!!! 
+Faltou ajustarmos as bordas que estavam sendo replicadas para a div root 
+também. Apague o arquivo CSS e a sua importação que fizemos no início e ajuste 
+nosso código do arquivo styled.js da seguinte forma: 
+ 
+ 
+import styled from 'styled-components' 
+ 
+export const DivComp1 = styled.div` 
+    background-color: #ddf; 
+    border: 3px solid blue; 
+    padding: 20px; 
+ 
+PDF exclusivo para Mateus Augusto da Costa Oliveira Gonçalves - rm570166
+mateus.augusto1629@gmail.com
+
+--- PAGE 12 ---
+Domine o Front-End: Do CSS à Consumo de APIs
+    h2{ 
+        color: blue; 
+    } 
+` 
+ 
+ 
+Código-fonte 6 – Ajustando toda a formatação do Componente1 no arquivo styled.js. – linguagem: 
+JavaScript  
+Fonte: Elaborado pelo autor (2023) 
+ 
+Viu como agora funcionou? Nossa estilização ficou apenas no Componente1 
+e, se prestarmos atenção, temos agora uma formatação para seu Subtítulo feito com 
+a tag H2. Isso para mostrar que podemos estilizar os filhos também, criando seus 
+seletores dentro do seletor principal. 
+1.1.2 USANDO O STYLED-COMPONENTS DE FORMA INTERNA 
+Quando você tiver certeza de que aquela estilização será utilizada somente 
+naquele componente, podemos criar a estilização dentro dele mesmo. 
+Uma vez que importamos o styled-components dentro do componente, 
+podemos criar nossa constante com os elementos de estilização nele mesmo. Uma 
+boa prática é criar antes da função, assim não corre o risco de confundirmos com 
+nossos demais códigos. 
+Para fazermos este exemplo, vamos criar um novo componente chamado 
+Componente2.jsx, também dentro da pasta components e fazer o código abaixo: 
+ 
+ 
+import styled from 'styled-components' 
+ 
+const DivComp2 = styled.div` 
+    border: 3px solid green; 
+    border-radius: 20px; 
+    padding: 20px; 
+    background-color: #dfd; 
+    margin-top: 30px; 
+ 
+    h2{ 
+        color: green; 
+PDF exclusivo para Mateus Augusto da Costa Oliveira Gonçalves - rm570166
+mateus.augusto1629@gmail.com
+
+--- PAGE 13 ---
+Domine o Front-End: Do CSS à Consumo de APIs
+    } 
+ 
+    p{ 
+        color: orange; 
+    } 
+ 
+` 
+ 
+export default function Componente2(){ 
+ 
+    return( 
+        <DivComp2> 
+            <h2>Componente 2</h2> 
+            <p>Esta estilização é interna.</p> 
+        </DivComp2> 
+    ) 
+} 
+ 
+Código-fonte 7 – Criando o Componente2.jsx e sua estilização interna com styled-components – 
+linguagem: JavaScript  
+Fonte: Elaborado pelo autor (2023) 
+ 
+Muito bem! Agora, só precisamos chamar nosso Componente2 dentro do 
+App.jsx. Vamos dar uma olhada novamente na página no navegador. Perceba que a 
+estilização funcionou perfeitamente e que o styled-components criou 
+automaticamente uma classe para gerenciar a nova estilização. 
+ 
+Figura 5 – Visualizando o Componente2 na página do navegador 
+Fonte: Elaborado pelo autor (2023) 
+ 
+PDF exclusivo para Mateus Augusto da Costa Oliveira Gonçalves - rm570166
+mateus.augusto1629@gmail.com
+
+--- PAGE 14 ---
+Domine o Front-End: Do CSS à Consumo de APIs
+Esta é a forma mais rápida de criarmos nossas estilizações com o styled-
+components, mas não se esqueça que desta forma não poderemos usá-la em outros 
+componentes. 
+1.1.3 USANDO O STYLED-COMPONENTS DE FORMA GLOBAL 
+Com certeza você já deve ter feito configurações iniciais em seu projeto para 
+definir algumas estilizações que seriam aplicadas em todos os elementos da página. 
+Nós costumamos chamar de reset, pois limpamos configurações que são padrão do 
+navegador e não serão úteis para nós e ajustamos nossas preferencias, para, assim, 
+personalizar as páginas conforme o estilo de nosso projeto. 
+Até então criamos estilizações para serem atribuídas para elementos 
+específicos e seus filhos, por isso, criamos constantes contendo as estilizações e 
+depois atribuímos ao elemento, substituindo o nome da tag pelo nome de nossa 
+constante. Mas agora vamos criar um arquivo chamado estiloGlobal.js, nele vamos 
+criar nossas configurações padrão que serão replicadas em toda a página. Crie o 
+arquivo na pasta src e faça conforme abaixo: 
+ 
+ 
+import { createGlobalStyle } from "styled-components"; 
+ 
+const globalStyle = createGlobalStyle` 
+    *{ 
+        margin: 0; 
+        padding: 0; 
+        box-sizing: border-box; 
+        font-family: Arial, Helvetica, sans-serif; 
+    } 
+ 
+` 
+export default globalStyle 
+ 
+Código-fonte 8 – Criando configurações globais com o createGlobalStyle – linguagem: JavaScript  
+Fonte: Elaborado pelo autor (2023) 
+ 
+Repare que agora temos alguns detalhes novos. A importação foi feita para o 
+createGlobalStyle, criado especificamente para situações em que queremos definir 
+PDF exclusivo para Mateus Augusto da Costa Oliveira Gonçalves - rm570166
+mateus.augusto1629@gmail.com
+
+--- PAGE 15 ---
+Domine o Front-End: Do CSS à Consumo de APIs
+um estilo global. Sendo assim, da mesma forma que usamos o styled nos outros 
+exemplos, neste usamos o createGlobalStyle, seguido de um bloco criado com crases 
+para escrever nosso código CSS. 
+Falta configurar nosso arquivo de configurações globais no arquivo main.jsx, 
+pois assim nenhum componente ficará de fora da estilização. Faça conforme abaixo: 
+ 
+ 
+import React from 'react' 
+import ReactDOM from 'react-dom/client' 
+import App from './App.jsx' 
+import GlobalStyle from './estiloGlobal.js' 
+ 
+ReactDOM.createRoot(document.getElementById('root')).ren
+der( 
+  <React.StrictMode> 
+    <App /> 
+    <GlobalStyle/> 
+  </React.StrictMode>, 
+) 
+ 
+ 
+Código-fonte 9 – Inserindo o nosso arquivo estiloGlobal no main.jsx - linguagem: JavaScript  
+Fonte: Elaborado pelo autor (2023) 
+ 
+Olhando no navegador, vemos que todos os elementos seguem o estilo global 
+que configuramos. Alguns já tinham algumas configurações definidas anteriormente, 
+mas os demais agora seguem o padrão estabelecido. 
+1.2 Trabalhando com formulários no React 
+Quando trabalhamos com formulários no React, temos que lembrar que 
+estamos diretamente dentro de arquivos JavaScript. Sendo assim, a forma de 
+lidarmos com as informações ficam um pouco diferente. 
+Para não nos confundirmos, a primeira coisa a fazer é tirar as importações do 
+Componente1 e Componente2 que fizemos há pouco, o App.jsx deve ficar assim: 
+ 
+ 
+PDF exclusivo para Mateus Augusto da Costa Oliveira Gonçalves - rm570166
+mateus.augusto1629@gmail.com
+
+--- PAGE 16 ---
+Domine o Front-End: Do CSS à Consumo de APIs
+function App() { 
+  return ( 
+    <> 
+      <h1>Exemplo Formulário</h1> 
+       
+    </> 
+  ); 
+} 
+ 
+export default App; 
+ 
+ 
+Código-fonte 10 – Preparando o App.jsx para trabalharmos com o formulário - linguagem: JavaScript  
+Fonte: Elaborado pelo autor (2023) 
+ 
+Apenas removemos as importações e as tags dos Componente1 e 
+Componente2 e ajustamos levemente o título da página para alinhá-lo melhor com o 
+conteúdo que vamos trabalhar agora. 
+Inicialmente iremos trabalhar com os recursos nativos do JavaScript para 
+conseguir capturar dos dados do formulário.  
+O formulário que vamos trabalhar será criado no componente Etiquetas.jsx, 
+que ficará dentro da pasta components. Crie o componente e reproduza o código 
+abaixo: 
+ 
+ 
+export default function Etiquetas(){ 
+ 
+    return( 
+        <div> 
+            <form> 
+                <fieldset> 
+                    <legend>Dados Pessoais</legend> 
+                    <label>Nome: 
+                        <input type="text" name="nome"/> 
+                    </label> 
+                    <label>E-mail: 
+                        <input type="text" name="email"/> 
+                    </label> 
+                    <label>CPF: 
+                        <input type="text" name="cpf"/> 
+                    </label> 
+                    <button type="submit">Criar</button> 
+                </fieldset> 
+PDF exclusivo para Mateus Augusto da Costa Oliveira Gonçalves - rm570166
+mateus.augusto1629@gmail.com
+
+--- PAGE 17 ---
+Domine o Front-End: Do CSS à Consumo de APIs
+            </form> 
+            <div className="painel"> 
+                <div className="etiqueta"> 
+                    <p>Nome: </p> 
+                    <p>E-mail: </p> 
+                    <p>CPF: </p> 
+                </div> 
+            </div> 
+        </div> 
+    ) 
+} 
+ 
+ 
+Código-fonte 11 – Criando o formulário no arquivo Etiquetas.jsx - linguagem: JavaScript 
+Fonte: Elaborado pelo autor (2023) 
+ 
+Neste componente estamos criando um formulário com alguns dados pessoais 
+e, mais abaixo, uma pequena estrutura que logo nos ajudará a mostrar o resultado da 
+nossa manipulação de dados. 
+Após a criação do formulário, não se esqueça de chamar o componente dentro 
+do App.jsx. 
+A apresentação do nosso formulário não está muito legal, então, vamos praticar 
+um pouco usando o styled-components para melhorar. No arquivo styled.js vamos 
+criar uma nova estilização com o código abaixo: 
+ 
+ 
+import styled from 'styled-components' 
+ 
+export const DivComp1 = styled.div` 
+    background-color: #ddf; 
+    border: 3px solid blue; 
+    padding: 20px; 
+ 
+    h2{ 
+        color: blue; 
+    } 
+` 
+ 
+export const DivEtiqueta = styled.div` 
+    form{ 
+        width: 400px; margin: 0 auto; 
+        background-color: blueviolet; color: white; 
+    } 
+PDF exclusivo para Mateus Augusto da Costa Oliveira Gonçalves - rm570166
+mateus.augusto1629@gmail.com
+
+--- PAGE 18 ---
+Domine o Front-End: Do CSS à Consumo de APIs
+ 
+    fieldset{ 
+        padding: 20px; 
+    } 
+ 
+    legend{ 
+        font-size: 20px; text-align: center; 
+        padding: 10px; 
+    } 
+ 
+    label{ 
+        display: flex; flex-direction: column; 
+        margin-bottom: 10px; 
+    } 
+ 
+    input{ 
+        padding: 5px; border-radius: 5px; border: none; 
+        outline-color: darkgray; 
+    } 
+ 
+    button{ 
+        padding: 5px 20px; border-radius: 5px; 
+border:none; 
+        background-color: #3f3; 
+    } 
+ 
+    .painel{ 
+        width: 90%; display:flex; margin: auto; flex-wrap: 
+wrap; 
+        justify-content: space-evenly; 
+    } 
+    .etiqueta{ 
+        padding: 10px; border: 5px solid #509; width: 
+400px; margin: 10px; 
+        background-color: #af5; border-radius: 5px; 
+    } 
+ 
+` 
+ 
+Código-fonte 12 – Usando o styled-components para estilizar um pouco o formulário - linguagem: 
+JavaScript  
+Fonte: Elaborado pelo autor (2023) 
+ 
+Legal que conseguimos até usar um pouco de classes no styled-components, 
+não é? Mas não se esqueça de fazer as alterações necessárias no arquivo 
+Etiquetas.jsx para nossa estilização ser aplicada. Veja se está tudo certo com o seu 
+código; ele deve ficar igual ao abaixo: 
+PDF exclusivo para Mateus Augusto da Costa Oliveira Gonçalves - rm570166
+mateus.augusto1629@gmail.com
+
+--- PAGE 19 ---
+Domine o Front-End: Do CSS à Consumo de APIs
+ 
+ 
+import { DivEtiqueta } from "../styled" 
+ 
+export default function Etiquetas(){ 
+ 
+    return( 
+        <DivEtiqueta> 
+            <form> 
+                <fieldset> 
+                    <legend>Dados Pessoais</legend> 
+                    <label>Nome: 
+                        <input type="text" name="nome"/> 
+                    </label> 
+                    <label>E-mail: 
+                        <input type="text" name="email"/> 
+                    </label> 
+                    <label>CPF: 
+                        <input type="text" name="cpf"/> 
+                    </label> 
+                    <button type="submit">Criar</button> 
+                </fieldset> 
+            </form> 
+            <div className="painel"> 
+                <div className="etiqueta"> 
+                    <p>Nome: </p> 
+                    <p>E-mail: </p> 
+                    <p>CPF: </p> 
+                </div> 
+            </div> 
+        </DivEtiqueta> 
+    ) 
+} 
+ 
+Código-fonte 13 – Aplicando a estilização no arquivo Etiquetas.jsx - linguagem: JavaScript  
+Fonte: Elaborado pelo autor (2023) 
+ 
+Chegou a hora de começarmos a dar funcionalidade ao nosso formulário. Com 
+esse intuito, teremos que criar um useState para guardar as informações e eventos a 
+fim de capturar quando o usuário digitar e também mostrar o resultado na nossa 
+etiqueta, que criamos logo abaixo do formulário. Faça as alterações abaixo para 
+darmos essas primeiras funcionalidades: 
+ 
+ 
+PDF exclusivo para Mateus Augusto da Costa Oliveira Gonçalves - rm570166
+mateus.augusto1629@gmail.com
+
+--- PAGE 20 ---
+Domine o Front-End: Do CSS à Consumo de APIs
+import { useState } from 'react' 
+import {DivEtiqueta} from './../styled' 
+ 
+export default function Etiquetas(){ 
+ 
+    const [cliente,setCliente] = useState({ 
+        'nome':'', 
+        'email':'', 
+        'cpf':'' 
+    }) 
+ 
+    function cadCliente(e){ 
+      setCliente({...cliente, 
+     [e.target.name]:e.target.value}) 
+    } 
+ 
+    return( 
+        <DivEtiqueta> 
+            <form> 
+                <fieldset> 
+                <legend>Dados Pessoais</legend> 
+                <label>Nome: 
+                    <input type="text" name="nome" 
+                    onChange={cadCliente} 
+value={cliente.nome}/> 
+ 
+                </label> 
+                <label>E-mail: 
+                    <input type="text" name="email" 
+                    onChange={cadCliente} 
+value={cliente.email}/> 
+                </label> 
+                <label>CPF: 
+                    <input type="text" name="cpf" 
+                    onChange={cadCliente} 
+value={cliente.cpf}/> 
+                    </label> 
+                    <button type="submit">Criar</button> 
+                </fieldset> 
+            </form> 
+            <div className="painel"> 
+                <div className="etiqueta"> 
+                    <p>Nome: {cliente.nome}</p> 
+                    <p>E-mail: {cliente.email}</p> 
+                    <p>CPF: {cliente.cpf}</p> 
+                </div> 
+            </div> 
+        </DivEtiqueta> 
+    ) 
+} 
+ 
+PDF exclusivo para Mateus Augusto da Costa Oliveira Gonçalves - rm570166
+mateus.augusto1629@gmail.com
+
+--- PAGE 21 ---
+Domine o Front-End: Do CSS à Consumo de APIs
+Código-fonte 14 – Criando interatividade do formulário - linguagem: JavaScript 
+Fonte: Elaborado pelo autor (2023) 
+ 
+Após fazer as alterações destacadas acima, faça um teste no formulário, tente 
+preenchê-lo com seus dados. Se tudo ocorreu conforme o código que deixei para 
+você, conforme foi escrevendo, os seus dados foram replicados na etiqueta que está 
+abaixo do formulário, certo? Isso é bem legal e foi possível porque, através da função 
+cadCliente que era clamada pelos eventos onChange nos inputs, conforme o 
+usuário vai digitando ele vai guardando as mudanças do texto no state cliente. Como 
+ele está sendo chamado nos parágrafos da etiqueta, conforme vai escrevendo, vai 
+sendo atualizado nos campos. 
+Perceba que, para referenciar os campos do formulário, nós colocamos os 
+atributos do objeto cliente que está no state, como value deles. Na função cadCliente, 
+usamos “e.target.name” para ele localizar qual campo está sendo preenchido e 
+“e.target.value” para ele pegar os valores digitados. 
+Mas, por enquanto, digitamos no formulário e o react escreve na etiqueta, 
+porém, só podemos ter uma etiqueta na tela. Para mudar isso, vamos criar mais um 
+state, mas, desta vez, para armazenar uma lista de etiquetas, assim poderemos criar 
+várias e apresentar elas na tela. Precisaremos também de um método para inserir as 
+etiquetas criadas na lista e mais alguns detalhes que veremos daqui a pouco. Vamos 
+fazer as alterações necessárias, reproduza as alterações como destacado abaixo: 
+ 
+ 
+ 
+import { useState } from 'react' 
+import {DivEtiqueta} from './../styled' 
+ 
+export default function Etiquetas(){ 
+ 
+    const [cliente,setCliente] = useState({ 
+        'nome':'', 
+        'email':'', 
+        'cpf':'' 
+    }) 
+ 
+   const [listaClientes, setListaClientes] = useState([]) 
+ 
+    function cadCliente(e){ 
+PDF exclusivo para Mateus Augusto da Costa Oliveira Gonçalves - rm570166
+mateus.augusto1629@gmail.com
+
+--- PAGE 22 ---
+Domine o Front-End: Do CSS à Consumo de APIs
+setCliente({...cliente, [e.target.name]:e.target.value}) 
+    } 
+ 
+    function inserirCliente(e){ 
+        e.preventDefault() 
+        setListaClientes([...listaClientes, cliente]) 
+    } 
+ 
+    return( 
+        <DivEtiqueta> 
+            <form onSubmit={inserirCliente}> 
+                <fieldset> 
+                    <legend>Dados Pessoais</legend> 
+                    <label>Nome: 
+                        <input type="text" name="nome" 
+                        onChange={cadCliente} 
+value={cliente.nome}/> 
+ 
+                    </label> 
+                    <label>E-mail: 
+                        <input type="text" name="email" 
+                        onChange={cadCliente} 
+value={cliente.email}/> 
+                    </label> 
+                    <label>CPF: 
+                        <input type="text" name="cpf" 
+                        onChange={cadCliente} 
+value={cliente.cpf}/> 
+                    </label> 
+                    <button type="submit">Criar</button> 
+                </fieldset> 
+            </form> 
+            <div className="painel"> 
+                {listaClientes.map((cli, index)=> 
+                <div className="etiqueta" key={index}> 
+                    <p>Nome: {cli.nome}</p> 
+                    <p>E-mail: {cli.email}</p> 
+                    <p>CPF: {cli.cpf}</p> 
+                </div> 
+                )} 
+            </div> 
+        </DivEtiqueta> 
+    ) 
+} 
+ 
+Código-fonte 15 – Criando interatividade do formulário com várias etiquetas - linguagem: JavaScript  
+Fonte: Elaborado pelo autor (2023) 
+ 
+PDF exclusivo para Mateus Augusto da Costa Oliveira Gonçalves - rm570166
+mateus.augusto1629@gmail.com
+
+--- PAGE 23 ---
+Domine o Front-End: Do CSS à Consumo de APIs
+Agora você já pode criar quantas etiqueta quiser, pois, cada vez que você 
+preencher o formulário e clicar em ‘Criar’, uma nova etiqueta aparecerá logo abaixo. 
+Cada vez que cria uma etiqueta, a função inserirCliente insere o objeto cliente 
+dentro do array de objetos listaclientes. Isso acontece porque colocamos o evento 
+onsubmit no formulário recebendo a função. As etiquetas aparecem 
+automaticamente porque utilizamos o método map na listaClientes, na div abaixo, 
+onde as etiquetas aparecem, o map é um método declarativo muito parecido com o 
+for, que é um método imperativo. 
+É muito importante sempre lembrarmos de que dentro do código JSX, no return 
+em que colocamos nossas tags, só serão aceitos métodos JavaScript declarativos. 
+1.3 Usando o Hook Form com formulários no React 
+Sempre que possível estão sendo criados recursos para agilizar e padronizar 
+os códigos no react, com os formulários não poderia ser diferente. Vamos conhecer 
+agora o Hook-Forms, uma biblioteca react que vai nos ajudar e muito no trabalho com 
+os formulários. 
+A primeira coisa que precisamos fazer é instalar a biblioteca. Pare a execução 
+da sua aplicação utilizando no terminal do VSCode “Ctrl+C”, depois digite essa linha 
+de comando no prompt e logo após tecle Enter. 
+npm install –save react-hook-form 
+Antes de continuarmos, digite npm run dev e tecle Enter para subir sua 
+aplicação novamente. 
+Nós vamos aproveitar o formulário de etiquetas que fizemos há pouco, mas, 
+para não o perdermos, clique com o mouse sobre o arquivo e use o “Ctrl + C” e o 
+“Ctrl + V” para copiar e colar o arquivo e renomeie a cópia para 
+EtiquetasHookForm.jsx, assim não perdemos o outro exemplo. Ah! Não se esqueça 
+de mudar o import e a Tag do componente no arquivo App.jsx. Queremos ir vendo 
+as alterações, não é? 
+ 
+PDF exclusivo para Mateus Augusto da Costa Oliveira Gonçalves - rm570166
+mateus.augusto1629@gmail.com
+
+--- PAGE 24 ---
+Domine o Front-End: Do CSS à Consumo de APIs
+ 
+ 
+Figura 6 – Duplicando componente Etiquetas.jsx para EtiquetasHookForm.jsx 
+Fonte: Elaborado pelo autor (2023) 
+ 
+Pronto, agora podemos aprender essa nova biblioteca sem perdermos nosso 
+outro exemplo. 
+Quando utilizamos o HookForm, ele faz o gerenciamento das informações do 
+formulário para nós. Então veremos que muitas coisas que criamos no primeiro 
+exemplo poderemos apagar, pois ele resolver para a gente. Observe o código abaixo 
+e faça as adaptações no seu código: 
+ 
+ 
+import { useState } from 'react' 
+import {useForm} from 'react-hook-form' 
+import {DivEtiqueta} from '../styled' 
+ 
+export default function EtiquetasHookForm(){ 
+ 
+    const {register, handleSubmit, formState: {errors}} = 
+useForm() 
+ 
+    //**Apagamos o State Cliente */ 
+     
+    const [listaClientes, setListaClientes] = 
+useState([]) 
+ 
+    //**Apagamos a função cadCliente */ 
+ 
+    function inserirCliente(cliente){ 
+PDF exclusivo para Mateus Augusto da Costa Oliveira Gonçalves - rm570166
+mateus.augusto1629@gmail.com
+
+--- PAGE 25 ---
+Domine o Front-End: Do CSS à Consumo de APIs
+        //**Apagamos o e.preventDefault */ 
+        setListaClientes([...listaClientes, cliente]) 
+    } 
+ 
+    return( 
+        <DivEtiqueta> 
+            <form onSubmit={handleSubmit(inserirCliente)}> 
+                <fieldset> 
+                    <legend>Dados Pessoais</legend> 
+                    <label>Nome: 
+                 <input type="text" {...register('nome')}/> 
+                    </label> 
+                    <label>E-mail: 
+               <input type="text" {...register('email')}/> 
+                    </label> 
+                    <label>CPF: 
+                 <input type="text" {...register('cpf')}/> 
+                    </label> 
+                    <button type="submit">Criar</button> 
+                </fieldset> 
+            </form> 
+            <div className="painel"> 
+                {listaClientes.map((cli, index)=> 
+                <div className="etiqueta" key={index}> 
+                    <p>Nome: {cli.nome}</p> 
+                    <p>E-mail: {cli.email}</p> 
+                    <p>CPF: {cli.cpf}</p> 
+                </div> 
+                )} 
+            </div> 
+        </DivEtiqueta> 
+    ) 
+} 
+ 
+ 
+Código-fonte 16 – Fazendo alterações no formulário para trabalhar com o HookForm - linguagem: 
+JavaScript  
+Fonte: Elaborado pelo autor (2023) 
+ 
+Fizemos o import do HookForm, criamos uma constante para declarar suas 
+ferramentas e depois já começamos a usar. Repare que o state cliente e sua função 
+cadCliente para captar as ações do formulário foram excluídas, em seu lugar apenas 
+utilizamos o Register, ferramenta que guarda as informações. Para gerenciar o envio 
+das informações utilizamos outra ferramenta, o handleSubmit, que gerencia as 
+informações no ato do envio, assim, conseguimos resgatar e inserir como estamos 
+fazendo antes. 
+PDF exclusivo para Mateus Augusto da Costa Oliveira Gonçalves - rm570166
+mateus.augusto1629@gmail.com
+
+--- PAGE 26 ---
+Domine o Front-End: Do CSS à Consumo de APIs
+Mas ainda temos mais vantagens, podemos trabalhar com validações de 
+formulário utilizando o HookForm. Para isso vamos precisar de uma biblioteca auxiliar, 
+a yup, do próprio HookForm. Utilize o “Ctrl+C” para parar novamente a aplicação e 
+instale a nova biblioteca digitando a seguinte linha de comando no prompt: 
+npm install @hookform/resolvers yup 
+Não se esqueça de subir novamente a aplicação depois, hein? 
+Para utilizá-la também precisamos fazer alguns imports e criar um schema, que 
+nada mais é que nossas regras de validação que vamos utilizar. Você verá que depois 
+fica bem fácil para utilizar. Faça as alterações destacadas abaixo: 
+ 
+ 
+import { useState } from 'react' 
+import {useForm} from 'react-hook-form' 
+import {DivEtiqueta} from '../styled' 
+import {yupResolver} from '@hookform/resolvers/yup' 
+import * as yup from 'yup' 
+ 
+const schema = yup.object({ 
+    nome: yup.string() 
+       .required("O nome é obrigatório!"), 
+    email: yup.string() 
+        .email("Digite um e-mail válido!") 
+        .required("O e-mail é obrigatório!"), 
+    cpf: yup.string().min(11, "O CPF deve ter pelo menos 
+11 digitos!") 
+        .required("O CPF é obrigatório!") 
+}).required(); 
+ 
+export default function EtiquetasHookForm(){ 
+ 
+    const {register, handleSubmit, formState: {errors}} = 
+useForm({ 
+        resolver: yupResolver(schema) 
+    }) 
+ 
+    //**Apagamos o State Cliente */ 
+     
+    const [listaClientes, setListaClientes] = 
+useState([]) 
+ 
+    //**Apagamos a função cadCliente */ 
+ 
+    function inserirCliente(cliente){ 
+PDF exclusivo para Mateus Augusto da Costa Oliveira Gonçalves - rm570166
+mateus.augusto1629@gmail.com
+
+--- PAGE 27 ---
+Domine o Front-End: Do CSS à Consumo de APIs
+        //**Apagamos o e.preventDefault */ 
+        setListaClientes([...listaClientes, cliente]) 
+    } 
+ 
+    return( 
+        <DivEtiqueta> 
+            <form onSubmit={handleSubmit(inserirCliente)}> 
+                <fieldset> 
+                    <legend>Dados Pessoais</legend> 
+                    <label>Nome: 
+                <input type="text" {...register('nome')}/> 
+                <span>{errors.nome?.message}</span> 
+                    </label> 
+                    <label>E-mail: 
+               <input type="text" {...register('email')}/> 
+               <span>{errors.email?.message}</span> 
+                    </label> 
+                    <label>CPF: 
+                 <input type="text" {...register('cpf')}/> 
+                 <span>{errors.cpf?.message}</span> 
+                    </label> 
+                    <button type="submit">Criar</button> 
+                </fieldset> 
+            </form> 
+            <div className="painel"> 
+                {listaClientes.map((cli, index)=> 
+                <div className="etiqueta" key={index}> 
+                    <p>Nome: {cli.nome}</p> 
+                    <p>E-mail: {cli.email}</p> 
+                    <p>CPF: {cli.cpf}</p> 
+                </div> 
+                )} 
+            </div> 
+        </DivEtiqueta> 
+    ) 
+} 
+ 
+Código-fonte 17 – Fazendo alterações no formulário para trabalhar com o HookForm - linguagem: 
+JavaScript 
+Fonte: Elaborado pelo autor (2023) 
+ 
+Após fazer as alterações, faça alguns testes no seu formulário. Você verá que, 
+se tentar criar as etiquetas sem colocar o nome, ou escrever um e-mail no formato 
+válido, ou um CPF com menos de 11 dígitos, o formulário aparecerá seu respectivo 
+erro e não será enviado. 
+PDF exclusivo para Mateus Augusto da Costa Oliveira Gonçalves - rm570166
+mateus.augusto1629@gmail.com
+
+--- PAGE 28 ---
+Domine o Front-End: Do CSS à Consumo de APIs
+1.4 Usando o fetch para consumir dados de uma API 
+Nosso formulário evoluiu bastante, não é? Mas ainda podemos fazer mais um 
+upgrade nele, vamos agora consumir dados externos, disponibilizados por uma API. 
+Uma API é uma aplicação que permite a troca de informações, ou 
+simplesmente o consumo delas. No nosso caso, vamos consumir informações de uma 
+API gratuita que disponibiliza dados de logradouros (endereços) ao informarmos 
+apenas o CEP deste endereço. Tenho certeza de que você já preencheu um 
+formulário na web em que, ao digitar o seu CEP, ele automaticamente preencheu a 
+maioria dos dados do endereço, deixando apenas o número da casa, complemento e 
+outras informações que não conseguimos a partir de um CEP, não é? 
+Mas, como buscar dados em outros endereços da web? No JavaScript, temos 
+um método chamado fetch, o qual nos permite realizar ações de troca de dados na 
+internet. Tal qual quando estamos na internet, podemos por vários motivos não 
+conseguir a informação desejada. O fetch trabalha com um sistema chamado de 
+promisses (promessas), é um sistema assíncrono que faz uma solicitação e, se ela 
+receber a resposta esperada, ele nos devolve, senão apresenta uma mensagem de 
+erro. Uma outra característica que faz ele usar este sistema é que, como estamos 
+trabalhando na internet, pode ser que a resposta demore um pouco e, por isso, ele é 
+assíncrono, para a sua aplicação não travar esperando a resposta. 
+Vamos aumentar nosso formulário com informações de endereço, assim vamos 
+conseguir utilizar os dados da API. Faça as alterações destacadas no código abaixo: 
+ 
+ 
+import { useState } from 'react' 
+import {useForm} from 'react-hook-form' 
+import {DivEtiqueta} from '../styled' 
+import {yupResolver} from '@hookform/resolvers/yup' 
+import * as yup from 'yup' 
+ 
+const schema = yup.object({ 
+    nome: yup.string() 
+       .required("O nome é obrigatório!"), 
+    email: yup.string() 
+        .email("Digite um e-mail válido!") 
+        .required("O e-mail é obrigatório!"), 
+PDF exclusivo para Mateus Augusto da Costa Oliveira Gonçalves - rm570166
+mateus.augusto1629@gmail.com
+
+--- PAGE 29 ---
+Domine o Front-End: Do CSS à Consumo de APIs
+    cpf: yup.string().min(11, "O CPF deve ter pelo menos 
+11 digitos!") 
+        .required("O CPF é obrigatório!") 
+}).required(); 
+ 
+export default function EtiquetasHookForm(){ 
+ 
+    const {register, handleSubmit, formState: {errors}, 
+setValue, setFocus} = useForm({ 
+        resolver: yupResolver(schema) 
+    }) 
+ 
+    //**Apagamos o State Cliente */ 
+     
+    const [listaClientes, setListaClientes] = 
+useState([]) 
+ 
+    //**Apagamos a função cadCliente */ 
+ 
+    function inserirCliente(cliente){ 
+        //**Apagamos o e.preventDefault */ 
+        setListaClientes([...listaClientes, cliente]) 
+    } 
+ 
+    function buscarCep(e){ 
+        const cep = e.target.value.replace(/\D/g, ''); 
+        fetch(`https://viacep.com.br/ws/${cep}/json/`) 
+        .then(res => res.json()) 
+        .then(data =>{ 
+            setValue('rua', data.logradouro) 
+            setValue('bairro', data.bairro) 
+            setValue('cidade', data.localidade) 
+            setValue('estado', data.uf) 
+            setFocus('numero') 
+        }) 
+    } 
+ 
+    return( 
+        <DivEtiqueta> 
+            <form onSubmit={handleSubmit(inserirCliente)}> 
+                <fieldset> 
+                    <legend>Dados Pessoais</legend> 
+                    <label>Nome: 
+                <input type="text" {...register('nome')}/> 
+                <span>{errors.nome?.message}</span> 
+                    </label> 
+                    <label>E-mail: 
+               <input type="text" {...register('email')}/> 
+               <span>{errors.email?.message}</span> 
+                    </label> 
+                    <label>CPF: 
+PDF exclusivo para Mateus Augusto da Costa Oliveira Gonçalves - rm570166
+mateus.augusto1629@gmail.com
+
+--- PAGE 30 ---
+Domine o Front-End: Do CSS à Consumo de APIs
+                 <input type="text" {...register('cpf')}/> 
+                 <span>{errors.cpf?.message}</span> 
+                    </label> 
+                    <button type="submit">Criar</button> 
+                </fieldset> 
+                <fieldset> 
+                    <legend>Endereço</legend> 
+                    <label>Cep: 
+                   <input type="text" {...register("cep")} 
+                        onBlur={buscarCep}/>  
+                    </label> 
+                    <label>Rua: 
+                  <input type="text" {...register("rua")}/> 
+                    </label> 
+                    <label>Número: 
+              <input type="text" {...register("numero")}/> 
+                    </label> 
+                    <label>Bairro: 
+              <input type="text" {...register("bairro")}/> 
+                    </label> 
+                    <label>Cidade: 
+              <input type="text" {...register("cidade")}/> 
+                    </label> 
+                    <label>Estado: 
+              <input type="text" {...register("estado")}/> 
+                    </label> 
+                </fieldset> 
+            </form> 
+            <div className="painel"> 
+                {listaClientes.map((cli, index)=> 
+                <div className="etiqueta" key={index}> 
+                    <p>Nome: {cli.nome}</p> 
+                    <p>E-mail: {cli.email}</p> 
+                    <p>CPF: {cli.cpf}</p> 
+                    <p>Rua: {cli.rua}, {cli.numero}</p> 
+                    <p>Bairro: {cli.bairro}</p> 
+                <p>Cidade: {cli.cidade} - {cli.estado}</p> 
+                </div> 
+                )} 
+            </div> 
+        </DivEtiqueta> 
+    ) 
+} 
+ 
+Código-fonte 18 – Utilizando o Fetch para buscar informações de uma API de CEP - linguagem: 
+JavaScript  
+Fonte: Elaborado pelo autor (2023) 
+ 
+PDF exclusivo para Mateus Augusto da Costa Oliveira Gonçalves - rm570166
+mateus.augusto1629@gmail.com
+
+--- PAGE 31 ---
+Domine o Front-End: Do CSS à Consumo de APIs
+Para este último upgrade em nosso formulário, utilizamos mais duas 
+ferramentas do HookForm, a setValue, que permite que insiramos dados no 
+formulário via código e o setFocus, que põe o cursor em um determinado campo do 
+formulário para nós. Criamos uma função chamada buscaCep, nela utilizamos o fetch 
+para acessar o endereço da API e solicitar as informações do CEP que solicitamos, 
+repare que para garantirmos que o CEP estivesse sido escrito corretamente pelo 
+usuário, sem utilizar o traço, usamos o método replace. Na resposta da solicitação, 
+ele preencheu automaticamente os campos de endereço com os dados da API. Outro 
+detalhe importante, usamos o evento onBlur para chamar nossa função de buscar o 
+CEP, pois assim, quando o usuário acabar de digitar o CEP e sair do campo, ele já 
+preenche o resto automaticamente e deixa o cursor parado no número, que é o único 
+campo que falta preencher. 
+O react ainda dispõe de inúmeras ferramentas e desafios, continue estudando 
+e dominando cada vez mais esta ferramenta poderosa para criação de aplicações. 
+Se você chegou até aqui, praticou e ficou com a expectativa de integrar o front-
+end com o back-end, então você realmente entendeu o que era esperado de você, 
+deixar o front-end pronto para integrar com o back-end. Agora, é só aguardar, pois 
+sua imersão no back-end começará já no segundo ano de sua graduação em 
+Engenharia de Software. Até lá! 
+ 
+  
+PDF exclusivo para Mateus Augusto da Costa Oliveira Gonçalves - rm570166
+mateus.augusto1629@gmail.com
+
+--- PAGE 32 ---
+Domine o Front-End: Do CSS à Consumo de APIs
+                                         REFERÊNCIAS 
+FACEBOOK, Equipe. Tutorial React. Disponível em: <https://pt-
+br.reactjs.org/docs/getting-started.html> Acesso em: 21 mar. 2025. 
+MOZILLA, Equipe. Começando com React.  Disponível em: 
+<https://developer.mozilla.org/en-US/docs/Learn/Tools_and_testing/Client-
+side_JavaScript_frameworks/React_getting_started> Acesso em: 21 mar. 2025. 
+W3SCHOOLS, Equipe. React Tutorial. Disponível em: 
+<https://www.w3schools.com/REACT/DEFAULT.ASP> Acesso em: 21 mar. 2025. 
+ 
+PDF exclusivo para Mateus Augusto da Costa Oliveira Gonçalves - rm570166
+mateus.augusto1629@gmail.com

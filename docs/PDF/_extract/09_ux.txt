@@ -1,0 +1,1100 @@
+--- PAGE 1 ---
+UX Writing
+ 
+  
+UX WRITING
+09
+PDF exclusivo para Mateus Augusto da Costa Oliveira Gonçalves - rm570166
+mateus.augusto1629@gmail.com
+
+--- PAGE 2 ---
+UX Writing
+ 
+LISTA DE FIGURAS 
+Figura 1 – O fantástico gerador de personas ............................................................ 7 
+Figura 2 – Novo logo do Mercado Livre .................................................................... 9 
+Figura 3 – Quadro de voz da marca em branco ........................................................ 10 
+Figura 4 – Quadro de voz da marca Mercado Livre (valores) ................................... 11 
+Figura 5 – Quadro de voz da marca Mercado Livre (conceitos) ................................ 11 
+Figura 6 – Quadro de voz da marca Mercado Livre (vocabulário) ............................. 12 
+Figura 7 – Quadro de voz da marca Mercado Livre (verbosidade) ........................... 12 
+Figura 8 – Quadro de voz da marca Mercado Livre (gramática) ............................... 13 
+Figura 9 – Quadro de voz da marca Mercado Livre (pontuação e capitalização)...... 13 
+Figura 10 – Quadro de voz da marca Mercado Livre (completo (1) .......................... 14 
+Figura 11 – Quadro de voz da marca Mercado Livre (completo) (2) ......................... 15 
+Figura 12 – Intenção do vendedor e resultado .......................................................... 17 
+Figura 13 – Intenção do comprador e resultado ........................................................ 18 
+Figura 14 – Objetivos vendedor, comprador e Mercado Livre ................................... 18 
+Figura 15 – Diálogo entre comprador e funcionário da plataforma (1) ...................... 19 
+Figura 16 – Diálogo entre comprador e funcionário da plataforma (2) ...................... 20 
+Figura 17 – Diálogo entre comprador e funcionário da plataforma (3) ...................... 20 
+Figura 18 – Palavras e expressões mais importantes ............................................... 21 
+Figura 19 – Ordem das etapas .................................................................................. 21 
+Figura 20 – Print das telas do app ............................................................................. 24 
+Figura 21 – Print da tela do formulário do Tumblr ..................................................... 27 
+Figura 22 – Print da tela de finalização de compra da Saraiva ................................. 28 
+Figura 23 – Tela de cadastro do WireCard ............................................................... 28 
+Figura 24 – Tela do formulário do Tumblr ................................................................. 30 
+Figura 25 – Tela do formulário do Pinterest .............................................................. 31 
+Figura 26 – Print da tela da caixa de entrada do Tumblr ........................................... 32 
+Figura 27 – Formulário com rótulos e placeholders .................................................. 33 
+Figura 28 – Print de tela do Twitter ........................................................................... 33 
+Figura 29 – Print de tela do Facebook ...................................................................... 34 
+Figura 30 – Print de tela do WeTransfer ................................................................... 34 
+Figura 31 – Oferta de quarto em Copacabana .......................................................... 35 
+Figura 32 – Página de preenchimento dos dados do cartão de crédito .................... 36 
+Figura 33 – Página 404 ............................................................................................. 37 
+Figura 34 – Página de erro TripAdvisor ..................................................................... 38 
+Figura 35 – Página de erro IMDb (1) ......................................................................... 38 
+Figura 36 – Página de erro IMDb (2) ......................................................................... 39 
+Figura 37 – Página de erro IMDb (3) ......................................................................... 39 
+Figura 38 – Página de erro NASA ............................................................................. 39 
+Figura 39 – Página de erro do Financial Times ......................................................... 40 
+Figura 40 – Tela de espera do Pinterest ................................................................... 41 
+Figura 41 – Tela de cadastro do PayPal ................................................................... 42 
+Figura 42 – Tela de anúncio do Facebook ................................................................ 42 
+ 
+PDF exclusivo para Mateus Augusto da Costa Oliveira Gonçalves - rm570166
+mateus.augusto1629@gmail.com
+
+--- PAGE 3 ---
+UX Writing
+ 
+                                                        SUMÁRIO 
+UX WRITING ............................................................................................................. 4 
+1 INTRODUÇÃO ....................................................................................................... 4 
+1.1 Qual é o objetivo do UX Writing? ........................................................................ 4 
+1.2 Personas ............................................................................................................. 6 
+1.3 Voz e tom da marca ............................................................................................ 8 
+1.4 Manual de conteúdo voz e tom da marca ........................................................... 9 
+1.5 Diálogo com foco no conteúdo ............................................................................ 16 
+1.6 Microcopy ............................................................................................................ 22 
+1.7 Escrita de conversação ....................................................................................... 23 
+2 FORMULÁRIOS DE INSCRIÇÃO .......................................................................... 25 
+2.1 Mensagens de erro ............................................................................................. 29 
+2.2 Estados vazios .................................................................................................... 31 
+2.3 Placeholders ........................................................................................................ 32 
+2.4 Botões ................................................................................................................. 34 
+2.5 Páginas de erro ................................................................................................... 36 
+2.6 Tempo de espera ................................................................................................ 40 
+2.7 Mais dicas ........................................................................................................... 41 
+CONCLUSÃO ............................................................................................................ 43 
+REFERÊNCIAS ......................................................................................................... 44 
+PDF exclusivo para Mateus Augusto da Costa Oliveira Gonçalves - rm570166
+mateus.augusto1629@gmail.com
+
+--- PAGE 4 ---
+UX Writing
+ 
+UX WRITING 
+1 INTRODUÇÃO 
+Se você quer que sua interface seja realmente arrasadora, precisa se 
+preocupar também com a parte textual. É nesse conjunto gráfico-texto que a magia 
+acontece, no sentido de propiciar que a experiência do seu cliente ou usuário seja 
+boa! Chegou a vez de colocarmos mais um ingrediente nessa mistura: UX Writing. 
+A User Experience (UX) considera não apenas a usabilidade de um produto ou 
+serviço, mas também o que atrai a pessoa, o que gera satisfação e o que a ajuda na 
+compreensão e no uso engajado dentro do contexto de sua vida. 
+Embora os produtos devam ser projetados para serem os mais intuitivos 
+possíveis, o usuário precisará de orientação específica em algum ponto, portanto, de 
+instruções para a maioria deles. 
+As instruções tornam possível usar os produtos e dispositivos em nossas vidas. 
+Uma das principais tarefas de um UX Writer é criar essas instruções. No entanto, ao 
+contrário dos produtos fabricados tradicionalmente, os produtos digitais de hoje 
+geralmente têm as instruções embutidas no próprio produto, exigindo que adotemos 
+uma abordagem diferente ao escrevê-las. Quando pensamos nos textos dos 
+conteúdos que acompanham essa experiência, estamos nos referindo a UX Writing. 
+ 
+“UX Writing é tudo aquilo que é escrito para facilitar a vida do seu usuário e 
+garantir a melhor experiência no ambiente digital.” (Portela, 2019) 
+1.1 Qual é o objetivo do UX Writing? 
+O UX Writing deve percorrer todos os pontos de contato com o usuário, focando 
+na orientação do uso do produto e a navegação dentro dele. Portanto, é necessário 
+mapear esse fluxo, com atenção aos possíveis problemas, para solucioná-los 
+rapidamente. De maneira resumida, os principais objetivos devem ser: 
+ 
+PDF exclusivo para Mateus Augusto da Costa Oliveira Gonçalves - rm570166
+mateus.augusto1629@gmail.com
+
+--- PAGE 5 ---
+UX Writing
+ 
+  
+PDF exclusivo para Mateus Augusto da Costa Oliveira Gonçalves - rm570166
+mateus.augusto1629@gmail.com
+
+--- PAGE 6 ---
+UX Writing
+ 
+• Orientar a experiência de maneira clara. 
+• Interagir com o usuário. 
+• Evitar problemas em função de informações incompletas.  
+• Antecipar dúvidas. 
+• Converter. 
+Os pontos de orientação da experiência ocorrem, por exemplo, quando a 
+palavra certa é inserida em um botão no qual o usuário deverá clicar ou quando um 
+termo é inserido em outro botão indicando o caminho certo para que o usuário consiga 
+concluir seu objetivo. 
+Encontramos esses pontos de orientação em formulários, quando eles nos dão 
+orientações de como preenchê-los, como, por exemplo: “digite aqui o seu e-mail”. 
+Dessa forma, um UX Writer deve, em primeiro lugar, conhecer muito bem o mercado 
+ao qual o produto ou serviço se destina e entender em profundidade a linguagem do 
+público. 
+De acordo com Rodrigues (2019), faz parte da tarefa de um UX Writer traçar 
+hipóteses e realizar testes com palavras e expressões escolhidas para verificar sua 
+eficácia antes de se decidir por elas e seguir à risca o guia de estilo da empresa (ou 
+ajudar a criá-lo, caso este ainda não exista). Seu trabalho principal é deixar claro ao 
+usuário o que fazer na sequência. 
+Imagine que você vá abrir um app pela primeira vez. Caso tenha qualquer 
+dificuldade durante a navegação, é bem possível que feche o aplicativo e delete-o, 
+não é mesmo? 
+1.2 Personas 
+Antes de escrever a primeira palavra, é preciso ter alguns conhecimentos a 
+respeito de seu usuário. Temos que nos colocar em seu lugar e perguntar: O que o 
+motivará? O que descreve exatamente o valor que estamos fornecendo? E como 
+podemos provar que nosso produto ou serviço é a melhor solução?  
+PDF exclusivo para Mateus Augusto da Costa Oliveira Gonçalves - rm570166
+mateus.augusto1629@gmail.com
+
+--- PAGE 7 ---
+UX Writing
+ 
+De acordo com Peçanha (2020), “Persona é um personagem fictício que 
+representa o cliente ideal de uma empresa e é baseado em dados de clientes reais 
+(como: comportamento, dados demográficos, problemas e objetivos)”. 
+O objetivo é sintetizar as principais características dos seus usuários como 
+ponto de partida para a construção de textos melhores, escolhendo termos mais 
+relevantes para eles. Criar personas é muito importante para determinar o tipo de texto 
+que vai utilizar para atingir seus objetivos, bem como para definir a voz e o tom da sua 
+marca. 
+Para ajudá-lo na construção da persona de sua marca, existe uma ferramenta 
+com esse objetivo: o Fantástico Gerador de Personas, que você pode acessar em 
+<https://geradordepersonas.com.br/>. A ferramenta é muito simples de usar e, ao 
+concluir as etapas, ela disponibilizará para download um PDF com todas as 
+informações da persona criada. 
+ 
+ 
+Figura 1 – O fantástico gerador de personas 
+Fonte: Gerador de personas (2020) 
+ 
+PDF exclusivo para Mateus Augusto da Costa Oliveira Gonçalves - rm570166
+mateus.augusto1629@gmail.com
+
+--- PAGE 8 ---
+UX Writing
+ 
+1.3 Voz e tom da marca 
+ 
+Além das perguntas básicas sobre a persona, também devemos nos perguntar: 
+Como vamos expressar isso? Devemos usar humor? Devemos usar gíria? Devemos 
+ser breves? Precisamos escrever formalmente? Essas considerações são muito 
+importantes e necessárias para nos certificarmos de que cada palavra que utilizarmos 
+será eficaz e dará o resultado esperado.  
+A voz da marca é a representação da personalidade, descrita brevemente em 
+algumas características (por exemplo, eficiente, prestativa e bem-humorada), já o tom 
+de voz é a medida específica da aplicação dessas características, em uma definição 
+mais elaborada e ajustada a cada mensagem; ambos devem ser definidos 
+anteriormente.  
+Clifford Ivar Nass foi professor de comunicação na Universidade Stanford e 
+uma autoridade na interação homem-computador. Em seus experimentos, descobriu 
+que as pessoas tratam os computadores segundo as normas sociais aplicadas à 
+comunicação entre humanos.  
+Percebeu que, se a interface fornece feedback caloroso e positivo ou se 
+comporta de maneira semelhante a nós, seremos mais produtivos nas tarefas que nos 
+solicita, concordaremos mais com seus pedidos, e vamos acreditar mais nas 
+informações passadas. Inversamente, se a interface não está em conformidade com 
+as nossas convenções sociais nem se comporta como esperado, podemos ficar com 
+raiva, desapontados e até mesmo ofendidos. 
+A linguagem é, portanto, o principal fator que torna as interfaces mais humanas, 
+criando uma conexão emocional que nos motiva a agir. A confiança dos usuários 
+depende de sua voz e do seu tom. Quanto mais confiam na personalidade que se 
+comunica com eles, e acreditam ser autêntica, mais são persuadidos pelas 
+mensagens e agem em conformidade. 
+A voz e o tom da marca definem a personalidade que a marca usará quando 
+se comunicar com seus usuários em todas as suas interfaces, mantêm a linguagem 
+que a marca usa em linha com seus valores fundamentais e os apoia, de modo a não 
+criar dissonância e falta de confiabilidade. 
+PDF exclusivo para Mateus Augusto da Costa Oliveira Gonçalves - rm570166
+mateus.augusto1629@gmail.com
+
+--- PAGE 9 ---
+UX Writing
+ 
+1.4 Manual de conteúdo voz e tom da marca 
+Para garantir que os textos sejam bem escritos, é muito importante criar um 
+padrão para as publicações, que é o manual de conteúdo voz e tom da marca. O 
+objetivo desse manual é definir a personalidade da marca, os princípios dos produtos 
+ou valores da empresa, os conceitos, padrões de redação, normas de estilo e boas 
+práticas. Para a criação de seu manual, você poderá se inspirar em ótimos exemplos 
+elaborados aqui no Brasil:  
+ 
+Rock Content — Guia de estilo: https://rockcontent.com/br/talent-blog/guia-
+de-estilo-conteudo/ 
+ 
+O Mercado Livre inicia seu guia definindo sua voz: “Nossa voz é como a de um 
+companheiro incondicional de aventuras: afetuosa, leal, curiosa e alegre”. Depois, 
+adverte que essas quatro características estão presentes em tudo o que dizem, mas 
+que o UX Writer deve levar em consideração a situação do seu interlocutor para 
+encontrar o tom certo”. 
+ 
+ 
+Figura 2 – Novo logo do Mercado Livre 
+Fonte: Mercado Livre (2020) 
+ 
+Podmajersky (2019) criou um quadro de voz da marca. São seis os aspectos 
+de voz que compõem o quadro: conceitos, vocabulário, verbosidade, gramática, 
+pontuação e capitalização. Para definir cada um desses aspectos, ela usa os valores 
+PDF exclusivo para Mateus Augusto da Costa Oliveira Gonçalves - rm570166
+mateus.augusto1629@gmail.com
+
+--- PAGE 10 ---
+UX Writing
+ 
+da empresa como base, de modo que os textos possam garantir o alcance do objetivo 
+que a experiência tem para com os seus usuários. 
+ 
+“O quadro de voz da marca apresenta um conjunto de regras para tomada de 
+decisão e orientação criativa que visa alinhar o conteúdo UX às necessidades da 
+organização e dos usuários da experiência.”  (Podmajersky, 2019, p. 31) 
+ 
+A partir desse quadro, podemos identificar quais textos precisam ser 
+aperfeiçoados, realizar melhores escolhas de palavras e expressões, alinhar a equipe 
+sobre a forma de escrever e medir o resultado do texto produzido. 
+ 
+ 
+Figura 3 – Quadro de voz da marca em branco 
+Fonte: Adaptado de Podmajersky (2019) 
+ 
+Para exemplificar o preenchimento desse quadro, escolhemos o Mercado Livre, 
+empresa argentina de tecnologia que oferece soluções de comércio eletrônico para 
+que pessoas e empresas possam comprar, vender, pagar, anunciar e enviar produtos 
+online. Iniciamos o preenchimento com os quatro valores da empresa, com base no 
+manual da marca.  
+ 
+PDF exclusivo para Mateus Augusto da Costa Oliveira Gonçalves - rm570166
+mateus.augusto1629@gmail.com
+
+--- PAGE 11 ---
+UX Writing
+ 
+ 
+Figura 4 – Quadro de voz da marca Mercado Livre (valores) 
+Fonte: Elaborado pelo autor (2020) 
+ 
+A seguir, preenchemos os conceitos que são ideias ou tópicos que a 
+organização deseja enfatizar em qualquer oportunidade que surja, mesmo quando 
+não são parte da tarefa em questão. Eles são as ideias que refletem o papel que a 
+organização deseja que a experiência tenha na vida do usuário. 
+ 
+ 
+Figura 5 – Quadro de voz da marca Mercado Livre (conceitos) 
+Fonte: Elaborado pelo autor (2020) 
+ 
+ Em vocabulário, especificamos somente algumas palavras que são 
+importantes para a experiência e que ajudam a identificar sua personalidade. A lista 
+de palavras ajuda a definir a ortografia e a lista de terminologia define as palavras 
+cujos significados são específicos da experiência. 
+ 
+PDF exclusivo para Mateus Augusto da Costa Oliveira Gonçalves - rm570166
+mateus.augusto1629@gmail.com
+
+--- PAGE 12 ---
+UX Writing
+ 
+  
+Figura 6 – Quadro de voz da marca Mercado Livre (vocabulário) 
+Fonte: Elaborado pelo autor (2020) 
+ 
+A verbosidade é o uso excessivo de palavras. Ela deve ser evitada para garantir 
+a usabilidade e facilitar a experiência do usuário. Contudo, deve haver cuidado ao 
+utilizar poucas palavras onde se espera um texto mais longo ou muitas palavras onde 
+poucas são esperadas. 
+ 
+ 
+Figura 7 – Quadro de voz da marca Mercado Livre (verbosidade) 
+Fonte: Elaborado pelo autor (2020) 
+ 
+Para maximizar a usabilidade, deve-se ter uma atenção especial em relação à 
+gramática. As estruturas simples funcionam melhor na maioria das vezes.  
+ 
+PDF exclusivo para Mateus Augusto da Costa Oliveira Gonçalves - rm570166
+mateus.augusto1629@gmail.com
+
+--- PAGE 13 ---
+UX Writing
+ 
+ 
+ 
+Figura 8 – Quadro de voz da marca Mercado Livre (gramática) 
+Fonte: Elaborado pelo autor (2020) 
+ 
+Pontuação e capitalização – como o uso de vírgulas, travessões e maiúsculas 
+– estão entre os erros mais comuns em textos de UX. Por isso, o quadro registra esses 
+usos para evitar confusões. 
+ 
+ 
+Figura 9 – Quadro de voz da marca Mercado Livre (pontuação e capitalização) 
+PDF exclusivo para Mateus Augusto da Costa Oliveira Gonçalves - rm570166
+mateus.augusto1629@gmail.com
+
+--- PAGE 14 ---
+UX Writing
+ 
+Fonte: Elaborado pelo autor (2020) 
+ 
+Com todas as informações agrupadas, temos o quadro de voz da marca, uma 
+ferramenta fundamental para manter o conteúdo UX focado em alcançar os objetivos 
+da empresa e dos usuários da experiência. 
+ 
+ 
+Figura 10 – Quadro de voz da marca Mercado Livre (completo (1) 
+Fonte: Elaborado pelo autor (2020) 
+PDF exclusivo para Mateus Augusto da Costa Oliveira Gonçalves - rm570166
+mateus.augusto1629@gmail.com
+
+--- PAGE 15 ---
+UX Writing
+ 
+ 
+Figura 11 – Quadro de voz da marca Mercado Livre (completo) (2) 
+Fonte: Elaborado pelo autor (2020) 
+ 
+De acordo com Brandão (2020), “O ideal é que esse quadro seja gerado em 
+parceria com pessoas estratégicas da empresa, que possuam entendimento sobre os 
+rumos do produto e da personalidade da marca, por exemplo”.  
+Por várias razões, pode acontecer de nem todos participarem da ideação. 
+Nesse caso, recomenda-se que os responsáveis pela empresa o aprovem. Depois da 
+aprovação, o quadro deve ser compartilhado com todas as pessoas responsáveis pela 
+produção de textos. 
+Quando for planejar um novo texto UX, use o quadro de voz da marca. Escolha 
+um dos valores da empresa que se aplique ao momento da experiência e rascunhe-o 
+para amplificá-lo. 
+PDF exclusivo para Mateus Augusto da Costa Oliveira Gonçalves - rm570166
+mateus.augusto1629@gmail.com
+
+--- PAGE 16 ---
+UX Writing
+ 
+1.5 Diálogo com foco no conteúdo 
+Com o quadro preenchido, já podemos gerar conteúdo! Mas escrever do zero 
+é assustador, não é mesmo? Para evitar isso, Podmajersky (2019) propõe um 
+exercício com base na principal forma de interação entre as pessoas: o diálogo. Trata-
+se de uma prática para projetar a experiência que começa antes da produção do 
+conteúdo UX. 
+A experiência é desenvolvida como se fosse uma situação real de uma 
+interação do usuário com a empresa. Para isso, vamos continuar analisando o 
+Mercado Livre. A empresa adota o modelo de Plataforma Multilateral, pois atende dois 
+grupos distintos de clientes que geram valor quando interagem entre si, normalmente 
+um produtor (vendedor) e outro consumidor (cliente). 
+Precisamos ter ideia de onde os usuários começarão, quando utilizarão a 
+experiência e o que desejam. Também precisamos saber por que a empresa quer que 
+a interação aconteça. Em primeiro lugar, deve-se definir por que o usuário deseja que 
+a interação aconteça, qual a sua intenção? Depois, é preciso anotar o resultado que 
+ele deseja alcançar. Vamos imaginar um vendedor que deseja utilizar a plataforma 
+para anunciar um produto: 
+ 
+PDF exclusivo para Mateus Augusto da Costa Oliveira Gonçalves - rm570166
+mateus.augusto1629@gmail.com
+
+--- PAGE 17 ---
+UX Writing
+ 
+ 
+Figura 12 – Intenção do vendedor e resultado 
+Fonte: Elaborado pelo autor (2020) 
+ 
+A outra situação possível é a de um comprador que deseja utilizar a plataforma 
+para comprar um produto: 
+ 
+PDF exclusivo para Mateus Augusto da Costa Oliveira Gonçalves - rm570166
+mateus.augusto1629@gmail.com
+
+--- PAGE 18 ---
+UX Writing
+ 
+ 
+Figura 13 – Intenção do comprador e resultado 
+Fonte: Elaborado pelo autor (2020) 
+ 
+Agora, com a participação do grupo, listaremos os objetivos dos clientes 
+(vendedor e comprador) e os do Mercado Livre. Vamos anotá-los em post-its: 
+ 
+ 
+Figura 14 – Objetivos vendedor, comprador e Mercado Livre 
+Fonte: Elaborado pelo autor (2020) 
+ 
+O próximo passo será selecionar duas pessoas para fazerem uma 
+representação de um diálogo; uma será o usuário e a outra, o representante da 
+PDF exclusivo para Mateus Augusto da Costa Oliveira Gonçalves - rm570166
+mateus.augusto1629@gmail.com
+
+--- PAGE 19 ---
+UX Writing
+ 
+empresa. Você deve anotar as falas mais relevantes. No Quadro “Diálogo entre 
+comprador e funcionário da plataforma”, veremos um diálogo possível entre elas: 
+ 
+ 
+Figura 15 – Diálogo entre comprador e funcionário da plataforma (1) 
+Fonte: Elaborado pelo autor (2020) 
+PDF exclusivo para Mateus Augusto da Costa Oliveira Gonçalves - rm570166
+mateus.augusto1629@gmail.com
+
+--- PAGE 20 ---
+UX Writing
+ 
+ 
+Figura 16 – Diálogo entre comprador e funcionário da plataforma (2) 
+Fonte: Elaborado pelo autor (2020) 
+ 
+Figura 17 – Diálogo entre comprador e funcionário da plataforma (3) 
+Fonte: Elaborado pelo autor (2020) 
+ 
+Sua tarefa agora é copiar nos post-its as palavras e expressões mais 
+importantes para a experiência que acabamos de observar. 
+ 
+PDF exclusivo para Mateus Augusto da Costa Oliveira Gonçalves - rm570166
+mateus.augusto1629@gmail.com
+
+--- PAGE 21 ---
+UX Writing
+ 
+ 
+Figura 18 – Palavras e expressões mais importantes 
+Fonte: Elaborado pelo autor (2020) 
+ 
+Por fim, anote a ordem das tarefas desenvolvidas pelo usuário. 
+ 
+ 
+Figura 19 – Ordem das etapas 
+Fonte: Elaborado pelo autor (2020) 
+ 
+Ao fim do exercício, você terá um excelente material para a criação de 
+wireframes, que você poderá usar como base para a criação de botões, títulos, rótulos 
+e descrições.  
+PDF exclusivo para Mateus Augusto da Costa Oliveira Gonçalves - rm570166
+mateus.augusto1629@gmail.com
+
+--- PAGE 22 ---
+UX Writing
+ 
+1.6 Microcopy 
+Com o surgimento dos smartphones, o acesso às informações digitais está 
+literalmente nas palmas das mãos. Hoje, podemos acessar conteúdo de qualquer 
+lugar onde estivermos. Dessa forma, cada vez mais os textos devem ser enxutos e 
+chamar a atenção do usuário em ambientes com vários estímulos auditivos e visuais. 
+Kinneret Yifrah (2017), autora do livro Microcopy: the complete guide, percebeu 
+que não bastava adequar os textos às telas menores, era necessário repensar como 
+as frases e palavras deveriam ser apresentadas para os usuários desses aparelhos. 
+Rodrigues (2019) afirma que o objetivo final do UX Writing é a redação que 
+utiliza os menores elementos textuais, como palavras ou expressões. Quanto menor 
+a quantidade de dados, mais cristalino e preciso será o elemento textual. 
+De acordo com Teixeira, “microcopy é a arte de conseguir transmitir uma 
+mensagem em pequenos fragmentos, num espaço limitado de texto, com concisão, 
+clareza e personalidade. Pode ser um nome de um botão, uma mensagem de erro ou 
+sucesso, uma linha de instrução exibida acima de um formulário, um tooltip de ajuda 
+— qualquer texto de interface”. Em outras palavras, o papel do microcopy é comunicar 
+de forma compreensível e rápida por meio da escrita.  
+O microtexto, além de ajudar o usuário a entender o que está acontecendo no 
+sistema, também ajuda a formar em sua cabeça a percepção que ele tem daquele 
+produto/marca. De acordo com Yifrah, o microcopy está diretamente relacionado: 
+1. À motivação antes da ação. 
+2. A instruções que acompanham a ação. 
+3. Ao feedback depois que o usuário tomou a ação. 
+Em seu livro Microcopy: the complete guide, a autora ainda aborda alguns usos: 
+Criar uma experiência positiva que envolva o usuário 
+O microcopy pode melhorar a relação entre o homem e a máquina deixando a 
+experiência mais humana, criando uma nova visão para os usuários. Um bom texto 
+pode alterar a conexão entre a interface e seus usuários criando diálogos com 
+personalidade, de modo a sensibilizá-los. 
+Aumentar a usabilidade 
+PDF exclusivo para Mateus Augusto da Costa Oliveira Gonçalves - rm570166
+mateus.augusto1629@gmail.com
+
+--- PAGE 23 ---
+UX Writing
+ 
+Um microcopy bem escrito, que apareça exatamente onde é necessário, evitará 
+problemas na conclusão de uma ação e livrará o usuário de frustração e sentimento 
+de impotência por não conseguir realizar algo, além de poupar-lhe tempo. 
+Melhorar a marca e a diferenciação 
+Uma interface bem construída proporciona ao usuário uma experiência única, 
+fazendo-o lembrar de sua marca, em vez das enfadonhas e previsíveis, que são 
+encontradas na internet. 
+1.7 Escrita de conversação 
+Infelizmente, o que percebemos é que a maioria das interfaces digitais está 
+longe de soar humana. A escrita é frequentemente robótica e formal e não cria 
+nenhum senso de atenção pessoal. 
+Exemplos: 
+• Erro. Por favor, tente novamente. 
+• Digite um endereço de e-mail válido. 
+Por que isso acontece? Porque desde pequenos somos ensinados a escrever 
+e falar em dois estilos diferentes. A escrita geralmente é formal, mais complicada e a 
+fala é mais leve e acessível a todos.  
+Na internet, temos algumas situações que nos deixam em dúvida entre usar o 
+estilo da escrita ou o da fala. É o que acontece quando nos comunicamos no Facebook 
+ou WhatsApp. Estamos escrevendo ou conversando? E, portanto, que estilo usamos 
+para um aplicativo de bate-papo: escrito ou falado? 
+Na verdade, a Internet rompe a velha fronteira entre a escrita e a fala, dando 
+origem a uma terceira opção: a escrita de conversação. Portanto, não estamos diante 
+de uma língua escrita ou falada, mas sim de uma nova, que combina elementos de 
+ambas. 
+Mesmo que sua marca seja realmente séria, como um grande banco, você não 
+precisa fazer os usuários sentirem que você enviou seus advogados utilizando o 
+jargão técnico para falar com eles. Seria melhor enviar um atendente humano e 
+PDF exclusivo para Mateus Augusto da Costa Oliveira Gonçalves - rm570166
+mateus.augusto1629@gmail.com
+
+--- PAGE 24 ---
+UX Writing
+ 
+atencioso. Na escrita de conversação, você deve evitar palavras ou frases que não 
+diria em voz alta, mesmo em uma situação formal. 
+ 
+A regra é: não escreva o que você não diria em voz alta.  
+ 
+O C6 Bank é um banco digital brasileiro, similar ao Nubank, não tem agências 
+físicas e oferece atendimento inteiramente on-line. Veja na Figura “Print das telas do 
+app” que o formato de seu texto foge do padrão, pois simula um chat, tornando a 
+experiência bem mais leve. 
+O microcopy utilizado é bastante informal, fácil e amigável na medida certa, 
+guiando o usuário por processos que poderiam criar resistência (como enviar 
+documentos ou informar dados pessoais) em um fluxo tradicional, e utiliza emojis sem 
+comprometer a experiência. 
+ 
+ 
+Figura 20 – Print das telas do app 
+Fonte: App C6 (2020) 
+ 
+Quando escrevemos, tendemos a usar estruturas que normalmente não 
+utilizamos no momento que falamos. Portanto, devemos evitar essas estruturas em 
+PDF exclusivo para Mateus Augusto da Costa Oliveira Gonçalves - rm570166
+mateus.augusto1629@gmail.com
+
+--- PAGE 25 ---
+UX Writing
+ 
+nossos textos. A primeira é a utilização da voz passiva. Ao escrever formalmente, 
+poderíamos pensar na seguinte frase: 
+ 
+A conta foi registrada pelo usuário. 
+ 
+Acontece que não falaríamos dessa forma; simplesmente diríamos, na voz 
+ativa: 
+ 
+O usuário registrou a conta. 
+ 
+A estrutura ativa da frase falada é melhor porque foca na pessoa com quem 
+você está falando. Portanto, sempre a utilize em seus textos. A segunda é o hábito 
+de cortar algumas palavras. Quando falamos, conectamos as partes da frase usando 
+preposições para que seja mais claro e porque é mais natural e pessoal dessa 
+forma. Mas, ao escrever, essas conexões parecem desaparecer. Isso acaba 
+atrapalhando o fluxo da mensagem. 
+ 
+Detalhes do pedido – Detalhes do seu pedido 
+Número de itens na cesta – Número de itens na sua cesta 
+2 FORMULÁRIOS DE INSCRIÇÃO 
+Quando você cria um site ou aplicativo, há uma grande possibilidade de que o 
+usuário necessite preencher um formulário de inscrição. Infelizmente, ele tem ao 
+menos dois bons motivos para não fazer isso.  
+Primeiro, ele simplesmente não gosta de fazer isso, pois leva tempo e requer o 
+uso de um teclado, precisa fornecer informações pessoais, depois precisará se 
+PDF exclusivo para Mateus Augusto da Costa Oliveira Gonçalves - rm570166
+mateus.augusto1629@gmail.com
+
+--- PAGE 26 ---
+UX Writing
+ 
+lembrar da senha, além do risco de um compromisso ou pagamento não intencional. 
+Embora exista a possibilidade de conectar-se usando uma conta de mídia social, ele 
+pode preferir pular o registro por causa de preocupações com a privacidade. 
+Em segundo lugar, um relacionamento é um compromisso, e quem gosta de se 
+comprometer com algo se realmente não precisar? Por que ele deve se registrar em 
+um site se puder simplesmente visitá-lo e então continuar com sua vida? Depois que 
+uma grande empresa removeu a exigência de registro antes da compra, seus lucros 
+aumentaram em U$S 300 milhões (leia o case). 
+ 
+O botão de 300 milhões de dólares 
+Um simples ajuste em um botão fez com que uma loja virtual aumentasse as 
+vendas em 45%, gerando um faturamento adicional de U$S 300 milhões no primeiro 
+ano. Quem conta a história é Jared Spool, da User Interface Engineering (UIE). 
+O formulário não poderia ser mais simples: dois campos (e-mail e senha), dois 
+botões (login e cadastro) e um link (esqueci a senha). Em testes de usabilidade, a 
+equipe de Jared descobriu que o problema não estava no layout do formulário nem no 
+próprio formulário em si, mas sim no que o cadastro representava para os 
+consumidores: 
+Os novos clientes da loja viam a obrigatoriedade do registro como uma forma 
+de aumentar a base de e-mail marketing da empresa. Entre os entrevistados que já 
+haviam realizado compras na loja, pouquíssimos se recordavam do e-mail e da senha 
+de acesso (verificou-se na base de dados que 45% dos consumidores possuíam mais 
+de um cadastro na loja). 
+Para solucionar o problema, o botão “cadastro” foi substituído pelo “continuar”. 
+E o registro no site passou a ser opcional, recomendado apenas para que as futuras 
+compras fossem realizadas de forma mais ágil. 
+Recentemente fiz compras em sites norte-americanos e achei curioso como 
+muitos deles dispensam o cadastro, o que ainda não acontece no Brasil — talvez 
+tenhamos aqui uma dica valiosa para nossas lojas virtuais.  
+Disponível em: https://brasil.uxdesign.cc/o-bot%C3%A3o-de-300-
+milh%C3%B5es-de-d%C3%B3lares-85f99d48599f>. 
+PDF exclusivo para Mateus Augusto da Costa Oliveira Gonçalves - rm570166
+mateus.augusto1629@gmail.com
+
+--- PAGE 27 ---
+UX Writing
+ 
+ 
+Se o preenchimento do formulário for inevitável, faça o possível para facilitar a 
+tarefa do usuário. Em primeiro lugar, não o chame de usuário. Isso deixa a conversa 
+muito impessoal. Dê-lhe as boas-vindas ou faça-o rir, use a conversação e explique 
+por que vale a pena preenchê-lo. Veja como o Tumblr desperta a curiosidade do 
+usuário de uma forma divertida. 
+ 
+ 
+Figura 21 – Print da tela do formulário do Tumblr 
+Fonte: Tumblr (2020) 
+ 
+ 
+Depois disso, prometa a ele que o processo de inscrição será curto e simples, 
+que você vai manter as informações em sigilo e não enviará muitos e-mails. Veja que 
+interessante a solução da Saraiva para convencer o usuário a informar seu e-mail: 
+ 
+PDF exclusivo para Mateus Augusto da Costa Oliveira Gonçalves - rm570166
+mateus.augusto1629@gmail.com
+
+--- PAGE 28 ---
+UX Writing
+ 
+ 
+Figura 22 – Print da tela de finalização de compra da Saraiva 
+Fonte: Saraiva (2020) 
+ 
+Outro aspecto interessante é dividir as informações do cadastro de forma 
+organizada e de fácil leitura, como fez o WireCard. Além disso, eles usam a cor 
+vermelha para destacar uma informação muito importante e o espaço do botão foi 
+aproveitado para oferecer uma instrução, mudando de texto (de preencha os campos 
+para avançar) quando o campo é preenchido corretamente. 
+ 
+ 
+Figura 23 – Tela de cadastro do WireCard 
+Fonte: wirecard.com.br (2020) 
+ 
+A inscrição pela mídia social permite que o usuário se cadastre sem preencher 
+um formulário, e nos permite obter muito mais informações sobre ele. Hoje, isso é 
+considerado o padrão, e muitos sites e aplicativos oferecem isso como seu principal 
+método de inscrição. Apesar disso, você deve ter alguns cuidados: 
+PDF exclusivo para Mateus Augusto da Costa Oliveira Gonçalves - rm570166
+mateus.augusto1629@gmail.com
+
+--- PAGE 29 ---
+UX Writing
+ 
+ Prometa que você não publicará nada em nome dos usuários e reforce essa 
+informação ao lado do botão de inscrição. 
+ Explique os benefícios de se inscrever nas redes sociais: é a forma mais 
+rápida, simples e atualizada. Deixe claro que a privacidade dos seus 
+usuários é importante e que fará tudo em seu poder para protegê-la. 
+2.1 Mensagens de erro 
+Devemos fazer o possível para que o usuário não cometa erros, mas, se isso 
+acontecer, as mensagens de erro devem ser formuladas para oferecer uma ajuda real.  
+Essas mensagens interrompem temporariamente o processo que o usuário 
+está tentando completar. Para ele, a mensagem causa um atraso e exige que entenda 
+o que deu errado e como deve continuar. Elas também podem levá-lo a abandonar o 
+processo, principalmente se não forem claras, o intimidarem ou fizerem com que se 
+sinta mal. Portanto, as mensagens de erro precisam cumprir três objetivos: 
+ Explicar, de forma simples e clara, que há um problema e o que é o 
+problema. 
+ Fornecer uma solução para que o usuário possa retornar e concluir o 
+processo imediatamente. 
+ Transformar o atraso em uma experiência o mais agradável possível. 
+Normalmente, as mensagens de erro estão relacionadas a problemas técnicos 
+que precisam ser resolvidos. Portanto, a ênfase deve estar na clareza e na praticidade, 
+e nunca se deve fazer pouco-caso do usuário. 
+Em vez de escrever textos intimidantes, é preciso escrever mensagens que não 
+culpem o usuário, com um tom de voz agradável, que descrevam o problema de forma 
+a orientá-lo, e, em seguida, proponham uma solução. Veja na Figura “Tela do 
+formulário do Tumblr” como o site oferece dicas para o preenchimento do campo 
+Nome de usuário de forma muito divertida: 
+ 
+PDF exclusivo para Mateus Augusto da Costa Oliveira Gonçalves - rm570166
+mateus.augusto1629@gmail.com
+
+--- PAGE 30 ---
+UX Writing
+ 
+ 
+Figura 24 – Tela do formulário do Tumblr 
+Fonte: Tumblr (2020) 
+ 
+A quantidade de humor que você pode usar nas mensagens de erro vai 
+depender de seu tom de voz. Se ele for leve e divertido, você pode escrever 
+mensagens que façam o usuário sorrir; mas lembre-se de que, antes de tudo, a 
+mensagem precisa ser clara e prática e fornecer uma solução para o problema. 
+Veja na Figura “Tela do formulário do Pinterest” que a mensagem de erro 
+provoca um sorriso, mas não atrapalha. A mensagem é relativa ao erro no 
+preenchimento do endereço de e-mail. 
+ 
+PDF exclusivo para Mateus Augusto da Costa Oliveira Gonçalves - rm570166
+mateus.augusto1629@gmail.com
+
+--- PAGE 31 ---
+UX Writing
+ 
+ 
+Figura 25 – Tela do formulário do Pinterest 
+Fonte: Pinterest (2020) 
+2.2 Estados vazios 
+Estados vazios são aqueles em que não há nada para mostrar aos usuários. 
+Eles podem aparecer quando o usuário entra pela primeira vez em um site, aplicativo 
+ou recurso, e podem aparecer como resultado de uso (por exemplo, como executar 
+uma pesquisa que não retorna resultados). 
+Quando você deixa o “estado vazio” vazio, basicamente diz aos usuários o que 
+não há e está perdendo a oportunidade de dizer a eles o que há. Um recurso que 
+ainda não foi utilizado é uma oportunidade de apresentar seus benefícios e incentivar 
+os usuários a fazerem uso deles. O Tumblr aproveita para explicar o que o usuário 
+poderá encontrar na caixa de mensagens. 
+ 
+PDF exclusivo para Mateus Augusto da Costa Oliveira Gonçalves - rm570166
+mateus.augusto1629@gmail.com
+
+--- PAGE 32 ---
+UX Writing
+ 
+ 
+Figura 26 – Print da tela da caixa de entrada do Tumblr 
+Fonte: Tumblr (2020) 
+ 
+Um carrinho vazio é uma oportunidade de incentivar uma compra. Uma busca 
+que acabou sem resultados oferece a oportunidade de mostrar que você se importa, 
+oferecendo itens semelhantes e evitando que os usuários saiam de mãos vazias. Não 
+é apenas uma chance de oferecer um bom serviço, mas também de direcionar os 
+usuários para a próxima etapa e colocá-los de volta aos negócios. 
+2.3 Placeholders 
+São o texto que você escreve dentro de um campo, para orientar o usuário, até 
+que ele comece a digitar. Esse marcador deve desaparecer assim que o usuário 
+colocar o cursor no campo. Eles não devem ser confundidos com os rótulos, que são 
+os títulos que indicam quais informações pertencem a um determinado campo de 
+formulário e normalmente são posicionadas fora dele. 
+Quando os celulares assumiram o controle de nossas vidas e introduziram a 
+necessidade de usar espaço com moderação, a prática de utilizar os placeholders 
+tornou-se popular. Ocorre mesmo quando não há necessidade de restrição.  
+Na verdade, tornou-se tão difundida que, às vezes, os UX Writers são 
+incapazes de deixar os campos vazios e sentem necessidade de preenchê-los, 
+mesmo que isso crie uma redundância estranha ao serem utilizados. 
+PDF exclusivo para Mateus Augusto da Costa Oliveira Gonçalves - rm570166
+mateus.augusto1629@gmail.com
+
+--- PAGE 33 ---
+UX Writing
+ 
+Quando você adiciona rótulos e placeholders, ao mesmo tempo, a cada campo, 
+você está na verdade dobrando a quantidade de texto no formulário, e ele parece 
+ocupado, lotado e difícil de preencher. 
+ 
+ 
+Figura 27 – Formulário com rótulos e placeholders 
+Fonte: ux.sapo.pt/usabilidade/web/formularios (2020) 
+ 
+Não adicione placeholders apenas para preencher o espaço. Você só deve 
+adicioná-los quando houver um bom motivo e eles ajudarem a realizar uma tarefa 
+específica. O Twitter pergunta: “O que está acontecendo?”. Essa pergunta no 
+placeholder dita o estilo da resposta que você dará. 
+ 
+ 
+Figura 28 – Print de tela do Twitter 
+Fonte: Twitter (2020) 
+ 
+Já o Facebook pergunta: “No que você está pensando?”. Eles não direcionam 
+seus pensamentos para algo que está acontecendo lá fora, mas para algo que está 
+PDF exclusivo para Mateus Augusto da Costa Oliveira Gonçalves - rm570166
+mateus.augusto1629@gmail.com
+
+--- PAGE 34 ---
+UX Writing
+ 
+acontecendo em sua própria cabeça. E pensamentos passageiros sem fim são 
+exatamente o que encontramos lá. 
+ 
+ 
+Figura 29 – Print de tela do Facebook 
+Fonte: Facebook (2020) 
+ 
+O WeTransfer utiliza o placeholder em sua área de suporte para perguntar 
+como pode ajudar o usuário. 
+ 
+ 
+Figura 30 – Print de tela do WeTransfer 
+Fonte: WeTransfer (2020) 
+2.4 Botões 
+Os botões são elementos fundamentais do design de interação e são muito 
+importantes no diálogo entre o usuário e o sistema. Sua finalidade é permitir que o 
+usuário avance na tarefa ou execute uma ação. Algumas vezes são chamados de 
+links, call to action (CTA) ou comandos. Eles são os responsáveis para que uma 
+decisão se torne uma ação, portanto não se contente com termos genéricos que não 
+movam seus usuários.  
+PDF exclusivo para Mateus Augusto da Costa Oliveira Gonçalves - rm570166
+mateus.augusto1629@gmail.com
+
+--- PAGE 35 ---
+UX Writing
+ 
+O microtexto dos botões está cheio de surpresas, e a mudança de uma única 
+palavra pode aumentar ou diminuir significativamente a conversão. Para saber qual é 
+o melhor texto para determinado botão, é necessário investir em testes A/B.  
+Palavras genéricas como baixar, pesquisar, enviar ou registrar não ajudam os 
+usuários a tomarem uma decisão. Quando eles veem esses botões genéricos, 
+precisam decidir por si próprios se vale a pena ou não clicar no botão. 
+Outro problema com essas palavras genéricas é que geralmente enfatizam o 
+que os usuários têm que fazer. Em vez de escrever no botão o que o usuário deve 
+fazer (funcionalidade), nós precisamos escrever o que o usuário pode obter 
+(benefício).  
+Mensagens curtas escritas ao lado do botão podem aumentar 
+significativamente as conversões. Elas são chamadas de gatilhos. Seu objetivo é dizer 
+aos usuários as palavras necessárias para que eles cliquem imediatamente no botão. 
+Os gatilhos também podem lembrar os usuários sobre as vantagens que 
+poderão obter ao clicarem e remover as preocupações que acompanham esse clique. 
+O Booking.com se destaca na escrita de gatilhos eficazes. Ele usa provas sociais para 
+mostrar o valor das acomodações e para induzir um senso de urgência. Quando os 
+usuários estão decidindo se devem clicar no botão ou não, a prova social de que o 
+hotel é querido por outros pode ser um gatilho e, também, dá a sensação de que se 
+os usuários não reservarem naquele momento, vão perder o quarto: 
+ 
+ 
+Figura 31 – Oferta de quarto em Copacabana 
+Fonte: Booking.com (2020) 
+ 
+PDF exclusivo para Mateus Augusto da Costa Oliveira Gonçalves - rm570166
+mateus.augusto1629@gmail.com
+
+--- PAGE 36 ---
+UX Writing
+ 
+Os clientes da Livraria Cultura são solicitados a fornecer o código PIN do cartão 
+de crédito. Pode ser que eles não entendam o termo bancário “PIN do cartão”. Por 
+esse motivo, uma explicação clara é fornecida junto ao campo: 
+ 
+ 
+Figura 32 – Página de preenchimento dos dados do cartão de crédito 
+Fonte: Livraria Cultura (2020) 
+2.5 Páginas de erro 
+O estrategista social Renny Gleeson, em sua palestra TED, mostra como tornar 
+as páginas 404 criativas e engraçadas e que todo erro é, de fato, uma chance de 
+construir uma relação melhor. Em vez de deixar que o usuário tenha uma surpresa 
+desagradável, é preciso entender que aí se encontra uma oportunidade de utilizar a 
+página para transmitir alguma mensagem. 
+ 
+Assista à palestra em: 
+<https://www.ted.com/talks/renny_gleeson_404_the_story_of_a_page_not_found>. 
+ 
+O ideal é que seus usuários não vejam a página 404, no entanto, ela é 
+importante. Se chegarem a ela por meio de resultados de pesquisa do Google, as 
+chances de eles explorarem outras páginas em seu site são mínimas.  
+PDF exclusivo para Mateus Augusto da Costa Oliveira Gonçalves - rm570166
+mateus.augusto1629@gmail.com
+
+--- PAGE 37 ---
+UX Writing
+ 
+Como disse Gleason, a página 404 informa aos usuários muito sobre sua 
+marca. Por exemplo, como você lida com seus próprios erros, como lida com os erros 
+do usuário e como trata os usuários quando encontram um problema ou ficam 
+desapontados. 
+ 
+ 
+Figura 33 – Página 404 
+Fonte: Kinsta (2020) 
+ 
+A mensagem padrão acima mostra que os redatores da página não entendem 
+os usuários nem o problema. Tecnicamente, essa mensagem não ajuda os usuários 
+a entender o que deu errado, nem os orienta a chegar onde querem. Para escrever 
+um texto para uma página 404: 
+ Explique aos usuários o que aconteceu e como chegaram ali. Lembre-se de 
+que eles não sabem o que é um 404. Na verdade, você nem precisa 
+mencionar o número 404 ou a palavra erro, basta explicar de forma simples 
+que a página não foi encontrada ou não é mais ali. 
+ Mostre empatia. Os usuários estão desapontados por não terem encontrado 
+o que estavam procurando. Portanto, adicione uma palavra ou frase que 
+demonstre que você sabe como estão se sentindo. 
+ Indique a saída, que pode ser um campo de pesquisa ou um link para a 
+página inicial, por exemplo. 
+PDF exclusivo para Mateus Augusto da Costa Oliveira Gonçalves - rm570166
+mateus.augusto1629@gmail.com
+
+--- PAGE 38 ---
+UX Writing
+ 
+ 
+O TripAdvisor nos diz, de forma bem-humorada, que podemos incluir a página 
+de erro nos nossos lugares visitados e nos fornece links para continuar a busca. 
+ 
+ 
+Figura 34 – Página de erro TripAdvisor 
+Fonte: TripAdvisor (2020) 
+ 
+A IMDb, também conhecida como Internet Movie Database, é uma base de 
+dados on-line de informação sobre música, cinema, filmes, programas de televisão, 
+comerciais e jogos de computador, atualmente pertencente à Amazon. Cada vez que 
+vemos um 404 em sua base de dados, eles fornecem uma “citação” de um filme 
+diferente – há cerca de 15 delas: 
+ 
+ 
+Figura 35 – Página de erro IMDb (1) 
+Fonte: IMDb (2020) 
+PDF exclusivo para Mateus Augusto da Costa Oliveira Gonçalves - rm570166
+mateus.augusto1629@gmail.com
+
+--- PAGE 39 ---
+UX Writing
+ 
+ 
+Figura 36 – Página de erro IMDb (2) 
+Fonte: IMDb (2020) 
+ 
+Figura 37 – Página de erro IMDb (3) 
+Fonte: IMDb (2020) 
+ 
+A NASA – National Aeronautics and Space Administration – usa o tom de 
+humor, informando que o objeto cósmico que você está procurando desapareceu além 
+do horizonte: 
+ 
+ 
+Figura 38 – Página de erro NASA 
+Fonte: NASA (2020) 
+ 
+PDF exclusivo para Mateus Augusto da Costa Oliveira Gonçalves - rm570166
+mateus.augusto1629@gmail.com
+
+--- PAGE 40 ---
+UX Writing
+ 
+O Financial Times é um jornal diário do Reino Unido, com ênfase especial em 
+negócios e notícias econômicas. Parece que gastaram muitas horas para explicar por 
+que a página que falta não está lá (há 22 possíveis teorias econômicas). Você 
+realmente deveria ler a página, é muito criativa. 
+ 
+ 
+Figura 39 – Página de erro do Financial Times 
+Fonte: Financial Times (2020) 
+ 
+2.6 Tempo de espera 
+O tempo de espera é o período que leva para um sistema carregar, processar 
+dados, pesquisar, baixar um arquivo e assim por diante. Se você mantém os usuários 
+ocupados enquanto esperam, o tempo passa mais rápido e eles percebem o período 
+de espera como sendo mais curto do que realmente é. 
+PDF exclusivo para Mateus Augusto da Costa Oliveira Gonçalves - rm570166
+mateus.augusto1629@gmail.com
+
+--- PAGE 41 ---
+UX Writing
+ 
+Nesse momento em que os usuários estão simplesmente esperando e olhando 
+para a tela, você pode aproveitar para transmitir alguma informação. Pode preparar 
+uma surpresa que mostra que você pensou neles e que eles são importantes para 
+você. Esse pequeno detalhe pode fazer toda a diferença! 
+No final do processo de registro, quando os usuários vão para a página inicial 
+pela primeira vez, o Pinterest os informa de que está encontrando alguns Pins para 
+eles. E é exatamente esse o motivo pelo qual os usuários estão lá. 
+ 
+ 
+Figura 40 – Tela de espera do Pinterest 
+Fonte: Pinterest (2020) 
+2.7 Mais dicas 
+Vimos que o principal objetivo dos microtextos é enriquecer a experiência e 
+engajar os usuários. Isso significa que você deve escrevê-los apenas quando for 
+necessário, de forma precisa, concisa e com linguagem simples. 
+O microtexto só deve apoiar o usuário e esclarecer qualquer dúvida que ele 
+possa ter. Também é importante não revelar tudo de uma vez. Se a sua explicação 
+for um pouco longa ou complicada, é melhor que as explicações não apareçam o 
+tempo todo ao lado de seus campos, para que o processo não pareça ameaçador 
+para um usuário iniciante. 
+Uma maneira de ocultar as explicações é colocá-las nas dicas que são exibidas 
+somente quando um usuário posiciona o cursor no campo. Por exemplo, ao se 
+PDF exclusivo para Mateus Augusto da Costa Oliveira Gonçalves - rm570166
+mateus.augusto1629@gmail.com
+
+--- PAGE 42 ---
+UX Writing
+ 
+inscrever no PayPal, apenas quando o usuário clica dentro do campo e-mail é que 
+aparece a dica, com as informações relevantes, abaixo do campo. Dessa forma, o 
+formulário parece limpo e simples à primeira vista, e a qualquer momento apenas as 
+informações de que o usuário precisa são exibidas. 
+ 
+ 
+Figura 41 – Tela de cadastro do PayPal 
+Fonte: Paypal (2020) 
+ 
+Outro método comum é ocultar o microtexto em um ícone em forma de ponto 
+de exclamação, interrogação, “i” ou link, que se abre quando o usuário clica nele ou 
+passa o mouse sobre ele. Por exemplo, ao criar um novo anúncio do Facebook, há 
+um ícone “i” próximo a cada campo e, ao passar o mouse sobre ele, é possível 
+visualizar todas as informações necessárias para tirar o máximo proveito do recurso: 
+ 
+ 
+Figura 42 – Tela de anúncio do Facebook 
+Fonte: Facebook (2020) 
+PDF exclusivo para Mateus Augusto da Costa Oliveira Gonçalves - rm570166
+mateus.augusto1629@gmail.com
+
+--- PAGE 43 ---
+UX Writing
+ 
+ 
+A desvantagem de ocultar a informação é que os usuários podem não abrir a 
+explicação por preguiça ou por falta de compreensão de que é importante para eles. 
+Portanto, recomendo que as explicações importantes, aquelas que poderiam 
+determinar o sucesso da tarefa, sejam exibidas próximo ao campo e não ocultas em 
+uma dica de ferramenta (a menos que apareçam automaticamente). 
+Os testes de usabilidade ajudam a entender onde os usuários se demoraram, 
+hesitaram ou ficaram presos, e o que não conseguiram compreender em cada etapa. 
+Às vezes, tudo o que eles precisam para resolver um problema são algumas palavras 
+de explicação. 
+Ferramentas de análise da web, como mapas de calor, podem mostrar onde os 
+usuários abandonaram a tarefa, qual a última coisa que eles tentaram fazer e outros 
+dados importantes que mostrarão onde os microtextos são necessários para ajudar o 
+usuário.  
+CONCLUSÃO 
+Neste capítulo, vimos que o texto UX usado na construção de um produto ou 
+serviço é de grande importância para evitar que o usuário leve tempo para entender a 
+mensagem real por trás de uma ação. 
+O modo como falamos com o usuário define o comportamento dele em relação 
+ao nosso produto. É muito importante que o nível de comunicação seja compreensível 
+e amigável o suficiente para criar um vínculo. Quando a linguagem não é clara, o 
+usuário não entende o que está acontecendo e pode simplesmente abandonar o site 
+ou aplicativo. 
+Nós só temos uma chance para criar uma boa impressão depois de conhecer 
+alguém. Da mesma forma, só temos uma chance para falar com o usuário e 
+estabelecer uma relação de confiança.  
+PDF exclusivo para Mateus Augusto da Costa Oliveira Gonçalves - rm570166
+mateus.augusto1629@gmail.com
+
+--- PAGE 44 ---
+UX Writing
+ 
+REFERÊNCIAS 
+BRANDÃO, E. Colocando em prática “Redação Estratégica para UX”. 2020. 
+Disponível em: <https://brasil.uxdesign.cc/colocando-em-pratica-redacao-estrategica-
+para-ux-6173ea5ceb4b>. Acesso em: 21 mar. 2025. 
+CASTELLANO, I. Esta es la voz de Mercado Libre. [s.d.]. Disponível em: 
+<https://medium.com/mercadolibre-ux/tagged/brand-book>. Acesso em: 21 mar. 
+2025. 
+PEÇANHA, V. Descubra o que é buyer persona e quais os 5 passos essenciais 
+para criar a sua. 2020. Disponível em: <https://rockcontent.com/br/blog/personas/>. 
+Acesso em: 21 mar. 2025. 
+PODMAJERSKY, T. Redação estratégica para UX. São Paulo: Novatec, 2019. 
+ROCK CONTENT. Brand Identity Guidelines. [s.d.]. Disponível em: 
+<https://interactive.rockcontent.com/brand-guidelines/>. Acesso em: 21 mar. 2025. 
+RODRIGUES, B. Em busca de boas práticas de UX Writing. Rio de Janeiro: Edição 
+do autor, 2019. 
+TEIXEIRA, F. Usando os microtextos a favor da experiência do usuário. [s.d.]. 
+Disponível em: <https://brasil.uxdesign.cc/usando-os-microtextos-a-favor-da-
+experi%C3%AAncia-do-usu%C3%A1rio-79cf7082bf43>. Acesso em: 21 mar. 2025. 
+YIFRAH, K. Microcopy: the complete guide. Haifa: Nemala, 2017. 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+PDF exclusivo para Mateus Augusto da Costa Oliveira Gonçalves - rm570166
+mateus.augusto1629@gmail.com

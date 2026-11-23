@@ -1,4 +1,4 @@
-import React, { useEffect, useRef, useState } from 'react';
+import { useEffect, useRef, useState } from 'react';
 import { orientacoesGuia } from '../data/guiaOrientacoes';
 
 // Este componente cria um balão e uma seta que explicam os elementos da página.

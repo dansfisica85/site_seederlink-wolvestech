@@ -1,0 +1,1735 @@
+--- PAGE 1 ---
+E agora o fantástico mundo das Integrais
+ 
+ 
+  
+  
+E AGORA O
+FANTÁSTICO
+MUNDO DAS
+INTEGRAIS
+07
+PDF exclusivo para Mateus Augusto da Costa Oliveira Gonçalves - rm570166
+mateus.augusto1629@gmail.com
+
+--- PAGE 2 ---
+E agora o fantástico mundo das Integrais
+LISTA DE FIGURAS 
+Figura 1 – À esquerda, área por quadrados e, à direita, uma forma irregular por 
+triangulação ............................................................................................................... 8 
+Figura 2 – Área sob uma curva de uma função f(x) .................................................. 9 
+Figura 3 – Fórmula 1 ................................................................................................. 11 
+Figura 4 – Notação para integral indefinida ............................................................... 13 
+Figura 5 – Fórmula 3 ................................................................................................. 18 
+Figura 6 – Fórmula 4 ................................................................................................. 18 
+Figura 7 – Fórmula 5 ................................................................................................. 19 
+Figura 8 – Calculadora Symbolab ............................................................................. 20 
+Figura 9 – App Photomath......................................................................................... 21 
+Figura 10 – Fórmula 6 ............................................................................................... 24 
+Figura 11 – Fórmula 7 ............................................................................................... 25 
+Figura 12 – Fórmula 8 ............................................................................................... 25 
+Figura 13 – Gráfico da função fx = (𝑥 − 1)22 + 1 𝑐om área entre a = 1 e b = 4 ........ 28 
+Figura 14 – Área total subestimada ........................................................................... 29 
+Figura 15 – Área total superestimada ....................................................................... 30 
+Figura 16 – Área total se aproximando da curva ....................................................... 31 
+Figura 17 – Relação da soma de Riemann com o teorema Fundamental do Cálculo
+ .................................................................................................................................. 33 
+Figura 18 – Gráfico a seguir para determinar a soma de Riemann ........................... 34 
+Figura 19 – Soma de Riemann .................................................................................. 35 
+Figura 20 – Elementos da integral definida ............................................................... 36 
+Figura 21 – Representação gráfica: região acima do eixo x ..................................... 37 
+Figura 22 – Representação gráfica: região abaixo do eixo x .................................... 38 
+Figura 23 – Representação gráfica: regiões abaixo e acima do eixo x ..................... 40 
+  
+PDF exclusivo para Mateus Augusto da Costa Oliveira Gonçalves - rm570166
+mateus.augusto1629@gmail.com
+
+--- PAGE 3 ---
+E agora o fantástico mundo das Integrais
+LISTA DE GRÁFICOS 
+Gráfico 1 – Representação gráfica: teorema fundamental ........................................ 32 
+Gráfico 2 – Representação gráfica: área e eixo y ..................................................... 43 
+Gráfico 3 – Representação gráfica: área entre curva e o eixo y................................ 44 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+PDF exclusivo para Mateus Augusto da Costa Oliveira Gonçalves - rm570166
+mateus.augusto1629@gmail.com
+
+--- PAGE 4 ---
+E agora o fantástico mundo das Integrais
+LISTA DE TABELAS 
+Tabela 1 – Relação entre funções e suas derivadas ................................................. 10 
+Tabela 2 – Integrais imediatas .................................................................................. 22 
+Tabela 3 – Somas de Riemann ................................................................................. 29 
+Tabela 4 – Resolução pela soma de Riemann R(4) .................................................. 34 
+ 
+ 
+PDF exclusivo para Mateus Augusto da Costa Oliveira Gonçalves - rm570166
+mateus.augusto1629@gmail.com
+
+--- PAGE 5 ---
+E agora o fantástico mundo das Integrais
+ 
+SUMÁRIO 
+E AGORA O FANTÁSTICO MUNDO DAS INTEGRAIS ........................................... 6 
+1 INTRODUÇÃO ....................................................................................................... 6 
+1.1 Introdução: Quem é o pai do cálculo? ................................................................. 6 
+1.2 Cálculo de áreas e suas possibilidades .............................................................. 7 
+1.3 Antiderivada ou primitiva de uma função: como determinar uma integral 
+indefinida ................................................................................................................... 10 
+1.4 Aplicando a regra geral de integração ................................................................. 14 
+1.5 Propriedades da integração ................................................................................ 16 
+1.6 Tabela de integrais imediatas .............................................................................. 21 
+1.7 Integral definida: integral de Riemann e o princípio do teorema fundamental do 
+cálculo ....................................................................................................................... 27 
+1.7.1 Teorema Fundamental do Cálculo ................................................................... 32 
+1.7.3 Área Compreendida entre uma Curva e o Eixo Y ............................................ 43 
+CONSIDERAÇÕES FINAIS ...................................................................................... 46 
+REFERÊNCIAS ......................................................................................................... 47 
+ 
+ 
+  
+PDF exclusivo para Mateus Augusto da Costa Oliveira Gonçalves - rm570166
+mateus.augusto1629@gmail.com
+
+--- PAGE 6 ---
+E agora o fantástico mundo das Integrais
+E AGORA O FANTÁSTICO MUNDO DAS INTEGRAIS 
+1 INTRODUÇÃO 
+1.1 Introdução: Quem é o pai do cálculo? 
+A palavra contexto, segundo o dicionário Priberam (2008), é um conjunto de 
+circunstâncias de uma situação: “Conjunto de circunstâncias à volta de um 
+acontecimento ou de uma situação. = CONJUNTURA, ENQUADRAMENTO”. 
+O contexto também é importante para a história da matemática no 
+desenvolvimento de cálculos em decorrência de suas aplicações. 
+O cálculo infinitesimal, formalizado no fim do século XVIII, remonta aos filósofos 
+gregos, como o enunciado no paradoxo de Zeno. Nesse esforço para avançar no 
+cálculo, dois nomes na história da matemática se destacaram no desenvolvimento das 
+principais estruturas do cálculo diferencial e integral: Isaac Newton (1642-1727), na 
+Inglaterra, e Gottfried Wilhelm Leibniz (1646-1716), na Alemanha. No fim do século 
+XVII, Newton teria sido o primeiro a aplicar o cálculo na física geral, mas Leibniz teria 
+desenvolvido grande parte das notações e símbolos formalizados e utilizados pelos 
+matemáticos. 
+Dessa forma, Newton e Leibniz denotam uma consequência de esforços de 
+muitos matemáticos e filósofos. Almeida e Joseph (2004; 2007) apresentou dados 
+recentes de pesquisas que indicam trabalhos de matemáticos e astrônomos indianos, 
+por volta de 1350, da Escola Kerala teriam identificado as séries infinitas e calculado 
+o número pi () com precisão de 17 casas decimais. Deste modo, o eurocentrismo 
+histórico, ou seja, acreditar que os princípios fundamentais do cálculo têm sua origem 
+com europeus deve ser revisto. Não significa uma diminuição, mas sim um 
+reconhecimento a contextos e descobertas que contribuem para a história da 
+matemática. 
+Um conceito fundamental do cálculo diferencial e integral está em “medir o que 
+aparentemente seria muito difícil de medir”, como áreas definidas por funções 
+matemáticas que constituem regiões que não podem ser determinadas pela geometria 
+PDF exclusivo para Mateus Augusto da Costa Oliveira Gonçalves - rm570166
+mateus.augusto1629@gmail.com
+
+--- PAGE 7 ---
+E agora o fantástico mundo das Integrais
+euclidiana. Números “muito grandes”, como em medidas espaciais, ou “muito 
+pequenos”, com níveis moleculares ou ainda atômicos, “os nanos” etc. 
+Particularmente, o cálculo das áreas sob funções matemáticas pode 
+representar desde o trabalho de uma força (energia consumida para realização de 
+uma tarefa) até a estimativa de populações de vírus presentes em uma superfície, por 
+exemplo, ou a concentração de poluentes no ar em uma sala ou na região de uma 
+grande cidade. 
+A integração é reconhecidamente a operação inversa da derivação, ou seja, 
+compreendendo uma função qualquer (contínua em um intervalo [a,b]) podemos 
+aplicar a integração e determinar sua primitiva, por isso, esta operação também 
+recebe o nome de antiderivada. 
+1.2 Cálculo de áreas e suas possibilidades 
+Área é um conceito matemático que pode ser definida como quantidade de 
+espaço bidimensional, ou seja, uma medida de superfície. 
+A história da matemática apresenta geometria como uma criação de 
+necessidades cotidianas, tais como as divisões de terra para o plantio às margens dos 
+rios, a construção de residências, assim como os estudos relativos aos movimentos 
+dos astros; inserem-se no contexto de atividades ligadas à geometria e desenvolvidas 
+pelos seres humanos ao longo da evolução. 
+Entre os principais matemáticos da antiguidade responsáveis pelo 
+desenvolvimento da geometria destacam-se Tales de Mileto (século VI a.C.), na 
+Grécia, importando a geometria utilizada pelos egípcios e Pitágoras, conhecido pelo 
+teorema aplicado ao triângulo retângulo que recebeu o seu nome e aperfeiçoou o 
+conceito de demonstração matemática da época. Ainda nesse século, Os Elementos 
+de Euclides que trouxe inovações consistentes quanto aos métodos utilizados na 
+antiguidade e que vêm contribuindo há mais de 20 séculos para o desenvolvimento 
+das ciências, baseando-se em três conceitos básicos, tais como ponto, reta e círculo. 
+O cálculo de áreas, possivelmente, envolvia a prática da arrecadação de 
+impostos pelos sacerdotes, os quais calculavam intuitivamente a extensão dos 
+campos só pela observação visual. Posteriormente, ao observar trabalhadores 
+PDF exclusivo para Mateus Augusto da Costa Oliveira Gonçalves - rm570166
+mateus.augusto1629@gmail.com
+
+--- PAGE 8 ---
+E agora o fantástico mundo das Integrais
+revestindo uma parte retangular do chão com pedras quadradas perceberam que para 
+determinar a quantidade de pedras, seria suficiente contar a quantidade de quadrados 
+de uma fileira e multiplicar pelo número de fileiras existentes, dando origem assim a 
+fórmulas para o cálculo da área de um retângulo, por exemplo. 
+Logo após, desenvolveram uma fórmula para o cálculo da área de um triângulo 
+(metade de um retângulo), fundamentados em um pensamento geométrico, no qual 
+tinham a área de um quadrado ou retângulo e dividindo-os ao meio em diagonal 
+obtinham a área do triângulo. Quando um terreno não tinha a forma retangular ou 
+triangular, os primeiros cartógrafos e agrimensores, utilizavam a triangulação, que 
+consistia em um processo de divisão da área em triângulos, cuja soma de suas áreas 
+representava o total da área. 
+ 
+ 
+Figura 1 – À esquerda, área por quadrados e, à direita, uma forma irregular por triangulação 
+Fonte: Elaborado pelos autores (2021) 
+ 
+No entanto, esse processo de triangulação apresentava alguns pequenos 
+erros, ao medir a área de terrenos não planos ou com curvas. Surgiu assim a 
+necessidade de calcular o comprimento da circunferência e a área do círculo. 
+Contudo, em casos como a área a seguir? Que vamos considerar que 
+represente uma área de um terreno ou de uma região no corpo humano afetada por 
+PDF exclusivo para Mateus Augusto da Costa Oliveira Gonçalves - rm570166
+mateus.augusto1629@gmail.com
+
+--- PAGE 9 ---
+E agora o fantástico mundo das Integrais
+algum problema. Observe que não é uma forma geométrica euclidiana, então como 
+determinar sua área? 
+ 
+ 
+Figura 2 – Área sob uma curva de uma função f(x) 
+Fonte: Elaborado pelos autores (2021) 
+ 
+Foi com essa busca que se introduziu o conceito de integral definida visando 
+calcular áreas sob curvas (funções). Na geometria, além do cálculo de áreas sob 
+curvas, podemos usar a integral definida para calcular comprimento de arcos e 
+volumes. Na Física, para calcular o trabalho realizado por uma força, momento, 
+centros de massa e momento de inércia, além de várias outras aplicações. 
+A computação pode fazer uso em big data e machine learning, pesquisando e 
+analisando imagens de cérebros, por exemplo, em busca de possíveis áreas que 
+representam anomalias agilizando o diagnóstico de doenças. 
+ 
+Sugestão de Leitura: como a inteligência artificial detecta sinais de doenças 
+que humanos não podem enxergar.  
+Disponível em: <https://www.bbc.com/portuguese/vert-fut-47296297>. Acesso 
+em 20 mar. 2024. 
+PDF exclusivo para Mateus Augusto da Costa Oliveira Gonçalves - rm570166
+mateus.augusto1629@gmail.com
+
+--- PAGE 10 ---
+E agora o fantástico mundo das Integrais
+1.3 Antiderivada ou primitiva de uma função: como determinar uma integral 
+indefinida 
+Vamos iniciar nossa reflexão por meio de um exemplo, no qual temos uma 
+função f(x) e somos capazes de determinar sua derivada. Isso mesmo! Vamos calcular 
+a derivada e, assim, pensaremos em como desfazer essa operação (determinar sua 
+antiderivada). Utilizando a tabela a seguir, determine a derivada para cada função e, 
+depois, responda as perguntas para compreender o efeito da derivação em uma 
+função: 
+ 
+ 
+função f(x) = x3 + 5 f(x) = x3 – 3 f(x) = x3 +10 f(x) = x3 
+Derivada 
+da 
+função 
+    
+Tabela 1 – Relação entre funções e suas derivadas 
+Fonte: Elaborado pelos autores (2021)  
+ 
+Agora, responda: 
+a) As funções são iguais? 
+b) O que ocorreu com as derivadas de cada uma das funções? Por quê? 
+Ao observar a tabela, vejo que as funções não são iguais! Porém, ao 
+determinar a derivada para cada uma percebemos que a derivada é a mesma, nesse 
+caso, f’(x) = 3x2. Dessa maneira, qual o problema que aparece se tentarmos desfazer 
+essa derivada e voltar para a função primitiva? 
+Você deve ter percebido que teríamos, no mínimo, quatro possibilidades 
+(olhando para tabela), porém poderiam ser muitas outras funções que satisfazem essa 
+condição. Isso porque, ao derivarmos qualquer função, “algo ocorre”, “algo se perde” 
+e percebemos que isso ocorreu com a constante (valor independente). 
+Ora, vamos entender o que a derivada fez por meio de sua regra geral:  
+Se 𝑓(𝑥) = 𝑥௡ , então sua derivada é: 𝑓′(𝑥) = 𝑛. 𝑥௡ିଵ 
+PDF exclusivo para Mateus Augusto da Costa Oliveira Gonçalves - rm570166
+mateus.augusto1629@gmail.com
+
+--- PAGE 11 ---
+E agora o fantástico mundo das Integrais
+Logo, se quisermos desfazer uma derivada, precisamos desfazer as operações 
+envolvidas na ordem contrária, ou seja, se “a última coisa que fizemos foi subtrair 1 
+do expoente (n)”, então deverá ser a primeira etapa a ser desfeita. Em seguida, 
+“multiplicamos pelo expoente, então agora teremos de dividir pelo expoente”. Vamos 
+escrever isso e ver como fica: 
+ 
+ 
+Figura 3 – Fórmula 1 
+Fonte: Elaborado pelos autores (2021) 
+ 
+Então a regra funcionou! F(x) = x3.  
+Agora temos outro problema, pois percebemos que não foi possível “voltar 
+totalmente ao que era”, pois perdemos a constante no processo de derivação. Então, 
+acrescentaremos uma constante (C) para indicar esse “valor perdido”. 
+ 
+𝐹(𝑥) = 𝑥ଷ + 𝐶 
+ 
+Não se preocupe, em “termos uma letra”, na expressão da integral, ela não irá 
+atrapalhar nossos cálculos e, inclusive, podemos determinar seu valor quando for 
+necessário. Para isso, além da função f(x), precisamos de uma imagem gerada por 
+ela. Vou exemplificar: 
+Seja a função F(x) = x4 + C a antiderivada de uma função real f(x), sabemos 
+que F(2) = 5. Nessas condições, determine sua constante de integração. 
+PDF exclusivo para Mateus Augusto da Costa Oliveira Gonçalves - rm570166
+mateus.augusto1629@gmail.com
+
+--- PAGE 12 ---
+E agora o fantástico mundo das Integrais
+F(x) = x4 + C e F(2) = 5 
+então: F(2) = 24 + C 
+24 + C = 5 
+C = 5 – 16  
+C = – 11  
+Desse modo, a constante de integração para F(x) dada será C = – 11. 
+Então, podemos escrever: F(x) = x4 – 11. 
+Vejamos outro tipo de problema que podemos encontrar: 
+ 
+ 
+PDF exclusivo para Mateus Augusto da Costa Oliveira Gonçalves - rm570166
+mateus.augusto1629@gmail.com
+
+--- PAGE 13 ---
+E agora o fantástico mundo das Integrais
+ 
+ 
+Agora sabemos de modo completo qual era a primitiva, já que foi dado ao 
+menos um ponto dessa função, mas isso nem sempre é necessário, o importante é a 
+parte literal ou algébrica (dependente da variável nesses casos “x”).  
+Assim podemos definir uma primitiva ou antiderivada de uma função (continua 
+em um intervalo [a,b]) do seguinte modo: uma primitiva de uma função y = f(x) é uma 
+função Y = F(x) tal que F’(x) = f(x) para todo x. 
+ Sendo a derivação um processo para determinar as derivadas, a “primitivação” 
+é a ação para determinar a primitiva de uma função, ou seja, é o inverso da derivação. 
+Primitivas são também denominadas antiderivadas ou integrais indefinidas. 
+Como toda operação matemática, temos um símbolo próprio (dado por Leibniz) 
+para indicar a integração e que é possível escrever da seguinte maneira: 
+ 
+ 
+Figura 4 – Notação para integral indefinida 
+Fonte: Elaborado pelos autores (2021) 
+PDF exclusivo para Mateus Augusto da Costa Oliveira Gonçalves - rm570166
+mateus.augusto1629@gmail.com
+
+--- PAGE 14 ---
+E agora o fantástico mundo das Integrais
+ 
+Melhorando a notação e pensando na constante que “se perdeu”, escrevo: 
+ 
+ 
+ 
+ 
+Este símbolo 
+  é um “s” alongado e representa o que Leibniz 
+denominou como soma das somas ou para representar summa. Segundo ele, 
+"represento a área de uma figura pela soma das áreas de todos os retângulos 
+infinitesimais definidos pelas ordenadas e pelas diferenças entre as abscissas... e, 
+portanto, represento em meu cálculo a área da figura por " (ECÁLCULO, 2001). 
+Nessa aplicação das integrais, o cálculo de áreas é uma de suas principais utilizações, 
+pois se sabemos calcular áreas, sabemos calcular volumes, mesmo irregulares, 
+porque o volume é dado V = ABaseh. 
+1.4 Aplicando a regra geral de integração 
+Então, formalizamos a integração de funções polinomiais contínuas e 
+representamos como: 𝐹(𝑋) = ∫ 𝑓(𝑥)𝑑𝑥 = ௫೙శభ ௡ାଵ + 𝐶 
+Veja alguns exemplos: 
+ 𝑎) ∫ 𝑥ସ 𝑑𝑥 = ௫ఱ ହ + 𝐶 
+𝑏) න 10𝑥3 𝑑𝑥 = 10𝑥4
+4 + 𝐶 = 5 2 𝑥4 + 𝐶 
+𝑐) න 5𝑥4 − 3𝑥2𝑑𝑥 = 5𝑥5
+5 − 3 𝑥3 3 + 𝐶 = 𝑥5 − 𝑥3 + 𝐶 
+f(x)dx F(x) C    ; onde  C  é a constante 
+PDF exclusivo para Mateus Augusto da Costa Oliveira Gonçalves - rm570166
+mateus.augusto1629@gmail.com
+
+--- PAGE 15 ---
+E agora o fantástico mundo das Integrais
+𝑑) ∫ 2𝑥 +
+଻௫
+௫ఱ − 3√𝑥 𝑑𝑥 =?  
+Observe que, neste caso (letra d), a aplicação da regra geral ainda não é 
+possível, portanto, teremos que “preparar o problema” algebricamente: 
+𝑑) න 2𝑥 + 7𝑥 𝑥5 − 3√𝑥 𝑑𝑥 = න 2𝑥 + 7 𝑥5 − 3𝑥 1 2 𝑑𝑥 = 
+= න 2𝑥 + 7𝑥ିହ − 3𝑥
+భ
+మ 𝑑𝑥 = 
+ 
+Agora que todos os componentes estão escritos na forma de potência podemos 
+aplicar a regra geral, então: 
+ 
+∫ 2𝑥 + 7𝑥ିହ − 3𝑥
+భ
+మ 𝑑𝑥 = ଶ௫య
+ଷ +
+଻௫షర
+(ିସ) −
+ଷ௫
+య
+మ
+య
+మ
++ 𝐶 = 
+ 
+Muita atenção quando for somar um ao expoente. Observe como ficou nesse 
+caso: 
+ 
+5 +1 =  – 4    e     
+ଵ
+ଶ + 1 =
+ଷ
+ଶ (m.m.c. ou frações: 
+ଵ
+ଶ +
+ଶ
+ଶ =
+ଷ
+ଶ) 
+= 2𝑥ଷ
+3 − 7𝑥ିସ 4 − 2𝑥 య మ + 𝐶 = 2𝑥ଷ 3 − 7 4𝑥ସ − 2𝑥√𝑥 + 𝐶 
+ 
+Poderíamos ter terminado nessa etapa. A finalização seguinte foi apenas uma 
+organização algébrica. É interessante “treinar”, pois em momentos de avaliação, 
+nunca sabemos o que pode aparecer. 
+PDF exclusivo para Mateus Augusto da Costa Oliveira Gonçalves - rm570166
+mateus.augusto1629@gmail.com
+
+--- PAGE 16 ---
+E agora o fantástico mundo das Integrais
+1.5 Propriedades da integração 
+ 
+ 
+Já estávamos utilizando essas propriedades mesmo antes de conhecê-las! 
+Vamos utilizar um de nossos exemplos para ilustrar como podemos usar. 
+Propriedades são sempre recursos que podemos ou não aplicar em uma resolução:  
+ 
+  
+Observe que já fizemos isso sem a necessidade de “tantas etapas”, mas tudo 
+bem! Estamos apenas utilizando propriedades algébricas válidas. Então, agora 
+podemos integrar as funções e efetuar o produto indicado e teremos: 
+ 
+PDF exclusivo para Mateus Augusto da Costa Oliveira Gonçalves - rm570166
+mateus.augusto1629@gmail.com
+
+--- PAGE 17 ---
+E agora o fantástico mundo das Integrais
+  
+Outra observação é que foi adicionado a constante de integração apenas ao 
+final da operação para não “poluir” o problema. Veja que o resultado não foi diferente 
+de antes. 
+Que tal tentar resolver o seguinte problema de integração utilizando a regra 
+geral e as propriedades, e depois comparar com a resolução do material? Em seguida, 
+tente usar um recurso tecnológico indicado a seguir: 
+ 
+ 
+A resolução, aplicando a propriedade 1: 
+ 
+Propriedade 2 e preparando algebricamente os integrandos em potências: 
+ 
+Preparando para começar a integração: 
+ 
+PDF exclusivo para Mateus Augusto da Costa Oliveira Gonçalves - rm570166
+mateus.augusto1629@gmail.com
+
+--- PAGE 18 ---
+E agora o fantástico mundo das Integrais
+ 
+Figura 5 – Fórmula 3 
+Fonte: Elaborado pelos autores (2021) 
+ 
+Figura 6 – Fórmula 4 
+Fonte: Elaborado pelos autores (2021) 
+ 
+Quando estamos resolvendo um problema de derivação (no caso da derivação, 
+utilizamos as fórmulas de derivação diretas ou derivadas imediatas) ou de integração 
+e nos deparamos com uma situação em que a regra geral não funciona, isso é “um 
+sinal” de que precisamos recorrer às fórmulas, ou seja, a tabela de integrais imediatas. 
+PDF exclusivo para Mateus Augusto da Costa Oliveira Gonçalves - rm570166
+mateus.augusto1629@gmail.com
+
+--- PAGE 19 ---
+E agora o fantástico mundo das Integrais
+Olhando para tabela de integrais imediatas (a seguir), procuramos a integral 
+que nos interessa. Pela tabela, observamos que a fórmula número (2) é a solução 
+para esse problema. Por isso, elas são chamadas de integrais imediatas, pois essas 
+fórmulas foram desenvolvidas por matemáticos a partir dos estudos do cálculo 
+diferencial e integral e fazem parte da literatura. Podemos utilizá-las sempre que 
+necessário! 
+ 
+ 
+Figura 7 – Fórmula 5 
+Fonte: Elaborado pelos autores (2021) 
+ 
+Não há necessidade de converter o expoente fracionário em um radical, mas é 
+importante saber que se for necessário (em determinadas questões, como testes) 
+pode ser feito. 
+ 
+PDF exclusivo para Mateus Augusto da Costa Oliveira Gonçalves - rm570166
+mateus.augusto1629@gmail.com
+
+--- PAGE 20 ---
+E agora o fantástico mundo das Integrais
+Logo:
+ 
+ 
+IMPORTANTE: A partir de agora, temos a regra geral e a tabela à disposição. 
+Então, fique atento! 
+ 
+Além disso, podemos fazer uso de tecnologias digitais para nos auxiliar na 
+correção das atividades ou mesmo para “procurar erros” em nossas respostas. 
+Relembre duas maneiras para realizar isso: 
+O Symbolab é uma calculadora científica on-line gratuita, mas também possui 
+uma versão em App (para poder ter acesso a todos os recursos, é necessário adquirir 
+a versão paga). 
+ 
+ 
+ 
+Figura 8 – Calculadora Symbolab 
+Fonte: Symbolab Math Solver (2021) 
+ 
+Versão on-line gratuita, disponível em: 
+<https://pt.symbolab.com/solver/definite-integral-calculator>. Acesso em: 19 mar. 
+2025. 
+ 
+Photomath: é um App disponível para Android e iOS. É grátis e funciona sem 
+Wi-Fi. Digitaliza instantaneamente texto impresso e problemas matemáticos escritos 
+à mão por meio da câmera do seu smartphone e ainda permite que você escreva ou 
+PDF exclusivo para Mateus Augusto da Costa Oliveira Gonçalves - rm570166
+mateus.augusto1629@gmail.com
+
+--- PAGE 21 ---
+E agora o fantástico mundo das Integrais
+edite equações na calculadora científica. O Photomath decompõe cada problema 
+matemático em passos simples e fáceis de perceber para que possa compreender, 
+de fato, conceitos de base e responder com confiança. 
+ 
+ 
+Figura 9 – App Photomath 
+Fonte: Photomath (2021) 
+ 
+Cuidados: Todo recurso digital deve estar à disposição para auxiliar, nunca 
+para substituir, afinal, você poderá, inclusive, desenvolver aplicações que fazem o 
+que esses fazem. Utilize com cuidado, sempre verificando se a expressão está 
+correta antes de pedir a solução. 
+ 
+1.6 Tabela de integrais imediatas 
+ 
+ 
+ 
+PDF exclusivo para Mateus Augusto da Costa Oliveira Gonçalves - rm570166
+mateus.augusto1629@gmail.com
+
+--- PAGE 22 ---
+E agora o fantástico mundo das Integrais
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Tabela 2 – Integrais imediatas 
+Fonte: Elaborado pelos autores (2021)  
+  
+   C  au au  lna2 1du ua 126.                           C a utg a 1du ua 125.
+C usec du 
+1uu
+1 24.                             Cusendu 
+u 1
+1 23.
+           Ca u sendu ua 122.         C  auu  lndu au 121.
+                                                 C  1uu  lndu 
+1u
+120.               C  1uu  lndu 
+1u
+119.
+C a usec a 1 du auu 118.                                   Cu tgdu u1 117.
+ Cu cotgdu ucossec16.                                      Cu tgdu usec15.
+ C2u sen4 1 u 2 1du uosc14.                    C2u sen4 1 u 2 1du usen13.
+ Cucossec du u cotg u.cossec 12.                          Cusec du u .tag usec 11.
+C u cotgucossec   lndu ucossec 10.                     C u tgusec   lndu usec 9.
+C u sen  lndu u cotg8.                               C u cos  lndu u tg7.
+C  u cosdu u sen6.                                       Cu sendu u cos5.
+C  a ln adu a4.                                                 C  edu e3.
+       C  u   ln du udu u 12.                        -1n para  , C   1n udu u1.
+22
+1
+22
+1
+2
+1
+2
+1
+22
+22
+22
+2
+2
+2
+2
+1
+22
+1
+2
+22
+22
+u
+uuu
+1
+1n
+n
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+PDF exclusivo para Mateus Augusto da Costa Oliveira Gonçalves - rm570166
+mateus.augusto1629@gmail.com
+
+--- PAGE 23 ---
+E agora o fantástico mundo das Integrais
+Exemplos: 
+1) Calcular a seguinte integral: 
+ 
+ 
+Resolução: 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Será que está certo? Observe que, se derivar a função, obtemos: 
+ 
+Exatamente a função dada inicialmente no enunciado. Por isso a função é 
+chamada como uma “função primitiva” de f(x),  
+ 
+ 
+Podemos, então, escrever matematicamente: 
+ 
+2) Calcular a seguinte integral: 
+ 
+ 
+ 
+Resolução: 
+  dx)58x3xx21x01( 234
+       dx x 6 x 4 x 3 234
+4 3 2
+4 3 2 1 0
+    (10x 12x 3x 8x 5x)
+(10x 12x 3x 8x 5x )
+dx
+dx
+    
+     
+
+
+4 1 3 1 2 1 1 1 0 1
+5 4 3 2 1
+5 4 3 2
+10. 12. 3 8. 5.4 1 3 1 2 1 1 1 0 1
+10. 12. 3 8. 5.5 4 3 2 1
+2 3 4 5
+x x x x x C
+x x x x x C
+x x x x x C
+    
+          
+      
+     
+4 3 2F'(x)=f(x) 10x 12x 3x 8x 5    
+Cx5x4xx3x2)x(F 2345 
+4 3 2 5 4 3 2(10x 12x 3x 8x 5) 2 3 4 5dx x x x x x C         
+PDF exclusivo para Mateus Augusto da Costa Oliveira Gonçalves - rm570166
+mateus.augusto1629@gmail.com
+
+--- PAGE 24 ---
+E agora o fantástico mundo das Integrais
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+3) Calcular a seguinte integral: 
+ 
+ 
+Observe que, nesse caso, não podemos aplicar a regra geral de integração, 
+pois gera uma divisão por zero! Recorremos à tabela de integrais imediatas! 
+ 
+ 
+Figura 10 – Fórmula 6 
+Fonte: Elaborado pelos autores (2021) 
+ 
+Em que ln(x) é o logaritmo natural (ou logaritmo neperiano) de x. Esse 
+logaritmo possui base e (constante de Euler). Pela calculadora, pode-se verificar o 
+valor de e 2,7182818. 
+Cx 6 x 2 x 1
+Cx6x2x1
+C1 x.62 x.43 x.3
+C12 x.613 x.414 x.3
+dx)x6x4x3(
+dx
+x
+6
+x
+4
+x
+3
+23
+123
+123
+121314
+234
+234
+
+
+
+
+
+
+
+
+
+ 
+
+
+
+
+
+
+ 
+
+
+
+
+ dxxdxx 1 1
+PDF exclusivo para Mateus Augusto da Costa Oliveira Gonçalves - rm570166
+mateus.augusto1629@gmail.com
+
+--- PAGE 25 ---
+E agora o fantástico mundo das Integrais
+Muitas tabelas podem apresentar diferentes modelos para “escrever as 
+fórmulas”, alguns autores podem escrever a fórmula acima como log de base e, assim: 
+ 
+ 
+Figura 11 – Fórmula 7 
+Fonte: Elaborado pelos autores (2021) 
+ 
+Outra maneira de representar as fórmulas (especialmente em livros) é pensar 
+que a variável x é, na verdade, uma função. Então, utilizamos a letra “u”: 
+ 
+ 
+Figura 12 – Fórmula 8 
+Fonte: Elaborado pelos autores (2021) 
+ 
+Dica: nunca “se prenda” a uma única maneira de representar uma fórmula, 
+pois quando encontrar outra maneira pode “achar estranho” ou não reconhecer. 
+ 
+4) Calcular a seguinte integral: 
+ 
+ 
+ 
+ 
+ 
+       dxxx 54 2
+PDF exclusivo para Mateus Augusto da Costa Oliveira Gonçalves - rm570166
+mateus.augusto1629@gmail.com
+
+--- PAGE 26 ---
+E agora o fantástico mundo das Integrais
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+5) ∫
+ଷ
+(௫మିଶ௫) 𝑑𝑥 = 3 ∫
+ଵ
+(௫మିଶ௫) 𝑑𝑥 = 3𝑙𝑛|𝑥ଶ − 2𝑥| + 𝐶  
+6) ∫ 3ହ௫ାଵ 𝑑𝑥 =  ଷఱೣశభ ௟௡ଷ + 𝐶 (Fórmula número 4) 
+Obs: n.4 na tabela de integrais imediatas: 
+u
+u aa  du   ln a C   
+E, dessa maneira, podemos determinar praticamente a maior parte das 
+intergrais. No entanto, existem ainda algumas situações de integração que necessitam 
+de outras técnicas, como integral por substituição, por partes, trigonométrica, frações 
+parciais e integrais impróprias. Entretanto, esses métodos não fazem parte de nosso 
+escopo neste curso. 
+7) Calcular a seguinte integral: 
+ 
+ 
+ 
+          dx x 8x.4x6 4 3 3
+ 
+2 1
+2
+2 1
+2 1
+2 1
+1 2
+1
+1
+4 5   4 5
+4 5
+4. 5.
+4. 5.ln( )2 1
+4. 5.ln( )1
+4 5ln( )
+4 5ln( )
+dx x x dxx x
+x dx x dx
+x dx x dx
+x C x C
+x x C
+x x C
+x Cx
+ 
+ 
+ 
+ 
+
+
+      
+  
+  
+     
+   
+   
+  
+ 
+ 
+ 
+PDF exclusivo para Mateus Augusto da Costa Oliveira Gonçalves - rm570166
+mateus.augusto1629@gmail.com
+
+--- PAGE 27 ---
+E agora o fantástico mundo das Integrais
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+1.7 Integral definida: integral de Riemann e o princípio do teorema fundamental 
+do cálculo 
+As somas de Riemann ajudam a aproximar integrais definidas, mas também a 
+defini-las formalmente. Veja um exemplo no qual desejo determinar a área 
+compreendida entre o gráfico da função f(x) dada no intervalo [1,4]. Como podemos 
+fazer isso? 
+ 
+31 123
+3 34 4
+1 11 1 3
+3 32 2 4
+3
+4
+1 41 3 3 111 13 32 4 2 4
+33 4 12 4
+2 12
+8 86 4. 6 4.
+86 4 6 4 8
+6 4 8 6 4 81 1 3 3 4 11 1 12 3 4 2 3 4
+2 3 46. . 4. . 8. .3 4 1
+4. .
+x x dx x x dx
+x x
+x x dx x x x dx
+x
+x x x x x xC C
+x x x C
+x x
+
+  
+           
+   
+               
+        
+   
+    
+ 
+ 
+ 
+3 3 1 4
+3 4
+3. . 32
+4 3 32
+x x x C
+x x x x x C
+  
+   
+PDF exclusivo para Mateus Augusto da Costa Oliveira Gonçalves - rm570166
+mateus.augusto1629@gmail.com
+
+--- PAGE 28 ---
+E agora o fantástico mundo das Integrais
+ 
+ 
+Figura 13 – Gráfico da função f(x) = (௫ିଵ)మ
+ଶ + 1 𝑐om área entre a = 1 e b = 4 
+Fonte: Elaborado pelos autores (2021) 
+ 
+Visivelmente percebo que não existe uma “fórmula pronta” para essa área, uma 
+vez que a parte superior está delimitada por uma função f(x). Riemann sugeriu que, 
+para determinar essa área, poderia ser feito uma somatória de áreas menores, áreas 
+retangulares. Para isso, vamos definir três retângulos e faremos uma superestimava 
+da área, ou seja, cometeremos um “erro para mais”. Iremos preencher a tabela a 
+seguir para auxiliar no cálculo. Lembre-se que 𝑓(𝑥) = (௫ିଵ)మ
+ଶ + 1. 
+ 
+ 
+Intervalo 
+[a, x] 
+Altura: f(x) 
+x (superior) 
+Base: x = 1 
+Área 
+A =x . f(x) 
+[1, 2] f(2) = 0,5 1 0,5 
+[2, 3] f(3) = 2,0 1 2,0 
+[3, 4] F(4) = 4,5 1 4,5 
+PDF exclusivo para Mateus Augusto da Costa Oliveira Gonçalves - rm570166
+mateus.augusto1629@gmail.com
+
+--- PAGE 29 ---
+E agora o fantástico mundo das Integrais
+  Área Total: 7,0 
+Tabela 3 – Somas de Riemann 
+Fonte: Elaborado pelos autores (2021) 
+ 
+Podemos realizar essas somas com auxílio do aplicativo Geogebra. Por ser 
+dinâmico, podemos visualizar o efeito da quantidade de retângulos definidos, bem 
+como se estamos subestimando (Figura “Área subestimada”) ou superestimando 
+(Figura “Área superestimada”) a área. 
+ 
+ 
+Figura 14 – Área total subestimada 
+Fonte: Elaborado pelos autores (2021) 
+PDF exclusivo para Mateus Augusto da Costa Oliveira Gonçalves - rm570166
+mateus.augusto1629@gmail.com
+
+--- PAGE 30 ---
+E agora o fantástico mundo das Integrais
+ 
+Figura 15 – Área total superestimada 
+Fonte: Elaborado pelos autores (2021) 
+ 
+Observe que se aumentamos de modo a produzir muitos retângulos (Figura 
+“Área se aproximando da curva”), o somatório das áreas retangulares se aproxima da 
+área sob a curva, dado na integral definida (área exata). 
+ 
+PDF exclusivo para Mateus Augusto da Costa Oliveira Gonçalves - rm570166
+mateus.augusto1629@gmail.com
+
+--- PAGE 31 ---
+E agora o fantástico mundo das Integrais
+ 
+Figura 16 – Área total se aproximando da curva 
+Fonte: Elaborado pelos autores (2021) 
+ 
+Agora é a sua vez!  Acesse o link a seguir e faça um experimento com a integral 
+de Riemann utilizando essa atividade desenvolvida com o Geogebra on-line. Resolva 
+o mesmo exemplo que foi feito para demonstrar e, em seguida, tente com os 
+exercícios do livro Cálculo A (parte de nossas referências) disponível na biblioteca 
+virtual e pratique o que aprendeu! 
+Siga as etapas: 
+1) Acesse o link do Geogebra sobre soma de Riemann. Disponível em: 
+https://www.geogebra.org/m/BmxzfSXq. 
+2) Observe que você pode alterar a função f(t) e os intervalos [a,b] que 
+determinam a área desejada. 
+3) No controle deslizante, você tem a possibilidade de aumentar ou diminuir 
+o número de retângulos que se aproximam da área desejada. Confira o resultado para 
+a tabela feita acima e depois aumente o número de retângulos. 
+4) Observe a relação de aproximação entre pontos esquerdos, pontos 
+médios e pontos direitos com a determinação pela integral definida da função em [a,b]. 
+PDF exclusivo para Mateus Augusto da Costa Oliveira Gonçalves - rm570166
+mateus.augusto1629@gmail.com
+
+--- PAGE 32 ---
+E agora o fantástico mundo das Integrais
+1.7.1 Teorema Fundamental do Cálculo  
+ 
+Gráfico 1 – Representação gráfica: teorema fundamental 
+Fonte: Elaborado pelos autores (2018) 
+ 
+Representamos na figura apresentada o princípio fundamental do cálculo em 
+termos de uma área compreendida entre o gráfico de uma função f(x) e o eixo das 
+abscissas (x) em um intervalo fechado [a, b]. 
+E podemos escrever a partir da integral definida essa área: 
+ 
+ 
+Em que: “A” é a área da região delimitada pela curva f(x), o eixo x e as retas 
+x = a e x = b. 
+F(x) é a integral indefinida de f(x); “a” e “b” são os limites inferior e superior, 
+respectivamente, portanto números reais, de modo que b > a. 
+Pode-se aproximar essa área usando as somas de Riemann. Seja R(n) a 
+aproximação da soma de Riemann à direita da nossa área, usando n subdivisões 
+iguais (ou seja, n retângulos de igual largura). 
+ 
+( ) ( ) ( ) ( )
+bb
+a a
+A f x dx F x C F b F a    
+PDF exclusivo para Mateus Augusto da Costa Oliveira Gonçalves - rm570166
+mateus.augusto1629@gmail.com
+
+--- PAGE 33 ---
+E agora o fantástico mundo das Integrais
+ 
+Figura 17 – Relação da soma de Riemann com o teorema Fundamental do Cálculo 
+Fonte: Swokowski (2008)  
+ 
+Por exemplo, observe o gráfico a seguir para determinar a soma de Riemann, 
+que, nesse caso, representamos por R(4). Note que a área exata será superestimada 
+(vou cometer um “erro para mais”). 
+ 
+ 
+PDF exclusivo para Mateus Augusto da Costa Oliveira Gonçalves - rm570166
+mateus.augusto1629@gmail.com
+
+--- PAGE 34 ---
+E agora o fantástico mundo das Integrais
+ 
+Figura 18 – Gráfico a seguir para determinar a soma de Riemann 
+Fonte: Elaborado pelos autores (2021)  
+ 
+Complete a tabela a seguir e determine, por meio da soma de Riemann, uma 
+aproximação para essa área. Depois, verifique com o aplicativo do GeoGebra sua 
+resposta alterando a função e os intervalos correspondentes: 
+𝑓(𝑥) =  1 5 𝑥ଶ ; [2, 6] 
+ 
+Intervalo 
+Altura: f(x) 
+X (superior) 
+Base: x = 1 
+Área 
+A =x . f(x) 
+[ 2, 3] f(3) =  1  
+[ 3, 4] f(4) =  1  
+[ 4, 5] f(5) =  1  
+[ 5, 6] f(6) = 1  
+  Área Total:  
+Tabela 4 – Resolução pela soma de Riemann R(4) 
+Fonte: Elaborado pelos autores (2021) 
+ 
+PDF exclusivo para Mateus Augusto da Costa Oliveira Gonçalves - rm570166
+mateus.augusto1629@gmail.com
+
+--- PAGE 35 ---
+E agora o fantástico mundo das Integrais
+Agora é com você no simulador! 
+1) Acesse o link do Geogebra sobre soma de Riemann. Disponível em: 
+<https://www.geogebra.org/m/BmxzfSXq>. 
+2) Altere a função para f(t)= (1/5)*t^2 ; a= 2 e b = 6 e n = 4. 
+3) Verifique o resultado pela soma superior ou pontos direitos 
+(superestimada). O que você observou? 
+A área é a mesma calculada pela tabela, pois o princípio é o mesmo. Com a 
+integral definida (no simulador da Figura “Soma de Riemann”) é possível ver a 
+diferença ou erro do processo por ter utilizado poucos retângulos. 
+ 
+ 
+Figura 19 – Soma de Riemann 
+Fonte: Elaborado pelos autores (2021) 
+ 
+Área pela soma de Riemann R(4)direita= 17,2. 
+Área exata (pela integral definida) = 13,87. 
+Desse modo, podemos compreender que uma integral definida é na realidade 
+uma somatória de áreas (Figura “Elementos da integral definida”) e por isso seu 
+cálculo é infinitesimal e exato. 
+PDF exclusivo para Mateus Augusto da Costa Oliveira Gonçalves - rm570166
+mateus.augusto1629@gmail.com
+
+--- PAGE 36 ---
+E agora o fantástico mundo das Integrais
+ 
+ 
+Figura 20 – Elementos da integral definida 
+Fonte: Kilhian (2018) 
+ 
+ 
+Exemplos: 
+Você poderá simular todos os exemplos com auxílio do Geogebra alterando a 
+função (lembre-se que nesse simulador a variável é t) e os respectivos intervalos 
+[a,b], e, desse modo, comparar os resultados das integrais com a soma de Riemann 
+e área exata da integral definida: <https://www.geogebra.org/m/BmxzfSXq>. 
+1) Determinar a área da região compreendida entre a reta y = 3x + 5, o eixo x 
+e as retas x = 2 e x = 6, conforme indica o gráfico a seguir: 
+ 
+PDF exclusivo para Mateus Augusto da Costa Oliveira Gonçalves - rm570166
+mateus.augusto1629@gmail.com
+
+--- PAGE 37 ---
+E agora o fantástico mundo das Integrais
+ 
+ 
+Figura 21 – Representação gráfica: região acima do eixo x 
+Fonte: Elaborado pelos autores (2018) 
+ 
+Resolução: 
+ 
+Agora vamos substituir x por 6, que será o F(6) e, depois x por 2, que será o 
+F(2) e, em seguida, subtrair os resultados: 
+ 
+PDF exclusivo para Mateus Augusto da Costa Oliveira Gonçalves - rm570166
+mateus.augusto1629@gmail.com
+
+--- PAGE 38 ---
+E agora o fantástico mundo das Integrais
+Observe que a constante de integração C foi anulada e sempre será, por isso 
+não precisamos nos preocupar com ela. 
+ 
+Portanto, a área da região sombreada é de 68 unidades de área (u.a.). 
+De forma geral, podemos afirmar que a área é o valor absoluto da integral 
+definida. 
+ 
+ 
+ 
+2) Determinar a área da região compreendida entre a reta y = 2x  3, o eixo x 
+e as retas x =  5 e x =  2, conforme indica o gráfico a seguir: 
+ 
+ 
+ 
+Figura 22 – Representação gráfica: região abaixo do eixo x 
+Fonte: Elaborado pelos autores (2018) 
+ 
+ 
+Resolução: 
+Método 1: podemos obter a área calculando a área do trapézio retângulo 
+destacado no gráfico pela geometria euclidiana: 
+u.a. 6868dx)5x3(AÁrea
+6
+2
+ 
+PDF exclusivo para Mateus Augusto da Costa Oliveira Gonçalves - rm570166
+mateus.augusto1629@gmail.com
+
+--- PAGE 39 ---
+E agora o fantástico mundo das Integrais
+ 
+𝐴 = (𝐵 + 𝑏). ℎ 2  
+B=13; b=7; h=3, então: 
+𝐴 = (13 + 7). 3 2 = 30 
+Método 2: para obter qualquer área, podemos calcular uma definida, ou seja, 
+aplicar o teorema fundamental do cálculo. 
+ 
+ 
+ 
+ 
+ 
+ 
+Fazendo a aplicação F(b) – F(a): 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Observe que a integral definida é negativa. Entretanto, a área é o módulo 
+(valor absoluto) da integral definida, ou seja, a área é de 30 unidades de área (por 
+exemplo, m², cm²) e a mesma calculada pela geometria euclidiana. 
+ 
+2
+5
+(2 3)A x dx
+
+
+ 
+2
+5
+2
+5
+2
+5
+x3²x
+x32 ²x2dx)3x2(
+
+
+
+
+
+
+
+
+
+ 
+    
+u.a. 0330dx)3x2(AÁrea
+2
+5
+ 
+
+
+304010
+)5(3)²5()2(3)²2(
+x3²xx32 ²x2dx)3x2(
+2
+5
+2
+5
+2
+5
+
+
+
+
+
+
+ 
+
+
+
+
+ 
+        
+
+
+
+
+
+
+PDF exclusivo para Mateus Augusto da Costa Oliveira Gonçalves - rm570166
+mateus.augusto1629@gmail.com
+
+--- PAGE 40 ---
+E agora o fantástico mundo das Integrais
+Nesse caso, seria possível escolher entre os dois métodos, porém o modelo 
+do cálculo diferencial e integral é mais abrangente, já que podemos determinar a 
+área para qualquer função. Seja uma reta, uma parábola ou qualquer outra. 
+ 
+3) Determinar a área da região compreendida entre a reta y = 4x  8, o eixo x 
+e as retas x =  3 e x = 5, conforme indica o gráfico a seguir. 
+ 
+ 
+ 
+Figura 23 – Representação gráfica: regiões abaixo e acima do eixo x 
+Fonte: Elaborado pelos autores (2018) 
+ 
+ 
+Resolução: 
+Nesse caso, devemos calcular duas integrais, separadamente, dado que a área 
+abaixo do eixo x será um valor negativo e precisamos dele em módulo ou seu valor 
+absoluto. Vamos fazer por etapas: 
+1º) Obtemos o ponto de intersecção da reta y = 4x – 8 com o eixo x: (y = 0): 
+4x – 8 = 0  4x = 8  x = 8/4  x = 2 
+a reta y = 4x – 8 intercepta o eixo x no ponto de coordenadas (2; 0). 
+2º) Integramos a função f(x) = 4x – 8 no intervalo [-3; 2]: 
+ 
+ 
+Área2 
+ 
+2
+3
+1 (4 8)Área x dx
+
+ 
+PDF exclusivo para Mateus Augusto da Costa Oliveira Gonçalves - rm570166
+mateus.augusto1629@gmail.com
+
+--- PAGE 41 ---
+E agora o fantástico mundo das Integrais
+ 
+ 
+ 
+ 
+ 
+ 
+Agora, substituir x por “2”, depois x por “-3” e, em seguida, subtrair os 
+resultados: 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+3º) Integrar a função f(x) = 4x – 8 definida no intervalo [2; 5]: 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+2
+3
+2
+3
+2
+3
+x8²x2
+x82 ²x4dx)8x4(
+
+
+
+
+
+ 
+    
+u.a. 0550dx)8x4(A1  Área
+2
+31  
+50428
+)3(8)²3.(2)2(8)²2.(2
+x8²x2x82 ²x4dx)8x4(
+2
+3
+2
+3
+2
+3
+
+
+
+
+
+
+ 
+
+
+
+
+ 
+         
+5
+2
+5
+2
+5
+2
+x8²x2
+x82 ²x4dx)8x4(
+
+
+
+ 
+    
+5
+2
+2 (4 8)Área x dx 
+PDF exclusivo para Mateus Augusto da Costa Oliveira Gonçalves - rm570166
+mateus.augusto1629@gmail.com
+
+--- PAGE 42 ---
+E agora o fantástico mundo das Integrais
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+4º) Calcular a área total indicada pelo gráfico: 
+ 
+ 
+ 
+ 
+Observe que, nessa questão, temos uma região abaixo do eixo x e uma região 
+acima do eixo x e, sendo assim, tivemos que realizar um cálculo de duas integrais 
+definidas para obter a área total. 
+Teste com o auxílio do simulador (Geogebra) e você verá que a integral 
+apresenta problemas em relação à soma de Riemann se não fizer essa correção com 
+o valor absoluto. Como você descreve este problema que surge se não considerar a 
+integral em duas áreas? 
+ 
+u.a. 1818dx)8x4(A2  Área
+5
+22  
+2 5
+1 2 3 2 (4 8) (4 8)
+50 u.a. 18 u.a. 68 u.a.
+TOTALA Area Area x dx x dx        
+  
+ 
+18810)8(10
+)2(8)²2.(2)5(8)²5.(2
+x8²x2x82 ²x4dx)8x4(
+5
+2
+5
+2
+5
+2
+
+
+
+
+
+
+ 
+
+
+
+
+ 
+        
+PDF exclusivo para Mateus Augusto da Costa Oliveira Gonçalves - rm570166
+mateus.augusto1629@gmail.com
+
+--- PAGE 43 ---
+E agora o fantástico mundo das Integrais
+1.7.3 Área Compreendida entre uma Curva e o Eixo Y 
+ 
+Gráfico 2 – Representação gráfica: área e eixo y 
+Fonte: Elaborado pelos autores (2018) 
+ 
+Nesse caso, a área é dada pela sentença: 
+ 
+ 
+G(y) é a integral indefinida de f(y); 
+“c” e “d” são números reais, com c < d; 
+“A” é a área da região delimitada pela curva f(y), o eixo y e as retas y = c e y = 
+d. 
+Exemplo: 
+Determinar a área da região compreendida entre a reta y = 5x  3, o eixo y e 
+as retas y = 2  e y = 5, conforme indica o gráfico “área entre curva e o eixo y”. 
+ 
+A)c(G)d(G)y(Gdy)y(f
+d
+c
+d
+c
+
+PDF exclusivo para Mateus Augusto da Costa Oliveira Gonçalves - rm570166
+mateus.augusto1629@gmail.com
+
+--- PAGE 44 ---
+E agora o fantástico mundo das Integrais
+ 
+Gráfico 3 – Representação gráfica: área entre curva e o eixo y 
+Fonte: Elaborado pelos autores (2018) 
+ 
+Observe que, nesse caso, devemos obter uma área compreendida entre uma 
+curva e o eixo y. 
+Resolução: 
+1º) Obter a função f(y): (para fazer isso basta isolar x em f(x)). 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+2º) Integrar a função f(y) no intervalo [2; 5]: 
+ 
+ 
+5
+3yf(y)
+:logo
+x5 3y 
+5x3y
+35xy    
+
+
+
+
+      5 2 dy5 3y
+PDF exclusivo para Mateus Augusto da Costa Oliveira Gonçalves - rm570166
+mateus.augusto1629@gmail.com
+
+--- PAGE 45 ---
+E agora o fantástico mundo das Integrais
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Substituir y por “5”, depois y por “2” e, em seguida, subtrair os resultados: 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+A área é o módulo da integral definida em questão, ou seja: 
+ 
+ 
+ 
+Para ampliar seus conhecimentos, acesse: 
+<https://pt.khanacademy.org/math/calculus-home/integration-calc/definite-integral-
+evaluation-calc/v/connecting-the-first-and-second-fundamental-theorems-of-
+calculus> 
+ 
+5
+2
+2
+5
+2
+25
+2
+2
+5
+2
+5
+2
+y6y.10 1
+2
+y6y.5 1y32 y.5 1
+dy3y.5 1dy5 3y
+
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+
+ 
+    
+  9,339.10 11655.10 1
+)2.(6)²2()5.(6)²5(.10 1
+6.10 1
+2
+6.5 132.5 1
+3.5 1 5 3
+5
+2
+2
+5
+2
+25
+2
+2
+5
+2
+5
+2
+
+
+    
+        
+
+
+
+
+ 
+
+yy
+yyyy
+dyydyy
+u.a. 9,39,35 3  Área 5 2      dyyA
+PDF exclusivo para Mateus Augusto da Costa Oliveira Gonçalves - rm570166
+mateus.augusto1629@gmail.com
+
+--- PAGE 46 ---
+E agora o fantástico mundo das Integrais
+CONSIDERAÇÕES FINAIS 
+Você pode recordar que ao longo desse seu percurso foram desenvolvidos os 
+conceitos de funções com ênfase nas aplicações. O estudo e a compreensão de 
+funções é fundamental para avançar nos modelos matemáticos oferecidos pelo 
+cálculo infinitesimal. 
+Foram apresentados os pilares do cálculo infinitesimal: limites, derivadas e 
+integrais, e suas aplicações. Curiosamente, na história da matemática, esta ordem de 
+“surgimento”, devido às necessidades e contextos, deu-se, inicialmente, pelas 
+integrais para determinação de áreas difíceis de calcular com a geometria euclidiana. 
+Posteriormente, definiram-se as derivadas e, somente então, formalizou-se o conceito 
+de limites, implícito nessas operações. 
+A ordem cronológica é inversa à ordem pedagógica que se apresenta em livros 
+de cálculo. Por isso, vê-se o conceito de limites depois derivação e, então, integração. 
+Observe que é exatamente a ordem contrária da história. 
+Desse modo, podemos afirmar que traçamos um panorama geral para um 
+curso de cálculo diferencial e integral a partir destes elementos introdutórios. Com 
+essa base, você pode prosseguir e ampliar seus conhecimentos em cálculo, como os 
+métodos de integração, as equações diferenciais, as séries, etc. Além disso, pode 
+buscar novas aplicações desses conhecimentos e modelos aprendidos para novos 
+experimentos computacionais, incluindo inteligência artificial, sistemas de big data e 
+machine learning, ou seja, tecnologias que estão presentes no seu curso e veremos 
+em detalhes nos próximos anos. 
+ 
+  
+PDF exclusivo para Mateus Augusto da Costa Oliveira Gonçalves - rm570166
+mateus.augusto1629@gmail.com
+
+--- PAGE 47 ---
+E agora o fantástico mundo das Integrais
+REFERÊNCIAS 
+ABBAGNANO, N. Dicionário de Filosofia. Revisão da tradução e tradução dos novos 
+textos por Ivone Castilho Benedetti. São Paulo: Martins Fontes, 2007. 
+ALMEIDA, Dennis F.; JOSEPH, G. G. Eurocentrism in the History of Mathematics: the 
+Case of the Kerala School. Race & Class, [S.l.], v. 45, n. 4, p. 45-59, 2004. 
+ALMEIDA, D.; JOSEPH, G. Kerala mathematics and its possible transmission to 
+Europe. Philosophy of Mathematics Education Journal, [S.l.], v. 20, 2007. 
+AYRES, F.; MENDELSON, E.; ABELLANAS, L. Cálculo diferencial e integral. 
+México: McGraw-Hill, 1991. 
+BONETTO, G.; MUROLO, A. Matemática Aplicada à Administração, Economia e 
+Contabilidade. São Paulo: Thonson, 2004. 
+BOYER, C. B. A History of Mathematics. Tradução de Helena Castro. São Paulo: 
+Wiley, 1968. 
+BOYER, C. B. The history of the calculus and its conceptual development (The 
+concepts of the calculus). New York: Courier Corporation, 1959. 
+BRANDÃO, J. Fundamentos de cálculo diferencial e integral: para quem não 
+gosta, mas precisa. São Paulo: Scortecci, 2017. 
+CUSTODIO, A. L. Cálculo de áreas de figuras planas e espaciais com aplicações 
+ao ensino fundamental e médio. 2015. 117 p. Dissertação - (Mestrado em 
+Geociências e Ciências Exatas) - Universidade Estadual Paulista, Instituto de 
+Geociências e Ciências Exatas, 2015. Disponível em: 
+<http://hdl.handle.net/11449/138427> Acesso em: 19 mar. 2025. 
+DEMANA, F. D. Pré-Cálculo. São Paulo: Editora Pearson, 2013. 
+DICIONÁRIO PRIBERAM. Contexto. 2008. Disponível em 
+<https://dicionario.priberam.org/contexto> Acesso em: 19 mar. 2025. 
+E-CALCULO. O Nascimento do Cálculo. 2001. Disponível em: 
+<http://ecalculo.if.usp.br/historia/historia_integrais.htm>. Acesso em: 19 mar. 2025. 
+FERRUZZI, Elaine Cristina et al. A Modelagem Matemática como estratégia de 
+ensino e aprendizagem do Cálculo Diferencial e Integral nos Cursos Superiores 
+de Tecnologia. 2003. Dissertação (Mestrado em Engenharia de Produção e 
+Sistemas) - Engenharia de Produção e Sistemas, Universidade Federal de Santa 
+Catarina, Florianópolis. 
+FONSECA FILHO, C. História da computação: O Caminho do Pensamento e da 
+Tecnologia. Porto Alegre: EDIPUCRS, 2007. 
+GONÇALVES, M. B.; FLEMMING, D. M. Cálculo A. São Paulo: Pearson, 2013. 
+PDF exclusivo para Mateus Augusto da Costa Oliveira Gonçalves - rm570166
+mateus.augusto1629@gmail.com
+
+--- PAGE 48 ---
+E agora o fantástico mundo das Integrais
+GUIDORIZZI, H. L. G. Um Curso de Cálculo. São Paulo: Editora LTC, 2010. 
+HOFFMANN, L. D.; BRADLEY, G. L. Cálculo: Um Curso Moderno e Suas 
+Aplicações. Rio de Janeiro: LTC, 2008. 
+HOHENWARTER, Markus et al. Teaching and learning calculus with free dynamic 
+mathematics software GeoGebra. In: 11th International Congress on Mathematical 
+Education. Monterrey, Nuevo Leon, Mexico, 2008. 
+HOHENWARTER, Markus; JONES, Keith. Ways of linking geometry and algebra, the 
+case of Geogebra. Proceedings of the British Society for Research into Learning 
+Mathematics, [S.l.], v. 27, n. 3, p. 126-131, 2007. 
+IEZZI, Gelson. Matemática: Ciências e Aplicações. São Paulo: Atual Editora, 2010. 
+KILHIAN, K. Notação para integral definida. O Baricentro da Mente, 19 ago. 2018. 
+Disponível em: <https://www.obaricentrodamente.com/2018/08/notacao-para-
+integral-definida.html>. Acesso em: 19 mar. 2025. 
+LAURICELLA, C. M. Como Resolver Derivadas e Integrais - Mais 150 Exercícios 
+Resolvidos. Rio de Janeiro: Ciência Moderna, 2011. 
+NÓBREGA, A. B.; DE LIMA, R. N. Cálculo Diferencial e Integral I. Ponta Grossa: 
+UFPG, 1991. 
+NUNES, E. B. Otimização matemática: cálculo dos extremos de uma função. 
+2014. Dissertação (Mestrado em Matemática e Estatística) - Instituto de Matemática e 
+Estatística, Universidade Federal de Goiás, Goiás. 
+PHOTOMATH. 2021. Disponível em <https://photomath.com/pt/>. Acesso em: 19 mar. 
+2025. 
+ROSSO, A. C.; FURTADO, P. Matemática: Uma Ciência para a Vida. São Paulo: 
+Editora Harbra, 2011. 
+SOARES, L. H. Tecnologia computacional no ensino de matemática: o uso do 
+GeoGebra no estudo de funções. Revista do Instituto GeoGebra Internacional de 
+São Paulo. São Paulo, v. 1, n. 1, 2012. 
+SWOKOWSKI, E. W. Cálculo com Geometria Analítica. São Paulo: Editora Makron 
+Books, 2008. 
+SYMBOLAB MATH SOLVER, 2021. Disponível em: <https://pt.symbolab.com/>. 
+Acesso em: 19 mar. 2025. 
+THOMAS, G. B. Cálculo. São Paulo: Editora Pearson, 2012. 
+ 
+ 
+PDF exclusivo para Mateus Augusto da Costa Oliveira Gonçalves - rm570166
+mateus.augusto1629@gmail.com

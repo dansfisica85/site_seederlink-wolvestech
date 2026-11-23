@@ -1,0 +1,26 @@
+%% Diagrama de classes — SeederLink Fase 7
+%% Edite este arquivo e exporte PNG/SVG para public/docs/
+%% Referência Mermaid: https://mermaid.js.org/syntax/classDiagram.html
+
+classDiagram
+    direction LR
+
+    %% --- Substitua / complete as classes da Fase 7 ---
+
+    class ExemploEntidade {
+        +String id
+        +String nome
+        +metodoExemplo() void
+    }
+
+    class ExemploServico {
+        +executar() void
+    }
+
+    ExemploServico --> ExemploEntidade : usa
+
+    %% Relacionamentos:
+    %% o-- composição
+    %% *-- agregação
+    %% --> dependência / associação
+    %% <|-- herança (só se fizer sentido)

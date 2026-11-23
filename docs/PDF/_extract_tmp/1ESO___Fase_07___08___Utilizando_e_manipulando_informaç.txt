@@ -1,0 +1,835 @@
+--- PAGE 1 ---
+Utilizando bootstratp e manipulando informaçõoes como Jquery
+  
+UTILIZANDO
+BOOTSTRATP E
+MANIPULANDO
+INFORMAÇÕOES
+COMO JQUERY
+08
+PDF exclusivo para Mateus Augusto da Costa Oliveira Gonçalves - rm570166
+mateus.augusto1629@gmail.com
+
+--- PAGE 2 ---
+Utilizando bootstratp e manipulando informaçõoes como Jquery
+LISTA DE FIGURAS 
+Figura 1 - Codificando o text() ................................................................................... 13 
+Figura 2 - Resultado código HTML ............................................................................ 14 
+Figura 3 - Resultado do botão Mostrar Text .............................................................. 14 
+Figura 4 - Resultado do botão Mostrar HTTML ......................................................... 15 
+Figura 5 - Setando valores ........................................................................................ 15 
+Figura 6 - Resultado da página executada ................................................................ 17 
+Figura 7 - Resultado da execução do botão Configura Texto ................................... 17 
+Figura 8 - Resultado da execução do botão Configura HTML................................... 17 
+Figura 9 - Resultado da execução do botão Configura Valor .................................... 18 
+Figura 10 - Exemplo callback .................................................................................... 18 
+Figura 11 - Código HTML .......................................................................................... 20 
+Figura 12 - Resultado botão 1 ................................................................................... 20 
+Figura 13 - Resultado botão 2 ................................................................................... 20 
+Figura 14 - Exemplo prepend/append/before/after .................................................... 21 
+Figura 15 - Código html ............................................................................................. 23 
+Figura 16 - Inserindo item com prepend .................................................................... 23 
+Figura 17 - Inserindo item com append ..................................................................... 23 
+Figura 18 - Inserindo item com before ....................................................................... 24 
+Figura 19 - Inserindo item com after .......................................................................... 24 
+Figura 20 - Manipulando classes ............................................................................... 25 
+Figura 21 - Gerando estilo dinamicamente ............................................................... 27 
+ 
+PDF exclusivo para Mateus Augusto da Costa Oliveira Gonçalves - rm570166
+mateus.augusto1629@gmail.com
+
+--- PAGE 3 ---
+Utilizando bootstratp e manipulando informaçõoes como Jquery
+LISTA DE TABELAS 
+Tabela 1 - Lista de seletores ..................................................................................... 12 
+PDF exclusivo para Mateus Augusto da Costa Oliveira Gonçalves - rm570166
+mateus.augusto1629@gmail.com
+
+--- PAGE 4 ---
+Utilizando bootstratp e manipulando informaçõoes como Jquery
+LISTA DE CÓDIGOS-FONTE 
+Código-fonte 1 – Referenciando a biblioteca - linguagem: HTML ............................. 7 
+Código-fonte 2 – Referenciando o framework direto do repositório do Google - 
+linguagem: HTML ...................................................................................................... 7 
+Código-fonte 3 – Ocultando o elemento ativo - linguagem: JavaScript ..................... 8 
+Código-fonte 4 – Oculta todas as tags <h1> - linguagem: JavaScript ....................... 8 
+Código-fonte 5 – Oculta todos os elementos com o nome de classe fiap - linguagem: 
+JavaScript.................................................................................................................. 8 
+Código-fonte 6 – Código-fonte 5 - Oculta o elemento com o nome de id fiap - 
+linguagem: JavaScript ............................................................................................... 8 
+Código-fonte 7 – Exemplo de documento pronto - linguagem: JavaScript ................ 9 
+Código-fonte 8 – Exemplo de documento pronto reduzido - linguagem: JavaScript . 9 
+Código-fonte 9 – Seletores de elementos - linguagem: JavaScript ........................... 10 
+Código-fonte 10 – Utilizando #id - linguagem: JavaScript ......................................... 11 
+Código-fonte 11 – Utilizando o class - linguagem: JavaScript ................................... 11 
+Código-fonte 12 – exemplo text() - linguagem: JavaScript ........................................ 13 
+Código-fonte 13 – Exemplo text() - linguagem: JavaScript ....................................... 14 
+Código-fonte 14 – Setando valores - linguagem: JavaScript ..................................... 16 
+Código-fonte 15 – Exemplo CallBack - linguagem: JavaScript.................................. 19 
+Código-fonte 16 – Código prepend/append/before/after - linguagem: JavaScript ..... 22 
+Código-fonte 17 – Manipulando classes - linguagem: JavaScript ............................. 26 
+Código-fonte 18 – Css dinâmico - linguagem: JavaScript ......................................... 28 
+  
+  
+  
+PDF exclusivo para Mateus Augusto da Costa Oliveira Gonçalves - rm570166
+mateus.augusto1629@gmail.com
+
+--- PAGE 5 ---
+Utilizando bootstratp e manipulando informaçõoes como Jquery
+SUMÁRIO 
+UTILIZANDO O BOOTSTRAP E MANIPULANDO INFORMAÇÕES COMO JQUARY
+ .................................................................................................................................. 6 
+1 INTRODUÇÃO ....................................................................................................... 6 
+1.1 JQuery Introdução ............................................................................................... 6 
+1.1.1 O que é o JQuery 6 
+1.2 Por que JQuery? ................................................................................................. 6 
+1.3 Adicionando o JQuery ......................................................................................... 7 
+1.4 Utilizando o Visual Code ..................................................................................... 8 
+2 SINTAXE JQUERY ................................................................................................ 8 
+2.1 Sintaxe jQuery ..................................................................................................... 8 
+2.2 Document Ready ................................................................................................. 9 
+3 JQUERY SELETORES .......................................................................................... 9 
+3.1 jQuery Seletores .................................................................................................. 9 
+3.1.1 Seletor de elementos........................................................................................ 10 
+3.1.1 Seletor #id ........................................................................................................ 10 
+3.1.2 Seletor .class .................................................................................................... 11 
+3.1.3 Alguns exemplos de seletores .......................................................................... 11 
+4 JQUERY – MANIPULANDO CONTEÚDO E ATRIBUTOS .................................... 12 
+4.1 jQuery DOM ........................................................................................................ 12 
+4.1.1 Obtendo conteúdo - text(), html() e val()........................................................... 12 
+4.1.2 Configurando conteúdo - text(), html() e val() ................................................... 15 
+4.1.3 Adicionando conteúdo - append(), prepend(), after() e before() ....................... 20 
+4.1.4 Manipulando CSS com jQuey .......................................................................... 24 
+REFERÊNCIAS ......................................................................................................... 29 
+ 
+ 
+  
+  
+PDF exclusivo para Mateus Augusto da Costa Oliveira Gonçalves - rm570166
+mateus.augusto1629@gmail.com
+
+--- PAGE 6 ---
+Utilizando bootstratp e manipulando informaçõoes como Jquery
+UTILIZANDO O BOOTSTRAP E MANIPULANDO INFORMAÇÕES 
+COMO JQUARY 
+1 INTRODUÇÃO 
+1.1 JQuery Introdução 
+O objetivo do jQuery é facilitar o uso do JavaScript em seu site. 
+Antes de começar a praticar o jQuery, você deve ter um conhecimento mínimo 
+em HTML, CSS e JavaScript. 
+1.1.1 O que é o JQuery 
+jQuery é uma biblioteca JavaScript leve, "escreva menos, faça mais". O objetivo 
+do jQuery é facilitar o uso do JavaScript em seu site ao pegar muitas tarefas comuns 
+que requerem muitas linhas de código JavaScript para serem realizadas, agrupando-
+as em métodos, os quais você pode chamar com uma única linha de código. 
+jQuery também simplifica muitas das coisas mais complexas do JavaScript, 
+como chamadas AJAX e manipulação de DOM. 
+A biblioteca jQuery contém os seguintes recursos: 
+ Manipulação de HTML/DOM. 
+ Manipulação de CSS. 
+ Métodos de evento HTML. 
+ Efeitos e animações. 
+ AJAX. 
+1.2 Por que JQuery? 
+Existem vários frameworks em JavaScript, porém, o JQuery deve ser a mais 
+popular e também extensível. Podemos dizer isso porque grandes empresas, como 
+PDF exclusivo para Mateus Augusto da Costa Oliveira Gonçalves - rm570166
+mateus.augusto1629@gmail.com
+
+--- PAGE 7 ---
+Utilizando bootstratp e manipulando informaçõoes como Jquery
+Google, Microsoft, IBM e Netflix utilizam e, por isso, é muito importante aprendermos 
+e entendermos essa biblioteca/framework. 
+1.3 Adicionando o JQuery 
+Existem algumas formas de utilizarmos o jQuery, podemos baixar a biblioteca 
+do site jQuery.com ou incluir o jQuery de um CDN (Content Delivery Network – Rede 
+de Distribuição de Conteúdo), como, por exemplo, o Google. 
+Para download, temos duas versões: uma para produção, que é para o seu 
+projeto web final, minificada e compactada, e a versão de desenvolvimento, que é 
+para teste e desenvolvimento (código descompactado e legível). Ambas as versões 
+podem ser baixadas em jQuery.com. 
+A biblioteca jQuery é um único arquivo JavaScript e você faz referência a ele 
+com a tag de html <script>. 
+ 
+<head> 
+<script src="jquery-3.6.1.min.js"></script> 
+</head> 
+Código-fonte 1 – Referenciando a biblioteca - linguagem: HTML 
+Fonte: Elaborado pelo autor (2023) 
+ 
+Caso você não queira baixar o arquivo, pode realizar a chamada direta. Nesse 
+caso iremos mostrar a chamada ao repositório do Google. 
+ 
+<head> 
+<script src="jquery-3.6.1.min.js"></script> 
+</head> 
+Código-fonte 2 – Referenciando o framework direto do repositório do Google - linguagem: HTML 
+Fonte: Elaborado pelo autor (2023) 
+ 
+PDF exclusivo para Mateus Augusto da Costa Oliveira Gonçalves - rm570166
+mateus.augusto1629@gmail.com
+
+--- PAGE 8 ---
+Utilizando bootstratp e manipulando informaçõoes como Jquery
+1.4 Utilizando o Visual Code 
+A ferramenta que vamos codar os elementos é o visual code, porém podemos 
+utilizar qualquer editor de texto para escrever o jQuery, basta baixar a versão 
+apropriada do jQuery.com e incluir a biblioteca utilizando usando a tag <script> ou 
+utilizar a biblioteca jQuery da CDN. 
+2 SINTAXE JQUERY 
+2.1 Sintaxe jQuery 
+A sintaxe jQuery é feita sob medida para selecionar elementos HTML e 
+executar alguma ação no(s) elemento(s): 
+ A sintaxe básica é: $(selector).action(). 
+ Um sinal $ para definir/acessar jQuery. 
+ O selector para "consultar (ou localizar)" elementos HTML. 
+ Um action é a ação a ser executada no(s) elemento(s). 
+Veja como seria a sintaxe: 
+ 
+$(this).hide() 
+Código-fonte 3 – Ocultando o elemento ativo - linguagem: JavaScript 
+Fonte: Elaborado pelo autor (2023) 
+$("h1").hide() 
+Código-fonte 4 – Oculta todas as tags <h1> - linguagem: JavaScript 
+Fonte: Elaborado pelo autor (2023) 
+$(".fiap").hide() 
+Código-fonte 5 – Oculta todos os elementos com o nome de classe fiap - linguagem: JavaScript 
+Fonte: Elaborado pelo autor (2023) 
+$("#fiap").hide() 
+Código-fonte 6 – Código-fonte 5 - Oculta o elemento com o nome de id fiap - linguagem: JavaScript 
+Fonte: Elaborado pelo autor (2023) 
+ 
+PDF exclusivo para Mateus Augusto da Costa Oliveira Gonçalves - rm570166
+mateus.augusto1629@gmail.com
+
+--- PAGE 9 ---
+Utilizando bootstratp e manipulando informaçõoes como Jquery
+2.2 Document Ready 
+Uma observação importante para os códigos exemplos que iremos utilizar, 
+todos os métodos jQuery que utilizaremos estão dentro de um $(document).ready. 
+Isso evita que qualquer código jQuery seja executado antes que o documento termine 
+de carregar. 
+É uma boa prática esperar que o documento esteja totalmente carregado e 
+pronto antes de trabalhar com ele. Isso também permite que você tenha seu código 
+JavaScript antes do corpo do seu documento, na seção head. 
+Veja alguns exemplos de ações que podem causar uma falha se os métodos 
+forem executados antes de o documento ser totalmente pronto para uso: 
+ Tentando esconder um elemento que ainda não foi criado. 
+ Tentando obter o tamanho de uma imagem que ainda não foi carregada. 
+Veja as duas formas de utilizarmos a função: 
+ 
+$(document).ready(function(){ 
+  // Código 
+}); 
+Código-fonte 7 – Exemplo de documento pronto - linguagem: JavaScript 
+Fonte: Elaborado pelo autor (2023) 
+$(function(){ 
+  // Código 
+}); 
+Código-fonte 8 – Exemplo de documento pronto reduzido - linguagem: JavaScript 
+Fonte: Elaborado pelo autor (2023) 
+ 
+3 JQUERY SELETORES 
+3.1 jQuery Seletores 
+Os seletores jQuery permitem que você selecione e manipule elementos HTML, 
+eles o fazem com base em seu nome, id, classes, tipos, atributos, valores de atributos, 
+PDF exclusivo para Mateus Augusto da Costa Oliveira Gonçalves - rm570166
+mateus.augusto1629@gmail.com
+
+--- PAGE 10 ---
+Utilizando bootstratp e manipulando informaçõoes como Jquery
+entre outras formas. Estes são baseados nos seletores de CSS existentes e, além 
+disso, possuem alguns seletores personalizados. 
+Todos os seletores em jQuery começam com o cifrão e parênteses: $(). 
+3.1.1 Seletor de elementos 
+O seletor de elemento jQuery seleciona com base nos nomes, podemos 
+selecionar todos que sejam <h1> de uma página, por exemplo, $("h1"). 
+ 
+$(document).ready(function(){ 
+  $("button").click(function(){ 
+    $("h1").hide(); 
+  }); 
+}); 
+ 
+Ou 
+ 
+$(function(){ 
+  $("button").click(function(){ 
+    $("h1").hide(); 
+  }); 
+}); 
+ 
+Código-fonte 9 – Seletores de elementos - linguagem: JavaScript 
+Fonte: Elaborado pelo autor (2023) 
+3.1.1 Seletor #id 
+O seletor jQuery usa o atributo id de uma tag HTML para localizar o elemento 
+específico. Um id deve ser único dentro de uma página, então, você deve usar o 
+seletor #id quando quiser encontrar um elemento único. Para encontrar um elemento 
+com um id específico, escreva um caractere hash (#), seguido do id do elemento 
+HTML, por exemplo $("#fiap"). 
+ 
+PDF exclusivo para Mateus Augusto da Costa Oliveira Gonçalves - rm570166
+mateus.augusto1629@gmail.com
+
+--- PAGE 11 ---
+Utilizando bootstratp e manipulando informaçõoes como Jquery
+$(document).ready(function(){ 
+  $("button").click(function(){ 
+    $("#fiap").hide(); 
+  }); 
+}); 
+Ou 
+ 
+$(function(){ 
+  $("button").click(function(){ 
+    $("#fiap").hide(); 
+  }); 
+}); 
+ 
+Código-fonte 10 – Utilizando #id - linguagem: JavaScript 
+Fonte: Elaborado pelo autor (2023) 
+3.1.2 Seletor .class 
+O seletor jQuery usa o atributo class de uma tag HTML para localizar o 
+elemento específico. Para encontrar um elemento com um class específico, escreva 
+um caractere ponto (.), seguido do class do elemento HTML, por exemplo $(".fiap"). 
+ 
+$(document).ready(function(){ 
+  $("button").click(function(){ 
+    $(".fiap").hide(); 
+  }); 
+}); 
+Ou 
+ 
+$(function(){ 
+  $("button").click(function(){ 
+    $(".fiap").hide(); 
+  }); 
+}); 
+ 
+Código-fonte 11 – Utilizando o class - linguagem: JavaScript 
+Fonte: Elaborado pelo autor (2023) 
+3.1.3 Alguns exemplos de seletores 
+ 
+Sintaxe Descrição 
+$("*") Selecionar todos os elementos 
+PDF exclusivo para Mateus Augusto da Costa Oliveira Gonçalves - rm570166
+mateus.augusto1629@gmail.com
+
+--- PAGE 12 ---
+Utilizando bootstratp e manipulando informaçõoes como Jquery
+$(this) Selecionar o elemento atual d Html 
+$("p.intro") Selecionar todos os elementos da tag <p> com a class="intro" 
+$("p:first") Selecionar o primeiro elemeto <p> 
+$("ul li:first") Selecionar o primeiro elemento <li> da primeiro elemento <ul> 
+$("ul li:first-child") Selecionar o primeiro elemento <li> de todos os elementos <ul> 
+$("[href]") Selecionar todos os elementos com o atributo href 
+$("a[target='_blank']") Selecionar todos os elementos <a> com o atributo target "_blank" 
+$("a[target!='_blank']") Selecionar todos os elementos <a> com o atributo target diferente de "_blank" 
+$(":button") Selecionar todo elemento <button> e elementos <input> do  tipo "button" 
+Tabela 1 - Lista de seletores 
+Fonte: Elaborado pelo autor (2023) 
+ 
+4 JQUERY – MANIPULANDO CONTEÚDO E ATRIBUTOS 
+4.1 jQuery DOM 
+Uma das funcionalidades interessantes do jQuery é a possibilidade de 
+manipular o DOM (Document Object Model). O jQuery vem com vários métodos 
+relacionados ao DOM que possibilitam o acesso e a manipulação de elementos e 
+atributos. Por meio do DOM, é possível que programas ou scripts tenham acesso 
+dinamicamente a conteúdos, estruturas e estilos. 
+4.1.1 Obtendo conteúdo - text(), html() e val() 
+Três métodos jQuery simples, mas úteis, para manipulação de DOM são: 
+ text()- Define ou retorna o conteúdo de texto dos elementos selecionados. 
+ html()- Define ou retorna o conteúdo dos elementos selecionados (incluindo 
+marcação HTML). 
+ val()- Define ou retorna o valor dos campos do formulário. 
+ 
+PDF exclusivo para Mateus Augusto da Costa Oliveira Gonçalves - rm570166
+mateus.augusto1629@gmail.com
+
+--- PAGE 13 ---
+Utilizando bootstratp e manipulando informaçõoes como Jquery
+$("#btn1").click(function(){ 
+  alert("Text: " + $("#fiap").text()); 
+}); 
+ 
+$("#btn2").click(function(){ 
+  alert("HTML: " + $("#fiap").html()); 
+}); 
+Código-fonte 12 – exemplo text() - linguagem: JavaScript 
+Fonte: Elaborado pelo autor (2023) 
+ 
+Figura 1 - Codificando o text() 
+Fonte: Elaborado pelo autor (2023) 
+PDF exclusivo para Mateus Augusto da Costa Oliveira Gonçalves - rm570166
+mateus.augusto1629@gmail.com
+
+--- PAGE 14 ---
+Utilizando bootstratp e manipulando informaçõoes como Jquery
+<!DOCTYPE html> 
+<html> 
+<head> 
+<script 
+src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js
+"></script> 
+<script> 
+$(document).ready(function(){ 
+  $("#btn1").click(function(){ 
+    alert("Text: " + $("#fiap").text()); 
+  }); 
+  $("#btn2").click(function(){ 
+    alert("HTML: " + $("#fiap").html()); 
+  }); 
+}); 
+</script> 
+</head> 
+<body> 
+ 
+<p id="fiap">Isso é <b>FIAP</b> A Melhor em Tecnologia.</p> 
+ 
+<button id="btn1">Mostra Text</button> 
+<button id="btn2">Mostra HTML</button> 
+ 
+</body> 
+</html> 
+ 
+Código-fonte 13 – Exemplo text() - linguagem: JavaScript 
+Fonte: Elaborado pelo autor (2023) 
+ 
+Observem a diferença do resultado utilizando o text() e o html(): 
+ 
+ 
+Figura 2 - Resultado código HTML 
+Fonte: Elaborado pelo autor (2023) 
+ 
+Figura 3 - Resultado do botão Mostrar Text 
+Fonte: Elaborado pelo autor (2023) 
+PDF exclusivo para Mateus Augusto da Costa Oliveira Gonçalves - rm570166
+mateus.augusto1629@gmail.com
+
+--- PAGE 15 ---
+Utilizando bootstratp e manipulando informaçõoes como Jquery
+ 
+Figura 4 - Resultado do botão Mostrar HTTML 
+Fonte: Elaborado pelo autor (2023) 
+4.1.2 Configurando conteúdo - text(), html() e val() 
+Usaremos os mesmos três métodos apresentados anteriormente. O text(), 
+html() e o val(). 
+ 
+ 
+Figura 5 - Setando valores 
+Fonte: Elaborado pelo autor (2023) 
+ 
+PDF exclusivo para Mateus Augusto da Costa Oliveira Gonçalves - rm570166
+mateus.augusto1629@gmail.com
+
+--- PAGE 16 ---
+Utilizando bootstratp e manipulando informaçõoes como Jquery
+<!DOCTYPE html> 
+<html> 
+ 
+<head> 
+    <script 
+src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js
+"></script> 
+    <script> 
+        $(document).ready(function () { 
+            $("#btn1").click(function () { 
+                $("#fiap1").text("Olá Fiap!"); 
+            }); 
+            $("#btn2").click(function () { 
+                $("#fiap2").html("<b>Olá Fiap!</b>"); 
+            }); 
+            $("#btn3").click(function () { 
+                $("#fiap3").val("Olá Fiap!"); 
+            }); 
+        }); 
+    </script> 
+</head> 
+ 
+<body> 
+ 
+    <p id="fiap1">Isso é FIAP.</p> 
+    <p id="fiap2">A melhor faculdade de tecnologia.</p> 
+ 
+    <p>Campo Texto: <input type="text" id="fiap3" 
+value="Faculdade de Informática e Administração Paulista"></p> 
+ 
+    <button id="btn1">Configura Texto</button> 
+    <button id="btn2">Configura HTML</button> 
+    <button id="btn3">Configura Valor</button> 
+ 
+</body> 
+ 
+</html> 
+Código-fonte 14 – Setando valores - linguagem: JavaScript 
+Fonte: Elaborado pelo autor (2023) 
+Vamos analisar o resultado: 
+ 
+ 
+PDF exclusivo para Mateus Augusto da Costa Oliveira Gonçalves - rm570166
+mateus.augusto1629@gmail.com
+
+--- PAGE 17 ---
+Utilizando bootstratp e manipulando informaçõoes como Jquery
+Figura 6 - Resultado da página executada 
+Fonte: Elaborado pelo autor (2023) 
+ 
+Quando você clicar no botão “Configura Texto”, observe que o texto “Isso é 
+FIAP” será modificado para “Olá Fiap!”: 
+ 
+ 
+Figura 7 - Resultado da execução do botão Configura Texto 
+Fonte: Elaborado pelo autor (2023) 
+ 
+Nesse outro exemplo, quando você clicar no botão “Configura HTML”, note que 
+o texto “A melhor faculdade de tecnologia” será modificado para “Olá Fiap!”: 
+ 
+ 
+Figura 8 - Resultado da execução do botão Configura HTML 
+Fonte: Elaborado pelo autor (2023) 
+ 
+No último exemplo, ao clicar no botão “Configura Valor”, observe que o texto 
+da caixa de texto “Faculdade de Informática e Administração Paulista” será modificado 
+para “Olá Fiap!”: 
+ 
+PDF exclusivo para Mateus Augusto da Costa Oliveira Gonçalves - rm570166
+mateus.augusto1629@gmail.com
+
+--- PAGE 18 ---
+Utilizando bootstratp e manipulando informaçõoes como Jquery
+ 
+Figura 9 - Resultado da execução do botão Configura Valor 
+Fonte: Elaborado pelo autor (2023) 
+ 
+Para finalizar o assunto de set e get dos elementos do HTML, podemos falar 
+ainda que esses mesmos elementos trabalhados podem realizar o CallBack, ou 
+também conhecido como uma função de retorno. Essa função de Callback pode 
+trabalhar com os valores novos e antigos, vamos ver como funciona: 
+ 
+ 
+Figura 10 - Exemplo callback 
+Fonte: Elaborado pelo autor (2023) 
+PDF exclusivo para Mateus Augusto da Costa Oliveira Gonçalves - rm570166
+mateus.augusto1629@gmail.com
+
+--- PAGE 19 ---
+Utilizando bootstratp e manipulando informaçõoes como Jquery
+<!DOCTYPE html> 
+<html> 
+ 
+<head> 
+    <script 
+src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js
+"></script> 
+    <script> 
+        $(document).ready(function () { 
+            $("#btn1").click(function () { 
+                $("#fiap1").text(function (i, origText) { 
+                    return "Texto antigo: " + origText + " Novo 
+Texto: Olá FIAP! (index: " + i + ")"; 
+                }); 
+            }); 
+ 
+            $("#btn2").click(function () { 
+                $("#fiap2").html(function (i, origText) { 
+                    return "Html antigo: " + origText + " Novo 
+html: Olá <b>FIAP!</b> (index: " + i + ")"; 
+                }); 
+            }); 
+        }); 
+    </script> 
+</head> 
+ 
+<body> 
+ 
+    <p id="fiap1">Isso é <b>FIAP.</b></p> 
+    <p id="fiap2">Faculdade de Informática e Administração 
+Paulista.</p> 
+ 
+    <button id="btn1">Exibir Antigo e Novo Texto</button> 
+    <button id="btn2">Exibir Antigo e Novo HTML</button> 
+ 
+</body> 
+ 
+</html> 
+Código-fonte 15 – Exemplo CallBack - linguagem: JavaScript 
+Fonte: Elaborado pelo autor (2023) 
+ 
+Vamos entender agora a função de Callback. 
+Ao utilizar os métodos text() e html(), foi introduzida na chamada uma function 
+com 2 parâmetros de entrada, que, no caso, são chamadas de i e orignText. Com 
+essa combinação de elementos, conseguimos obter o valor antigo e na mesma 
+chamada setar um valor novo. 
+PDF exclusivo para Mateus Augusto da Costa Oliveira Gonçalves - rm570166
+mateus.augusto1629@gmail.com
+
+--- PAGE 20 ---
+Utilizando bootstratp e manipulando informaçõoes como Jquery
+Veja o resultado a seguir. Esse é o retorno do código HTML: 
+ 
+ 
+Figura 11 - Código HTML 
+Fonte: Elaborado pelo autor (2023) 
+ 
+Ao clicar no botão com o texto “Exibir Antigo e Novo Texto”, temos o resultado 
+abaixo: 
+ 
+ 
+Figura 12 - Resultado botão 1 
+Fonte: Elaborado pelo autor (2023) 
+ 
+A mesma ideia foi utilizada para o outro botão, só que nesse caso utilizando o 
+método html(): 
+ 
+ 
+Figura 13 - Resultado botão 2 
+Fonte: Elaborado pelo autor (2023) 
+4.1.3 Adicionando conteúdo - append(), prepend(), after() e before() 
+Os métodos a seguir são usados para adicionar novo conteúdo: 
+PDF exclusivo para Mateus Augusto da Costa Oliveira Gonçalves - rm570166
+mateus.augusto1629@gmail.com
+
+--- PAGE 21 ---
+Utilizando bootstratp e manipulando informaçõoes como Jquery
+ append() - Insere conteúdo no final dos elementos selecionados. 
+ prepend() - Insere conteúdo no início dos elementos selecionados. 
+ after() - Insere conteúdo após os elementos selecionados. 
+ before() - Insere conteúdo antes dos elementos selecionados. 
+Veja os exemplos a seguir: 
+ 
+ 
+Figura 14 - Exemplo prepend/append/before/after 
+Fonte: Elaborado pelo autor (2023) 
+PDF exclusivo para Mateus Augusto da Costa Oliveira Gonçalves - rm570166
+mateus.augusto1629@gmail.com
+
+--- PAGE 22 ---
+Utilizando bootstratp e manipulando informaçõoes como Jquery
+<!DOCTYPE html> 
+<html> 
+<head> 
+    <script 
+src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js
+"></script> 
+    <script> 
+        $(document).ready(function () { 
+            $("#btn1").click(function () { 
+                $("ol").prepend("<li>Item precedido</li>"); 
+            }); 
+ 
+            $("#btn2").click(function () { 
+                $("ol").append("<li>Item acrescentado</li>"); 
+            }); 
+ 
+            $("#btn3").click(function () { 
+                $("ol").before("<b>Antes</b>"); 
+            }); 
+ 
+            $("#btn4").click(function () { 
+                $("ol").after("<i>Depois</i>"); 
+            }); 
+        }); 
+    </script> 
+</head> 
+<body> 
+    <ol> 
+        <li>item 1</li> 
+        <li>item 2</li> 
+        <li>item 3</li> 
+    </ol> 
+    <br /> 
+    <button id="btn1">Prepend</button> 
+    <button id="btn2">Append</button> 
+    <button id="btn3">Before</button> 
+    <button id="btn4">After</button> 
+</body> 
+</html> 
+Código-fonte 16 – Código prepend/append/before/after - linguagem: JavaScript 
+Fonte: Elaborado pelo autor (2023) 
+ 
+Vamos ver o resultado da execução do código. 
+Ao executar o código HTML, temos o resultado a seguir: 
+ 
+PDF exclusivo para Mateus Augusto da Costa Oliveira Gonçalves - rm570166
+mateus.augusto1629@gmail.com
+
+--- PAGE 23 ---
+Utilizando bootstratp e manipulando informaçõoes como Jquery
+ 
+Figura 15 - Código html 
+Fonte: Elaborado pelo autor (2023) 
+ 
+Cada botão foi criado com um código para que possamos visualizar o resultado, 
+no caso do botão Prepend, o texto foi incluído antes do item 1: 
+ 
+ 
+Figura 16 - Inserindo item com prepend 
+Fonte: Elaborado pelo autor (2023) 
+ 
+Já para o botão Append, o resultado esperado é que seja criado o item após o 
+item 3: 
+ 
+ 
+Figura 17 - Inserindo item com append 
+Fonte: Elaborado pelo autor (2023) 
+ 
+Para o botão Before, deve ser inserido uma informação antes da lista, porém, 
+a informação não faz parte da lista: 
+PDF exclusivo para Mateus Augusto da Costa Oliveira Gonçalves - rm570166
+mateus.augusto1629@gmail.com
+
+--- PAGE 24 ---
+Utilizando bootstratp e manipulando informaçõoes como Jquery
+ 
+ 
+Figura 18 - Inserindo item com before 
+Fonte: Elaborado pelo autor (2023) 
+ 
+Para o botão After, uma informação ao final da lista, mas que não faz parte da 
+lista será inserida: 
+ 
+ 
+Figura 19 - Inserindo item com after 
+Fonte: Elaborado pelo autor (2023) 
+4.1.4 Manipulando CSS com jQuey 
+jQuery tem vários métodos para manipulação de CSS. Veremos os seguintes 
+métodos: 
+ addClass() - Adiciona uma ou mais classes aos elementos selecionados. 
+ removeClass() - Remove uma ou mais classes dos elementos selecionados. 
+ toggleClass() - Alterna entre adicionar/remover classes dos elementos 
+selecionados. 
+PDF exclusivo para Mateus Augusto da Costa Oliveira Gonçalves - rm570166
+mateus.augusto1629@gmail.com
+
+--- PAGE 25 ---
+Utilizando bootstratp e manipulando informaçõoes como Jquery
+ css() - Define ou retorna o atributo de estilo. 
+ 
+ 
+Figura 20 - Manipulando classes 
+Fonte: Elaborado pelo autor (2023) 
+PDF exclusivo para Mateus Augusto da Costa Oliveira Gonçalves - rm570166
+mateus.augusto1629@gmail.com
+
+--- PAGE 26 ---
+Utilizando bootstratp e manipulando informaçõoes como Jquery
+<!DOCTYPE html> 
+<html> 
+<head> 
+    <script 
+src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js
+"></script> 
+    <script> 
+        $(document).ready(function () { 
+            $("#btn1").click(function () { 
+                $("h1").addClass("blue"); 
+            }); 
+ 
+            $("#btn2").click(function () { 
+                $("h1").removeClass("blue"); 
+            }); 
+ 
+            $("#btn3").click(function () { 
+                $("h1").toggleClass("blue"); 
+            }); 
+        }); 
+    </script> 
+    <style> 
+        .blue { 
+            color: blue; 
+        } 
+    </style> 
+</head> 
+ 
+<body> 
+    <h1>FIAP</h1> 
+    <p>Faculdade de Informática e Administração Paulista</p> 
+ 
+    <button id="btn1">Adiciona Classe</button> 
+    <button id="btn2">Remove Classe</button> 
+    <button id="btn3">Alternar Classe</button> 
+</body> 
+ 
+</html> 
+Código-fonte 17 – Manipulando classes - linguagem: JavaScript 
+Fonte: Elaborado pelo autor (2023) 
+ 
+Para finalizarmos esse conteúdo, deixei por último, mas não menos importante 
+que os demais conceitos, a demonstração de como adicionar novas propriedades por 
+meio do jQuery.  
+Para definir uma propriedade css com jQuery podemos utilizar a expressão 
+css("propertyname","value"). Vamos analisar o código: 
+ 
+PDF exclusivo para Mateus Augusto da Costa Oliveira Gonçalves - rm570166
+mateus.augusto1629@gmail.com
+
+--- PAGE 27 ---
+Utilizando bootstratp e manipulando informaçõoes como Jquery
+ 
+Figura 21 - Gerando estilo dinamicamente 
+Fonte: Elaborado pelo autor (2023) 
+PDF exclusivo para Mateus Augusto da Costa Oliveira Gonçalves - rm570166
+mateus.augusto1629@gmail.com
+
+--- PAGE 28 ---
+Utilizando bootstratp e manipulando informaçõoes como Jquery
+<!DOCTYPE html> 
+<html> 
+<head> 
+    <script 
+src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js
+"></script> 
+    <script> 
+        $(document).ready(function () { 
+            $("button").click(function () { 
+                $("p").css("background-color", "yellow"); 
+            }); 
+        }); 
+    </script> 
+</head> 
+ 
+<body> 
+    <h2>FIAP</h2> 
+ 
+    <p style="background-color:#ff0000">Universidade de 
+Informática e Administração Paulista.</p> 
+    <p style="background-color:#00ff00">Universidade de 
+Informática e Administração Paulista.</p> 
+    <p style="background-color:#0000ff">Universidade de 
+Informática e Administração Paulista.</p> 
+ 
+    <p>Universidade de Informática e Administração Paulista.</p> 
+ 
+    <button>Modificar a cor de fundo do elemento P</button> 
+</body> 
+ 
+</html> 
+Código-fonte 18 – Css dinâmico - linguagem: JavaScript 
+Fonte: Elaborado pelo autor (2023) 
+ 
+Vamos entender esse último recurso. 
+Ele é muito utilizado quando há a necessidade de criar estilos para qualquer 
+elemento no HTML dinamicamente. É bastante parecido com o addClass, mas este 
+último só funciona quando a classe já foi criada. Ao desenvolver, é importante analisar 
+se o estilo será dinâmico ou se o addClass será mais apropriado para aplicar o estilo. 
+ É possível perceber que é de extrema importância conhecer uma framework 
+para que o desenvolvimento ocorra de forma rápida e com menor possibilidade de 
+erros de sintaxe, já que várias linhas de códigos e regras já estão encapsuladas em 
+funções prontas. 
+PDF exclusivo para Mateus Augusto da Costa Oliveira Gonçalves - rm570166
+mateus.augusto1629@gmail.com
+
+--- PAGE 29 ---
+Utilizando bootstratp e manipulando informaçõoes como Jquery
+                                          REFERÊNCIAS 
+BENEDETTI, Ryan; CRANLEY, Ronan. Use a cabeça! Jquery – O Guia Amigo do 
+Seu Cérebro. Alta Books Editora, 2013. 
+W3SCHOOLS, Equipe. React Tutorial. Disponível em: 
+<https://www.w3schools.com/REACT/DEFAULT.ASP> Acesso em: 19 mar. 2025. 
+ 
+ 
+ 
+ 
+PDF exclusivo para Mateus Augusto da Costa Oliveira Gonçalves - rm570166
+mateus.augusto1629@gmail.com
