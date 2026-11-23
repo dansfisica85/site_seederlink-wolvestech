@@ -1,26 +1,74 @@
 %% Diagrama de classes — SeederLink Fase 7
-%% Edite este arquivo e exporte PNG/SVG para public/docs/
+%% Gerado a partir de src/domain/portfolio.js
 %% Referência Mermaid: https://mermaid.js.org/syntax/classDiagram.html
 
 classDiagram
     direction LR
 
-    %% --- Substitua / complete as classes da Fase 7 ---
+    class PortfolioError {
+        +String name
+        +PortfolioError(String message)
+    }
 
-    class ExemploEntidade {
+    class Localizacao {
+        +Number latitude
+        +Number longitude
+        +Localizacao({latitude, longitude})
+        +toJSON() Object
+    }
+
+    class AnaliseClimatica {
+        +Number latitude
+        +Number longitude
+        +String consultedAt
+        +String timezone
+        +Object requestedPeriod
+        +Object current
+        +Object historical
+        +Object assessment
+        +AnaliseClimatica(Object result, String consultedAt)
+        +toJSON() Object
+        <<immutable>>
+    }
+
+    class PropriedadeRural {
         +String id
         +String nome
-        +metodoExemplo() void
+        +String cultura
+        +Number areaHectares
+        +Localizacao localizacao
+        +AnaliseClimatica[] analises
+        +PropriedadeRural({id, nome, cultura, areaHectares, localizacao, analises})
+        +adicionarAnalise(AnaliseClimatica) PropriedadeRural
+        +resumo() AnaliseClimatica
+        +toJSON() Object
+        <<immutable>>
     }
 
-    class ExemploServico {
-        +executar() void
+    class CarteiraPropriedades {
+        +PropriedadeRural[] propriedades
+        +CarteiraPropriedades(PropriedadeRural[] propriedades)
+        +adicionar(PropriedadeRural) CarteiraPropriedades
+        +remover(String id) CarteiraPropriedades
+        +buscar(String id) PropriedadeRural
+        +comparar(String id1, String id2) Object
+        +toJSON() Object
+        +~fromJSON(Object) CarteiraPropriedades
+        <<immutable>>
     }
 
-    ExemploServico --> ExemploEntidade : usa
+    class RepositorioLocal {
+        +Storage storage
+        +String key
+        +RepositorioLocal(Storage storage, String key)
+        +carregar() CarteiraPropriedades
+        +salvar(CarteiraPropriedades) CarteiraPropriedades
+    }
 
-    %% Relacionamentos:
-    %% o-- composição
-    %% *-- agregação
-    %% --> dependência / associação
-    %% <|-- herança (só se fizer sentido)
+    %% Relacionamentos
+    PropriedadeRural "1" *-- "1" Localizacao : contém
+    PropriedadeRural "1" o-- "0..5" AnaliseClimatica : armazena
+    CarteiraPropriedades "1" *-- "0..10" PropriedadeRural : gerencia
+    AnaliseClimatica --> Localizacao : valida
+    RepositorioLocal --> CarteiraPropriedades : persiste
+    PortfolioError <|-- Error : estende
