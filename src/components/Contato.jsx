@@ -237,6 +237,7 @@ export default function Contato({ onSaveAnalysis }) {
             </div>
           </article>
         </div>
+        </div>
 
         <div className="contato-workspace">
           {/* O formulário ocupa a coluna menor e permanece alinhado ao início do mapa. */}

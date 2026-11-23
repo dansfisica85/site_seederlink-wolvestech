@@ -2,12 +2,13 @@
 
 **Continuação solo da Carteira de Propriedades**, a partir da base acadêmica da Fase 6.
 
-Projeto acadêmico FIAP. A interface permanece em React. Este repositório é a entrega individual da Fase 7 (Mateus Augusto), com dependências atualizadas, testes, build e publicação via Vercel.
+Projeto acadêmico FIAP. A interface permanece em React. Esta entrega individual da Fase 7 (Mateus Augusto) inclui melhorias de código, configuração do ESLint, acessibilidade, deploy na Vercel e documentação atualizada.
 
 - [Repositório](https://github.com/DevourerHope/SeederLink-Fase-7)
-- [Diagrama UML em imagem](public/docs/diagrama-classes-fase6.png)
-- [Roteiro do pitch da Fase 6 (referência)](docs/ROTEIRO_PITCH_FASE_6.md)
-- [Checklist da Fase 6 (referência)](docs/CHECKLIST_ENTREGA_FASE6.md)
+- [Diagrama de classes (Mermaid)](docs/DIAGRAMA_CLASSES_FASE7.mmd)
+- [Roteiro do pitch da Fase 7](docs/ROTEIRO_PITCH_FASE_7.md)
+- [Checklist da Fase 7](docs/CHECKLIST_ENTREGA_FASE7.md)
+- [Comparação Fase 6 → 7](docs/COMPARACAO_FASE6_FASE7.md)
 
 > Demonstração acadêmica: a triagem não concede crédito real nem determina aptidão agrícola. A carteira usa `localStorage`, sem conta, servidor ou sincronização entre dispositivos. O formulário de contato herdado valida e exibe confirmação visual, mas não envia e-mail.
 
@@ -19,31 +20,30 @@ Projeto acadêmico FIAP. A interface permanece em React. Este repositório é a 
 | MATHEUS RISSATO CRISPIM | 571038 |
 | ISAAC NILTON ALVARENGA DA SILVA | 573766 |
 
-## Conquistas da Fase 5
+## O que mudou na Fase 7
 
 | Entregável | Status |
 | --- | --- |
-| Projeto da Fase 4 evoluído em React | Concluído |
-| Nova funcionalidade de mapa e clima | Concluída |
-| Testes automatizados | 8 casos implementados |
-| Deploy público | Concluído na Vercel |
+| Mapa, consulta climática e carteira | Mantidos da Fase 6 |
+| ESLint configurado | 0 erros em todos os arquivos |
+| Acessibilidade | Inputs com `id` e `htmlFor` nos labels |
+| Favicon | Adicionado para eliminar erro 404 |
+| Meta tags SEO e Open Graph | Adicionadas no `index.html` |
+| Testes automatizados | 25 casos implementados |
+| Deploy público | Configurado na Vercel |
 | README e comentários em português | Concluídos |
-| Pitch específico da Fase 5, até 3 minutos | Concluído e publicado |
-| Troca do link do vídeo na Home | Concluída |
-| PDF com integrantes, pitch e deploy | Concluído para o pacote final |
-
-O pitch da Fase 5 está publicado no [YouTube](https://youtu.be/U3APiszPvXw?is=fQs4xrjZObVEhg0c) e aparece na Home por meio do link definido em [`src/components/Hero.jsx`](src/components/Hero.jsx). O roteiro está em [`docs/ROTEIRO_PITCH_FASE_5.md`](docs/ROTEIRO_PITCH_FASE_5.md), e os dados formais da entrega estão em [`ENTREGA_FIAP_FASE_5.txt`](ENTREGA_FIAP_FASE_5.txt).
+| Diagrama de classes atualizado | Mermaid em `docs/` |
 
 ## Base herdada da Fase 6
 
 | Preservado | Estado nesta Fase 7 |
 | --- | --- |
 | Mapa, consulta climática e carteira | Funcionais como na Fase 6 |
-| Cinco classes de domínio e UML | Mantidos como base |
-| Deploy via Vercel | Configurado com vercel.json |
-| Documentação da Fase 6 | Conservada em `docs/` como referência |
+| Classes de domínio e UML | Expandido para 6 classes |
+| Deploy via Vercel | Configurado com `vercel.json` |
+| Documentação das fases anteriores | Conservada em `docs/` como referência |
 
-O README da Fase 5 permanece em [docs/README_FASE5_REFERENCIA.md](docs/README_FASE5_REFERENCIA.md). A comparação Fase 5 → 6 está em [docs/COMPARACAO_FASE5_FASE6.md](docs/COMPARACAO_FASE5_FASE6.md).
+O README da Fase 5 permanece em [docs/README_FASE5_REFERENCIA.md](docs/README_FASE5_REFERENCIA.md). A comparação Fase 5 → 6 está em [docs/COMPARACAO_FASE5_FASE6.md](docs/COMPARACAO_FASE5_FASE6.md). A comparação Fase 6 → 7 está em [docs/COMPARACAO_FASE6_FASE7.md](docs/COMPARACAO_FASE6_FASE7.md).
 
 ## Executar localmente
 
@@ -76,7 +76,7 @@ Não abra `index.html` por duplo clique: JSX precisa do Vite. Não há token cli
 8. Para atualizar um histórico, consulte a mesma coordenada e escolha **Atualizar histórico** no destino.
 9. **Exportar JSON** baixa uma cópia legível. A remoção pede confirmação.
 
-**Privacidade:** os dados ficam neste navegador e nesta origem. `localhost`, GitHub Pages e outros domínios têm carteiras separadas.
+**Privacidade:** os dados ficam neste navegador e nesta origem. `localhost`, Vercel e outros domínios têm carteiras separadas.
 
 ## Stack e dependências
 
@@ -116,7 +116,7 @@ O arquivo `vercel.json` já está configurado para:
 - SPA routing (todas as rotas redirecionam para `index.html`)
 - Diretório de saída: `dist/`
 
-Após o deploy, o site estará disponível em `https://seu-projeto.vercel.app`.
+Após o deploy, o site estará disponível em `https://seederlink-fase-7.vercel.app`.
 
 **Deploy automático:** Cada push na branch `main` dispara um novo deploy automaticamente.
 
@@ -124,16 +124,7 @@ Após o deploy, o site estará disponível em `https://seu-projeto.vercel.app`.
 
 O pitch da Fase 7 ainda não foi publicado. Enquanto isso, a Home aponta para o [pitch da Fase 6](https://youtu.be/BJ_unP9lmys) como referência. Quando o vídeo novo estiver público, atualize `pitchUrl` em `src/data/entrega.js`, rode os testes e faça o deploy.
 
-### Deploy na Vercel
-
-Para publicar na Vercel, utilize:
-- Framework Preset: `Vite`;
-- Build Command: `npm run build`;
-- Output Directory: `dist`;
-- Install Command: `npm ci`;
-- Root Directory: raiz do projeto.
-
-Os quatro tutoriais da imagem foram conferidos:
+Os tutoriais de deploy consultados:
 
 | Vídeo | Conteúdo e relação com este projeto |
 | --- | --- |
@@ -144,16 +135,16 @@ Os quatro tutoriais da imagem foram conferidos:
 
 Os vídeos são tutoriais de procedimento. Os requisitos obrigatórios da entrega continuam sendo os textos da atividade: React, uma nova funcionalidade, pitch de até três minutos, link na Home, deploy, PDF com nomes e links e um ZIP sem o arquivo do vídeo.
 
-## Checklist estrito da entrega FIAP
+## Checklist estrito da entrega FIAP — Fase 7
 
-1. Manter React em toda a versão da Fase 5 — concluído.
-2. Apresentar uma nova funcionalidade — mapa e triagem climática concluídos.
-3. Publicar o site — concluído na Vercel.
-4. Gravar um pitch de até três minutos mostrando **somente a nova funcionalidade** — concluído.
+1. Manter React em toda a interface — concluído.
+2. Apresentar uma nova funcionalidade em relação à Fase 6 — ESLint, acessibilidade, SEO e deploy na Vercel concluídos.
+3. Publicar o site — configurado na Vercel.
+4. Gravar um pitch de até três minutos mostrando **somente a nova funcionalidade** — roteiro preparado em `docs/ROTEIRO_PITCH_FASE_7.md`.
 5. Explicar no pitch como React foi usado — roteiro preparado.
-6. Publicar o pitch no YouTube ou plataforma equivalente — concluído.
-7. Trocar o link da Home pelo pitch novo — concluído.
-8. Criar um PDF com nomes completos, link do pitch e link do deploy — concluído para o pacote final.
+6. Publicar o pitch no YouTube ou plataforma equivalente — pendente.
+7. Trocar o link da Home pelo pitch novo — pendente após publicação.
+8. Criar um PDF com nomes completos, link do pitch e link do deploy — pendente.
 9. Testar os links depois de gerar o PDF — incluído na conferência final.
 10. Entregar um ZIP com projeto e PDF, sem o arquivo do vídeo — incluído no pacote final.
 
